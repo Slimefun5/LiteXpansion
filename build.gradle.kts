@@ -4,8 +4,8 @@ plugins {
 }
 
 group = "dev.j3fftw"
-version = "MODIFIED"
-description = "LiteXpansion is a Slimefun addon."
+version = "1.0.0"
+description = "LiteXpansion is a Slimefun addon inspired by Industrial Craft 2."
 
 java {
     toolchain {
@@ -25,10 +25,6 @@ dependencies {
     compileOnly("io.papermc.paper:paper-api:1.21.11-R0.1-SNAPSHOT")
     compileOnly("com.google.code.findbugs:jsr305:3.0.2")
     compileOnly(fileTree("${rootDir}/../Slimefun5/build/libs") { include("*.jar") })
-
-    // Lombok (temporary - will be removed in next commit)
-    compileOnly("org.projectlombok:lombok:1.18.30")
-    annotationProcessor("org.projectlombok:lombok:1.18.30")
 
     // Shaded
     implementation("org.bstats:bstats-bukkit:3.0.2")
