@@ -4,6 +4,11 @@ import javax.annotation.Nonnull;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Represents the {@link Timing} class.
+ *
+ * @author j3fftw
+ */
 public class Timing {
 
     private final String name;

@@ -18,6 +18,11 @@ import java.util.UUID;
  * At the end it will tick all of these items on the main thread.
  * This is hacky but I don't have the time to make a better way currently
  */
+/**
+ * Represents the {@link PassiveElectricRemovalTicker} class.
+ *
+ * @author j3fftw
+ */
 public final class PassiveElectricRemovalTicker implements Runnable {
 
     @Override

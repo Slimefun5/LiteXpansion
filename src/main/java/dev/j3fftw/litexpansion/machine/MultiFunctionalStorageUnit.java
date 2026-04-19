@@ -5,6 +5,11 @@ import dev.j3fftw.litexpansion.machine.extensions.ChargingStorageUnit;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import org.bukkit.inventory.ItemStack;
 
+/**
+ * Represents the {@link MultiFunctionalStorageUnit} class.
+ *
+ * @author j3fftw
+ */
 public class MultiFunctionalStorageUnit extends ChargingStorageUnit {
 
     public MultiFunctionalStorageUnit() {

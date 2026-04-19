@@ -23,6 +23,11 @@ import javax.annotation.Nonnull;
 import java.util.Optional;
 import java.util.UUID;
 
+/**
+ * Represents the {@link NanoBlade} class.
+ *
+ * @author j3fftw
+ */
 public class NanoBlade extends SimpleSlimefunItem<ItemUseHandler> implements Rechargeable, PassiveElectricRemoval {
 
     public static final float CAPACITY = 4_000;

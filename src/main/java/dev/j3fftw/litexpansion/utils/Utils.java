@@ -10,6 +10,11 @@ import org.bukkit.persistence.PersistentDataType;
 import javax.annotation.Nonnull;
 import java.util.Optional;
 
+/**
+ * Represents the {@link Utils} class.
+ *
+ * @author j3fftw
+ */
 public final class Utils {
 
     private Utils() {}

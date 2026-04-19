@@ -5,6 +5,11 @@ import javax.annotation.Nullable;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
+/**
+ * Represents the {@link Reflections} class.
+ *
+ * @author j3fftw
+ */
 public final class Reflections {
 
     private Reflections() {}

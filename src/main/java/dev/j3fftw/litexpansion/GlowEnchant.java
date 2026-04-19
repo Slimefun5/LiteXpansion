@@ -14,6 +14,11 @@ import java.util.HashSet;
 import java.util.Optional;
 import java.util.Set;
 
+/**
+ * Represents the {@link GlowEnchant} class.
+ *
+ * @author j3fftw
+ */
 public class GlowEnchant extends Enchantment {
 
     private final Set<String> ids = new HashSet<>();

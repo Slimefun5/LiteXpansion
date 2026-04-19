@@ -11,6 +11,11 @@ import org.bukkit.inventory.ItemStack;
 
 import javax.annotation.Nonnull;
 
+/**
+ * Represents the {@link Thorium} class.
+ *
+ * @author j3fftw
+ */
 public class Thorium extends UnplaceableBlock implements Radioactive {
 
     private static final ItemStack thorium = new CustomItemStack(Material.PAPER, "&fHint!",

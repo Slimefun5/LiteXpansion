@@ -17,6 +17,11 @@ import javax.annotation.Nonnull;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Represents the {@link RubberSynthesizer} class.
+ *
+ * @author j3fftw
+ */
 public class RubberSynthesizer extends AContainer implements RecipeDisplayItem, PoweredMachine {
 
     public static final int ENERGY_CONSUMPTION = 20_000 / 26;

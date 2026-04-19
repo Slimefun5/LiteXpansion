@@ -12,6 +12,11 @@ import org.bukkit.inventory.ItemStack;
 
 import javax.annotation.Nonnull;
 
+/**
+ * Represents the {@link Generator} class.
+ *
+ * @author j3fftw
+ */
 public class Generator extends CoalGenerator {
 
     public Generator() {

@@ -30,6 +30,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * Represents the {@link CargoConfigurator} class.
+ *
+ * @author j3fftw
+ */
 public class CargoConfigurator extends SimpleSlimefunItem<ItemUseHandler> implements Listener {
 
     private static final NamespacedKey CARGO_BLOCK = new NamespacedKey(LiteXpansion.getInstance(), "cargo_block");

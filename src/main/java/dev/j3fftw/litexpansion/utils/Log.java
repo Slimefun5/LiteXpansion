@@ -4,6 +4,11 @@ import dev.j3fftw.litexpansion.LiteXpansion;
 
 import javax.annotation.Nonnull;
 
+/**
+ * Represents the {@link Log} class.
+ *
+ * @author j3fftw
+ */
 public final class Log {
 
     private Log() {}

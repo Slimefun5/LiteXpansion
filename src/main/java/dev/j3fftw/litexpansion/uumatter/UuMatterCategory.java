@@ -21,6 +21,11 @@ import org.bukkit.inventory.ItemStack;
 import javax.annotation.Nonnull;
 import javax.annotation.ParametersAreNonnullByDefault;
 
+/**
+ * Represents the {@link UuMatterCategory} class.
+ *
+ * @author j3fftw
+ */
 public final class UuMatterCategory extends FlexItemGroup {
 
     public static final UuMatterCategory INSTANCE = new UuMatterCategory();

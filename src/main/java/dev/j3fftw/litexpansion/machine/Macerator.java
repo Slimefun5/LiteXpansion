@@ -14,6 +14,11 @@ import org.bukkit.inventory.ItemStack;
 
 import javax.annotation.Nonnull;
 
+/**
+ * Represents the {@link Macerator} class.
+ *
+ * @author j3fftw
+ */
 public class Macerator extends AContainer implements PoweredMachine {
 
     public static final int TIME = 5;

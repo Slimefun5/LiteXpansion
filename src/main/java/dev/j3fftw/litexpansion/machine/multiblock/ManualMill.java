@@ -10,6 +10,11 @@ import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
 import org.bukkit.inventory.ItemStack;
 
+/**
+ * Represents the {@link ManualMill} class.
+ *
+ * @author j3fftw
+ */
 public class ManualMill extends CraftingMultiBlock {
 
     public static final RecipeType RECIPE_TYPE = new RecipeType(

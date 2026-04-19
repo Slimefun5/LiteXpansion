@@ -19,6 +19,11 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
+/**
+ * Represents the {@link MetricsService} class.
+ *
+ * @author j3fftw
+ */
 public class MetricsService {
 
     private final Map<UUID, Field> rawStorageMethods = new HashMap<>();

@@ -11,6 +11,11 @@ import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
+/**
+ * Represents the {@link FoodSynthesizer} class.
+ *
+ * @author j3fftw
+ */
 public class FoodSynthesizer extends SlimefunItem implements Rechargeable, NotPlaceable {
 
     public FoodSynthesizer() {

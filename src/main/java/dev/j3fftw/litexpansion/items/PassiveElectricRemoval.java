@@ -7,6 +7,11 @@ import org.bukkit.inventory.meta.ItemMeta;
 
 import javax.annotation.Nonnull;
 
+/**
+ * Represents the {@link PassiveElectricRemoval} class.
+ *
+ * @author j3fftw
+ */
 public interface PassiveElectricRemoval {
 
     float getRemovedChargePerTick();

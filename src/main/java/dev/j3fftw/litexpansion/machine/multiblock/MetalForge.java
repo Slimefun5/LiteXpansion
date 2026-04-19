@@ -10,6 +10,11 @@ import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
 import org.bukkit.inventory.ItemStack;
 
+/**
+ * Represents the {@link MetalForge} class.
+ *
+ * @author j3fftw
+ */
 public class MetalForge extends CraftingMultiBlock {
 
     public static final RecipeType RECIPE_TYPE = new RecipeType(

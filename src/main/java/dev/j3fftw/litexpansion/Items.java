@@ -18,6 +18,11 @@ import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
 import org.bukkit.enchantments.Enchantment;
 
+/**
+ * Represents the {@link Items} class.
+ *
+ * @author j3fftw
+ */
 public final class Items {
 
     //region Category

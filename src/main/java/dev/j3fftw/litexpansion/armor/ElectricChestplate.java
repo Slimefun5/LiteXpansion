@@ -7,6 +7,11 @@ import io.github.thebusybiscuit.slimefun4.core.attributes.Rechargeable;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 import org.bukkit.inventory.ItemStack;
 
+/**
+ * Represents the {@link ElectricChestplate} class.
+ *
+ * @author j3fftw
+ */
 public class ElectricChestplate extends SlimefunItem implements Rechargeable {
 
     public ElectricChestplate() {

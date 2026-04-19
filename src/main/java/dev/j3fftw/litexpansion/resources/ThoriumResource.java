@@ -14,6 +14,11 @@ import org.bukkit.inventory.ItemStack;
 import javax.annotation.Nonnull;
 import java.util.logging.Level;
 
+/**
+ * Represents the {@link ThoriumResource} class.
+ *
+ * @author j3fftw
+ */
 public class ThoriumResource implements GEOResource {
 
     private final NamespacedKey key = new NamespacedKey(LiteXpansion.getInstance(), "thorium");

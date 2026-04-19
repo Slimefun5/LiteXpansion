@@ -6,6 +6,11 @@ import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 import org.bukkit.inventory.ItemStack;
 
+/**
+ * Represents the {@link MultiFunctionalElectricStorageUnit} class.
+ *
+ * @author j3fftw
+ */
 public class MultiFunctionalElectricStorageUnit extends ChargingStorageUnit {
 
     public MultiFunctionalElectricStorageUnit() {

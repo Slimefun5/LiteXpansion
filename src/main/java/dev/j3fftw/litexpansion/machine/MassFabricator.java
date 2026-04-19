@@ -29,6 +29,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Represents the {@link MassFabricator} class.
+ *
+ * @author j3fftw
+ */
 public class MassFabricator extends SlimefunItem implements InventoryBlock, EnergyNetComponent, PoweredMachine {
 
     public static final RecipeType RECIPE_TYPE = new RecipeType(

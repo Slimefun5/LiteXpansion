@@ -24,6 +24,11 @@ import org.bukkit.inventory.ItemStack;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
+/**
+ * Represents the {@link AdvancedSolarPanel} class.
+ *
+ * @author j3fftw
+ */
 public class AdvancedSolarPanel extends SlimefunItem implements InventoryBlock, EnergyNetProvider {
 
     public static final int ADVANCED_DAY_RATE = 80;

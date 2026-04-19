@@ -12,6 +12,11 @@ import org.bukkit.inventory.ItemStack;
 
 import javax.annotation.Nonnull;
 
+/**
+ * Represents the {@link Converter} class.
+ *
+ * @author j3fftw
+ */
 public class Converter extends AContainer implements PoweredMachine {
 
     public static final int TIME = 5;

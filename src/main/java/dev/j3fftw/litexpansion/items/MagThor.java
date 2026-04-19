@@ -6,6 +6,11 @@ import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 import io.github.thebusybiscuit.slimefun4.implementation.items.blocks.UnplaceableBlock;
 import org.bukkit.inventory.ItemStack;
 
+/**
+ * Represents the {@link MagThor} class.
+ *
+ * @author j3fftw
+ */
 public class MagThor extends UnplaceableBlock {
 
     public MagThor() {

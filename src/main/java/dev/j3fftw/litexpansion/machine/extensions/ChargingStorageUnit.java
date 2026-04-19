@@ -20,6 +20,11 @@ import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 import javax.annotation.ParametersAreNonnullByDefault;
 
+/**
+ * Represents the {@link ChargingStorageUnit} class.
+ *
+ * @author j3fftw
+ */
 public abstract class ChargingStorageUnit extends Capacitor implements InventoryBlock {
 
     private static final int INPUT_SLOT = 13;

@@ -22,6 +22,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.logging.Level;
 
+/**
+ * Represents the {@link UUMatter} class.
+ *
+ * @author j3fftw
+ */
 public final class UUMatter {
 
     public static final UUMatter INSTANCE = new UUMatter();

@@ -10,6 +10,11 @@ import org.bukkit.inventory.ItemStack;
 
 import javax.annotation.Nonnull;
 
+/**
+ * Represents the {@link AdvancedSolarHelmet} class.
+ *
+ * @author j3fftw
+ */
 public class AdvancedSolarHelmet extends SolarHelmet {
 
     @Nonnull

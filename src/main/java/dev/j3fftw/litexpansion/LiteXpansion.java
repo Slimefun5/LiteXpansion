@@ -20,6 +20,11 @@ import org.bukkit.plugin.java.JavaPlugin;
 import javax.annotation.Nonnull;
 import java.io.File;
 
+/**
+ * Represents the {@link LiteXpansion} class.
+ *
+ * @author j3fftw
+ */
 public class LiteXpansion extends JavaPlugin implements SlimefunAddon {
 
     private static LiteXpansion instance;

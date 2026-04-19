@@ -20,6 +20,11 @@ import java.util.List;
 
 
 //todo make it generic then push to extrautils
+/**
+ * Represents the {@link BlockMenuPresetTest} class.
+ *
+ * @author j3fftw
+ */
 public class BlockMenuPresetTest extends BlockMenuPreset {
 
     private final UUCrafter autoCrafter;
