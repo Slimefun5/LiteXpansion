@@ -1,5 +1,5 @@
 # LiteXpansion
-LiteXpansion is a Slimefun4 Addon that started with adding the use full items/machines from SlimeXpansion. This slowly is changing into an Industrial Craft 2 Addon.
+LiteXpansion is a Slimefun5 Addon that started with adding the useful items/machines from SlimeXpansion. This slowly is changing into an Industrial Craft 2 Addon.
 
 ## :world_map: Navigation
 * [Download](#floppy_disk-download)
@@ -11,7 +11,7 @@ LiteXpansion is a Slimefun4 Addon that started with adding the use full items/ma
 ## :floppy_disk: Download
 To download LiteXpansion please click here: [Download LiteXpansion](https://thebusybiscuit.github.io/builds/J3fftw1/LiteXpansion/master/)
 
-**IMPORTANT: As mentioned before, you have to have Slimefun to use LiteXpansion. If you do not have Slimefun yet please go here: [Slimefun repository](https://github.com/Slimefun/Slimefun4). If you have problems with the download please go here: [Slimefun Wiki](https://github.com/Slimefun/Slimefun4/wiki/Installing-Slimefun)**
+**IMPORTANT: As mentioned before, you have to have Slimefun to use LiteXpansion. If you do not have Slimefun yet please go here: [Slimefun repository](https://github.com/Slimefun5/Slimefun5). If you have problems with the download please go here: [Slimefun Wiki](https://github.com/Slimefun5/Slimefun5/wiki/Installing-Slimefun)**
 
 <p align="center">
   <a href="https://thebusybiscuit.github.io/builds/J3fftw1/LiteXpansion/master/">
@@ -38,7 +38,6 @@ recipes:
 
 There are two options in `/plugins/LiteXpansion/config.yml` file:
 
-- `auto-update` - By enabling this, LiteXpansion will automatically update itself to the latest version. (default: `true`)
 - `nerf-other-addons` - Enable this option will nerf Energized Solar Generator and panels in InfinityExpansion, otherwise all machines in LiteXpansion will consume double energy. (default: `true`)
 
 ### :computer: Discord
