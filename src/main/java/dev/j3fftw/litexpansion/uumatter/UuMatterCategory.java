@@ -34,9 +34,9 @@ public final class UuMatterCategory extends FlexItemGroup {
 
     private UuMatterCategory() {
         super(new NamespacedKey(LiteXpansion.getInstance(), "uumatter_category"),
-            new CustomItemStack(VersionedPlayerHead.getItemStack(
+            CustomItemStack.create(VersionedPlayerHead.getItemStack(
                 "54d39df0f813b7424406462854eb7249f8c76d80ce56f3af410e35a287062589"),
-                "&5UU-Matter Recipes")
+                "\u00a75UU-Matter Recipes")
         );
     }
 
@@ -55,7 +55,7 @@ public final class UuMatterCategory extends FlexItemGroup {
             // Header and back button
             for (int i = 0; i < 9; i++) {
                 if (i == 1) {
-                    menu.addItem(i, new CustomItemStack(ChestMenuUtils.getBackButton(p, "",
+                    menu.addItem(i, CustomItemStack.create(ChestMenuUtils.getBackButton(p, "",
                         ChatColor.GRAY + Slimefun.getLocalization().getMessage(p, "guide.back.guide")))
                     );
                     menu.addMenuClickHandler(i, (pl, s, is, action) -> {
@@ -115,7 +115,7 @@ public final class UuMatterCategory extends FlexItemGroup {
 
     @Override
     public void open(Player player, PlayerProfile playerProfile, SlimefunGuideMode slimefunGuideLayout) {
-        ChestMenu menu = new ChestMenu("&5UU-Matter Recipes");
+        ChestMenu menu = new ChestMenu("\u00a75UU-Matter Recipes");
 
         // Header
         for (int i = 0; i < 9; ++i) {
@@ -124,7 +124,7 @@ public final class UuMatterCategory extends FlexItemGroup {
 
         menu.setEmptySlotsClickable(false);
 
-        menu.addItem(1, new CustomItemStack(ChestMenuUtils.getBackButton(player, "",
+        menu.addItem(1, CustomItemStack.create(ChestMenuUtils.getBackButton(player, "",
                 ChatColor.GRAY + Slimefun.getLocalization().getMessage(player, "guide.back.guide"))),
             (pl, slot, item, action) -> {
                 SlimefunGuide.openMainMenu(playerProfile, slimefunGuideLayout, 1);

@@ -18,8 +18,8 @@ import javax.annotation.Nonnull;
  */
 public class Thorium extends UnplaceableBlock implements Radioactive {
 
-    private static final ItemStack thorium = new CustomItemStack(Material.PAPER, "&fHint!",
-        "&a&oMake sure to first GEO-Scan the chunk in which you are", "&a&omining to discover Thorium!");
+    private static final ItemStack thorium = CustomItemStack.create(Material.PAPER, "\u00a7fHint!",
+        "\u00a7a\u00a7oMake sure to first GEO-Scan the chunk in which you are", "\u00a7a\u00a7omining to discover Thorium!");
 
     public Thorium() {
         super(Items.LITEXPANSION, Items.THORIUM, RecipeType.GEO_MINER, new ItemStack[] {

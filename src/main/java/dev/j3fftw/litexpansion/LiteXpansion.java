@@ -3,18 +3,14 @@ package dev.j3fftw.litexpansion;
 import dev.j3fftw.litexpansion.resources.ThoriumResource;
 import dev.j3fftw.litexpansion.service.MetricsService;
 import dev.j3fftw.litexpansion.ticker.PassiveElectricRemovalTicker;
-import dev.j3fftw.litexpansion.utils.Constants;
 import dev.j3fftw.litexpansion.utils.Reflections;
 import dev.j3fftw.litexpansion.uumatter.UUMatter;
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.api.researches.Research;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.updater.BlobBuildUpdater;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.updater.GitHubBuildsUpdater;
 import org.bstats.MetricsBase;
 import org.bstats.bukkit.Metrics;
 import org.bukkit.NamespacedKey;
-import org.bukkit.enchantments.Enchantment;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import javax.annotation.Nonnull;
@@ -42,12 +38,6 @@ public class LiteXpansion extends JavaPlugin implements SlimefunAddon {
         final Metrics metrics = new Metrics(this, 7111);
         metricsService.setup(metrics);
 
-        if (getConfig().getBoolean("options.auto-update") && getDescription().getVersion().startsWith("DEV - ")) {
-            new BlobBuildUpdater(this, getFile(), "LiteXpansion", "Dev").start();
-        }
-
-        registerEnchantments();
-
         if (getConfig().getBoolean("options.nerf-other-addons", true)) {
             getServer().getScheduler().runTask(this, this::nerfCrap);
         }
@@ -68,23 +58,6 @@ public class LiteXpansion extends JavaPlugin implements SlimefunAddon {
     @Override
     public void onDisable() {
         setInstance(null);
-    }
-
-    private void registerEnchantments() {
-        if (!Enchantment.isAcceptingRegistrations()) {
-            Reflections.setStaticField(Enchantment.class, "acceptingNew", true);
-        }
-
-        Enchantment glowEnchantment = new GlowEnchant(Constants.GLOW_ENCHANT, new String[] {
-            "ADVANCED_CIRCUIT", "NANO_BLADE", "GLASS_CUTTER", "LAPOTRON_CRYSTAL",
-            "ADVANCEDLX_SOLAR_HELMET", "HYBRID_SOLAR_HELMET", "ULTIMATE_SOLAR_HELMET",
-            "DIAMOND_DRILL"
-        });
-
-        // Prevent double-registration errors
-        if (Enchantment.getByKey(glowEnchantment.getKey()) == null) {
-            Enchantment.registerEnchantment(glowEnchantment);
-        }
     }
 
     private void nerfCrap() {

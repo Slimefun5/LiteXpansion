@@ -16,14 +16,14 @@ public class MultiFunctionalElectricStorageUnit extends ChargingStorageUnit {
     public MultiFunctionalElectricStorageUnit() {
         super(Items.LITEXPANSION, 4_000_000, 12, Items.MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT,
             RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
-                Items.GOLD_CABLE, SlimefunItems.POWER_CRYSTAL, Items.GOLD_CABLE,
-                SlimefunItems.POWER_CRYSTAL, Items.MACHINE_BLOCK, SlimefunItems.POWER_CRYSTAL,
-                Items.GOLD_CABLE, SlimefunItems.POWER_CRYSTAL, Items.GOLD_CABLE
+                Items.GOLD_CABLE.item(), SlimefunItems.POWER_CRYSTAL.item(), Items.GOLD_CABLE.item(),
+                SlimefunItems.POWER_CRYSTAL.item(), Items.MACHINE_BLOCK.item(), SlimefunItems.POWER_CRYSTAL.item(),
+                Items.GOLD_CABLE.item(), SlimefunItems.POWER_CRYSTAL.item(), Items.GOLD_CABLE.item()
             });
     }
 
     @Override
     public String getTitle() {
-        return "&8MFE";
+        return "\u00a78MFE";
     }
 }

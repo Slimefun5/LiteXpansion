@@ -16,9 +16,9 @@ public class ElectricChestplate extends SlimefunItem implements Rechargeable {
 
     public ElectricChestplate() {
         super(Items.LITEXPANSION, Items.ELECTRIC_CHESTPLATE, MetalForge.RECIPE_TYPE, new ItemStack[] {
-            Items.MAG_THOR, null, Items.MAG_THOR,
-            Items.MAG_THOR, SlimefunItems.BIG_CAPACITOR, Items.MAG_THOR,
-            Items.MAG_THOR, Items.MAG_THOR, Items.MAG_THOR
+            Items.MAG_THOR.item(), null, Items.MAG_THOR.item(),
+            Items.MAG_THOR.item(), SlimefunItems.BIG_CAPACITOR.item(), Items.MAG_THOR.item(),
+            Items.MAG_THOR.item(), Items.MAG_THOR.item(), Items.MAG_THOR.item()
         });
     }
 
