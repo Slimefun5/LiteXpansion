@@ -56,7 +56,7 @@ public class BlockMenuPresetTest extends BlockMenuPreset {
         Utils.putOutputSlot(this, UUCrafter.OUTPUT_SLOT);
 
         addItem(UUCrafter.START_STOP,
-            new CustomItemStack(
+            io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack.create(
                 Material.RED_STAINED_GLASS_PANE,
                 "&7Click to start"
             )

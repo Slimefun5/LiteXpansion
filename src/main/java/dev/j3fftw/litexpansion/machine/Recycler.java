@@ -50,13 +50,13 @@ public class Recycler extends SlimefunItem implements InventoryBlock, EnergyNetC
 
     private static final Map<BlockPosition, Integer> progress = new HashMap<>();
 
-    private static final CustomItemStack progressItem = new CustomItemStack(Material.DEAD_BUSH, "&7Progress");
+    private static final org.bukkit.inventory.ItemStack progressItem = CustomItemStack.create(Material.DEAD_BUSH, "\u00a77Progress");
 
     public Recycler() {
         super(Items.LITEXPANSION, Items.RECYCLER, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
-            SlimefunItems.ADVANCED_CIRCUIT_BOARD, SlimefunItems.REINFORCED_PLATE, SlimefunItems.ADVANCED_CIRCUIT_BOARD,
-            SlimefunItems.REINFORCED_PLATE, Items.MACHINE_BLOCK, SlimefunItems.REINFORCED_PLATE,
-            SlimefunItems.ADVANCED_CIRCUIT_BOARD, SlimefunItems.REINFORCED_PLATE, SlimefunItems.ADVANCED_CIRCUIT_BOARD
+            SlimefunItems.ADVANCED_CIRCUIT_BOARD.item(), SlimefunItems.REINFORCED_PLATE.item(), SlimefunItems.ADVANCED_CIRCUIT_BOARD.item(),
+            SlimefunItems.REINFORCED_PLATE.item(), Items.MACHINE_BLOCK.item(), SlimefunItems.REINFORCED_PLATE.item(),
+            SlimefunItems.ADVANCED_CIRCUIT_BOARD.item(), SlimefunItems.REINFORCED_PLATE.item(), SlimefunItems.ADVANCED_CIRCUIT_BOARD.item()
         });
         setupInv();
         this.addItemHandler(
@@ -73,13 +73,13 @@ public class Recycler extends SlimefunItem implements InventoryBlock, EnergyNetC
     }
 
     private void setupInv() {
-        createPreset(this, "&8Recycler", blockMenuPreset -> {
+        createPreset(this, "\u00a78Recycler", blockMenuPreset -> {
             for (int i = 0; i < 27; i++) {
                 if (i == INPUT_SLOT) continue;
                 blockMenuPreset.addItem(i, ChestMenuUtils.getBackground(), ChestMenuUtils.getEmptyClickHandler());
             }
             Utils.putOutputSlot(blockMenuPreset, OUTPUT_SLOT);
-            blockMenuPreset.addItem(PROGRESS_SLOT, new CustomItemStack(Material.DEAD_BUSH, "&7Progress"));
+            blockMenuPreset.addItem(PROGRESS_SLOT, CustomItemStack.create(Material.DEAD_BUSH, "\u00a77Progress"));
             blockMenuPreset.addMenuClickHandler(PROGRESS_SLOT, ChestMenuUtils.getEmptyClickHandler());
         });
     }
@@ -107,7 +107,7 @@ public class Recycler extends SlimefunItem implements InventoryBlock, EnergyNetC
         @Nullable final ItemStack output = inv.getItemInSlot(OUTPUT_SLOT);
         if (input == null || input.getType() == Material.AIR
             || (output != null
-            && (output.getType() != Items.SCRAP.getType()
+            && (output.getType() != Items.SCRAP.item().getType()
             || output.getAmount() == output.getMaxStackSize()
             || !Items.SCRAP.getItem().isItem(output)))
         ) {
@@ -133,7 +133,7 @@ public class Recycler extends SlimefunItem implements InventoryBlock, EnergyNetC
             if (output != null && output.getAmount() > 0) {
                 output.setAmount(output.getAmount() + 1);
             } else {
-                inv.replaceExistingItem(OUTPUT_SLOT, Items.SCRAP.clone());
+                inv.replaceExistingItem(OUTPUT_SLOT, Items.SCRAP.item().clone());
             }
             progress.remove(pos);
             ChestMenuUtils.updateProgressbar(inv, PROGRESS_SLOT, PROGRESS_AMOUNT, PROGRESS_AMOUNT, progressItem);

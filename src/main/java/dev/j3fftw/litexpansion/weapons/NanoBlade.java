@@ -14,7 +14,6 @@ import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.attribute.Attribute;
 import org.bukkit.attribute.AttributeModifier;
-import org.bukkit.enchantments.Enchantment;
 import org.bukkit.inventory.EquipmentSlot;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
@@ -35,9 +34,9 @@ public class NanoBlade extends SimpleSlimefunItem<ItemUseHandler> implements Rec
 
     public NanoBlade() {
         super(Items.LITEXPANSION, Items.NANO_BLADE, MetalForge.RECIPE_TYPE, new ItemStack[] {
-                new ItemStack(Material.GLOWSTONE_DUST), Items.ADVANCED_ALLOY, null,
-                new ItemStack(Material.GLOWSTONE_DUST), Items.ADVANCED_ALLOY, null,
-                Items.CARBON_PLATE, SlimefunItems.POWER_CRYSTAL, Items.CARBON_PLATE
+                new ItemStack(Material.GLOWSTONE_DUST), Items.ADVANCED_ALLOY.item(), null,
+                new ItemStack(Material.GLOWSTONE_DUST), Items.ADVANCED_ALLOY.item(), null,
+                Items.CARBON_PLATE.item(), SlimefunItems.POWER_CRYSTAL.item(), Items.CARBON_PLATE.item()
             }
         );
     }
@@ -52,17 +51,18 @@ public class NanoBlade extends SimpleSlimefunItem<ItemUseHandler> implements Rec
     public ItemUseHandler getItemHandler() {
         return event -> {
             final ItemMeta nanoBladeMeta = event.getItem().getItemMeta();
-            final Enchantment enchantment = Enchantment.getByKey(Constants.GLOW_ENCHANT);
-            boolean enabled = !nanoBladeMeta.removeEnchant(enchantment);
+            boolean wasGlinting = Boolean.TRUE.equals(nanoBladeMeta.getEnchantmentGlintOverride());
+            boolean enabled = !wasGlinting;
 
             int damage;
 
             if (enabled && getItemCharge(event.getItem()) > getRemovedChargePerTick()) {
-                nanoBladeMeta.addEnchant(enchantment, 1, false);
+                nanoBladeMeta.setEnchantmentGlintOverride(true);
                 nanoBladeMeta.setDisplayName(ChatColor.DARK_GREEN + "Nano Blade" + ChatColor.GREEN + " (On)");
 
                 damage = 13; // Base is 7 so 7 + 13 = 20
             } else {
+                nanoBladeMeta.setEnchantmentGlintOverride(false);
                 nanoBladeMeta.setDisplayName(ChatColor.DARK_GREEN + "Nano Blade" + ChatColor.RED + " (Off)");
 
                 damage = -3; // Base is 7 so 7 - 3 = 4
@@ -70,9 +70,9 @@ public class NanoBlade extends SimpleSlimefunItem<ItemUseHandler> implements Rec
 
             PersistentDataAPI.setBoolean(nanoBladeMeta, Constants.NANO_BLADE_ENABLED, enabled);
 
-            nanoBladeMeta.removeAttributeModifier(Attribute.GENERIC_ATTACK_DAMAGE);
-            nanoBladeMeta.addAttributeModifier(Attribute.GENERIC_ATTACK_DAMAGE,
-                new AttributeModifier(UUID.randomUUID(), Attribute.GENERIC_ATTACK_DAMAGE.getKey().getKey(), damage,
+            nanoBladeMeta.removeAttributeModifier(Attribute.ATTACK_DAMAGE);
+            nanoBladeMeta.addAttributeModifier(Attribute.ATTACK_DAMAGE,
+                new AttributeModifier(UUID.randomUUID(), Attribute.ATTACK_DAMAGE.getKey().getKey(), damage,
                     AttributeModifier.Operation.ADD_NUMBER, EquipmentSlot.HAND
                 )
             );
@@ -95,6 +95,6 @@ public class NanoBlade extends SimpleSlimefunItem<ItemUseHandler> implements Rec
     public boolean isEnabled(@Nonnull ItemMeta meta) {
         final Optional<Boolean> opt = Utils.getOptionalBoolean(meta, Constants.NANO_BLADE_ENABLED);
 
-        return (opt.isPresent() && opt.get()) || meta.hasEnchant(Enchantment.getByKey(Constants.GLOW_ENCHANT));
+        return (opt.isPresent() && opt.get()) || Boolean.TRUE.equals(meta.getEnchantmentGlintOverride());
     }
 }

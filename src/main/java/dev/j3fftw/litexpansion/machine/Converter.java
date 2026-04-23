@@ -25,30 +25,30 @@ public class Converter extends AContainer implements PoweredMachine {
         super(Items.LITEXPANSION, Items.CONVERTER, RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[] {
                 new ItemStack(Material.REDSTONE), new ItemStack(Material.REDSTONE), new ItemStack(Material.REDSTONE),
-                new ItemStack(Material.COBBLESTONE), Items.ADVANCED_MACHINE_BLOCK, new ItemStack(Material.COBBLESTONE),
-                null, Items.ADVANCED_CIRCUIT, null
+                new ItemStack(Material.COBBLESTONE), Items.ADVANCED_MACHINE_BLOCK.item(), new ItemStack(Material.COBBLESTONE),
+                null, Items.ADVANCED_CIRCUIT.item(), null
             });
     }
 
     @Override
     protected void registerDefaultRecipes() {
         if (Slimefun.getMinecraftVersion().isAtLeast(MinecraftVersion.MINECRAFT_1_17)) {
-            addRecipe(new ItemStack(Material.COPPER_INGOT), new ItemStack(SlimefunItems.COPPER_INGOT));
-            addRecipe(new ItemStack(SlimefunItems.COPPER_INGOT), new ItemStack(Material.COPPER_INGOT));
+            addRecipe(new ItemStack(Material.COPPER_INGOT), SlimefunItems.COPPER_INGOT.item().clone());
+            addRecipe(SlimefunItems.COPPER_INGOT.item().clone(), new ItemStack(Material.COPPER_INGOT));
         }
 
-        addRecipe(new ItemStack(Material.GOLD_INGOT), new ItemStack(SlimefunItems.GOLD_4K));
-        addRecipe(new ItemStack(SlimefunItems.GOLD_4K), new ItemStack(Material.GOLD_INGOT));
-        addRecipe(new ItemStack(SlimefunItems.GOLD_6K), new ItemStack(Material.GOLD_INGOT));
-        addRecipe(new ItemStack(SlimefunItems.GOLD_8K), new ItemStack(Material.GOLD_INGOT));
-        addRecipe(new ItemStack(SlimefunItems.GOLD_10K), new ItemStack(Material.GOLD_INGOT));
-        addRecipe(new ItemStack(SlimefunItems.GOLD_12K), new ItemStack(Material.GOLD_INGOT));
-        addRecipe(new ItemStack(SlimefunItems.GOLD_14K), new ItemStack(Material.GOLD_INGOT));
-        addRecipe(new ItemStack(SlimefunItems.GOLD_16K), new ItemStack(Material.GOLD_INGOT));
-        addRecipe(new ItemStack(SlimefunItems.GOLD_20K), new ItemStack(Material.GOLD_INGOT));
-        addRecipe(new ItemStack(SlimefunItems.GOLD_22K), new ItemStack(Material.GOLD_INGOT));
-        addRecipe(new ItemStack(SlimefunItems.GOLD_24K), new ItemStack(Material.GOLD_INGOT));
-        addRecipe(new ItemStack(SlimefunItems.GOLD_24K_BLOCK), new ItemStack(Material.GOLD_BLOCK));
+        addRecipe(new ItemStack(Material.GOLD_INGOT), SlimefunItems.GOLD_4K.item().clone());
+        addRecipe(SlimefunItems.GOLD_4K.item().clone(), new ItemStack(Material.GOLD_INGOT));
+        addRecipe(SlimefunItems.GOLD_6K.item().clone(), new ItemStack(Material.GOLD_INGOT));
+        addRecipe(SlimefunItems.GOLD_8K.item().clone(), new ItemStack(Material.GOLD_INGOT));
+        addRecipe(SlimefunItems.GOLD_10K.item().clone(), new ItemStack(Material.GOLD_INGOT));
+        addRecipe(SlimefunItems.GOLD_12K.item().clone(), new ItemStack(Material.GOLD_INGOT));
+        addRecipe(SlimefunItems.GOLD_14K.item().clone(), new ItemStack(Material.GOLD_INGOT));
+        addRecipe(SlimefunItems.GOLD_16K.item().clone(), new ItemStack(Material.GOLD_INGOT));
+        addRecipe(SlimefunItems.GOLD_20K.item().clone(), new ItemStack(Material.GOLD_INGOT));
+        addRecipe(SlimefunItems.GOLD_22K.item().clone(), new ItemStack(Material.GOLD_INGOT));
+        addRecipe(SlimefunItems.GOLD_24K.item().clone(), new ItemStack(Material.GOLD_INGOT));
+        addRecipe(SlimefunItems.GOLD_24K_BLOCK.item().clone(), new ItemStack(Material.GOLD_BLOCK));
     }
 
     private void addRecipe(ItemStack input, ItemStack output) {
@@ -63,7 +63,7 @@ public class Converter extends AContainer implements PoweredMachine {
     @Nonnull
     @Override
     public String getInventoryTitle() {
-        return "&6Converter";
+        return "\u00a76Converter";
     }
 
     @Nonnull
