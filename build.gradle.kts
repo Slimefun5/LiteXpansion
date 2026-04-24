@@ -1,11 +1,20 @@
 plugins {
     java
     id("com.gradleup.shadow") version "9.3.2"
+    id("io.github.intisy.github-gradle") version "1.3.8"
 }
 
 group = "dev.j3fftw"
 version = "1.0.0"
 description = "LiteXpansion is a Slimefun addon inspired by Industrial Craft 2."
+
+github {
+    accessToken = System.getenv("GITHUB_TOKEN") ?: ""
+}
+
+publishGithub {
+    tag = System.getenv("GITHUB_REF_NAME")
+}
 
 java {
     toolchain {
@@ -24,7 +33,7 @@ repositories {
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.21.11-R0.1-SNAPSHOT")
     compileOnly("com.google.code.findbugs:jsr305:3.0.2")
-    compileOnly(fileTree("${rootDir}/../Slimefun5/build/libs") { include("*.jar") })
+    githubCompileOnly("Slimefun5:Slimefun5:v5.0.3")
 
     // Shaded
     implementation("org.bstats:bstats-bukkit:3.0.2")
