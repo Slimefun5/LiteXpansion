@@ -2,15 +2,15 @@ package dev.j3fftw.litexpansion.uumatter;
 
 import dev.j3fftw.litexpansion.Items;
 import dev.j3fftw.litexpansion.LiteXpansion;
-import io.github.thebusybiscuit.slimefun4.api.items.groups.FlexItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.player.PlayerProfile;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.guide.SlimefunGuide;
-import io.github.thebusybiscuit.slimefun4.core.guide.SlimefunGuideMode;
-import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
-import io.github.thebusybiscuit.slimefun4.utils.compatibility.VersionedPlayerHead;
-import io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils;
+import io.github.thebusybiscuit.slimefun5.api.items.groups.FlexItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.player.PlayerProfile;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.guide.SlimefunGuide;
+import io.github.thebusybiscuit.slimefun5.core.guide.SlimefunGuideMode;
+import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
+import io.github.thebusybiscuit.slimefun5.utils.compatibility.VersionedPlayerHead;
+import io.github.thebusybiscuit.slimefun5.utils.ChestMenuUtils;
 import me.mrCookieSlime.CSCoreLibPlugin.general.Inventory.ChestMenu;
 import org.bukkit.ChatColor;
 import org.bukkit.NamespacedKey;
@@ -100,7 +100,7 @@ public final class UuMatterCategory extends FlexItemGroup {
     private boolean onIngredientClick(PlayerProfile profile, ItemStack clickedItem) {
         if (clickedItem != null) {
             // This must be UU Matter then.
-            SlimefunGuide.displayItem(profile, io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem.getById("UU_MATTER"), true);
+            SlimefunGuide.displayItem(profile, io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem.getById("UU_MATTER"), true);
         }
 
         return false;
@@ -147,3 +147,4 @@ public final class UuMatterCategory extends FlexItemGroup {
         menu.open(player);
     }
 }
+

@@ -1,6 +1,6 @@
 package dev.j3fftw.litexpansion.items;
 
-import io.github.thebusybiscuit.slimefun4.utils.ChargeUtils;
+import io.github.thebusybiscuit.slimefun5.utils.ChargeUtils;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.Damageable;
 import org.bukkit.inventory.meta.ItemMeta;
@@ -42,3 +42,4 @@ public interface PassiveElectricRemoval {
         }
     }
 }
+

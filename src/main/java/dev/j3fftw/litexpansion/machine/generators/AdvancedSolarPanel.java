@@ -4,14 +4,14 @@ import com.google.common.base.Preconditions;
 import dev.j3fftw.extrautils.interfaces.InventoryBlock;
 import dev.j3fftw.extrautils.utils.Utils;
 import dev.j3fftw.litexpansion.Items;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.attributes.EnergyNetProvider;
-import io.github.thebusybiscuit.slimefun4.core.networks.energy.EnergyNetComponentType;
-import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
-import io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.attributes.EnergyNetProvider;
+import io.github.thebusybiscuit.slimefun5.core.networks.energy.EnergyNetComponentType;
+import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
+import io.github.thebusybiscuit.slimefun5.utils.ChestMenuUtils;
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
@@ -44,7 +44,7 @@ public class AdvancedSolarPanel extends SlimefunItem implements InventoryBlock, 
     public static final int ULTIMATE_OUTPUT = 5120;
     public static final int ULTIMATE_STORAGE = 10_000_000;
     private static final int PROGRESS_SLOT = 4;
-    private static final org.bukkit.inventory.ItemStack generatingItem = io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack.create(Material.ORANGE_STAINED_GLASS_PANE,
+    private static final org.bukkit.inventory.ItemStack generatingItem = io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack.create(Material.ORANGE_STAINED_GLASS_PANE,
         "\u00a7cNot Generating..."
     );
     private final Type type;
@@ -94,7 +94,7 @@ public class AdvancedSolarPanel extends SlimefunItem implements InventoryBlock, 
                         "\u00a78(" + rate + " J/t)",
                     "", "\u00a77Stored: \u00a76" + Utils.powerFormatAndFadeDecimals((double) stored + rate) + " J"
                 )
-                    : io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack.create(Material.ORANGE_STAINED_GLASS_PANE, "\u00a7cNot Generating",
+                    : io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack.create(Material.ORANGE_STAINED_GLASS_PANE, "\u00a7cNot Generating",
                     "", "\u00a77Generator has reached maximum capacity.",
                     "", "\u00a77Stored: \u00a76" + Utils.powerFormatAndFadeDecimals(stored) + " J")
             );
@@ -217,3 +217,4 @@ public class AdvancedSolarPanel extends SlimefunItem implements InventoryBlock, 
         }
     }
 }
+

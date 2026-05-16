@@ -2,11 +2,11 @@ package dev.j3fftw.litexpansion.utils;
 
 import dev.j3fftw.extrautils.utils.Utils;
 import dev.j3fftw.litexpansion.machine.UUCrafter;
-import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.protection.Interaction;
-import io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils;
-import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
+import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.protection.Interaction;
+import io.github.thebusybiscuit.slimefun5.utils.ChestMenuUtils;
+import io.github.thebusybiscuit.slimefun5.utils.SlimefunUtils;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenuPreset;
 import me.mrCookieSlime.Slimefun.api.item_transport.ItemTransportFlow;
@@ -56,7 +56,7 @@ public class BlockMenuPresetTest extends BlockMenuPreset {
         Utils.putOutputSlot(this, UUCrafter.OUTPUT_SLOT);
 
         addItem(UUCrafter.START_STOP,
-            io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack.create(
+            io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack.create(
                 Material.RED_STAINED_GLASS_PANE,
                 "&7Click to start"
             )
@@ -85,3 +85,4 @@ public class BlockMenuPresetTest extends BlockMenuPreset {
         autoCrafter.onNewInstance(menu, block);
     }
 }
+

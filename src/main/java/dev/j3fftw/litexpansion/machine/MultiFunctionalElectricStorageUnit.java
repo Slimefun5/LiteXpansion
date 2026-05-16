@@ -2,8 +2,8 @@ package dev.j3fftw.litexpansion.machine;
 
 import dev.j3fftw.litexpansion.Items;
 import dev.j3fftw.litexpansion.machine.extensions.ChargingStorageUnit;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems;
 import org.bukkit.inventory.ItemStack;
 
 /**
@@ -27,3 +27,4 @@ public class MultiFunctionalElectricStorageUnit extends ChargingStorageUnit {
         return "\u00a78MFE";
     }
 }
+
