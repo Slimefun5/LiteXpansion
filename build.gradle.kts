@@ -22,11 +22,11 @@ java {
 }
 
 repositories {
+    mavenLocal()
     mavenCentral()
     maven("https://hub.spigotmc.org/nexus/content/repositories/snapshots/")
     maven("https://repo.papermc.io/repository/maven-public/")
     maven("https://repo.codemc.io/repository/maven-public/")
-    maven("https://jitpack.io")
 }
 
 dependencies {
@@ -37,7 +37,7 @@ dependencies {
     // Shaded
     implementation("org.bstats:bstats-bukkit:3.0.2")
     implementation("com.github.Slimefun-Addon-Community:extrautils:73e76ac06c") {
-        isTransitive = false
+        isTransitive = true
     }
 
     testImplementation(platform("org.junit:junit-bom:5.11.4"))
