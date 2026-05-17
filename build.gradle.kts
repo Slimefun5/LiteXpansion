@@ -35,9 +35,6 @@ dependencies {
 
     // Shaded
     implementation("org.bstats:bstats-bukkit:3.0.2")
-    implementation("com.github.Slimefun-Addon-Community:extrautils:73e76ac06c") {
-        isTransitive = true
-    }
 
     testImplementation(platform("org.junit:junit-bom:5.11.4"))
     testImplementation("org.junit.jupiter:junit-jupiter")
@@ -79,3 +76,5 @@ tasks {
     }
 }
 
+
+// Trigger CI
