@@ -1,4 +1,33 @@
 # LiteXpansion
+
+[![Build Status](https://Slimefun5.github.io/builds/Slimefun5/LiteXpansion/stable/badge.svg)](https://Slimefun5.github.io/builds/Slimefun5/LiteXpansion/stable)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Slimefun5/LiteXpansion/total)
+[![GitHub Followers](https://img.shields.io/github/followers/Slimefun5?style=social)](https://github.com/Slimefun5)
+[![GitHub Stars](https://img.shields.io/github/stars/Slimefun5/LiteXpansion?style=social)](https://github.com/Slimefun5/LiteXpansion)
+
+A Slimefun 5 Addon.
+
+## Requirements
+- Java 25
+- Paper 1.16.* - 26.1.*
+- Slimefun 5
+
+## Developer API
+
+You can easily depend on this project using [github-gradle](https://github.com/intisy/github-gradle).
+
+In your `build.gradle.kts`:
+
+```kotlin
+plugins {
+    id("io.github.intisy.github-gradle") version "1.8.2.1"
+}
+
+dependencies {
+    "githubCompileOnly"("Slimefun5:LiteXpansion:v1.0.2")
+}
+```
+
 LiteXpansion is a Slimefun5 Addon that started with adding the useful items/machines from SlimeXpansion. This slowly is changing into an Industrial Craft 2 Addon.
 
 ## :world_map: Navigation
@@ -15,7 +44,6 @@ To download LiteXpansion please click here: [Download LiteXpansion](https://theb
 
 <p align="center">
   <a href="https://thebusybiscuit.github.io/builds/J3fftw1/LiteXpansion/master/">
-    <img src="https://thebusybiscuit.github.io/builds/J3fftw1/LiteXpansion/master/badge.svg" alt="Build Server"/>
   </a>
 </p>
 
