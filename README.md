@@ -12,24 +12,6 @@ A Slimefun addon inspired by IndustrialCraft that adds electric machines and too
 - Paper 1.16.* - 26.1.*
 - Slimefun 5
 
-## Developer API
-
-You can easily depend on this project using [github-gradle](https://github.com/intisy/github-gradle).
-
-In your `build.gradle.kts`:
-
-```kotlin
-plugins {
-    id("io.github.intisy.github-gradle") version "1.8.2.1"
-}
-
-dependencies {
-    "githubCompileOnly"("Slimefun5:LiteXpansion:v1.0.2")
-}
-```
-
-LiteXpansion is a Slimefun5 Addon that started with adding the useful items/machines from SlimeXpansion. This slowly is changing into an Industrial Craft 2 Addon.
-
 ## :world_map: Navigation
 * [Download](#floppy_disk-download)
 * [Contents](#contents)
@@ -77,3 +59,19 @@ You can also generally chat about LiteXpansion in the `#litexpansion` channel.
     <img src="https://discordapp.com/api/guilds/565557184348422174/widget.png?style=banner3" alt="Discord Invite"/>
   </a>
 </p>
+
+## Developer API
+
+You can easily depend on this project using [github-gradle](https://github.com/intisy/github-gradle).
+
+In your `build.gradle.kts`:
+
+```kotlin
+plugins {
+    id("io.github.intisy.github-gradle") version "1.8.2.1"
+}
+
+dependencies {
+    "githubCompileOnly"("Slimefun5:LiteXpansion:v1.0.2")
+}
+```
