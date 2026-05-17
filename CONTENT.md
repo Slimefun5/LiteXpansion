@@ -1,19 +1,6 @@
 ## :world_map: Navigation
-* [Download](#floppy_disk-download)
-* [Contents](#contents)
-  * [UU Matter](#brain-uu-matter)
-  * [Configuration](#gear-configuration)
+* [Configuration](#gear-configuration)
 * [Discord](#computer-discord)
-
-## :floppy_disk: Download
-To download LiteXpansion please click here: [Download LiteXpansion](https://thebusybiscuit.github.io/builds/J3fftw1/LiteXpansion/master/)
-
-**IMPORTANT: As mentioned before, you have to have Slimefun to use LiteXpansion. If you do not have Slimefun yet please go here: [Slimefun repository](https://github.com/Slimefun5/Slimefun5). If you have problems with the download please go here: [Slimefun Wiki](https://github.com/Slimefun5/Slimefun5/wiki/Installing-Slimefun)**
-
-<p align="center">
-  <a href="https://thebusybiscuit.github.io/builds/J3fftw1/LiteXpansion/master/">
-  </a>
-</p>
 
 ### :gear: Configuration
 To add, remove or change UU Matter recipes you need to modify the `/plugins/LiteXpansion/uumatter.yml` file.
