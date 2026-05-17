@@ -5,7 +5,7 @@
 [![GitHub Followers](https://img.shields.io/github/followers/Slimefun5?style=social)](https://github.com/Slimefun5)
 [![GitHub Stars](https://img.shields.io/github/stars/Slimefun5/LiteXpansion?style=social)](https://github.com/Slimefun5/LiteXpansion)
 
-A Slimefun 5 Addon.
+A Slimefun addon inspired by IndustrialCraft that adds electric machines and tools.
 
 ## Requirements
 - Java 25
