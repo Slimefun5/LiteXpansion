@@ -8,8 +8,8 @@
 A Slimefun addon inspired by IndustrialCraft that adds electric machines and tools.
 
 ## Requirements
-- Java 25
-- Paper 1.16.* - 26.1.*
+- Java 17+
+- Paper 1.16.* - 1.20.*
 - Slimefun 5
 
 ## :world_map: Navigation
@@ -37,15 +37,7 @@ There are two options in `/plugins/LiteXpansion/config.yml` file:
 
 - `nerf-other-addons` - Enable this option will nerf Energized Solar Generator and panels in InfinityExpansion, otherwise all machines in LiteXpansion will consume double energy. (default: `true`)
 
-### :computer: Discord
-If you need to find a Slimefun item ID you can join the official Slimefun Discord by clicking the image below this text and doing `!item <name/ID>` in the `#bot-spam` channel.
-You can also generally chat about LiteXpansion in the `#litexpansion` channel.
-
-<p align="center">
-  <a href="https://discord.gg/slimefun">
-    <img src="https://discordapp.com/api/guilds/565557184348422174/widget.png?style=banner3" alt="Discord Invite"/>
-  </a>
-</p>
+#
 
 ## Developer API
 
@@ -62,3 +54,21 @@ dependencies {
     "githubCompileOnly"("Slimefun5:LiteXpansion:v1.0.2")
 }
 ```
+
+## Wiki
+
+[Read more on the Slimefun Wiki...](https://github.com/Slimefun5/Wiki/wiki/LiteXpansion)
+
+## Discord
+
+You can find Slimefun's community on Discord! Click the badge below to join the server for suggestions/questions or other discussions about this plugin.
+
+<p align="center">
+  <a href="https://discord.gg/fsD4Bkh">
+    <img src="https://discordapp.com/api/guilds/738626600539160576/widget.png?style=banner2" alt="Discord"/>
+  </a>
+</p>
+
+## License
+
+This project is open-source and licensed under the MIT License.
