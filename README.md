@@ -8,9 +8,9 @@
 A Slimefun addon inspired by IndustrialCraft that adds electric machines and tools.
 
 ## Requirements
-- Java 17+
-- Paper 1.16.* - 1.20.*
-- Slimefun 5
+- Java 25
+- Paper 1.16.* - 26.1.*
+- [Slimefun 5](https://github.com/Slimefun5/Slimefun5)
 
 ## :world_map: Navigation
 * [Configuration](#gear-configuration)
