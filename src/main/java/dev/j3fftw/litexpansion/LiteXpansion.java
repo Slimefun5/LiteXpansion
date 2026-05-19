@@ -9,9 +9,9 @@ import io.github.thebusybiscuit.slimefun5.api.SlimefunAddon;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun5.api.researches.Research;
 import org.bstats.MetricsBase;
-import org.bstats.bukkit.Metrics;
 import org.bukkit.NamespacedKey;
 import org.bukkit.plugin.java.JavaPlugin;
+import dev.walshy.sfmetrics.MetricsModule;
 
 import javax.annotation.Nonnull;
 import java.io.File;
@@ -29,14 +29,15 @@ public class LiteXpansion extends JavaPlugin implements SlimefunAddon {
 
     @Override
     public void onEnable() {
+        MetricsModule.setup(this, 7111);
+
         setInstance(this);
 
         if (!new File(getDataFolder(), "config.yml").exists()) {
             saveDefaultConfig();
         }
 
-        final Metrics metrics = new Metrics(this, 7111);
-        metricsService.setup(metrics);
+        final         metricsService.setup(metrics);
 
         if (getConfig().getBoolean("options.nerf-other-addons", true)) {
             getServer().getScheduler().runTask(this, this::nerfCrap);

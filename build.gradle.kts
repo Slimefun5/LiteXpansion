@@ -29,13 +29,13 @@ repositories {
 }
 
 dependencies {
+    githubImplementation("Slimefun5:SlimefunMetrics:master")
     compileOnly("io.papermc.paper:paper-api:${property("paperApiVersion")}")
     compileOnly("com.google.code.findbugs:jsr305:3.0.2")
     "githubCompileOnly"("Slimefun5:Slimefun5:v5.1.1")
 
     // Shaded
-    implementation("org.bstats:bstats-bukkit:3.0.2")
-
+    
     testImplementation(platform("org.junit:junit-bom:5.11.4"))
     testImplementation("org.junit.jupiter:junit-jupiter")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
@@ -64,8 +64,7 @@ tasks {
     }
     shadowJar {
         archiveFileName.set("LiteXpansion v${project.version}.jar")
-        relocate("org.bstats", "dev.j3fftw.litexpansion.bstats")
-        relocate("dev.j3fftw.extrautils", "dev.j3fftw.litexpansion.extrautils")
+                relocate("dev.j3fftw.extrautils", "dev.j3fftw.litexpansion.extrautils")
         exclude("META-INF/**")
     }
     build {
