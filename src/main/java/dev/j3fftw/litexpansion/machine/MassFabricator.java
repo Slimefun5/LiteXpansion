@@ -18,7 +18,7 @@ import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import me.mrCookieSlime.Slimefun.Objects.handlers.BlockTicker;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
-import org.bukkit.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import org.bukkit.block.Block;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.inventory.ItemStack;
@@ -37,7 +37,7 @@ import java.util.Map;
 public class MassFabricator extends SlimefunItem implements InventoryBlock, EnergyNetComponent, PoweredMachine {
 
     public static final RecipeType RECIPE_TYPE = new RecipeType(
-        new NamespacedKey(LiteXpansion.getInstance(), "mass_fabricator"), Items.MASS_FABRICATOR_MACHINE
+        new NamespacedKey("litexpansion", "mass_fabricator"), Items.MASS_FABRICATOR_MACHINE
     );
 
     public static final int ENERGY_CONSUMPTION = 16_666;

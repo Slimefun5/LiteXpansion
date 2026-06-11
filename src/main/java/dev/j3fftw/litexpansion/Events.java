@@ -73,7 +73,8 @@ public class Events implements Listener {
      */
     @EventHandler
     public void onPlayerDamage(EntityDamageEvent e) {
-        if (e.getEntity() instanceof Player player && player.getEquipment() != null) {
+        if (e.getEntity() instanceof Player && ((Player) e.getEntity()).getEquipment() != null) {
+            Player player = (Player) e.getEntity();
             final ItemStack chestplate = player.getEquipment().getChestplate();
             if (e.getFinalDamage() > 0
                 && chestplate != null
@@ -92,7 +93,8 @@ public class Events implements Listener {
                     .append(String.valueOf(electricChestplate.getItemCharge(chestplate))).color(ChatColor.YELLOW)
                     .append(" J");
 
-                if (meta instanceof Damageable damageable) {
+                if (meta instanceof Damageable) {
+                    Damageable damageable = (Damageable) meta;
                     final double chargePercent = (newCharge / electricChestplate.getMaxItemCharge(chestplate)) * 100;
                     final int percentOfMax = (int) ((chargePercent / 100) * chestplate.getType().getMaxDurability());
                     final int damage = Math.max(1, chestplate.getType().getMaxDurability() - percentOfMax);
@@ -130,10 +132,11 @@ public class Events implements Listener {
     @EventHandler
     public void onHungerDamage(EntityDamageEvent e) {
         if (e.getCause() == EntityDamageEvent.DamageCause.STARVATION
-            && e.getEntity() instanceof Player player
+            && e.getEntity() instanceof Player
             && Items.FOOD_SYNTHESIZER != null
             && !Items.FOOD_SYNTHESIZER.getItem().isDisabled()
         ) {
+            Player player = (Player) e.getEntity();
             checkAndConsume(player, null);
         }
     }
@@ -187,10 +190,6 @@ public class Events implements Listener {
         if (diamondDrill != null && diamondDrill.isItem(hand)) {
 
             if (!check(diamondDrill, event, blockLocation)) {
-                return;
-            }
-
-            if (!SlimefunTag.MINEABLE_PICKAXE.isTagged(blockType)) {
                 return;
             }
 
@@ -318,7 +317,8 @@ public class Events implements Listener {
     @EventHandler
     public void onCatSpawn(EntitySpawnEvent event) {
         Entity entity = event.getEntity();
-        if (entity instanceof Cat cat) {
+        if (entity instanceof Cat) {
+            Cat cat = (Cat) entity;
             int randomNumber = ThreadLocalRandom.current().nextInt(0, 100_000);
             if (cat.getCatType() == Cat.Type.RED && randomNumber == 91622) {
                 OfflinePlayer player = Bukkit.getOfflinePlayer("22815ad5-2a54-44c0-8f83-f65cfe5310f8"); // _lagpc_

@@ -10,7 +10,7 @@ import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
 import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.AContainer;
 import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.MachineRecipe;
 import org.bukkit.Material;
-import org.bukkit.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import org.bukkit.inventory.ItemStack;
 
 import javax.annotation.Nonnull;
@@ -28,7 +28,7 @@ public class RubberSynthesizer extends AContainer implements RecipeDisplayItem, 
     public static final int CAPACITY = ENERGY_CONSUMPTION * 5;
 
     public static final RecipeType RECIPE_TYPE = new RecipeType(
-        new NamespacedKey(LiteXpansion.getInstance(), "rubber_synthesizer"), Items.RUBBER_SYNTHESIZER_MACHINE
+        new NamespacedKey("litexpansion", "rubber_synthesizer"), Items.RUBBER_SYNTHESIZER_MACHINE
     );
 
     public RubberSynthesizer() {
@@ -42,8 +42,8 @@ public class RubberSynthesizer extends AContainer implements RecipeDisplayItem, 
 
     @Override
     protected void registerDefaultRecipes() {
-        registerRecipe(13, new ItemStack[] {SlimefunItems.OIL_BUCKET.item().asQuantity(1)},
-            new ItemStack[] {Items.RUBBER.item().asQuantity(8), new ItemStack(Material.BUCKET)});
+        registerRecipe(13, new ItemStack[] {SlimefunItems.OIL_BUCKET.asQuantity(1)},
+            new ItemStack[] {Items.RUBBER.asQuantity(8), new ItemStack(Material.BUCKET)});
     }
 
     @Nonnull

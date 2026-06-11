@@ -331,7 +331,7 @@ final class ItemSetup {
             recipe = items;
         }
 
-        new UnplaceableBlock(Items.LITEXPANSION, item, type, recipe, item.item().asQuantity(amount)).register(plugin);
+        new UnplaceableBlock(Items.LITEXPANSION, item, type, recipe, item.asQuantity(amount)).register(plugin);
     }
 
 

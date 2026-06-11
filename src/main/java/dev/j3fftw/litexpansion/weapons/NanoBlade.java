@@ -51,28 +51,24 @@ public class NanoBlade extends SimpleSlimefunItem<ItemUseHandler> implements Rec
     public ItemUseHandler getItemHandler() {
         return event -> {
             final ItemMeta nanoBladeMeta = event.getItem().getItemMeta();
-            boolean wasGlinting = Boolean.TRUE.equals(nanoBladeMeta.getEnchantmentGlintOverride());
-            boolean enabled = !wasGlinting;
+            boolean wasEnabled = Boolean.TRUE.equals(PersistentDataAPI.getBoolean(nanoBladeMeta, Constants.NANO_BLADE_ENABLED));
+            boolean enabled = !wasEnabled;
 
             int damage;
 
             if (enabled && getItemCharge(event.getItem()) > getRemovedChargePerTick()) {
-                nanoBladeMeta.setEnchantmentGlintOverride(true);
                 nanoBladeMeta.setDisplayName(ChatColor.DARK_GREEN + "Nano Blade" + ChatColor.GREEN + " (On)");
-
                 damage = 13; // Base is 7 so 7 + 13 = 20
             } else {
-                nanoBladeMeta.setEnchantmentGlintOverride(false);
                 nanoBladeMeta.setDisplayName(ChatColor.DARK_GREEN + "Nano Blade" + ChatColor.RED + " (Off)");
-
                 damage = -3; // Base is 7 so 7 - 3 = 4
             }
 
             PersistentDataAPI.setBoolean(nanoBladeMeta, Constants.NANO_BLADE_ENABLED, enabled);
 
-            nanoBladeMeta.removeAttributeModifier(Attribute.ATTACK_DAMAGE);
-            nanoBladeMeta.addAttributeModifier(Attribute.ATTACK_DAMAGE,
-                new AttributeModifier(UUID.randomUUID(), Attribute.ATTACK_DAMAGE.getKey().getKey(), damage,
+            nanoBladeMeta.removeAttributeModifier(Attribute.GENERIC_ATTACK_DAMAGE);
+            nanoBladeMeta.addAttributeModifier(Attribute.GENERIC_ATTACK_DAMAGE,
+                new AttributeModifier(UUID.randomUUID(), "generic.attackDamage", damage,
                     AttributeModifier.Operation.ADD_NUMBER, EquipmentSlot.HAND
                 )
             );
@@ -95,7 +91,7 @@ public class NanoBlade extends SimpleSlimefunItem<ItemUseHandler> implements Rec
     public boolean isEnabled(@Nonnull ItemMeta meta) {
         final Optional<Boolean> opt = Utils.getOptionalBoolean(meta, Constants.NANO_BLADE_ENABLED);
 
-        return (opt.isPresent() && opt.get()) || Boolean.TRUE.equals(meta.getEnchantmentGlintOverride());
+        return opt.isPresent() && opt.get();
     }
 }
 

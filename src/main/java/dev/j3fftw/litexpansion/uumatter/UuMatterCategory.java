@@ -9,11 +9,10 @@ import io.github.thebusybiscuit.slimefun5.core.guide.SlimefunGuide;
 import io.github.thebusybiscuit.slimefun5.core.guide.SlimefunGuideMode;
 import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
-import io.github.thebusybiscuit.slimefun5.utils.compatibility.VersionedPlayerHead;
 import io.github.thebusybiscuit.slimefun5.utils.ChestMenuUtils;
 import me.mrCookieSlime.CSCoreLibPlugin.general.Inventory.ChestMenu;
 import org.bukkit.ChatColor;
-import org.bukkit.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import org.bukkit.Sound;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
@@ -33,10 +32,8 @@ public final class UuMatterCategory extends FlexItemGroup {
     private final int[] recipeSlots = new int[] {12, 13, 14, 21, 22, 23, 30, 31, 32};
 
     private UuMatterCategory() {
-        super(new NamespacedKey(LiteXpansion.getInstance(), "uumatter_category"),
-            CustomItemStack.create(VersionedPlayerHead.getItemStack(
-                "54d39df0f813b7424406462854eb7249f8c76d80ce56f3af410e35a287062589"),
-                "\u00a75UU-Matter Recipes")
+        super(new NamespacedKey("litexpansion", "uumatter_category"),
+            CustomItemStack.create(new ItemStack(org.bukkit.Material.PLAYER_HEAD), "\u00a75UU-Matter Recipes")
         );
     }
 

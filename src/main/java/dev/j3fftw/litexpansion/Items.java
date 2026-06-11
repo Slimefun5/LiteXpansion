@@ -10,11 +10,10 @@ import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun5.core.attributes.Radioactivity;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
-import io.github.thebusybiscuit.slimefun5.utils.compatibility.VersionedPlayerHead;
 import io.github.thebusybiscuit.slimefun5.utils.LoreBuilder;
 import org.bukkit.Color;
 import org.bukkit.Material;
-import org.bukkit.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.inventory.meta.ItemMeta;
 
@@ -27,13 +26,8 @@ public final class Items {
 
     //region Category
     public static final ItemGroup LITEXPANSION = new ItemGroup(
-        new NamespacedKey(LiteXpansion.getInstance(),
-            "litexpansion"
-        ),
-        CustomItemStack.create(VersionedPlayerHead.getItemStack(
-            "3f87fc5cbb233743a82fb0fa51fe739487f29bcc01c9026621ecefad197f4fb1"),
-            "\u00a77LiteXpansion"
-        )
+        new NamespacedKey("litexpansion", "litexpansion"),
+        CustomItemStack.create(new org.bukkit.inventory.ItemStack(Material.PLAYER_HEAD), "\u00a77LiteXpansion")
     );
 
     public static final SlimefunItemStack ELECTRIC_CHESTPLATE = new SlimefunItemStack(
@@ -158,10 +152,7 @@ public final class Items {
 
     public static final SlimefunItemStack THORIUM = new SlimefunItemStack(
         "THORIUM",
-        CustomItemStack.create(VersionedPlayerHead.getItemStack(
-            "b87403257c0eaa518cf186deccde137d476556ccff146d503fb2e73956582f37"),
-            "Thorium"
-        ),
+        CustomItemStack.create(new org.bukkit.inventory.ItemStack(Material.PLAYER_HEAD), "Thorium"),
         "\u00a78Thorium",
         "",
         LoreBuilder.radioactive(Radioactivity.HIGH),
@@ -464,9 +455,7 @@ public final class Items {
 
     public static final SlimefunItemStack FOOD_SYNTHESIZER = new SlimefunItemStack(
         "FOOD_SYNTHESIZER",
-        CustomItemStack.create(VersionedPlayerHead.getItemStack(
-            "a967efe969d264f635f2c201c34381ef59c72e16ec50af7692033121e22fba9c"),
-            "Food Synthesizer"),
+        CustomItemStack.create(new org.bukkit.inventory.ItemStack(Material.PLAYER_HEAD), "Food Synthesizer"),
         "\u00a7dFood Synthesizer",
         "",
         "\u00a7fKeeps you fed with artificial food.",
@@ -556,12 +545,12 @@ public final class Items {
     );
 
     static {
-        ADVANCED_SOLAR_HELMET.item().addEnchantment(Enchantment.UNBREAKING, 1);
-        CARBONADO_SOLAR_HELMET.item().addEnchantment(Enchantment.UNBREAKING, 2);
-        ENERGIZED_SOLAR_HELMET.item().addEnchantment(Enchantment.UNBREAKING, 3);
-        ADVANCEDLX_SOLAR_HELMET.item().addUnsafeEnchantment(Enchantment.UNBREAKING, 4);
-        HYBRID_SOLAR_HELMET.item().addUnsafeEnchantment(Enchantment.UNBREAKING, 5);
-        ULTIMATE_SOLAR_HELMET.item().addUnsafeEnchantment(Enchantment.UNBREAKING, 6);
+        ADVANCED_SOLAR_HELMET.item().addEnchantment(Enchantment.DURABILITY, 1);
+        CARBONADO_SOLAR_HELMET.item().addEnchantment(Enchantment.DURABILITY, 2);
+        ENERGIZED_SOLAR_HELMET.item().addEnchantment(Enchantment.DURABILITY, 3);
+        ADVANCEDLX_SOLAR_HELMET.item().addUnsafeEnchantment(Enchantment.DURABILITY, 4);
+        HYBRID_SOLAR_HELMET.item().addUnsafeEnchantment(Enchantment.DURABILITY, 5);
+        ULTIMATE_SOLAR_HELMET.item().addUnsafeEnchantment(Enchantment.DURABILITY, 6);
         setGlint(ADVANCED_CIRCUIT);
         setGlint(GLASS_CUTTER);
         setGlint(DIAMOND_DRILL);
@@ -573,7 +562,8 @@ public final class Items {
 
     private static void setGlint(SlimefunItemStack item) {
         ItemMeta meta = item.item().getItemMeta();
-        meta.setEnchantmentGlintOverride(true);
+        meta.addEnchant(Enchantment.DURABILITY, 1, true);
+        meta.addItemFlags(org.bukkit.inventory.ItemFlag.HIDE_ENCHANTS);
         item.item().setItemMeta(meta);
     }
 

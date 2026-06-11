@@ -32,9 +32,10 @@ public class Converter extends AContainer implements PoweredMachine {
 
     @Override
     protected void registerDefaultRecipes() {
-        if (Slimefun.getMinecraftVersion().isAtLeast(MinecraftVersion.MINECRAFT_1_17)) {
-            addRecipe(new ItemStack(Material.COPPER_INGOT), SlimefunItems.COPPER_INGOT.item().clone());
-            addRecipe(SlimefunItems.COPPER_INGOT.item().clone(), new ItemStack(Material.COPPER_INGOT));
+        Material copperIngot = Material.getMaterial("COPPER_INGOT");
+        if (copperIngot != null) {
+            addRecipe(new ItemStack(copperIngot), SlimefunItems.COPPER_INGOT.item().clone());
+            addRecipe(SlimefunItems.COPPER_INGOT.item().clone(), new ItemStack(copperIngot));
         }
 
         addRecipe(new ItemStack(Material.GOLD_INGOT), SlimefunItems.GOLD_4K.item().clone());

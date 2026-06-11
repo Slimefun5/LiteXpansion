@@ -86,15 +86,8 @@ public class Generator extends CoalGenerator {
             super.registerFuel(new MachineFuel(1, new ItemStack(mat)));
         }
 
-        if (Slimefun.getMinecraftVersion().isBefore(MinecraftVersion.MINECRAFT_1_19)) {
-            for (Material mat : Tag.CARPETS.getValues()) {
-                super.registerFuel(new MachineFuel(1, new ItemStack(mat)));
-            }
-        } else {
-            // Carpets
-            for (Material mat : Tag.WOOL_CARPETS.getValues()) {
-                super.registerFuel(new MachineFuel(1, new ItemStack(mat)));
-            }
+        for (Material mat : Tag.CARPETS.getValues()) {
+            super.registerFuel(new MachineFuel(1, new ItemStack(mat)));
         }
 
         // Saplings

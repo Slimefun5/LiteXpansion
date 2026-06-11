@@ -35,13 +35,13 @@ public class Macerator extends AContainer implements PoweredMachine {
     @Override
     protected void registerDefaultRecipes() {
         addRecipe(new ItemStack(Material.BLAZE_ROD), new ItemStack(Material.BLAZE_POWDER, 5));
-        addRecipe(new ItemStack(Material.COAL_BLOCK), Items.COAL_DUST.item().asQuantity(9));
+        addRecipe(new ItemStack(Material.COAL_BLOCK), Items.COAL_DUST.asQuantity(9));
         addRecipe(new ItemStack(Material.REDSTONE_BLOCK), new ItemStack(Material.REDSTONE, 9));
         addRecipe(new ItemStack(Material.QUARTZ_BLOCK), new ItemStack(Material.QUARTZ, 4));
         addRecipe(new ItemStack(Material.BONE_BLOCK), new ItemStack(Material.BONE_MEAL, 9));
         addRecipe(new ItemStack(Material.BONE), new ItemStack(Material.BONE_MEAL, 4));
         addRecipe(new ItemStack(Material.CLAY), new ItemStack(Material.CLAY_BALL, 4));
-        addRecipe(new ItemStack(Material.COAL), Items.COAL_DUST.item().asQuantity(1));
+        addRecipe(new ItemStack(Material.COAL), Items.COAL_DUST.asQuantity(1));
         addRecipe(new ItemStack(Material.COBBLESTONE), new ItemStack(Material.SAND));
         addRecipe(new ItemStack(Material.GLOWSTONE), new ItemStack(Material.GLOWSTONE_DUST, 4));
         addRecipe(new ItemStack(Material.GRAVEL), new ItemStack(Material.FLINT, 2));
@@ -52,18 +52,18 @@ public class Macerator extends AContainer implements PoweredMachine {
         addRecipe(new ItemStack(Material.GRANITE), new ItemStack(Material.GRAVEL));
         addRecipe(new ItemStack(Material.ANDESITE), new ItemStack(Material.GRAVEL));
         addRecipe(new ItemStack(Material.DIORITE), new ItemStack(Material.GRAVEL));
-        addRecipe(new ItemStack(Material.IRON_ORE), SlimefunItems.IRON_DUST.item().asQuantity(2));
+        addRecipe(new ItemStack(Material.IRON_ORE), SlimefunItems.IRON_DUST.asQuantity(2));
         addRecipe(new ItemStack(Material.COAL_ORE), CustomItemStack.create(Items.COAL_DUST.item(), 2));
-        addRecipe(new ItemStack(Material.LAPIS_ORE), Items.LAPIS_DUST.item().asQuantity(2));
-        addRecipe(new ItemStack(Material.GOLD_ORE), SlimefunItems.GOLD_DUST.item().asQuantity(2));
-        addRecipe(new ItemStack(Material.REDSTONE_ORE), Items.REDSTONE_DUST.item().asQuantity(2));
-        addRecipe(new ItemStack(Material.DIAMOND_ORE), Items.DIAMOND_DUST.item().asQuantity(2));
-        addRecipe(new ItemStack(Material.EMERALD_ORE), Items.EMERALD_DUST.item().asQuantity(2));
-        addRecipe(new ItemStack(Material.NETHER_QUARTZ_ORE), Items.QUARTZ_DUST.item().asQuantity(2));
+        addRecipe(new ItemStack(Material.LAPIS_ORE), Items.LAPIS_DUST.asQuantity(2));
+        addRecipe(new ItemStack(Material.GOLD_ORE), SlimefunItems.GOLD_DUST.asQuantity(2));
+        addRecipe(new ItemStack(Material.REDSTONE_ORE), Items.REDSTONE_DUST.asQuantity(2));
+        addRecipe(new ItemStack(Material.DIAMOND_ORE), Items.DIAMOND_DUST.asQuantity(2));
+        addRecipe(new ItemStack(Material.EMERALD_ORE), Items.EMERALD_DUST.asQuantity(2));
+        addRecipe(new ItemStack(Material.NETHER_QUARTZ_ORE), Items.QUARTZ_DUST.asQuantity(2));
 
         if (Slimefun.getMinecraftVersion().isAtLeast(MinecraftVersion.MINECRAFT_1_16)) {
-            addRecipe(new ItemStack(Material.NETHER_GOLD_ORE), SlimefunItems.GOLD_DUST.item().asQuantity(2));
-            addRecipe(new ItemStack(Material.ANCIENT_DEBRIS), Items.ANCIENT_DEBRIS_DUST.item().asQuantity(2));
+            addRecipe(new ItemStack(Material.NETHER_GOLD_ORE), SlimefunItems.GOLD_DUST.asQuantity(2));
+            addRecipe(new ItemStack(Material.ANCIENT_DEBRIS), Items.ANCIENT_DEBRIS_DUST.asQuantity(2));
         }
 
         for (Material mat : Tag.WOOL.getValues()) {
