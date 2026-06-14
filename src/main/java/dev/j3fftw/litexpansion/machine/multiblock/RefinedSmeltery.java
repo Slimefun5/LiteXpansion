@@ -4,7 +4,8 @@ import dev.j3fftw.litexpansion.Items;
 import dev.j3fftw.litexpansion.LiteXpansion;
 import dev.j3fftw.litexpansion.machine.extensions.CraftingMultiBlock;
 import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
-import org.bukkit.Material;
+import dev.j3fftw.litexpansion.compat.MaterialCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
@@ -24,13 +25,13 @@ public class RefinedSmeltery extends CraftingMultiBlock {
         "&7Used to refine ingots"
     );
 
-    private static final ItemStack STONE_BRICKS = new ItemStack(Material.STONE_BRICKS);
+    private static final ItemStack STONE_BRICKS = new ItemStack(MaterialCompat.safe(XMaterial.STONE_BRICKS));
 
     public RefinedSmeltery() {
         super(Items.LITEXPANSION, Items.REFINED_SMELTERY, new ItemStack[] {
-            null, new ItemStack(Material.STONE_BRICK_WALL), null,
-            STONE_BRICKS, new ItemStack(Material.DISPENSER), STONE_BRICKS,
-            null, new ItemStack(Material.FLINT_AND_STEEL), null
+            null, new ItemStack(MaterialCompat.safe(XMaterial.STONE_BRICK_WALL)), null,
+            STONE_BRICKS, new ItemStack(MaterialCompat.safe(XMaterial.DISPENSER)), STONE_BRICKS,
+            null, new ItemStack(MaterialCompat.safe(XMaterial.FLINT_AND_STEEL)), null
         }, new ItemStack[0], BlockFace.DOWN);
     }
 

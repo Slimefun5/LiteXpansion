@@ -18,7 +18,8 @@ import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import me.mrCookieSlime.Slimefun.Objects.handlers.BlockTicker;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
-import org.bukkit.Material;
+import dev.j3fftw.litexpansion.compat.MaterialCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import org.bukkit.block.Block;
 import org.bukkit.event.block.BlockBreakEvent;
@@ -50,7 +51,7 @@ public class Recycler extends SlimefunItem implements InventoryBlock, EnergyNetC
 
     private static final Map<BlockPosition, Integer> progress = new HashMap<>();
 
-    private static final org.bukkit.inventory.ItemStack progressItem = CustomItemStack.create(Material.DEAD_BUSH, "\u00a77Progress");
+    private static final org.bukkit.inventory.ItemStack progressItem = CustomItemStack.create(MaterialCompat.safe(XMaterial.DEAD_BUSH), "\u00a77Progress");
 
     public Recycler() {
         super(Items.LITEXPANSION, Items.RECYCLER, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
@@ -79,7 +80,7 @@ public class Recycler extends SlimefunItem implements InventoryBlock, EnergyNetC
                 blockMenuPreset.addItem(i, ChestMenuUtils.getBackground(), ChestMenuUtils.getEmptyClickHandler());
             }
             Utils.putOutputSlot(blockMenuPreset, OUTPUT_SLOT);
-            blockMenuPreset.addItem(PROGRESS_SLOT, CustomItemStack.create(Material.DEAD_BUSH, "\u00a77Progress"));
+            blockMenuPreset.addItem(PROGRESS_SLOT, CustomItemStack.create(MaterialCompat.safe(XMaterial.DEAD_BUSH), "\u00a77Progress"));
             blockMenuPreset.addMenuClickHandler(PROGRESS_SLOT, ChestMenuUtils.getEmptyClickHandler());
         });
     }
@@ -105,7 +106,7 @@ public class Recycler extends SlimefunItem implements InventoryBlock, EnergyNetC
 
         @Nullable final ItemStack input = inv.getItemInSlot(INPUT_SLOT);
         @Nullable final ItemStack output = inv.getItemInSlot(OUTPUT_SLOT);
-        if (input == null || input.getType() == Material.AIR
+        if (input == null || input.getType() == MaterialCompat.safe(XMaterial.AIR)
             || (output != null
             && (output.getType() != Items.SCRAP.item().getType()
             || output.getAmount() == output.getMaxStackSize()

@@ -9,7 +9,8 @@ import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
 import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.AContainer;
 import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.MachineRecipe;
-import org.bukkit.Material;
+import dev.j3fftw.litexpansion.compat.MaterialCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import org.bukkit.inventory.ItemStack;
 
@@ -35,15 +36,15 @@ public class RubberSynthesizer extends AContainer implements RecipeDisplayItem, 
         super(Items.LITEXPANSION, Items.RUBBER_SYNTHESIZER_MACHINE, RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[] {
                 SlimefunItems.REINFORCED_PLATE.item(), SlimefunItems.MEDIUM_CAPACITOR.item(), SlimefunItems.REINFORCED_PLATE.item(),
-                new ItemStack(Material.PISTON), Items.MACHINE_BLOCK.item(), new ItemStack(Material.PISTON),
-                SlimefunItems.REINFORCED_PLATE.item(), new ItemStack(Material.FLINT_AND_STEEL), SlimefunItems.REINFORCED_PLATE.item()
+                new ItemStack(MaterialCompat.safe(XMaterial.PISTON)), Items.MACHINE_BLOCK.item(), new ItemStack(MaterialCompat.safe(XMaterial.PISTON)),
+                SlimefunItems.REINFORCED_PLATE.item(), new ItemStack(MaterialCompat.safe(XMaterial.FLINT_AND_STEEL)), SlimefunItems.REINFORCED_PLATE.item()
             });
     }
 
     @Override
     protected void registerDefaultRecipes() {
         registerRecipe(13, new ItemStack[] {SlimefunItems.OIL_BUCKET.asQuantity(1)},
-            new ItemStack[] {Items.RUBBER.asQuantity(8), new ItemStack(Material.BUCKET)});
+            new ItemStack[] {Items.RUBBER.asQuantity(8), new ItemStack(MaterialCompat.safe(XMaterial.BUCKET))});
     }
 
     @Nonnull
@@ -61,7 +62,7 @@ public class RubberSynthesizer extends AContainer implements RecipeDisplayItem, 
 
     @Override
     public ItemStack getProgressBar() {
-        return new ItemStack(Material.FIRE_CHARGE);
+        return new ItemStack(MaterialCompat.safe(XMaterial.FIRE_CHARGE));
     }
 
     @Nonnull

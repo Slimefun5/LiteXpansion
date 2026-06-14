@@ -10,10 +10,12 @@ import io.github.thebusybiscuit.slimefun5.core.guide.SlimefunGuideMode;
 import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
 import io.github.thebusybiscuit.slimefun5.utils.ChestMenuUtils;
+import dev.j3fftw.litexpansion.compat.MaterialCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import me.mrCookieSlime.CSCoreLibPlugin.general.Inventory.ChestMenu;
 import org.bukkit.ChatColor;
 import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
-import org.bukkit.Sound;
+import dev.j3fftw.litexpansion.compat.SoundCompat;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
@@ -33,7 +35,7 @@ public final class UuMatterCategory extends FlexItemGroup {
 
     private UuMatterCategory() {
         super(new NamespacedKey("litexpansion", "uumatter_category"),
-            CustomItemStack.create(new ItemStack(org.bukkit.Material.PLAYER_HEAD), "\u00a75UU-Matter Recipes")
+            CustomItemStack.create(new ItemStack(MaterialCompat.safe(XMaterial.PLAYER_HEAD)), "\u00a75UU-Matter Recipes")
         );
     }
 
@@ -89,7 +91,7 @@ public final class UuMatterCategory extends FlexItemGroup {
             menu.addItem(recipeSlots[i], recipe[i], clickHandler);
         }
 
-        p.playSound(p.getLocation(), Sound.ITEM_BOOK_PAGE_TURN, 1, 1);
+        SoundCompat.play(p, p.getLocation(), "ITEM_BOOK_PAGE_TURN", 1, 1);
         menu.addItem(19, RecipeType.ENHANCED_CRAFTING_TABLE.getItem(p), ChestMenuUtils.getEmptyClickHandler());
         menu.addItem(25, output, ChestMenuUtils.getEmptyClickHandler());
     }
@@ -138,7 +140,7 @@ public final class UuMatterCategory extends FlexItemGroup {
             });
         }
 
-        player.playSound(player.getLocation(), Sound.ITEM_BOOK_PAGE_TURN, 1, 1);
+        SoundCompat.play(player, player.getLocation(), "ITEM_BOOK_PAGE_TURN", 1, 1);
         playerProfile.getGuideHistory().add(this, 1);
 
         menu.open(player);

@@ -1,8 +1,8 @@
 package dev.j3fftw.litexpansion.items;
 
+import dev.j3fftw.litexpansion.compat.DamageableCompat;
 import io.github.thebusybiscuit.slimefun5.utils.ChargeUtils;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.meta.Damageable;
 import org.bukkit.inventory.meta.ItemMeta;
 
 import javax.annotation.Nonnull;
@@ -31,13 +31,10 @@ public interface PassiveElectricRemoval {
 
             ChargeUtils.setCharge(meta, newCharge, per.getCapacity());
 
-            if (meta instanceof Damageable) {
-                Damageable damageable = (Damageable) meta;
-                final double chargePercent = (newCharge / per.getCapacity()) * 100;
-                final int percentOfMax = (int) ((chargePercent / 100) * is.getType().getMaxDurability());
-                final int damage = Math.max(1, is.getType().getMaxDurability() - percentOfMax);
-                damageable.setDamage(damage);
-            }
+            final double chargePercent = (newCharge / per.getCapacity()) * 100;
+            final int percentOfMax = (int) ((chargePercent / 100) * is.getType().getMaxDurability());
+            final int damage = Math.max(1, is.getType().getMaxDurability() - percentOfMax);
+            DamageableCompat.setDamage(meta, damage);
 
             is.setItemMeta(meta);
         }

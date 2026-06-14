@@ -1,8 +1,5 @@
 package dev.j3fftw.litexpansion.utils;
 
-import dev.j3fftw.litexpansion.LiteXpansion;
-import org.bukkit.NamespacedKey;
-
 /**
  * Represents the {@link Constants} class.
  *
@@ -10,8 +7,9 @@ import org.bukkit.NamespacedKey;
  */
 public final class Constants {
 
-    public static final NamespacedKey NANO_BLADE_ENABLED = new NamespacedKey(LiteXpansion.getInstance(),
-        "nano_blade_enabled");
+    // Java-8 universal port: plain PDC key string (org.bukkit.NamespacedKey is 1.12+), used with the
+    // PersistentDataAPI Object/String overloads.
+    public static final String NANO_BLADE_ENABLED = "nano_blade_enabled";
 
     private Constants() {}
 

@@ -3,6 +3,7 @@ package dev.j3fftw.litexpansion;
 import com.google.common.base.Preconditions;
 import dev.j3fftw.extrautils.objects.DyeItem;
 import dev.j3fftw.litexpansion.armor.ElectricChestplate;
+import dev.j3fftw.litexpansion.compat.CatEasterEgg;
 import dev.j3fftw.litexpansion.items.FoodSynthesizer;
 import dev.j3fftw.litexpansion.items.GlassCutter;
 import dev.j3fftw.litexpansion.items.MiningDrill;
@@ -18,14 +19,14 @@ import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.ChatMessageType;
 import net.md_5.bungee.api.chat.ComponentBuilder;
+import dev.j3fftw.litexpansion.compat.DamageableCompat;
+import dev.j3fftw.litexpansion.compat.MaterialCompat;
+import dev.j3fftw.litexpansion.compat.SoundCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
-import org.bukkit.OfflinePlayer;
-import org.bukkit.Sound;
-import org.bukkit.SoundCategory;
 import org.bukkit.block.Block;
-import org.bukkit.entity.Cat;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -40,12 +41,10 @@ import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.event.player.PlayerItemDamageEvent;
 import org.bukkit.inventory.EquipmentSlot;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.meta.Damageable;
 import org.bukkit.inventory.meta.ItemMeta;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
-import java.util.concurrent.ThreadLocalRandom;
 
 public class Events implements Listener {
 
@@ -93,14 +92,11 @@ public class Events implements Listener {
                     .append(String.valueOf(electricChestplate.getItemCharge(chestplate))).color(ChatColor.YELLOW)
                     .append(" J");
 
-                if (meta instanceof Damageable) {
-                    Damageable damageable = (Damageable) meta;
-                    final double chargePercent = (newCharge / electricChestplate.getMaxItemCharge(chestplate)) * 100;
-                    final int percentOfMax = (int) ((chargePercent / 100) * chestplate.getType().getMaxDurability());
-                    final int damage = Math.max(1, chestplate.getType().getMaxDurability() - percentOfMax);
-                    damageable.setDamage(damage);
-                    chestplate.setItemMeta(meta);
-                }
+                final double chargePercent = (newCharge / electricChestplate.getMaxItemCharge(chestplate)) * 100;
+                final int percentOfMax = (int) ((chargePercent / 100) * chestplate.getType().getMaxDurability());
+                final int damage = Math.max(1, chestplate.getType().getMaxDurability() - percentOfMax);
+                DamageableCompat.setDamage(meta, damage);
+                chestplate.setItemMeta(meta);
 
                 ((Player) e.getEntity()).spigot().sendMessage(ChatMessageType.ACTION_BAR, builder.create());
             }
@@ -275,10 +271,8 @@ public class Events implements Listener {
                 blockLocation.getWorld().dropItemNaturally(blockLocation,
                     new ItemStack(blockType)
                 );
-                block.setType(Material.AIR);
-                e.getPlayer().playSound(block.getLocation(), Sound.BLOCK_GLASS_HIT,
-                    SoundCategory.BLOCKS, 1.5F, 1F
-                );
+                block.setType(MaterialCompat.safe(XMaterial.AIR));
+                SoundCompat.play(e.getPlayer(), block.getLocation(), "BLOCK_GLASS_HIT", 1.5F, 1F);
             }
 
         }
@@ -296,7 +290,7 @@ public class Events implements Listener {
         for (ItemStack item : p.getInventory().getContents()) {
             Preconditions.checkNotNull(foodSynth, "Can not be null");
             if (foodSynth.isItem(item) && foodSynth.removeItemCharge(item, 5F)) {
-                p.playSound(p.getLocation(), Sound.ENTITY_GENERIC_EAT, 1.5F, 1F);
+                SoundCompat.play(p, p.getLocation(), "ENTITY_GENERIC_EAT", 1.5F, 1F);
                 p.setFoodLevel(20);
                 p.setSaturation(5);
                 if (e != null) {
@@ -317,14 +311,10 @@ public class Events implements Listener {
     @EventHandler
     public void onCatSpawn(EntitySpawnEvent event) {
         Entity entity = event.getEntity();
-        if (entity instanceof Cat) {
-            Cat cat = (Cat) entity;
-            int randomNumber = ThreadLocalRandom.current().nextInt(0, 100_000);
-            if (cat.getCatType() == Cat.Type.RED && randomNumber == 91622) {
-                OfflinePlayer player = Bukkit.getOfflinePlayer("22815ad5-2a54-44c0-8f83-f65cfe5310f8"); // _lagpc_
-                entity.setCustomName("Kleintje");
-                ((Cat) entity).setOwner(player);
-            }
+        // Java-8 universal port: org.bukkit.entity.Cat is 1.14+. Only touch the Cat-specific helper when
+        // the API and a cat entity are actually present, so the class is never loaded on older versions.
+        if (CatEasterEgg.isCatApiAvailable() && "CAT".equals(entity.getType().name())) {
+            CatEasterEgg.tryApply(entity);
         }
     }
 }

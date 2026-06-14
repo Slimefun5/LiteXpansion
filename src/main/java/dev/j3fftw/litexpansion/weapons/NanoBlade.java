@@ -1,6 +1,8 @@
 package dev.j3fftw.litexpansion.weapons;
 
 import dev.j3fftw.litexpansion.Items;
+import dev.j3fftw.litexpansion.compat.AttributeCompat;
+import dev.j3fftw.litexpansion.compat.MaterialCompat;
 import dev.j3fftw.litexpansion.items.PassiveElectricRemoval;
 import dev.j3fftw.litexpansion.machine.multiblock.MetalForge;
 import dev.j3fftw.litexpansion.utils.Constants;
@@ -9,18 +11,14 @@ import io.github.thebusybiscuit.slimefun5.core.attributes.Rechargeable;
 import io.github.thebusybiscuit.slimefun5.core.handlers.ItemUseHandler;
 import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems;
 import io.github.thebusybiscuit.slimefun5.implementation.items.SimpleSlimefunItem;
-import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import dev.j3fftw.litexpansion.compat.Pdc;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import org.bukkit.ChatColor;
-import org.bukkit.Material;
-import org.bukkit.attribute.Attribute;
-import org.bukkit.attribute.AttributeModifier;
-import org.bukkit.inventory.EquipmentSlot;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
 import javax.annotation.Nonnull;
 import java.util.Optional;
-import java.util.UUID;
 
 /**
  * Represents the {@link NanoBlade} class.
@@ -34,8 +32,8 @@ public class NanoBlade extends SimpleSlimefunItem<ItemUseHandler> implements Rec
 
     public NanoBlade() {
         super(Items.LITEXPANSION, Items.NANO_BLADE, MetalForge.RECIPE_TYPE, new ItemStack[] {
-                new ItemStack(Material.GLOWSTONE_DUST), Items.ADVANCED_ALLOY.item(), null,
-                new ItemStack(Material.GLOWSTONE_DUST), Items.ADVANCED_ALLOY.item(), null,
+                new ItemStack(MaterialCompat.safe(XMaterial.GLOWSTONE_DUST)), Items.ADVANCED_ALLOY.item(), null,
+                new ItemStack(MaterialCompat.safe(XMaterial.GLOWSTONE_DUST)), Items.ADVANCED_ALLOY.item(), null,
                 Items.CARBON_PLATE.item(), SlimefunItems.POWER_CRYSTAL.item(), Items.CARBON_PLATE.item()
             }
         );
@@ -51,7 +49,7 @@ public class NanoBlade extends SimpleSlimefunItem<ItemUseHandler> implements Rec
     public ItemUseHandler getItemHandler() {
         return event -> {
             final ItemMeta nanoBladeMeta = event.getItem().getItemMeta();
-            boolean wasEnabled = Boolean.TRUE.equals(PersistentDataAPI.getBoolean(nanoBladeMeta, Constants.NANO_BLADE_ENABLED));
+            boolean wasEnabled = Boolean.TRUE.equals(Pdc.getBoolean(nanoBladeMeta, Constants.NANO_BLADE_ENABLED));
             boolean enabled = !wasEnabled;
 
             int damage;
@@ -64,14 +62,9 @@ public class NanoBlade extends SimpleSlimefunItem<ItemUseHandler> implements Rec
                 damage = -3; // Base is 7 so 7 - 3 = 4
             }
 
-            PersistentDataAPI.setBoolean(nanoBladeMeta, Constants.NANO_BLADE_ENABLED, enabled);
+            Pdc.setBoolean(nanoBladeMeta, Constants.NANO_BLADE_ENABLED, enabled);
 
-            nanoBladeMeta.removeAttributeModifier(Attribute.GENERIC_ATTACK_DAMAGE);
-            nanoBladeMeta.addAttributeModifier(Attribute.GENERIC_ATTACK_DAMAGE,
-                new AttributeModifier(UUID.randomUUID(), "generic.attackDamage", damage,
-                    AttributeModifier.Operation.ADD_NUMBER, EquipmentSlot.HAND
-                )
-            );
+            AttributeCompat.setAttackDamage(nanoBladeMeta, damage);
 
             event.getItem().setItemMeta(nanoBladeMeta);
         };

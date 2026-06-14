@@ -8,13 +8,13 @@ import io.github.thebusybiscuit.slimefun5.core.handlers.ItemUseHandler;
 import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems;
 import io.github.thebusybiscuit.slimefun5.implementation.items.SimpleSlimefunItem;
-import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import dev.j3fftw.litexpansion.compat.Pdc;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.protection.Interaction;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
+import dev.j3fftw.litexpansion.compat.MaterialCompat;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
-import org.bukkit.Material;
-import org.bukkit.NamespacedKey;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Event;
@@ -37,8 +37,10 @@ import java.util.List;
  */
 public class CargoConfigurator extends SimpleSlimefunItem<ItemUseHandler> implements Listener {
 
-    private static final NamespacedKey CARGO_BLOCK = new NamespacedKey(LiteXpansion.getInstance(), "cargo_block");
-    private static final NamespacedKey CARGO_CONFIG = new NamespacedKey(LiteXpansion.getInstance(), "cargo_config");
+    // Java-8 universal port: plain PDC key strings (org.bukkit.NamespacedKey is 1.12+), used with the
+    // PersistentDataAPI Object/String overloads.
+    private static final String CARGO_BLOCK = "cargo_block";
+    private static final String CARGO_CONFIG = "cargo_config";
 
     public CargoConfigurator() {
         super(Items.LITEXPANSION, Items.CARGO_CONFIGURATOR, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
@@ -62,7 +64,7 @@ public class CargoConfigurator extends SimpleSlimefunItem<ItemUseHandler> implem
 
     @EventHandler
     public void onCargoConfiguratorItemClick(PlayerInteractEvent e) {
-        if (e.getItem() == null || e.getMaterial() != Material.COMPASS) {
+        if (e.getItem() == null || e.getMaterial() != MaterialCompat.safe(XMaterial.COMPASS)) {
             return;
         }
 
@@ -125,8 +127,8 @@ public class CargoConfigurator extends SimpleSlimefunItem<ItemUseHandler> implem
     private void clearConfig(@Nonnull Player player, @Nonnull ItemStack itemStack, @Nonnull ItemMeta meta,
                              @Nonnull List<String> defaultLore, @Nonnull List<String> lore
     ) {
-        PersistentDataAPI.remove(meta, CARGO_BLOCK);
-        PersistentDataAPI.remove(meta, CARGO_CONFIG);
+        Pdc.remove(meta, CARGO_BLOCK);
+        Pdc.remove(meta, CARGO_CONFIG);
         player.sendMessage(ChatColor.RED + "Cleared node configuration!");
 
         if (lore.size() != defaultLore.size()) {
@@ -142,8 +144,8 @@ public class CargoConfigurator extends SimpleSlimefunItem<ItemUseHandler> implem
                             @Nonnull String blockId, @Nonnull List<String> lore, @Nonnull List<String> defaultLore
     ) {
         if (e.getAction() == Action.LEFT_CLICK_BLOCK) {
-            final String copiedBlock = PersistentDataAPI.getString(meta, CARGO_BLOCK);
-            final String config = PersistentDataAPI.getString(meta, CARGO_CONFIG);
+            final String copiedBlock = Pdc.getString(meta, CARGO_BLOCK);
+            final String config = Pdc.getString(meta, CARGO_CONFIG);
             if (copiedBlock == null || config == null) {
                 e.getPlayer().sendMessage(ChatColor.RED + "You do not have a config copied!");
                 return;
@@ -158,8 +160,8 @@ public class CargoConfigurator extends SimpleSlimefunItem<ItemUseHandler> implem
             BlockStorage.getStorage(e.getClickedBlock().getWorld()).reloadInventory(e.getClickedBlock().getLocation());
             e.getPlayer().sendMessage(ChatColor.GREEN + "Applied configuration!");
         } else if (e.getAction() == Action.RIGHT_CLICK_BLOCK) {
-            PersistentDataAPI.setString(meta, CARGO_BLOCK, blockId);
-            PersistentDataAPI.setString(meta, CARGO_CONFIG, BlockStorage.getBlockInfoAsJson(e.getClickedBlock()));
+            Pdc.setString(meta, CARGO_BLOCK, blockId);
+            Pdc.setString(meta, CARGO_CONFIG, BlockStorage.getBlockInfoAsJson(e.getClickedBlock()));
 
             // Has the copied part
             if (lore.size() == defaultLore.size() + 2) {

@@ -16,9 +16,10 @@ import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import me.mrCookieSlime.Slimefun.Objects.handlers.BlockTicker;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
+import dev.j3fftw.litexpansion.compat.MaterialCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
-import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.inventory.ItemStack;
@@ -44,18 +45,18 @@ public class UUCrafter extends SlimefunItem implements InventoryBlock, EnergyNet
     public static final int[] CRAFTING_SLOTS = {12, 13, 14, 21, 22, 23, 30, 31, 32};
     public static final int START_STOP = 40;
     public static final org.bukkit.inventory.ItemStack RUNNING = CustomItemStack.create(
-        Material.GREEN_STAINED_GLASS_PANE, ChatColor.GRAY + "Click to stop"
+        MaterialCompat.safe(XMaterial.GREEN_STAINED_GLASS_PANE), ChatColor.GRAY + "Click to stop"
     );
 
     public static final org.bukkit.inventory.ItemStack NOT_RUNNING = CustomItemStack.create(
-        Material.RED_STAINED_GLASS_PANE, ChatColor.GRAY + "Click to start"
+        MaterialCompat.safe(XMaterial.RED_STAINED_GLASS_PANE), ChatColor.GRAY + "Click to start"
     );
 
     protected static final Map<Location, Boolean> whatIsRunning = new HashMap<>();
 
     public UUCrafter() {
         super(Items.LITEXPANSION, Items.UU_CRAFTER, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
-            Items.UU_MATTER.item(), new ItemStack(Material.CRAFTING_TABLE), Items.UU_MATTER.item(),
+            Items.UU_MATTER.item(), new ItemStack(MaterialCompat.safe(XMaterial.CRAFTING_TABLE)), Items.UU_MATTER.item(),
             Items.CARGO_CONFIGURATOR.item(), Items.ADVANCED_MACHINE_BLOCK.item(), Items.GLASS_CUTTER.item(),
             Items.UU_MATTER.item(), Items.UU_MATTER.item(), Items.UU_MATTER.item()
         });
