@@ -39,7 +39,6 @@ import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.event.player.PlayerInteractEntityEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.event.player.PlayerItemDamageEvent;
-import org.bukkit.inventory.EquipmentSlot;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
@@ -145,12 +144,9 @@ public class Events implements Listener {
      */
     @EventHandler
     public void onDye(PlayerInteractEntityEvent e) {
-        ItemStack item;
-        if (e.getHand() == EquipmentSlot.HAND) {
-            item = e.getPlayer().getInventory().getItemInHand();
-        } else {
-            item = e.getPlayer().getInventory().getItemInOffHand();
-        }
+        ItemStack item = HandCompat.isMainHand(e)
+            ? e.getPlayer().getInventory().getItemInHand()
+            : HandCompat.offHandItem(e.getPlayer().getInventory());
 
         if (SlimefunItem.getByItem(item) instanceof DyeItem) {
             e.setCancelled(true);
