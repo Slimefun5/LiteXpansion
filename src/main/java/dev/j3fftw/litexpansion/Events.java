@@ -147,7 +147,7 @@ public class Events implements Listener {
     public void onDye(PlayerInteractEntityEvent e) {
         ItemStack item;
         if (e.getHand() == EquipmentSlot.HAND) {
-            item = e.getPlayer().getInventory().getItemInMainHand();
+            item = e.getPlayer().getInventory().getItemInHand();
         } else {
             item = e.getPlayer().getInventory().getItemInOffHand();
         }
