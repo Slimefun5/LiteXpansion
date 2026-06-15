@@ -21,4 +21,14 @@ public final class MaterialCompat {
         Material parsed = material.parseMaterial();
         return parsed != null ? parsed : Material.STONE;
     }
+
+    /**
+     * Resolves an {@link XMaterial} to an {@link ItemStack}, preserving the legacy data value
+     * (e.g. SKULL_ITEM:3 = player head) that {@link #safe(XMaterial)} drops on 1.8-1.12.
+     */
+    @javax.annotation.Nonnull
+    public static org.bukkit.inventory.ItemStack stack(@javax.annotation.Nonnull XMaterial material) {
+        org.bukkit.inventory.ItemStack item = material.parseItem();
+        return item != null ? item : new org.bukkit.inventory.ItemStack(safe(material));
+    }
 }

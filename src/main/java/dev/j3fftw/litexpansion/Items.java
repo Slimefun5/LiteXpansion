@@ -28,7 +28,7 @@ public final class Items {
     //region Category
     public static final ItemGroup LITEXPANSION = new ItemGroup(
         new NamespacedKey("litexpansion", "litexpansion"),
-        CustomItemStack.create(new org.bukkit.inventory.ItemStack(MaterialCompat.safe(XMaterial.PLAYER_HEAD)), "\u00a77LiteXpansion")
+        CustomItemStack.create(MaterialCompat.stack(XMaterial.PLAYER_HEAD), "\u00a77LiteXpansion")
     );
 
     public static final SlimefunItemStack ELECTRIC_CHESTPLATE = new SlimefunItemStack(
@@ -153,7 +153,7 @@ public final class Items {
 
     public static final SlimefunItemStack THORIUM = new SlimefunItemStack(
         "THORIUM",
-        CustomItemStack.create(new org.bukkit.inventory.ItemStack(MaterialCompat.safe(XMaterial.PLAYER_HEAD)), "Thorium"),
+        CustomItemStack.create(MaterialCompat.stack(XMaterial.PLAYER_HEAD), "Thorium"),
         "\u00a78Thorium",
         "",
         LoreBuilder.radioactive(Radioactivity.HIGH),
@@ -456,7 +456,7 @@ public final class Items {
 
     public static final SlimefunItemStack FOOD_SYNTHESIZER = new SlimefunItemStack(
         "FOOD_SYNTHESIZER",
-        CustomItemStack.create(new org.bukkit.inventory.ItemStack(MaterialCompat.safe(XMaterial.PLAYER_HEAD)), "Food Synthesizer"),
+        CustomItemStack.create(MaterialCompat.stack(XMaterial.PLAYER_HEAD), "Food Synthesizer"),
         "\u00a7dFood Synthesizer",
         "",
         "\u00a7fKeeps you fed with artificial food.",
