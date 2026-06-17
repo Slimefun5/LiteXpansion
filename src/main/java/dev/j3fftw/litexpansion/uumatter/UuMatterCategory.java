@@ -35,7 +35,7 @@ public final class UuMatterCategory extends FlexItemGroup {
 
     private UuMatterCategory() {
         super(new NamespacedKey("litexpansion", "uumatter_category"),
-            CustomItemStack.create(MaterialCompat.stack(XMaterial.PLAYER_HEAD), "\u00a75UU-Matter Recipes")
+            CustomItemStack.create(MaterialCompat.stack(XMaterial.EXPERIENCE_BOTTLE), "\u00a75UU-Matter Recipes")
         );
     }
 

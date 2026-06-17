@@ -28,7 +28,7 @@ public final class Items {
     //region Category
     public static final ItemGroup LITEXPANSION = new ItemGroup(
         new NamespacedKey("litexpansion", "litexpansion"),
-        CustomItemStack.create(MaterialCompat.stack(XMaterial.PLAYER_HEAD), "\u00a77LiteXpansion")
+        CustomItemStack.create(MaterialCompat.stack(XMaterial.REDSTONE), "\u00a77LiteXpansion")
     );
 
     public static final SlimefunItemStack ELECTRIC_CHESTPLATE = new SlimefunItemStack(
