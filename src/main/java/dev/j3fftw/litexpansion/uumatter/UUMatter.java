@@ -73,6 +73,7 @@ public final class UUMatter {
             this.recipes.size()
         });
 
+        UuMatterCategory.INSTANCE.setTheme("energy_tech");
         UuMatterCategory.INSTANCE.register(LiteXpansion.getInstance());
 
         registered = true;

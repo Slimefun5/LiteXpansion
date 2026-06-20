@@ -29,7 +29,7 @@ public final class Items {
     public static final ItemGroup LITEXPANSION = new ItemGroup(
         new NamespacedKey("litexpansion", "litexpansion"),
         CustomItemStack.create(MaterialCompat.stack(XMaterial.REDSTONE), "\u00a77LiteXpansion")
-    );
+    ).setTheme("energy_tech");
 
     public static final SlimefunItemStack ELECTRIC_CHESTPLATE = new SlimefunItemStack(
         "ELECTRIC_CHESTPLATE",
