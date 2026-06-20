@@ -65,7 +65,7 @@ tasks {
     }
     shadowJar {
         relocate("org.bstats", "litexpansion.libs.bstats")
-        archiveFileName.set("LiteXpansion v${project.version}.jar")
+        archiveFileName.set("LiteXpansion-1.0.0-UNOFFICIAL.jar")
                 relocate("dev.j3fftw.extrautils", "dev.j3fftw.litexpansion.extrautils")
         exclude("META-INF/**")
     }
