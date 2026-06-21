@@ -8,13 +8,19 @@ import dev.j3fftw.litexpansion.uumatter.UUMatter;
 import io.github.thebusybiscuit.slimefun5.api.SlimefunAddon;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun5.api.researches.Research;
+import io.github.thebusybiscuit.slimefun5.core.guide.wiki.WikiText;
+import io.github.thebusybiscuit.slimefun5.core.guide.wiki.WikiTopic;
 import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import org.bstats.bukkit.Metrics;
 import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import javax.annotation.Nonnull;
 import java.io.File;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * Represents the {@link LiteXpansion} class.
@@ -56,6 +62,35 @@ public class LiteXpansion extends JavaPlugin implements SlimefunAddon {
 
         // Contribute this addon's per-language item translations (languages/<lang>/items.yml).
         Slimefun.getItemTranslationService().registerTranslations(this);
+
+        // Register this addon's own in-game wiki page (core does not auto-generate addon wikis).
+        registerWiki();
+    }
+
+    private void registerWiki() {
+        WikiText wiki = Slimefun.getWikiText();
+        String topicId = "addon_litexpansion";
+
+        wiki.registerTopic(new WikiTopic(topicId, "LiteXpansion", XMaterial.REDSTONE, "&7IndustrialCraft-style tech"));
+        wiki.setMechanic(topicId, Arrays.asList(
+            "&7IndustrialCraft-style tech.", "",
+            "&7Generate energy, refine ores and craft", "&7UU-Matter with a Mass Fabricator. Build", "&7electric tools, armor and reactors for a", "&7classic industrial progression.", "",
+            "&7Click an item below for its recipe."));
+
+        // Collect this addon's own items dynamically - never hardcode item lists.
+        List<String> items = new ArrayList<>();
+
+        for (SlimefunItem item : Slimefun.getRegistry().getEnabledSlimefunItems()) {
+            try {
+                if (item.getAddon() == this) {
+                    items.add(item.getId());
+                }
+            } catch (Exception | LinkageError ignored) {
+                // A broken item should not break wiki registration.
+            }
+        }
+
+        wiki.setTopicItems(topicId, items);
     }
 
     @Override
