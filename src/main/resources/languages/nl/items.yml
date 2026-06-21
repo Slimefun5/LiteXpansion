@@ -1,0 +1,153 @@
+# Dutch item translations for LiteXpansion. Keyed by Slimefun item id.
+ELECTRIC_CHESTPLATE:
+  name: "&9Elektrisch borstharnas"
+NANO_BLADE:
+  name: "&2Nanozwaard &c(Uit)"
+GLASS_CUTTER:
+  name: "&bGlassnijder"
+MINING_DRILL:
+  name: "&7Mijnboor"
+DIAMOND_DRILL:
+  name: "&bDiamanten boor"
+TREETAP:
+  name: "&7Boomkraan"
+CARGO_CONFIGURATOR:
+  name: "&7Vrachtconfigurator"
+TIN_PLATE:
+  name: "&7Tinnen plaat"
+TIN_ITEM_CASING:
+  name: "&7Tinnen behuizing"
+UNINSULATED_TIN_CABLE:
+  name: "&7Ongeïsoleerde tinnen kabel"
+TIN_CABLE:
+  name: "&7Tinnen kabel"
+COPPER_PLATE:
+  name: "&7Koperen plaat"
+COPPER_ITEM_CASING:
+  name: "&7Koperen behuizing"
+MAG_THOR:
+  name: "&b&lMag-Thor"
+THORIUM:
+  name: "&8Thorium"
+SCRAP:
+  name: "&8Schroot"
+UU_MATTER:
+  name: "&5UU-Matter"
+IRIDIUM:
+  name: "&fIridium"
+IRIDIUM_PLATE:
+  name: "&fIridiumplaat"
+THORIUM_DUST:
+  name: "&8Thoriumstof"
+REFINED_IRON:
+  name: "&7Geraffineerd ijzer"
+MACHINE_BLOCK:
+  name: "&7Machineblok"
+UNINSULATED_COPPER_CABLE:
+  name: "&7Ongeïsoleerde koperen kabel"
+COPPER_CABLE:
+  name: "&7Koperen kabel"
+RUBBER:
+  name: "&7Rubber"
+ELECTRONIC_CIRCUIT:
+  name: "&7Elektronisch circuit"
+ADVANCED_CIRCUIT:
+  name: "&7Geavanceerd circuit"
+COAL_DUST:
+  name: "&7Koolstof"
+RAW_CARBON_FIBRE:
+  name: "&7Ruwe koolstofvezel"
+RAW_CARBON_MESH:
+  name: "&7Ruw koolstofgaas"
+CARBON_PLATE:
+  name: "&7Koolstofplaat"
+ADVANCED_ALLOY:
+  name: "&7Geavanceerde legering"
+ADVANCED_MACHINE_BLOCK:
+  name: "&7Geavanceerd machineblok"
+LAPOTRON_CRYSTAL:
+  name: "&7Lapotron-kristal"
+REINFORCED_STONE:
+  name: "&7Versterkte steen"
+REINFORCED_DOOR:
+  name: "&7Versterkte deur"
+REINFORCED_GLASS:
+  name: "&7Versterkt glas"
+MIXED_METAL_INGOT:
+  name: "&7Gemengde metaalstaaf"
+SCRAP_MACHINE:
+  name: "&8Recycler"
+MASS_FABRICATOR_MACHINE:
+  name: "&5Massafabrikant"
+RUBBER_SYNTHESIZER:
+  name: "&6Rubbersynthesizer"
+MACERATOR:
+  name: "&7Vermaler"
+ADVANCED_SOLAR_PANEL:
+  name: "&7&lGeavanceerd zonnepaneel"
+HYBRID_SOLAR_PANEL:
+  name: "&b&lHybride zonnepaneel"
+ULTIMATE_SOLAR_PANEL:
+  name: "&5&lUltiem zonnepaneel"
+MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  name: "&7MFE"
+MULTI_FUNCTIONAL_STORAGE_UNIT:
+  name: "&7MFSU"
+GOLD_PLATE:
+  name: "&7Gouden plaat"
+GOLD_ITEM_CASING:
+  name: "&7Gouden behuizing"
+UNINSULATED_GOLD_CABLE:
+  name: "&7Ongeïsoleerde gouden kabel"
+GOLD_CABLE:
+  name: "&7Gouden kabel"
+REFINED_SMELTERY:
+  name: "&7Geraffineerde smelterij"
+METAL_FORGE:
+  name: "&7Metaalsmederij"
+MANUAL_MILL:
+  name: "&7Handmolen"
+GENERATOR:
+  name: "&7Generator"
+RE_BATTERY:
+  name: "&7RE-batterij"
+ADVANCED_SOLAR_HELMET:
+  name: "&7Geavanceerde zonnehelm"
+CARBONADO_SOLAR_HELMET:
+  name: "&7Carbonado-zonnehelm"
+ENERGIZED_SOLAR_HELMET:
+  name: "&7Geladen zonnehelm"
+ADVANCEDLX_SOLAR_HELMET:
+  name: "&7Super geavanceerde zonnehelm"
+HYBRID_SOLAR_HELMET:
+  name: "&7Hybride zonnehelm"
+ULTIMATE_SOLAR_HELMET:
+  name: "&7Ultieme zonnehelm"
+FOOD_SYNTHESIZER:
+  name: "&dVoedselsynthesizer"
+IRON_PLATE:
+  name: "&7IJzeren plaat"
+DIAMOND_PLATE:
+  name: "&7Diamanten plaat"
+THORIUM_PLATE:
+  name: "&7Thoriumplaat"
+POWER_UNIT:
+  name: "&7Energie-eenheid"
+IRON_ITEM_CASING:
+  name: "&7IJzeren behuizing"
+LAPIS_DUST:
+  name: "&7Lapisstof"
+REDSTONE_DUST:
+  name: "&7Redstonestof"
+DIAMOND_DUST:
+  name: "&7Diamantstof"
+EMERALD_DUST:
+  name: "&7Smaragdstof"
+QUARTZ_DUST:
+  name: "&7Kwartsstof"
+ANCIENT_DEBRIS_DUST:
+  name: "&7Oeroud puinstof"
+UU_CRAFTER:
+  name: "&7UU-maker"
+CONVER:
+  name: "&7Omvormer"

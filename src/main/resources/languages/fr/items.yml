@@ -1,62 +1,153 @@
 # French item translations for LiteXpansion. Keyed by Slimefun item id.
-# name = display name, lore = list of lines, '&' colour codes. Missing items fall back to English.
-
 ELECTRIC_CHESTPLATE:
   name: "&9Plastron électrique"
-  lore:
-    - ""
-    - "&8⇨ &7Annule tous les dégâts infligés au joueur."
-    - ""
-    - "&c&o&8⇨ &e⚡ &70 / 8192 J"
-
 NANO_BLADE:
   name: "&2Nano-lame &c(Éteinte)"
-  lore:
-    - ""
-    - "&fUn morceau de technologie avancée qui peut"
-    - "&ftrancher les tissus organiques avec aisance."
-    - ""
-    - "&fBasculer : &aClic droit"
-    - ""
-    - "&c&o&8⇨ &e⚡ &70 / 100000 J"
-
-MINING_DRILL:
-  name: "&7Foreuse minière"
-  lore:
-    - ""
-    - "&7Brise instantanément la pierre et ses variantes"
-    - "&7Clic droit pour briser les blocs plus lentement"
-    - ""
-    - "&c&o&8⇨ &e⚡ &70 / 1000 J"
-
-DIAMOND_DRILL:
-  name: "&bForeuse en diamant"
-  lore:
-    - ""
-    - "&7Brise instantanément l'obsidienne, la pierre et ses variantes"
-    - "&7Clic droit pour briser les blocs plus lentement"
-    - ""
-    - "&c&o&8⇨ &e⚡ &70 / 1000 J"
-
 GLASS_CUTTER:
   name: "&bCoupe-verre"
-  lore:
-    - ""
-    - "&7> &eClic gauche &7- Couper le verre rapidement"
-    - "&7> &eClic droit &7- Couper le verre lentement"
-    - ""
-    - "&c&o&8⇨ &e⚡ &70 / 300 J"
-
+MINING_DRILL:
+  name: "&7Foreuse minière"
+DIAMOND_DRILL:
+  name: "&bForeuse en diamant"
+TREETAP:
+  name: "&7Robinet à sève"
 CARGO_CONFIGURATOR:
   name: "&7Configurateur de cargaison"
-  lore:
-    - ""
-    - "&7> &eClic droit &7- Copier la configuration du nœud"
-    - "&7> &eClic gauche  &7- Appliquer la configuration du nœud"
-    - "&7> &eMaj+Clic droit &7- Effacer le configurateur de nœud"
-
+TIN_PLATE:
+  name: "&7Plaque d'étain"
+TIN_ITEM_CASING:
+  name: "&7Boîtier en étain"
+UNINSULATED_TIN_CABLE:
+  name: "&7Câble d'étain non isolé"
+TIN_CABLE:
+  name: "&7Câble d'étain"
+COPPER_PLATE:
+  name: "&7Plaque de cuivre"
+COPPER_ITEM_CASING:
+  name: "&7Boîtier en cuivre"
+MAG_THOR:
+  name: "&b&lMag-Thor"
+THORIUM:
+  name: "&8Thorium"
+SCRAP:
+  name: "&8Ferraille"
+UU_MATTER:
+  name: "&5UU-Matter"
+IRIDIUM:
+  name: "&fIridium"
+IRIDIUM_PLATE:
+  name: "&fPlaque d'iridium"
+THORIUM_DUST:
+  name: "&8Poussière de thorium"
+REFINED_IRON:
+  name: "&7Fer raffiné"
 MACHINE_BLOCK:
   name: "&7Bloc de machine"
-
+UNINSULATED_COPPER_CABLE:
+  name: "&7Câble de cuivre non isolé"
+COPPER_CABLE:
+  name: "&7Câble de cuivre"
+RUBBER:
+  name: "&7Caoutchouc"
+ELECTRONIC_CIRCUIT:
+  name: "&7Circuit électronique"
+ADVANCED_CIRCUIT:
+  name: "&7Circuit avancé"
+COAL_DUST:
+  name: "&7Poussière de charbon"
+RAW_CARBON_FIBRE:
+  name: "&7Fibre de carbone brute"
+RAW_CARBON_MESH:
+  name: "&7Maille de carbone brute"
+CARBON_PLATE:
+  name: "&7Plaque de carbone"
+ADVANCED_ALLOY:
+  name: "&7Alliage avancé"
+ADVANCED_MACHINE_BLOCK:
+  name: "&7Bloc de machine avancé"
+LAPOTRON_CRYSTAL:
+  name: "&7Cristal Lapotron"
+REINFORCED_STONE:
+  name: "&7Pierre renforcée"
+REINFORCED_DOOR:
+  name: "&7Porte renforcée"
+REINFORCED_GLASS:
+  name: "&7Verre renforcé"
+MIXED_METAL_INGOT:
+  name: "&7Lingot de métal mixte"
+SCRAP_MACHINE:
+  name: "&8Recycleur"
+MASS_FABRICATOR_MACHINE:
+  name: "&5Fabricateur de masse"
+RUBBER_SYNTHESIZER:
+  name: "&6Synthétiseur de caoutchouc"
+MACERATOR:
+  name: "&7Macérateur"
+ADVANCED_SOLAR_PANEL:
+  name: "&7&lPanneau solaire avancé"
+HYBRID_SOLAR_PANEL:
+  name: "&b&lPanneau solaire hybride"
+ULTIMATE_SOLAR_PANEL:
+  name: "&5&lPanneau solaire ultime"
+MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  name: "&7MFE"
+MULTI_FUNCTIONAL_STORAGE_UNIT:
+  name: "&7MFSU"
+GOLD_PLATE:
+  name: "&7Plaque d'or"
+GOLD_ITEM_CASING:
+  name: "&7Boîtier en or"
+UNINSULATED_GOLD_CABLE:
+  name: "&7Câble d'or non isolé"
+GOLD_CABLE:
+  name: "&7Câble d'or"
+REFINED_SMELTERY:
+  name: "&7Fonderie raffinée"
+METAL_FORGE:
+  name: "&7Forge à métaux"
+MANUAL_MILL:
+  name: "&7Moulin manuel"
 GENERATOR:
   name: "&7Générateur"
+RE_BATTERY:
+  name: "&7Batterie RE"
+ADVANCED_SOLAR_HELMET:
+  name: "&7Casque solaire avancé"
+CARBONADO_SOLAR_HELMET:
+  name: "&7Casque solaire en carbonado"
+ENERGIZED_SOLAR_HELMET:
+  name: "&7Casque solaire énergisé"
+ADVANCEDLX_SOLAR_HELMET:
+  name: "&7Casque solaire super avancé"
+HYBRID_SOLAR_HELMET:
+  name: "&7Casque solaire hybride"
+ULTIMATE_SOLAR_HELMET:
+  name: "&7Casque solaire ultime"
+FOOD_SYNTHESIZER:
+  name: "&dSynthétiseur de nourriture"
+IRON_PLATE:
+  name: "&7Plaque de fer"
+DIAMOND_PLATE:
+  name: "&7Plaque de diamant"
+THORIUM_PLATE:
+  name: "&7Plaque de thorium"
+POWER_UNIT:
+  name: "&7Unité d'énergie"
+IRON_ITEM_CASING:
+  name: "&7Boîtier en fer"
+LAPIS_DUST:
+  name: "&7Poussière de lapis"
+REDSTONE_DUST:
+  name: "&7Poussière de redstone"
+DIAMOND_DUST:
+  name: "&7Poussière de diamant"
+EMERALD_DUST:
+  name: "&7Poussière d'émeraude"
+QUARTZ_DUST:
+  name: "&7Poussière de quartz"
+ANCIENT_DEBRIS_DUST:
+  name: "&7Poussière de débris antiques"
+UU_CRAFTER:
+  name: "&7Fabricateur UU"
+CONVER:
+  name: "&7Convertisseur"
