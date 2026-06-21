@@ -1,0 +1,62 @@
+# German item translations for LiteXpansion. Keyed by Slimefun item id.
+# name = display name, lore = list of lines, '&' colour codes. Missing items fall back to English.
+
+ELECTRIC_CHESTPLATE:
+  name: "&9Elektrischer Brustpanzer"
+  lore:
+    - ""
+    - "&8⇨ &7Negiert allen Schaden, der dem Spieler zugefügt wird."
+    - ""
+    - "&c&o&8⇨ &e⚡ &70 / 8192 J"
+
+NANO_BLADE:
+  name: "&2Nanoklinge &c(Aus)"
+  lore:
+    - ""
+    - "&fEin fortschrittliches Stück Technologie, das"
+    - "&fmühelos organisches Gewebe durchtrennen kann."
+    - ""
+    - "&fUmschalten: &aRechtsklick"
+    - ""
+    - "&c&o&8⇨ &e⚡ &70 / 100000 J"
+
+MINING_DRILL:
+  name: "&7Bohrhammer"
+  lore:
+    - ""
+    - "&7Zerbricht Stein und Steinvarianten sofort"
+    - "&7Rechtsklick, um Blöcke langsamer abzubauen"
+    - ""
+    - "&c&o&8⇨ &e⚡ &70 / 1000 J"
+
+DIAMOND_DRILL:
+  name: "&bDiamantbohrer"
+  lore:
+    - ""
+    - "&7Zerbricht Obsidian, Stein und Steinvarianten sofort"
+    - "&7Rechtsklick, um Blöcke langsamer abzubauen"
+    - ""
+    - "&c&o&8⇨ &e⚡ &70 / 1000 J"
+
+GLASS_CUTTER:
+  name: "&bGlasschneider"
+  lore:
+    - ""
+    - "&7> &eLinksklick &7- Glas schnell schneiden"
+    - "&7> &eRechtsklick &7- Glas langsam schneiden"
+    - ""
+    - "&c&o&8⇨ &e⚡ &70 / 300 J"
+
+CARGO_CONFIGURATOR:
+  name: "&7Fracht-Konfigurator"
+  lore:
+    - ""
+    - "&7> &eRechtsklick &7- Knotenkonfiguration kopieren"
+    - "&7> &eLinksklick  &7- Knotenkonfiguration anwenden"
+    - "&7> &eUmschalt+Rechtsklick &7- Knotenkonfigurator leeren"
+
+MACHINE_BLOCK:
+  name: "&7Maschinenblock"
+
+GENERATOR:
+  name: "&7Generator"

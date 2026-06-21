@@ -8,6 +8,7 @@ import dev.j3fftw.litexpansion.uumatter.UUMatter;
 import io.github.thebusybiscuit.slimefun5.api.SlimefunAddon;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun5.api.researches.Research;
+import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
 import org.bstats.bukkit.Metrics;
 import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -52,6 +53,9 @@ public class LiteXpansion extends JavaPlugin implements SlimefunAddon {
 
         final PassiveElectricRemovalTicker perTicker = new PassiveElectricRemovalTicker();
         getServer().getScheduler().runTaskTimerAsynchronously(this, perTicker, 20, 20);
+
+        // Contribute this addon's per-language item translations (languages/<lang>/items.yml).
+        Slimefun.getItemTranslationService().registerTranslations(this);
     }
 
     @Override

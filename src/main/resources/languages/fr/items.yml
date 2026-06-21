@@ -1,0 +1,62 @@
+# French item translations for LiteXpansion. Keyed by Slimefun item id.
+# name = display name, lore = list of lines, '&' colour codes. Missing items fall back to English.
+
+ELECTRIC_CHESTPLATE:
+  name: "&9Plastron électrique"
+  lore:
+    - ""
+    - "&8⇨ &7Annule tous les dégâts infligés au joueur."
+    - ""
+    - "&c&o&8⇨ &e⚡ &70 / 8192 J"
+
+NANO_BLADE:
+  name: "&2Nano-lame &c(Éteinte)"
+  lore:
+    - ""
+    - "&fUn morceau de technologie avancée qui peut"
+    - "&ftrancher les tissus organiques avec aisance."
+    - ""
+    - "&fBasculer : &aClic droit"
+    - ""
+    - "&c&o&8⇨ &e⚡ &70 / 100000 J"
+
+MINING_DRILL:
+  name: "&7Foreuse minière"
+  lore:
+    - ""
+    - "&7Brise instantanément la pierre et ses variantes"
+    - "&7Clic droit pour briser les blocs plus lentement"
+    - ""
+    - "&c&o&8⇨ &e⚡ &70 / 1000 J"
+
+DIAMOND_DRILL:
+  name: "&bForeuse en diamant"
+  lore:
+    - ""
+    - "&7Brise instantanément l'obsidienne, la pierre et ses variantes"
+    - "&7Clic droit pour briser les blocs plus lentement"
+    - ""
+    - "&c&o&8⇨ &e⚡ &70 / 1000 J"
+
+GLASS_CUTTER:
+  name: "&bCoupe-verre"
+  lore:
+    - ""
+    - "&7> &eClic gauche &7- Couper le verre rapidement"
+    - "&7> &eClic droit &7- Couper le verre lentement"
+    - ""
+    - "&c&o&8⇨ &e⚡ &70 / 300 J"
+
+CARGO_CONFIGURATOR:
+  name: "&7Configurateur de cargaison"
+  lore:
+    - ""
+    - "&7> &eClic droit &7- Copier la configuration du nœud"
+    - "&7> &eClic gauche  &7- Appliquer la configuration du nœud"
+    - "&7> &eMaj+Clic droit &7- Effacer le configurateur de nœud"
+
+MACHINE_BLOCK:
+  name: "&7Bloc de machine"
+
+GENERATOR:
+  name: "&7Générateur"
