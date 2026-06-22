@@ -38,7 +38,7 @@ IRIDIUM:
 IRIDIUM_PLATE:
   name: "&fPlaque d'iridium"
 THORIUM_DUST:
-  name: "&8Poussière de thorium"
+  name: "&8Poudre de thorium"
 REFINED_IRON:
   name: "&7Fer raffiné"
 MACHINE_BLOCK:
@@ -54,7 +54,7 @@ ELECTRONIC_CIRCUIT:
 ADVANCED_CIRCUIT:
   name: "&7Circuit avancé"
 COAL_DUST:
-  name: "&7Poussière de charbon"
+  name: "&7Poudre de charbon"
 RAW_CARBON_FIBRE:
   name: "&7Fibre de carbone brute"
 RAW_CARBON_MESH:
@@ -66,7 +66,7 @@ ADVANCED_ALLOY:
 ADVANCED_MACHINE_BLOCK:
   name: "&7Bloc de machine avancé"
 LAPOTRON_CRYSTAL:
-  name: "&7Cristal Lapotron"
+  name: "&7Cristal de Lapotron"
 REINFORCED_STONE:
   name: "&7Pierre renforcée"
 REINFORCED_DOOR:
@@ -136,18 +136,18 @@ POWER_UNIT:
 IRON_ITEM_CASING:
   name: "&7Boîtier en fer"
 LAPIS_DUST:
-  name: "&7Poussière de lapis"
+  name: "&7Poudre de lapis"
 REDSTONE_DUST:
-  name: "&7Poussière de redstone"
+  name: "&7Poudre de redstone"
 DIAMOND_DUST:
-  name: "&7Poussière de diamant"
+  name: "&7Poudre de diamant"
 EMERALD_DUST:
-  name: "&7Poussière d'émeraude"
+  name: "&7Poudre d'émeraude"
 QUARTZ_DUST:
-  name: "&7Poussière de quartz"
+  name: "&7Poudre de quartz"
 ANCIENT_DEBRIS_DUST:
-  name: "&7Poussière de débris antiques"
+  name: "&7Poudre de débris antiques"
 UU_CRAFTER:
-  name: "&7Fabricateur UU"
+  name: "&7Fabricant UU"
 CONVER:
   name: "&7Convertisseur"

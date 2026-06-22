@@ -1,8 +1,8 @@
 # Russian item translations for LiteXpansion. Keyed by Slimefun item id.
 ELECTRIC_CHESTPLATE:
-  name: "&9Электрический нагрудник"
+  name: "&9Электрическая кираса"
 NANO_BLADE:
-  name: "&2Наноклинок &c(Выкл)"
+  name: "&2Нано-клинок &c(Выкл)"
 GLASS_CUTTER:
   name: "&bСтеклорез"
 MINING_DRILL:
@@ -10,9 +10,9 @@ MINING_DRILL:
 DIAMOND_DRILL:
   name: "&bАлмазная дрель"
 TREETAP:
-  name: "&7Смолосборник"
+  name: "&7Надрез для дерева"
 CARGO_CONFIGURATOR:
-  name: "&7Конфигуратор груза"
+  name: "&7Конфигуратор грузов"
 TIN_PLATE:
   name: "&7Оловянная пластина"
 TIN_ITEM_CASING:
@@ -66,7 +66,7 @@ ADVANCED_ALLOY:
 ADVANCED_MACHINE_BLOCK:
   name: "&7Улучшенный машинный блок"
 LAPOTRON_CRYSTAL:
-  name: "&7Кристалл лапотрона"
+  name: "&7Кристалл Лапотрон"
 REINFORCED_STONE:
   name: "&7Укреплённый камень"
 REINFORCED_DOOR:
@@ -74,21 +74,21 @@ REINFORCED_DOOR:
 REINFORCED_GLASS:
   name: "&7Укреплённое стекло"
 MIXED_METAL_INGOT:
-  name: "&7Слиток смешанного металла"
+  name: "&7Смешанный металлический слиток"
 SCRAP_MACHINE:
-  name: "&8Утилизатор"
+  name: "&8Переработчик"
 MASS_FABRICATOR_MACHINE:
   name: "&5Масс-фабрикатор"
 RUBBER_SYNTHESIZER:
   name: "&6Синтезатор резины"
 MACERATOR:
-  name: "&7Дробилка"
+  name: "&7Мацератор"
 ADVANCED_SOLAR_PANEL:
   name: "&7&lУлучшенная солнечная панель"
 HYBRID_SOLAR_PANEL:
   name: "&b&lГибридная солнечная панель"
 ULTIMATE_SOLAR_PANEL:
-  name: "&5&lПредельная солнечная панель"
+  name: "&5&lУльтимативная солнечная панель"
 MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
   name: "&7MFE"
 MULTI_FUNCTIONAL_STORAGE_UNIT:
@@ -102,9 +102,9 @@ UNINSULATED_GOLD_CABLE:
 GOLD_CABLE:
   name: "&7Золотой кабель"
 REFINED_SMELTERY:
-  name: "&7Очищающая плавильня"
+  name: "&7Очищенная плавильня"
 METAL_FORGE:
-  name: "&7Кузница металла"
+  name: "&7Кузница металлов"
 MANUAL_MILL:
   name: "&7Ручная мельница"
 GENERATOR:
@@ -114,7 +114,7 @@ RE_BATTERY:
 ADVANCED_SOLAR_HELMET:
   name: "&7Улучшенный солнечный шлем"
 CARBONADO_SOLAR_HELMET:
-  name: "&7Карбонадовый солнечный шлем"
+  name: "&7Карбонадо солнечный шлем"
 ENERGIZED_SOLAR_HELMET:
   name: "&7Заряженный солнечный шлем"
 ADVANCEDLX_SOLAR_HELMET:
@@ -122,9 +122,9 @@ ADVANCEDLX_SOLAR_HELMET:
 HYBRID_SOLAR_HELMET:
   name: "&7Гибридный солнечный шлем"
 ULTIMATE_SOLAR_HELMET:
-  name: "&7Предельный солнечный шлем"
+  name: "&7Ультимативный солнечный шлем"
 FOOD_SYNTHESIZER:
-  name: "&dСинтезатор еды"
+  name: "&dСинтезатор пищи"
 IRON_PLATE:
   name: "&7Железная пластина"
 DIAMOND_PLATE:
@@ -138,7 +138,7 @@ IRON_ITEM_CASING:
 LAPIS_DUST:
   name: "&7Лазуритовая пыль"
 REDSTONE_DUST:
-  name: "&7Редстоуновая пыль"
+  name: "&7Красная пыль"
 DIAMOND_DUST:
   name: "&7Алмазная пыль"
 EMERALD_DUST:
@@ -148,6 +148,6 @@ QUARTZ_DUST:
 ANCIENT_DEBRIS_DUST:
   name: "&7Пыль древних обломков"
 UU_CRAFTER:
-  name: "&7UU-сборщик"
+  name: "&7UU-крафтер"
 CONVER:
-  name: "&7Преобразователь"
+  name: "&7Конвертер"

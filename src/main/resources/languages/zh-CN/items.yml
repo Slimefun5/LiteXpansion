@@ -1,14 +1,14 @@
 # Simplified Chinese item translations for LiteXpansion. Keyed by Slimefun item id.
 ELECTRIC_CHESTPLATE:
-  name: "&9电力胸甲"
+  name: "&9电动胸甲"
 NANO_BLADE:
-  name: "&2纳米刀 &c(关闭)"
+  name: "&2纳米刀刃 &c(关)"
 GLASS_CUTTER:
   name: "&b玻璃切割器"
 MINING_DRILL:
-  name: "&7采矿钻头"
+  name: "&7挖掘钻机"
 DIAMOND_DRILL:
-  name: "&b钻石钻头"
+  name: "&b钻石钻机"
 TREETAP:
   name: "&7采胶器"
 CARGO_CONFIGURATOR:
@@ -18,9 +18,9 @@ TIN_PLATE:
 TIN_ITEM_CASING:
   name: "&7锡外壳"
 UNINSULATED_TIN_CABLE:
-  name: "&7无绝缘锡线缆"
+  name: "&7无绝缘锡缆"
 TIN_CABLE:
-  name: "&7锡线缆"
+  name: "&7锡缆"
 COPPER_PLATE:
   name: "&7铜板"
 COPPER_ITEM_CASING:
@@ -44,9 +44,9 @@ REFINED_IRON:
 MACHINE_BLOCK:
   name: "&7机器方块"
 UNINSULATED_COPPER_CABLE:
-  name: "&7无绝缘铜线缆"
+  name: "&7无绝缘铜缆"
 COPPER_CABLE:
-  name: "&7铜线缆"
+  name: "&7铜缆"
 RUBBER:
   name: "&7橡胶"
 ELECTRONIC_CIRCUIT:
@@ -56,9 +56,9 @@ ADVANCED_CIRCUIT:
 COAL_DUST:
   name: "&7煤粉"
 RAW_CARBON_FIBRE:
-  name: "&7原碳纤维"
+  name: "&7粗碳纤维"
 RAW_CARBON_MESH:
-  name: "&7原碳网"
+  name: "&7粗碳网"
 CARBON_PLATE:
   name: "&7碳板"
 ADVANCED_ALLOY:
@@ -66,7 +66,7 @@ ADVANCED_ALLOY:
 ADVANCED_MACHINE_BLOCK:
   name: "&7高级机器方块"
 LAPOTRON_CRYSTAL:
-  name: "&7蓝晶体"
+  name: "&7青金石电池水晶"
 REINFORCED_STONE:
   name: "&7强化石头"
 REINFORCED_DOOR:
@@ -80,9 +80,9 @@ SCRAP_MACHINE:
 MASS_FABRICATOR_MACHINE:
   name: "&5质量制造机"
 RUBBER_SYNTHESIZER:
-  name: "&6橡胶合成器"
+  name: "&6橡胶合成机"
 MACERATOR:
-  name: "&7粉碎机"
+  name: "&7研磨机"
 ADVANCED_SOLAR_PANEL:
   name: "&7&l高级太阳能板"
 HYBRID_SOLAR_PANEL:
@@ -98,25 +98,25 @@ GOLD_PLATE:
 GOLD_ITEM_CASING:
   name: "&7金外壳"
 UNINSULATED_GOLD_CABLE:
-  name: "&7无绝缘金线缆"
+  name: "&7无绝缘金缆"
 GOLD_CABLE:
-  name: "&7金线缆"
+  name: "&7金缆"
 REFINED_SMELTERY:
   name: "&7精炼熔炉"
 METAL_FORGE:
   name: "&7金属锻造台"
 MANUAL_MILL:
-  name: "&7手动磨坊"
+  name: "&7手动磨机"
 GENERATOR:
   name: "&7发电机"
 RE_BATTERY:
-  name: "&7RE 电池"
+  name: "&7RE电池"
 ADVANCED_SOLAR_HELMET:
   name: "&7高级太阳能头盔"
 CARBONADO_SOLAR_HELMET:
   name: "&7黑金刚石太阳能头盔"
 ENERGIZED_SOLAR_HELMET:
-  name: "&7蓄能太阳能头盔"
+  name: "&7充能太阳能头盔"
 ADVANCEDLX_SOLAR_HELMET:
   name: "&7超级高级太阳能头盔"
 HYBRID_SOLAR_HELMET:
@@ -124,7 +124,7 @@ HYBRID_SOLAR_HELMET:
 ULTIMATE_SOLAR_HELMET:
   name: "&7终极太阳能头盔"
 FOOD_SYNTHESIZER:
-  name: "&d食物合成器"
+  name: "&d食物合成机"
 IRON_PLATE:
   name: "&7铁板"
 DIAMOND_PLATE:
@@ -148,6 +148,6 @@ QUARTZ_DUST:
 ANCIENT_DEBRIS_DUST:
   name: "&7远古残骸粉"
 UU_CRAFTER:
-  name: "&7UU 合成器"
+  name: "&7UU合成器"
 CONVER:
   name: "&7转换器"

@@ -2,29 +2,29 @@
 ELECTRIC_CHESTPLATE:
   name: "&9Elektryczny napierśnik"
 NANO_BLADE:
-  name: "&2Nanoostrze &c(Wyłączone)"
+  name: "&2Nanoostrze &c(Wył)"
 GLASS_CUTTER:
-  name: "&bNóż do szkła"
+  name: "&bSzklarz"
 MINING_DRILL:
   name: "&7Wiertło górnicze"
 DIAMOND_DRILL:
-  name: "&bWiertło diamentowe"
+  name: "&bDiamentowe wiertło"
 TREETAP:
-  name: "&7Korek do drzew"
+  name: "&7Kranik do drzew"
 CARGO_CONFIGURATOR:
-  name: "&7Konfigurator ładunku"
+  name: "&7Konfigurator cargo"
 TIN_PLATE:
-  name: "&7Płyta cynowa"
+  name: "&7Cynowa płyta"
 TIN_ITEM_CASING:
-  name: "&7Obudowa cynowa"
+  name: "&7Cynowa obudowa"
 UNINSULATED_TIN_CABLE:
   name: "&7Nieizolowany kabel cynowy"
 TIN_CABLE:
   name: "&7Kabel cynowy"
 COPPER_PLATE:
-  name: "&7Płyta miedziana"
+  name: "&7Miedziana płyta"
 COPPER_ITEM_CASING:
-  name: "&7Obudowa miedziana"
+  name: "&7Miedziana obudowa"
 MAG_THOR:
   name: "&b&lMag-Thor"
 THORIUM:
@@ -36,9 +36,9 @@ UU_MATTER:
 IRIDIUM:
   name: "&fIryd"
 IRIDIUM_PLATE:
-  name: "&fPłyta irydowa"
+  name: "&fIrydowa płyta"
 THORIUM_DUST:
-  name: "&8Pył torowy"
+  name: "&8Pył toru"
 REFINED_IRON:
   name: "&7Rafinowane żelazo"
 MACHINE_BLOCK:
@@ -74,7 +74,7 @@ REINFORCED_DOOR:
 REINFORCED_GLASS:
   name: "&7Wzmocnione szkło"
 MIXED_METAL_INGOT:
-  name: "&7Sztabka metalu mieszanego"
+  name: "&7Mieszana sztabka metalu"
 SCRAP_MACHINE:
   name: "&8Recykler"
 MASS_FABRICATOR_MACHINE:
@@ -82,21 +82,21 @@ MASS_FABRICATOR_MACHINE:
 RUBBER_SYNTHESIZER:
   name: "&6Syntezator gumy"
 MACERATOR:
-  name: "&7Rozdrabniacz"
+  name: "&7Macerator"
 ADVANCED_SOLAR_PANEL:
   name: "&7&lZaawansowany panel słoneczny"
 HYBRID_SOLAR_PANEL:
   name: "&b&lHybrydowy panel słoneczny"
 ULTIMATE_SOLAR_PANEL:
-  name: "&5&lOstateczny panel słoneczny"
+  name: "&5&lUltymatywny panel słoneczny"
 MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
   name: "&7MFE"
 MULTI_FUNCTIONAL_STORAGE_UNIT:
   name: "&7MFSU"
 GOLD_PLATE:
-  name: "&7Płyta złota"
+  name: "&7Złota płyta"
 GOLD_ITEM_CASING:
-  name: "&7Obudowa złota"
+  name: "&7Złota obudowa"
 UNINSULATED_GOLD_CABLE:
   name: "&7Nieizolowany kabel złoty"
 GOLD_CABLE:
@@ -104,7 +104,7 @@ GOLD_CABLE:
 REFINED_SMELTERY:
   name: "&7Rafinowana huta"
 METAL_FORGE:
-  name: "&7Kuźnia metalu"
+  name: "&7Kuźnia metali"
 MANUAL_MILL:
   name: "&7Ręczny młyn"
 GENERATOR:
@@ -114,7 +114,7 @@ RE_BATTERY:
 ADVANCED_SOLAR_HELMET:
   name: "&7Zaawansowany hełm słoneczny"
 CARBONADO_SOLAR_HELMET:
-  name: "&7Karbonadowy hełm słoneczny"
+  name: "&7Hełm słoneczny z karbonado"
 ENERGIZED_SOLAR_HELMET:
   name: "&7Naładowany hełm słoneczny"
 ADVANCEDLX_SOLAR_HELMET:
@@ -122,21 +122,21 @@ ADVANCEDLX_SOLAR_HELMET:
 HYBRID_SOLAR_HELMET:
   name: "&7Hybrydowy hełm słoneczny"
 ULTIMATE_SOLAR_HELMET:
-  name: "&7Ostateczny hełm słoneczny"
+  name: "&7Ultymatywny hełm słoneczny"
 FOOD_SYNTHESIZER:
-  name: "&dSyntezator żywności"
+  name: "&dSyntezator jedzenia"
 IRON_PLATE:
-  name: "&7Płyta żelazna"
+  name: "&7Żelazna płyta"
 DIAMOND_PLATE:
-  name: "&7Płyta diamentowa"
+  name: "&7Diamentowa płyta"
 THORIUM_PLATE:
-  name: "&7Płyta torowa"
+  name: "&7Torowa płyta"
 POWER_UNIT:
-  name: "&7Jednostka mocy"
+  name: "&7Jednostka energii"
 IRON_ITEM_CASING:
-  name: "&7Obudowa żelazna"
+  name: "&7Żelazna obudowa"
 LAPIS_DUST:
-  name: "&7Pył lazurytowy"
+  name: "&7Pył lazurytu"
 REDSTONE_DUST:
   name: "&7Pył czerwienitu"
 DIAMOND_DUST:

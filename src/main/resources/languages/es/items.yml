@@ -2,11 +2,11 @@
 ELECTRIC_CHESTPLATE:
   name: "&9Peto eléctrico"
 NANO_BLADE:
-  name: "&2Nanohoja &c(Apagada)"
+  name: "&2Nano-hoja &c(Apagada)"
 GLASS_CUTTER:
   name: "&bCortador de vidrio"
 MINING_DRILL:
-  name: "&7Taladro de minería"
+  name: "&7Taladro minero"
 DIAMOND_DRILL:
   name: "&bTaladro de diamante"
 TREETAP:
@@ -48,7 +48,7 @@ UNINSULATED_COPPER_CABLE:
 COPPER_CABLE:
   name: "&7Cable de cobre"
 RUBBER:
-  name: "&7Caucho"
+  name: "&7Goma"
 ELECTRONIC_CIRCUIT:
   name: "&7Circuito electrónico"
 ADVANCED_CIRCUIT:
@@ -66,7 +66,7 @@ ADVANCED_ALLOY:
 ADVANCED_MACHINE_BLOCK:
   name: "&7Bloque de máquina avanzado"
 LAPOTRON_CRYSTAL:
-  name: "&7Cristal Lapotrón"
+  name: "&7Cristal de Lapotron"
 REINFORCED_STONE:
   name: "&7Piedra reforzada"
 REINFORCED_DOOR:
@@ -80,7 +80,7 @@ SCRAP_MACHINE:
 MASS_FABRICATOR_MACHINE:
   name: "&5Fabricador de masa"
 RUBBER_SYNTHESIZER:
-  name: "&6Sintetizador de caucho"
+  name: "&6Sintetizador de goma"
 MACERATOR:
   name: "&7Macerador"
 ADVANCED_SOLAR_PANEL:
@@ -104,7 +104,7 @@ GOLD_CABLE:
 REFINED_SMELTERY:
   name: "&7Fundición refinada"
 METAL_FORGE:
-  name: "&7Forja de metal"
+  name: "&7Forja de metales"
 MANUAL_MILL:
   name: "&7Molino manual"
 GENERATOR:
@@ -118,7 +118,7 @@ CARBONADO_SOLAR_HELMET:
 ENERGIZED_SOLAR_HELMET:
   name: "&7Casco solar energizado"
 ADVANCEDLX_SOLAR_HELMET:
-  name: "&7Casco solar superavanzado"
+  name: "&7Casco solar súper avanzado"
 HYBRID_SOLAR_HELMET:
   name: "&7Casco solar híbrido"
 ULTIMATE_SOLAR_HELMET:
@@ -146,7 +146,7 @@ EMERALD_DUST:
 QUARTZ_DUST:
   name: "&7Polvo de cuarzo"
 ANCIENT_DEBRIS_DUST:
-  name: "&7Polvo de restos antiguos"
+  name: "&7Polvo de escombros antiguos"
 UU_CRAFTER:
   name: "&7Fabricador UU"
 CONVER:

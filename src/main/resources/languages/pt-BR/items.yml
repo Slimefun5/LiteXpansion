@@ -2,7 +2,7 @@
 ELECTRIC_CHESTPLATE:
   name: "&9Peitoral elétrico"
 NANO_BLADE:
-  name: "&2Nanolâmina &c(Desligada)"
+  name: "&2Nano-lâmina &c(Desligada)"
 GLASS_CUTTER:
   name: "&bCortador de vidro"
 MINING_DRILL:
@@ -10,21 +10,21 @@ MINING_DRILL:
 DIAMOND_DRILL:
   name: "&bFuradeira de diamante"
 TREETAP:
-  name: "&7Extrator de seiva"
+  name: "&7Torneira de árvore"
 CARGO_CONFIGURATOR:
   name: "&7Configurador de carga"
 TIN_PLATE:
   name: "&7Placa de estanho"
 TIN_ITEM_CASING:
-  name: "&7Invólucro de estanho"
+  name: "&7Revestimento de estanho"
 UNINSULATED_TIN_CABLE:
-  name: "&7Cabo de estanho sem isolamento"
+  name: "&7Cabo de estanho não isolado"
 TIN_CABLE:
   name: "&7Cabo de estanho"
 COPPER_PLATE:
   name: "&7Placa de cobre"
 COPPER_ITEM_CASING:
-  name: "&7Invólucro de cobre"
+  name: "&7Revestimento de cobre"
 MAG_THOR:
   name: "&b&lMag-Thor"
 THORIUM:
@@ -44,7 +44,7 @@ REFINED_IRON:
 MACHINE_BLOCK:
   name: "&7Bloco de máquina"
 UNINSULATED_COPPER_CABLE:
-  name: "&7Cabo de cobre sem isolamento"
+  name: "&7Cabo de cobre não isolado"
 COPPER_CABLE:
   name: "&7Cabo de cobre"
 RUBBER:
@@ -66,7 +66,7 @@ ADVANCED_ALLOY:
 ADVANCED_MACHINE_BLOCK:
   name: "&7Bloco de máquina avançado"
 LAPOTRON_CRYSTAL:
-  name: "&7Cristal Lapotron"
+  name: "&7Cristal de Lapotron"
 REINFORCED_STONE:
   name: "&7Pedra reforçada"
 REINFORCED_DOOR:
@@ -96,15 +96,15 @@ MULTI_FUNCTIONAL_STORAGE_UNIT:
 GOLD_PLATE:
   name: "&7Placa de ouro"
 GOLD_ITEM_CASING:
-  name: "&7Invólucro de ouro"
+  name: "&7Revestimento de ouro"
 UNINSULATED_GOLD_CABLE:
-  name: "&7Cabo de ouro sem isolamento"
+  name: "&7Cabo de ouro não isolado"
 GOLD_CABLE:
   name: "&7Cabo de ouro"
 REFINED_SMELTERY:
   name: "&7Fundição refinada"
 METAL_FORGE:
-  name: "&7Forja de metal"
+  name: "&7Forja de metais"
 MANUAL_MILL:
   name: "&7Moinho manual"
 GENERATOR:
@@ -118,7 +118,7 @@ CARBONADO_SOLAR_HELMET:
 ENERGIZED_SOLAR_HELMET:
   name: "&7Capacete solar energizado"
 ADVANCEDLX_SOLAR_HELMET:
-  name: "&7Capacete solar superavançado"
+  name: "&7Capacete solar super avançado"
 HYBRID_SOLAR_HELMET:
   name: "&7Capacete solar híbrido"
 ULTIMATE_SOLAR_HELMET:
@@ -134,7 +134,7 @@ THORIUM_PLATE:
 POWER_UNIT:
   name: "&7Unidade de energia"
 IRON_ITEM_CASING:
-  name: "&7Invólucro de ferro"
+  name: "&7Revestimento de ferro"
 LAPIS_DUST:
   name: "&7Pó de lápis-lazúli"
 REDSTONE_DUST:

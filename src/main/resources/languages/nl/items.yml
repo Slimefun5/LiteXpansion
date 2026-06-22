@@ -1,8 +1,8 @@
 # Dutch item translations for LiteXpansion. Keyed by Slimefun item id.
 ELECTRIC_CHESTPLATE:
-  name: "&9Elektrisch borstharnas"
+  name: "&9Elektrisch borstpantser"
 NANO_BLADE:
-  name: "&2Nanozwaard &c(Uit)"
+  name: "&2Nano-kling &c(Uit)"
 GLASS_CUTTER:
   name: "&bGlassnijder"
 MINING_DRILL:
@@ -10,15 +10,15 @@ MINING_DRILL:
 DIAMOND_DRILL:
   name: "&bDiamanten boor"
 TREETAP:
-  name: "&7Boomkraan"
+  name: "&7Boomtap"
 CARGO_CONFIGURATOR:
-  name: "&7Vrachtconfigurator"
+  name: "&7Vracht-configurator"
 TIN_PLATE:
   name: "&7Tinnen plaat"
 TIN_ITEM_CASING:
   name: "&7Tinnen behuizing"
 UNINSULATED_TIN_CABLE:
-  name: "&7Ongeïsoleerde tinnen kabel"
+  name: "&7Niet-geïsoleerde tinnen kabel"
 TIN_CABLE:
   name: "&7Tinnen kabel"
 COPPER_PLATE:
@@ -44,7 +44,7 @@ REFINED_IRON:
 MACHINE_BLOCK:
   name: "&7Machineblok"
 UNINSULATED_COPPER_CABLE:
-  name: "&7Ongeïsoleerde koperen kabel"
+  name: "&7Niet-geïsoleerde koperen kabel"
 COPPER_CABLE:
   name: "&7Koperen kabel"
 RUBBER:
@@ -78,9 +78,9 @@ MIXED_METAL_INGOT:
 SCRAP_MACHINE:
   name: "&8Recycler"
 MASS_FABRICATOR_MACHINE:
-  name: "&5Massafabrikant"
+  name: "&5Massafabrikator"
 RUBBER_SYNTHESIZER:
-  name: "&6Rubbersynthesizer"
+  name: "&6Rubber-synthesizer"
 MACERATOR:
   name: "&7Vermaler"
 ADVANCED_SOLAR_PANEL:
@@ -98,7 +98,7 @@ GOLD_PLATE:
 GOLD_ITEM_CASING:
   name: "&7Gouden behuizing"
 UNINSULATED_GOLD_CABLE:
-  name: "&7Ongeïsoleerde gouden kabel"
+  name: "&7Niet-geïsoleerde gouden kabel"
 GOLD_CABLE:
   name: "&7Gouden kabel"
 REFINED_SMELTERY:
@@ -114,7 +114,7 @@ RE_BATTERY:
 ADVANCED_SOLAR_HELMET:
   name: "&7Geavanceerde zonnehelm"
 CARBONADO_SOLAR_HELMET:
-  name: "&7Carbonado-zonnehelm"
+  name: "&7Carbonado zonnehelm"
 ENERGIZED_SOLAR_HELMET:
   name: "&7Geladen zonnehelm"
 ADVANCEDLX_SOLAR_HELMET:
@@ -124,7 +124,7 @@ HYBRID_SOLAR_HELMET:
 ULTIMATE_SOLAR_HELMET:
   name: "&7Ultieme zonnehelm"
 FOOD_SYNTHESIZER:
-  name: "&dVoedselsynthesizer"
+  name: "&dVoedsel-synthesizer"
 IRON_PLATE:
   name: "&7IJzeren plaat"
 DIAMOND_PLATE:
@@ -138,7 +138,7 @@ IRON_ITEM_CASING:
 LAPIS_DUST:
   name: "&7Lapisstof"
 REDSTONE_DUST:
-  name: "&7Redstonestof"
+  name: "&7Redstone-stof"
 DIAMOND_DUST:
   name: "&7Diamantstof"
 EMERALD_DUST:
