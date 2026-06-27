@@ -471,7 +471,7 @@ public class LiteXpansion extends JavaPlugin implements SlimefunAddon {
     }
 
     public String getBugTrackerURL() {
-        return "https://github.com/Slimefun-Addon-Community/LiteXpansion/issues";
+        return "https://github.com/Slimefun5/LiteXpansion/issues";
     }
 
     public static LiteXpansion getInstance() {
