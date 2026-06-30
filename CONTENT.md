@@ -28,7 +28,7 @@ If you need to find a Slimefun item ID you can join the official Slimefun Discor
 You can also generally chat about LiteXpansion in the `#litexpansion` channel.
 
 <p align="center">
-  <a href="https://discord.gg/slimefun">
+  <a href="https://discord.gg/CbBYZBEWdR">
     <img src="https://discordapp.com/api/guilds/565557184348422174/widget.png?style=banner3" alt="Discord Invite"/>
   </a>
 </p>
