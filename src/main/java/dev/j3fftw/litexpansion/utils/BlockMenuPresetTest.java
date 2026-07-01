@@ -10,7 +10,8 @@ import io.github.thebusybiscuit.slimefun5.utils.SlimefunUtils;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenuPreset;
 import me.mrCookieSlime.Slimefun.api.item_transport.ItemTransportFlow;
-import org.bukkit.Material;
+import dev.j3fftw.litexpansion.compat.MaterialCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
 
@@ -57,7 +58,7 @@ public class BlockMenuPresetTest extends BlockMenuPreset {
 
         addItem(UUCrafter.START_STOP,
             io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack.create(
-                Material.RED_STAINED_GLASS_PANE,
+                MaterialCompat.safe(XMaterial.RED_STAINED_GLASS_PANE),
                 "&7Click to start"
             )
         );

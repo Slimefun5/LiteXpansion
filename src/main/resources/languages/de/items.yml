@@ -1,0 +1,153 @@
+# German item translations for LiteXpansion. Keyed by Slimefun item id.
+ELECTRIC_CHESTPLATE:
+  name: "&9Elektrischer Brustpanzer"
+NANO_BLADE:
+  name: "&2Nanoklinge &c(Aus)"
+GLASS_CUTTER:
+  name: "&bGlasschneider"
+MINING_DRILL:
+  name: "&7Bohrhammer"
+DIAMOND_DRILL:
+  name: "&bDiamantbohrer"
+TREETAP:
+  name: "&7Zapfhahn"
+CARGO_CONFIGURATOR:
+  name: "&7Fracht-Konfigurator"
+TIN_PLATE:
+  name: "&7Zinnplatte"
+TIN_ITEM_CASING:
+  name: "&7Zinn-Gehäuse"
+UNINSULATED_TIN_CABLE:
+  name: "&7Unisoliertes Zinnkabel"
+TIN_CABLE:
+  name: "&7Zinnkabel"
+COPPER_PLATE:
+  name: "&7Kupferplatte"
+COPPER_ITEM_CASING:
+  name: "&7Kupfer-Gehäuse"
+MAG_THOR:
+  name: "&b&lMag-Thor"
+THORIUM:
+  name: "&8Thorium"
+SCRAP:
+  name: "&8Schrott"
+UU_MATTER:
+  name: "&5UU-Matter"
+IRIDIUM:
+  name: "&fIridium"
+IRIDIUM_PLATE:
+  name: "&fIridiumplatte"
+THORIUM_DUST:
+  name: "&8Thoriumstaub"
+REFINED_IRON:
+  name: "&7Raffiniertes Eisen"
+MACHINE_BLOCK:
+  name: "&7Maschinenblock"
+UNINSULATED_COPPER_CABLE:
+  name: "&7Unisoliertes Kupferkabel"
+COPPER_CABLE:
+  name: "&7Kupferkabel"
+RUBBER:
+  name: "&7Gummi"
+ELECTRONIC_CIRCUIT:
+  name: "&7Elektronischer Schaltkreis"
+ADVANCED_CIRCUIT:
+  name: "&7Fortschrittlicher Schaltkreis"
+COAL_DUST:
+  name: "&7Kohlestaub"
+RAW_CARBON_FIBRE:
+  name: "&7Rohe Kohlefaser"
+RAW_CARBON_MESH:
+  name: "&7Rohes Kohlegewebe"
+CARBON_PLATE:
+  name: "&7Kohleplatte"
+ADVANCED_ALLOY:
+  name: "&7Fortschrittliche Legierung"
+ADVANCED_MACHINE_BLOCK:
+  name: "&7Fortschrittlicher Maschinenblock"
+LAPOTRON_CRYSTAL:
+  name: "&7Lapotron-Kristall"
+REINFORCED_STONE:
+  name: "&7Verstärkter Stein"
+REINFORCED_DOOR:
+  name: "&7Verstärkte Tür"
+REINFORCED_GLASS:
+  name: "&7Verstärktes Glas"
+MIXED_METAL_INGOT:
+  name: "&7Gemischter Metallbarren"
+SCRAP_MACHINE:
+  name: "&8Recycler"
+MASS_FABRICATOR_MACHINE:
+  name: "&5Massenfabrikator"
+RUBBER_SYNTHESIZER:
+  name: "&6Gummi-Synthesizer"
+MACERATOR:
+  name: "&7Zerkleinerer"
+ADVANCED_SOLAR_PANEL:
+  name: "&7&lFortschrittliches Solarpanel"
+HYBRID_SOLAR_PANEL:
+  name: "&b&lHybrid-Solarpanel"
+ULTIMATE_SOLAR_PANEL:
+  name: "&5&lUltimatives Solarpanel"
+MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  name: "&7MFE"
+MULTI_FUNCTIONAL_STORAGE_UNIT:
+  name: "&7MFSU"
+GOLD_PLATE:
+  name: "&7Goldplatte"
+GOLD_ITEM_CASING:
+  name: "&7Gold-Gehäuse"
+UNINSULATED_GOLD_CABLE:
+  name: "&7Unisoliertes Goldkabel"
+GOLD_CABLE:
+  name: "&7Goldkabel"
+REFINED_SMELTERY:
+  name: "&7Raffinierte Schmelze"
+METAL_FORGE:
+  name: "&7Metallschmiede"
+MANUAL_MILL:
+  name: "&7Handmühle"
+GENERATOR:
+  name: "&7Generator"
+RE_BATTERY:
+  name: "&7RE-Batterie"
+ADVANCED_SOLAR_HELMET:
+  name: "&7Fortschrittlicher Solarhelm"
+CARBONADO_SOLAR_HELMET:
+  name: "&7Carbonado-Solarhelm"
+ENERGIZED_SOLAR_HELMET:
+  name: "&7Energetisierter Solarhelm"
+ADVANCEDLX_SOLAR_HELMET:
+  name: "&7Super fortschrittlicher Solarhelm"
+HYBRID_SOLAR_HELMET:
+  name: "&7Hybrid-Solarhelm"
+ULTIMATE_SOLAR_HELMET:
+  name: "&7Ultimativer Solarhelm"
+FOOD_SYNTHESIZER:
+  name: "&dNahrungs-Synthesizer"
+IRON_PLATE:
+  name: "&7Eisenplatte"
+DIAMOND_PLATE:
+  name: "&7Diamantplatte"
+THORIUM_PLATE:
+  name: "&7Thoriumplatte"
+POWER_UNIT:
+  name: "&7Energieeinheit"
+IRON_ITEM_CASING:
+  name: "&7Eisen-Gehäuse"
+LAPIS_DUST:
+  name: "&7Lapisstaub"
+REDSTONE_DUST:
+  name: "&7Redstone-Staub"
+DIAMOND_DUST:
+  name: "&7Diamantstaub"
+EMERALD_DUST:
+  name: "&7Smaragdstaub"
+QUARTZ_DUST:
+  name: "&7Quarzstaub"
+ANCIENT_DEBRIS_DUST:
+  name: "&7Alter-Trümmer-Staub"
+UU_CRAFTER:
+  name: "&7UU-Hersteller"
+CONVER:
+  name: "&7Konverter"

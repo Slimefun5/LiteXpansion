@@ -6,7 +6,8 @@ import io.github.thebusybiscuit.slimefun5.core.attributes.Radioactive;
 import io.github.thebusybiscuit.slimefun5.core.attributes.Radioactivity;
 import io.github.thebusybiscuit.slimefun5.implementation.items.blocks.UnplaceableBlock;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
-import org.bukkit.Material;
+import dev.j3fftw.litexpansion.compat.MaterialCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import org.bukkit.inventory.ItemStack;
 
 import javax.annotation.Nonnull;
@@ -18,7 +19,7 @@ import javax.annotation.Nonnull;
  */
 public class Thorium extends UnplaceableBlock implements Radioactive {
 
-    private static final ItemStack thorium = CustomItemStack.create(Material.PAPER, "\u00a7fHint!",
+    private static final ItemStack thorium = CustomItemStack.create(MaterialCompat.safe(XMaterial.PAPER), "\u00a7fHint!",
         "\u00a7a\u00a7oMake sure to first GEO-Scan the chunk in which you are", "\u00a7a\u00a7omining to discover Thorium!");
 
     public Thorium() {

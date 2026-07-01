@@ -6,7 +6,7 @@ import io.github.thebusybiscuit.slimefun5.api.MinecraftVersion;
 import io.github.thebusybiscuit.slimefun5.api.geo.GEOResource;
 import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun5.utils.biomes.BiomeMap;
-import org.bukkit.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import org.bukkit.World;
 import org.bukkit.block.Biome;
 import org.bukkit.inventory.ItemStack;
@@ -21,7 +21,7 @@ import java.util.logging.Level;
  */
 public class ThoriumResource implements GEOResource {
 
-    private final NamespacedKey key = new NamespacedKey(LiteXpansion.getInstance(), "thorium");
+    private final NamespacedKey key = new NamespacedKey("litexpansion", "thorium");
 
     private BiomeMap<Integer> map;
 

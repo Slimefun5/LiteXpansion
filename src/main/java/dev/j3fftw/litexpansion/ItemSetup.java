@@ -30,9 +30,10 @@ import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems;
 import io.github.thebusybiscuit.slimefun5.implementation.items.blocks.UnplaceableBlock;
 import io.github.thebusybiscuit.slimefun5.implementation.items.multiblocks.OreCrusher;
+import dev.j3fftw.litexpansion.compat.MaterialCompat;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import org.bukkit.Bukkit;
-import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
 import javax.annotation.Nonnull;
@@ -40,7 +41,7 @@ import javax.annotation.Nonnull;
 final class ItemSetup {
 
     static final ItemSetup INSTANCE = new ItemSetup();
-    private final ItemStack glass = new ItemStack(Material.GLASS);
+    private final ItemStack glass = new ItemStack(MaterialCompat.safe(XMaterial.GLASS));
     private final SlimefunAddon plugin = LiteXpansion.getInstance();
     private boolean initialised;
     private ItemStack rubberItem;
@@ -157,10 +158,10 @@ final class ItemSetup {
 
         registerItem(Items.RE_BATTERY, RecipeType.ENHANCED_CRAFTING_TABLE,
             null, Items.TIN_CABLE.item(), null,
-            Items.TIN_ITEM_CASING.item(), new ItemStack(Material.REDSTONE), Items.TIN_ITEM_CASING.item(),
-            Items.TIN_ITEM_CASING.item(), new ItemStack(Material.REDSTONE), Items.TIN_ITEM_CASING.item()
+            Items.TIN_ITEM_CASING.item(), new ItemStack(MaterialCompat.safe(XMaterial.REDSTONE)), Items.TIN_ITEM_CASING.item(),
+            Items.TIN_ITEM_CASING.item(), new ItemStack(MaterialCompat.safe(XMaterial.REDSTONE)), Items.TIN_ITEM_CASING.item()
         );
-        registerNonPlaceableItem(Items.GOLD_PLATE, MetalForge.RECIPE_TYPE, new ItemStack(Material.GOLD_INGOT));
+        registerNonPlaceableItem(Items.GOLD_PLATE, MetalForge.RECIPE_TYPE, new ItemStack(MaterialCompat.safe(XMaterial.GOLD_INGOT)));
 
         registerNonPlaceableItem(Items.GOLD_ITEM_CASING, ManualMill.RECIPE_TYPE, Items.GOLD_PLATE.item());
 
@@ -172,30 +173,30 @@ final class ItemSetup {
             this.rubberItem, Items.UNINSULATED_GOLD_CABLE.item()
         );
 
-        registerNonPlaceableItem(Items.IRON_PLATE, MetalForge.RECIPE_TYPE, new ItemStack(Material.IRON_INGOT));
+        registerNonPlaceableItem(Items.IRON_PLATE, MetalForge.RECIPE_TYPE, new ItemStack(MaterialCompat.safe(XMaterial.IRON_INGOT)));
         registerNonPlaceableItem(Items.IRON_ITEM_CASING, ManualMill.RECIPE_TYPE, Items.IRON_PLATE.item());
-        registerNonPlaceableItem(Items.DIAMOND_PLATE, MetalForge.RECIPE_TYPE, new ItemStack(Material.DIAMOND));
+        registerNonPlaceableItem(Items.DIAMOND_PLATE, MetalForge.RECIPE_TYPE, new ItemStack(MaterialCompat.safe(XMaterial.DIAMOND)));
         registerNonPlaceableItem(Items.THORIUM_PLATE, MetalForge.RECIPE_TYPE, Items.THORIUM.item());
 
 
         // Circuits
         registerNonPlaceableItem(Items.ELECTRONIC_CIRCUIT, RecipeType.ENHANCED_CRAFTING_TABLE,
             Items.COPPER_CABLE.item(), Items.COPPER_CABLE.item(), Items.COPPER_CABLE.item(),
-            new ItemStack(Material.REDSTONE), Items.REFINED_IRON.item(), new ItemStack(Material.REDSTONE),
+            new ItemStack(MaterialCompat.safe(XMaterial.REDSTONE)), Items.REFINED_IRON.item(), new ItemStack(MaterialCompat.safe(XMaterial.REDSTONE)),
             Items.COPPER_CABLE.item(), Items.COPPER_CABLE.item(), Items.COPPER_CABLE.item()
         );
 
         registerNonPlaceableItem(Items.ADVANCED_CIRCUIT, RecipeType.ENHANCED_CRAFTING_TABLE,
-            new ItemStack(Material.REDSTONE), new ItemStack(Material.LAPIS_LAZULI), new ItemStack(Material.REDSTONE),
-            new ItemStack(Material.GLOWSTONE_DUST), Items.ELECTRONIC_CIRCUIT.item(), new ItemStack(Material.GLOWSTONE_DUST),
-            new ItemStack(Material.REDSTONE), new ItemStack(Material.LAPIS_LAZULI), new ItemStack(Material.REDSTONE)
+            new ItemStack(MaterialCompat.safe(XMaterial.REDSTONE)), new ItemStack(MaterialCompat.safe(XMaterial.LAPIS_LAZULI)), new ItemStack(MaterialCompat.safe(XMaterial.REDSTONE)),
+            new ItemStack(MaterialCompat.safe(XMaterial.GLOWSTONE_DUST)), Items.ELECTRONIC_CIRCUIT.item(), new ItemStack(MaterialCompat.safe(XMaterial.GLOWSTONE_DUST)),
+            new ItemStack(MaterialCompat.safe(XMaterial.REDSTONE)), new ItemStack(MaterialCompat.safe(XMaterial.LAPIS_LAZULI)), new ItemStack(MaterialCompat.safe(XMaterial.REDSTONE))
         );
 
 
         registerItem(Items.LAPOTRON_CRYSTAL, RecipeType.ENHANCED_CRAFTING_TABLE,
-            new ItemStack(Material.LAPIS_LAZULI), Items.ADVANCED_CIRCUIT.item(), new ItemStack(Material.LAPIS_LAZULI),
-            new ItemStack(Material.LAPIS_LAZULI), SlimefunItems.POWER_CRYSTAL.item(), new ItemStack(Material.LAPIS_LAZULI),
-            new ItemStack(Material.LAPIS_LAZULI), Items.ADVANCED_CIRCUIT.item(), new ItemStack(Material.LAPIS_LAZULI)
+            new ItemStack(MaterialCompat.safe(XMaterial.LAPIS_LAZULI)), Items.ADVANCED_CIRCUIT.item(), new ItemStack(MaterialCompat.safe(XMaterial.LAPIS_LAZULI)),
+            new ItemStack(MaterialCompat.safe(XMaterial.LAPIS_LAZULI)), SlimefunItems.POWER_CRYSTAL.item(), new ItemStack(MaterialCompat.safe(XMaterial.LAPIS_LAZULI)),
+            new ItemStack(MaterialCompat.safe(XMaterial.LAPIS_LAZULI)), Items.ADVANCED_CIRCUIT.item(), new ItemStack(MaterialCompat.safe(XMaterial.LAPIS_LAZULI))
         );
 
         registerItem(Items.POWER_UNIT, RecipeType.ENHANCED_CRAFTING_TABLE,
@@ -206,27 +207,27 @@ final class ItemSetup {
 
         // Refined crap
         registerNonPlaceableItem(Items.REFINED_IRON, RefinedSmeltery.RECIPE_TYPE,
-            new ItemStack(Material.IRON_INGOT)
+            new ItemStack(MaterialCompat.safe(XMaterial.IRON_INGOT))
         );
 
         // Dust smelting
         RecipeType.SMELTERY.register(new ItemStack[] {Items.LAPIS_DUST.item()},
-            new ItemStack(Material.LAPIS_LAZULI)
+            new ItemStack(MaterialCompat.safe(XMaterial.LAPIS_LAZULI))
         );
         RecipeType.SMELTERY.register(new ItemStack[] {Items.REDSTONE_DUST.item()},
-            new ItemStack(Material.REDSTONE)
+            new ItemStack(MaterialCompat.safe(XMaterial.REDSTONE))
         );
         RecipeType.SMELTERY.register(new ItemStack[] {Items.DIAMOND_DUST.item()},
-            new ItemStack(Material.DIAMOND)
+            new ItemStack(MaterialCompat.safe(XMaterial.DIAMOND))
         );
         RecipeType.SMELTERY.register(new ItemStack[] {Items.EMERALD_DUST.item()},
-            new ItemStack(Material.EMERALD)
+            new ItemStack(MaterialCompat.safe(XMaterial.EMERALD))
         );
         RecipeType.SMELTERY.register(new ItemStack[] {Items.QUARTZ_DUST.item()},
-            new ItemStack(Material.QUARTZ)
+            new ItemStack(MaterialCompat.safe(XMaterial.QUARTZ))
         );
         RecipeType.SMELTERY.register(new ItemStack[] {Items.ANCIENT_DEBRIS_DUST.item()},
-            new ItemStack(Material.NETHERITE_INGOT)
+            new ItemStack(MaterialCompat.safe(XMaterial.NETHERITE_INGOT))
         );
 
         // Resources
@@ -235,7 +236,7 @@ final class ItemSetup {
     }
 
     private void registerEndgameItems() {
-        registerNonPlaceableItem(Items.SCRAP, Recycler.RECIPE_TYPE, CustomItemStack.create(Material.COBBLESTONE,
+        registerNonPlaceableItem(Items.SCRAP, Recycler.RECIPE_TYPE, CustomItemStack.create(MaterialCompat.safe(XMaterial.COBBLESTONE),
             "\u00a77Any Item!"));
         new DyeItem(Items.LITEXPANSION, Items.UU_MATTER, MassFabricator.RECIPE_TYPE,
             createSingleItemRecipeCentered(Items.SCRAP.item())).register(plugin);
@@ -246,7 +247,7 @@ final class ItemSetup {
         }).register(plugin);
         registerNonPlaceableItem(Items.IRIDIUM_PLATE, MetalForge.RECIPE_TYPE,
             Items.IRIDIUM.item(), Items.ADVANCED_ALLOY.item(), Items.IRIDIUM.item(),
-            Items.ADVANCED_ALLOY.item(), new ItemStack(Material.DIAMOND), Items.ADVANCED_ALLOY.item(),
+            Items.ADVANCED_ALLOY.item(), new ItemStack(MaterialCompat.safe(XMaterial.DIAMOND)), Items.ADVANCED_ALLOY.item(),
             Items.IRIDIUM.item(), Items.ADVANCED_ALLOY.item(), Items.IRIDIUM.item()
         );
 
@@ -256,7 +257,7 @@ final class ItemSetup {
 
     private void registerCarbonStuff() {
         new DyeItem(Items.LITEXPANSION, Items.COAL_DUST, RecipeType.ORE_CRUSHER,
-            createSingleItemRecipe(new ItemStack(Material.COAL))).register(plugin);
+            createSingleItemRecipe(new ItemStack(MaterialCompat.safe(XMaterial.COAL)))).register(plugin);
         new DyeItem(Items.LITEXPANSION, Items.RAW_CARBON_FIBRE, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
             Items.COAL_DUST.item(), Items.COAL_DUST.item(), null,
             Items.COAL_DUST.item(), Items.COAL_DUST.item(), null,
@@ -331,7 +332,7 @@ final class ItemSetup {
             recipe = items;
         }
 
-        new UnplaceableBlock(Items.LITEXPANSION, item, type, recipe, item.item().asQuantity(amount)).register(plugin);
+        new UnplaceableBlock(Items.LITEXPANSION, item, type, recipe, item.asQuantity(amount)).register(plugin);
     }
 
 

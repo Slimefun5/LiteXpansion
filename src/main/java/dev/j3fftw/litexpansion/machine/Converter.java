@@ -6,6 +6,8 @@ import io.github.thebusybiscuit.slimefun5.api.MinecraftVersion;
 import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems;
+import dev.j3fftw.litexpansion.compat.MaterialCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.AContainer;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
@@ -24,31 +26,32 @@ public class Converter extends AContainer implements PoweredMachine {
     public Converter() {
         super(Items.LITEXPANSION, Items.CONVERTER, RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[] {
-                new ItemStack(Material.REDSTONE), new ItemStack(Material.REDSTONE), new ItemStack(Material.REDSTONE),
-                new ItemStack(Material.COBBLESTONE), Items.ADVANCED_MACHINE_BLOCK.item(), new ItemStack(Material.COBBLESTONE),
+                new ItemStack(MaterialCompat.safe(XMaterial.REDSTONE)), new ItemStack(MaterialCompat.safe(XMaterial.REDSTONE)), new ItemStack(MaterialCompat.safe(XMaterial.REDSTONE)),
+                new ItemStack(MaterialCompat.safe(XMaterial.COBBLESTONE)), Items.ADVANCED_MACHINE_BLOCK.item(), new ItemStack(MaterialCompat.safe(XMaterial.COBBLESTONE)),
                 null, Items.ADVANCED_CIRCUIT.item(), null
             });
     }
 
     @Override
     protected void registerDefaultRecipes() {
-        if (Slimefun.getMinecraftVersion().isAtLeast(MinecraftVersion.MINECRAFT_1_17)) {
-            addRecipe(new ItemStack(Material.COPPER_INGOT), SlimefunItems.COPPER_INGOT.item().clone());
-            addRecipe(SlimefunItems.COPPER_INGOT.item().clone(), new ItemStack(Material.COPPER_INGOT));
+        Material copperIngot = Material.getMaterial("COPPER_INGOT");
+        if (copperIngot != null) {
+            addRecipe(new ItemStack(copperIngot), SlimefunItems.COPPER_INGOT.item().clone());
+            addRecipe(SlimefunItems.COPPER_INGOT.item().clone(), new ItemStack(copperIngot));
         }
 
-        addRecipe(new ItemStack(Material.GOLD_INGOT), SlimefunItems.GOLD_4K.item().clone());
-        addRecipe(SlimefunItems.GOLD_4K.item().clone(), new ItemStack(Material.GOLD_INGOT));
-        addRecipe(SlimefunItems.GOLD_6K.item().clone(), new ItemStack(Material.GOLD_INGOT));
-        addRecipe(SlimefunItems.GOLD_8K.item().clone(), new ItemStack(Material.GOLD_INGOT));
-        addRecipe(SlimefunItems.GOLD_10K.item().clone(), new ItemStack(Material.GOLD_INGOT));
-        addRecipe(SlimefunItems.GOLD_12K.item().clone(), new ItemStack(Material.GOLD_INGOT));
-        addRecipe(SlimefunItems.GOLD_14K.item().clone(), new ItemStack(Material.GOLD_INGOT));
-        addRecipe(SlimefunItems.GOLD_16K.item().clone(), new ItemStack(Material.GOLD_INGOT));
-        addRecipe(SlimefunItems.GOLD_20K.item().clone(), new ItemStack(Material.GOLD_INGOT));
-        addRecipe(SlimefunItems.GOLD_22K.item().clone(), new ItemStack(Material.GOLD_INGOT));
-        addRecipe(SlimefunItems.GOLD_24K.item().clone(), new ItemStack(Material.GOLD_INGOT));
-        addRecipe(SlimefunItems.GOLD_24K_BLOCK.item().clone(), new ItemStack(Material.GOLD_BLOCK));
+        addRecipe(new ItemStack(MaterialCompat.safe(XMaterial.GOLD_INGOT)), SlimefunItems.GOLD_4K.item().clone());
+        addRecipe(SlimefunItems.GOLD_4K.item().clone(), new ItemStack(MaterialCompat.safe(XMaterial.GOLD_INGOT)));
+        addRecipe(SlimefunItems.GOLD_6K.item().clone(), new ItemStack(MaterialCompat.safe(XMaterial.GOLD_INGOT)));
+        addRecipe(SlimefunItems.GOLD_8K.item().clone(), new ItemStack(MaterialCompat.safe(XMaterial.GOLD_INGOT)));
+        addRecipe(SlimefunItems.GOLD_10K.item().clone(), new ItemStack(MaterialCompat.safe(XMaterial.GOLD_INGOT)));
+        addRecipe(SlimefunItems.GOLD_12K.item().clone(), new ItemStack(MaterialCompat.safe(XMaterial.GOLD_INGOT)));
+        addRecipe(SlimefunItems.GOLD_14K.item().clone(), new ItemStack(MaterialCompat.safe(XMaterial.GOLD_INGOT)));
+        addRecipe(SlimefunItems.GOLD_16K.item().clone(), new ItemStack(MaterialCompat.safe(XMaterial.GOLD_INGOT)));
+        addRecipe(SlimefunItems.GOLD_20K.item().clone(), new ItemStack(MaterialCompat.safe(XMaterial.GOLD_INGOT)));
+        addRecipe(SlimefunItems.GOLD_22K.item().clone(), new ItemStack(MaterialCompat.safe(XMaterial.GOLD_INGOT)));
+        addRecipe(SlimefunItems.GOLD_24K.item().clone(), new ItemStack(MaterialCompat.safe(XMaterial.GOLD_INGOT)));
+        addRecipe(SlimefunItems.GOLD_24K_BLOCK.item().clone(), new ItemStack(MaterialCompat.safe(XMaterial.GOLD_BLOCK)));
     }
 
     private void addRecipe(ItemStack input, ItemStack output) {
@@ -57,7 +60,7 @@ public class Converter extends AContainer implements PoweredMachine {
 
     @Override
     public ItemStack getProgressBar() {
-        return new ItemStack(Material.FIRE_CHARGE);
+        return new ItemStack(MaterialCompat.safe(XMaterial.FIRE_CHARGE));
     }
 
     @Nonnull

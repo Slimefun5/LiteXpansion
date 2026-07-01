@@ -12,11 +12,12 @@ import io.github.thebusybiscuit.slimefun5.libraries.dough.items.ItemUtils;
 import io.github.thebusybiscuit.slimefun5.libraries.paperlib.PaperLib;
 import io.github.thebusybiscuit.slimefun5.utils.SlimefunUtils;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
+import dev.j3fftw.litexpansion.compat.MaterialCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
-import org.bukkit.Material;
-import org.bukkit.Particle;
-import org.bukkit.Sound;
+import dev.j3fftw.litexpansion.compat.ParticleCompat;
+import dev.j3fftw.litexpansion.compat.SoundCompat;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
 import org.bukkit.block.BlockState;
@@ -52,12 +53,14 @@ public abstract class CraftingMultiBlock extends MultiBlockMachine {
         BlockState state = PaperLib.getBlockState(dispenser, false).getState();
 
         final Block specialBlock = getSpecialBlock(dispenser);
-        if (specialBlock != null && !specialBlock.getType().isAir() && BlockStorage.hasBlockInfo(specialBlock)) {
+        if (specialBlock != null && specialBlock.getType() != MaterialCompat.safe(XMaterial.AIR)
+            && BlockStorage.hasBlockInfo(specialBlock)) {
             p.sendMessage(ChatColor.RED + "You can't use Slimefun blocks as part of the multi-block >:(");
             return;
         }
 
-        if (state instanceof Dispenser disp) {
+        if (state instanceof Dispenser) {
+            Dispenser disp = (Dispenser) state;
             Inventory inv = disp.getInventory();
             List<ItemStack[]> inputs = RecipeType.getRecipeInputList(this);
 
@@ -85,21 +88,21 @@ public abstract class CraftingMultiBlock extends MultiBlockMachine {
             for (int j = 0; j < 9; j++) {
                 ItemStack item = inv.getContents()[j];
 
-                if (item != null && item.getType() != Material.AIR) {
+                if (item != null && item.getType() != MaterialCompat.safe(XMaterial.AIR)) {
                     ItemUtils.consumeItem(item, true);
                 }
             }
 
-            p.getWorld().playSound(b.getLocation(), Sound.BLOCK_WOODEN_BUTTON_CLICK_ON, 1, 1);
+            SoundCompat.play(b.getLocation(), "BLOCK_WOODEN_BUTTON_CLICK_ON", 1, 1);
 
             outputInv.addItem(output);
 
             if (removeSpecialBlock()) {
                 final Block specialBlock = getSpecialBlock(dispenser);
                 if (specialBlock != null) {
-                    specialBlock.setType(Material.AIR);
-                    specialBlock.getWorld().spawnParticle(Particle.PORTAL, specialBlock.getLocation(), 4, 0.5, 0.5,
-                        0.5);
+                    specialBlock.setType(MaterialCompat.safe(XMaterial.AIR));
+                    ParticleCompat.spawn(specialBlock.getWorld(), "PORTAL", specialBlock.getLocation(), 4,
+                        0.5, 0.5, 0.5);
                 }
             }
         } else {

@@ -1,0 +1,153 @@
+# Russian item translations for LiteXpansion. Keyed by Slimefun item id.
+ELECTRIC_CHESTPLATE:
+  name: "&9Электрическая кираса"
+NANO_BLADE:
+  name: "&2Нано-клинок &c(Выкл)"
+GLASS_CUTTER:
+  name: "&bСтеклорез"
+MINING_DRILL:
+  name: "&7Шахтёрская дрель"
+DIAMOND_DRILL:
+  name: "&bАлмазная дрель"
+TREETAP:
+  name: "&7Надрез для дерева"
+CARGO_CONFIGURATOR:
+  name: "&7Конфигуратор грузов"
+TIN_PLATE:
+  name: "&7Оловянная пластина"
+TIN_ITEM_CASING:
+  name: "&7Оловянный корпус"
+UNINSULATED_TIN_CABLE:
+  name: "&7Неизолированный оловянный кабель"
+TIN_CABLE:
+  name: "&7Оловянный кабель"
+COPPER_PLATE:
+  name: "&7Медная пластина"
+COPPER_ITEM_CASING:
+  name: "&7Медный корпус"
+MAG_THOR:
+  name: "&b&lМаг-Тор"
+THORIUM:
+  name: "&8Торий"
+SCRAP:
+  name: "&8Лом"
+UU_MATTER:
+  name: "&5UU-Matter"
+IRIDIUM:
+  name: "&fИридий"
+IRIDIUM_PLATE:
+  name: "&fИридиевая пластина"
+THORIUM_DUST:
+  name: "&8Ториевая пыль"
+REFINED_IRON:
+  name: "&7Очищенное железо"
+MACHINE_BLOCK:
+  name: "&7Машинный блок"
+UNINSULATED_COPPER_CABLE:
+  name: "&7Неизолированный медный кабель"
+COPPER_CABLE:
+  name: "&7Медный кабель"
+RUBBER:
+  name: "&7Резина"
+ELECTRONIC_CIRCUIT:
+  name: "&7Электронная схема"
+ADVANCED_CIRCUIT:
+  name: "&7Улучшенная схема"
+COAL_DUST:
+  name: "&7Угольная пыль"
+RAW_CARBON_FIBRE:
+  name: "&7Сырое углеволокно"
+RAW_CARBON_MESH:
+  name: "&7Сырая углеродная сетка"
+CARBON_PLATE:
+  name: "&7Углеродная пластина"
+ADVANCED_ALLOY:
+  name: "&7Улучшенный сплав"
+ADVANCED_MACHINE_BLOCK:
+  name: "&7Улучшенный машинный блок"
+LAPOTRON_CRYSTAL:
+  name: "&7Кристалл Лапотрон"
+REINFORCED_STONE:
+  name: "&7Укреплённый камень"
+REINFORCED_DOOR:
+  name: "&7Укреплённая дверь"
+REINFORCED_GLASS:
+  name: "&7Укреплённое стекло"
+MIXED_METAL_INGOT:
+  name: "&7Смешанный металлический слиток"
+SCRAP_MACHINE:
+  name: "&8Переработчик"
+MASS_FABRICATOR_MACHINE:
+  name: "&5Масс-фабрикатор"
+RUBBER_SYNTHESIZER:
+  name: "&6Синтезатор резины"
+MACERATOR:
+  name: "&7Мацератор"
+ADVANCED_SOLAR_PANEL:
+  name: "&7&lУлучшенная солнечная панель"
+HYBRID_SOLAR_PANEL:
+  name: "&b&lГибридная солнечная панель"
+ULTIMATE_SOLAR_PANEL:
+  name: "&5&lУльтимативная солнечная панель"
+MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  name: "&7MFE"
+MULTI_FUNCTIONAL_STORAGE_UNIT:
+  name: "&7MFSU"
+GOLD_PLATE:
+  name: "&7Золотая пластина"
+GOLD_ITEM_CASING:
+  name: "&7Золотой корпус"
+UNINSULATED_GOLD_CABLE:
+  name: "&7Неизолированный золотой кабель"
+GOLD_CABLE:
+  name: "&7Золотой кабель"
+REFINED_SMELTERY:
+  name: "&7Очищенная плавильня"
+METAL_FORGE:
+  name: "&7Кузница металлов"
+MANUAL_MILL:
+  name: "&7Ручная мельница"
+GENERATOR:
+  name: "&7Генератор"
+RE_BATTERY:
+  name: "&7RE-батарея"
+ADVANCED_SOLAR_HELMET:
+  name: "&7Улучшенный солнечный шлем"
+CARBONADO_SOLAR_HELMET:
+  name: "&7Карбонадо солнечный шлем"
+ENERGIZED_SOLAR_HELMET:
+  name: "&7Заряженный солнечный шлем"
+ADVANCEDLX_SOLAR_HELMET:
+  name: "&7Супер улучшенный солнечный шлем"
+HYBRID_SOLAR_HELMET:
+  name: "&7Гибридный солнечный шлем"
+ULTIMATE_SOLAR_HELMET:
+  name: "&7Ультимативный солнечный шлем"
+FOOD_SYNTHESIZER:
+  name: "&dСинтезатор пищи"
+IRON_PLATE:
+  name: "&7Железная пластина"
+DIAMOND_PLATE:
+  name: "&7Алмазная пластина"
+THORIUM_PLATE:
+  name: "&7Ториевая пластина"
+POWER_UNIT:
+  name: "&7Энергоблок"
+IRON_ITEM_CASING:
+  name: "&7Железный корпус"
+LAPIS_DUST:
+  name: "&7Лазуритовая пыль"
+REDSTONE_DUST:
+  name: "&7Красная пыль"
+DIAMOND_DUST:
+  name: "&7Алмазная пыль"
+EMERALD_DUST:
+  name: "&7Изумрудная пыль"
+QUARTZ_DUST:
+  name: "&7Кварцевая пыль"
+ANCIENT_DEBRIS_DUST:
+  name: "&7Пыль древних обломков"
+UU_CRAFTER:
+  name: "&7UU-крафтер"
+CONVER:
+  name: "&7Конвертер"

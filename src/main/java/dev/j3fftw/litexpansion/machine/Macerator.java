@@ -6,10 +6,12 @@ import io.github.thebusybiscuit.slimefun5.api.MinecraftVersion;
 import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems;
+import dev.j3fftw.litexpansion.compat.MaterialCompat;
+import dev.j3fftw.litexpansion.compat.TagCompat;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.AContainer;
 import org.bukkit.Material;
-import org.bukkit.Tag;
 import org.bukkit.inventory.ItemStack;
 
 import javax.annotation.Nonnull;
@@ -26,48 +28,48 @@ public class Macerator extends AContainer implements PoweredMachine {
     public Macerator() {
         super(Items.LITEXPANSION, Items.MACERATOR, RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[] {
-                new ItemStack(Material.FLINT), new ItemStack(Material.FLINT), new ItemStack(Material.FLINT),
-                new ItemStack(Material.COBBLESTONE), Items.MACHINE_BLOCK.item(), new ItemStack(Material.COBBLESTONE),
+                new ItemStack(MaterialCompat.safe(XMaterial.FLINT)), new ItemStack(MaterialCompat.safe(XMaterial.FLINT)), new ItemStack(MaterialCompat.safe(XMaterial.FLINT)),
+                new ItemStack(MaterialCompat.safe(XMaterial.COBBLESTONE)), Items.MACHINE_BLOCK.item(), new ItemStack(MaterialCompat.safe(XMaterial.COBBLESTONE)),
                 null, Items.ELECTRONIC_CIRCUIT.item(), null
             });
     }
 
     @Override
     protected void registerDefaultRecipes() {
-        addRecipe(new ItemStack(Material.BLAZE_ROD), new ItemStack(Material.BLAZE_POWDER, 5));
-        addRecipe(new ItemStack(Material.COAL_BLOCK), Items.COAL_DUST.item().asQuantity(9));
-        addRecipe(new ItemStack(Material.REDSTONE_BLOCK), new ItemStack(Material.REDSTONE, 9));
-        addRecipe(new ItemStack(Material.QUARTZ_BLOCK), new ItemStack(Material.QUARTZ, 4));
-        addRecipe(new ItemStack(Material.BONE_BLOCK), new ItemStack(Material.BONE_MEAL, 9));
-        addRecipe(new ItemStack(Material.BONE), new ItemStack(Material.BONE_MEAL, 4));
-        addRecipe(new ItemStack(Material.CLAY), new ItemStack(Material.CLAY_BALL, 4));
-        addRecipe(new ItemStack(Material.COAL), Items.COAL_DUST.item().asQuantity(1));
-        addRecipe(new ItemStack(Material.COBBLESTONE), new ItemStack(Material.SAND));
-        addRecipe(new ItemStack(Material.GLOWSTONE), new ItemStack(Material.GLOWSTONE_DUST, 4));
-        addRecipe(new ItemStack(Material.GRAVEL), new ItemStack(Material.FLINT, 2));
-        addRecipe(new ItemStack(Material.ICE), new ItemStack(Material.SNOWBALL, 4));
-        addRecipe(new ItemStack(Material.QUARTZ_STAIRS), new ItemStack(Material.QUARTZ, 4));
-        addRecipe(new ItemStack(Material.SANDSTONE), new ItemStack(Material.SAND, 4));
-        addRecipe(new ItemStack(Material.STONE), new ItemStack(Material.COBBLESTONE));
-        addRecipe(new ItemStack(Material.GRANITE), new ItemStack(Material.GRAVEL));
-        addRecipe(new ItemStack(Material.ANDESITE), new ItemStack(Material.GRAVEL));
-        addRecipe(new ItemStack(Material.DIORITE), new ItemStack(Material.GRAVEL));
-        addRecipe(new ItemStack(Material.IRON_ORE), SlimefunItems.IRON_DUST.item().asQuantity(2));
-        addRecipe(new ItemStack(Material.COAL_ORE), CustomItemStack.create(Items.COAL_DUST.item(), 2));
-        addRecipe(new ItemStack(Material.LAPIS_ORE), Items.LAPIS_DUST.item().asQuantity(2));
-        addRecipe(new ItemStack(Material.GOLD_ORE), SlimefunItems.GOLD_DUST.item().asQuantity(2));
-        addRecipe(new ItemStack(Material.REDSTONE_ORE), Items.REDSTONE_DUST.item().asQuantity(2));
-        addRecipe(new ItemStack(Material.DIAMOND_ORE), Items.DIAMOND_DUST.item().asQuantity(2));
-        addRecipe(new ItemStack(Material.EMERALD_ORE), Items.EMERALD_DUST.item().asQuantity(2));
-        addRecipe(new ItemStack(Material.NETHER_QUARTZ_ORE), Items.QUARTZ_DUST.item().asQuantity(2));
+        addRecipe(new ItemStack(MaterialCompat.safe(XMaterial.BLAZE_ROD)), new ItemStack(MaterialCompat.safe(XMaterial.BLAZE_POWDER), 5));
+        addRecipe(new ItemStack(MaterialCompat.safe(XMaterial.COAL_BLOCK)), Items.COAL_DUST.asQuantity(9));
+        addRecipe(new ItemStack(MaterialCompat.safe(XMaterial.REDSTONE_BLOCK)), new ItemStack(MaterialCompat.safe(XMaterial.REDSTONE), 9));
+        addRecipe(new ItemStack(MaterialCompat.safe(XMaterial.QUARTZ_BLOCK)), new ItemStack(MaterialCompat.safe(XMaterial.QUARTZ), 4));
+        addRecipe(new ItemStack(MaterialCompat.safe(XMaterial.BONE_BLOCK)), new ItemStack(MaterialCompat.safe(XMaterial.BONE_MEAL), 9));
+        addRecipe(new ItemStack(MaterialCompat.safe(XMaterial.BONE)), new ItemStack(MaterialCompat.safe(XMaterial.BONE_MEAL), 4));
+        addRecipe(new ItemStack(MaterialCompat.safe(XMaterial.CLAY)), new ItemStack(MaterialCompat.safe(XMaterial.CLAY_BALL), 4));
+        addRecipe(new ItemStack(MaterialCompat.safe(XMaterial.COAL)), Items.COAL_DUST.asQuantity(1));
+        addRecipe(new ItemStack(MaterialCompat.safe(XMaterial.COBBLESTONE)), new ItemStack(MaterialCompat.safe(XMaterial.SAND)));
+        addRecipe(new ItemStack(MaterialCompat.safe(XMaterial.GLOWSTONE)), new ItemStack(MaterialCompat.safe(XMaterial.GLOWSTONE_DUST), 4));
+        addRecipe(new ItemStack(MaterialCompat.safe(XMaterial.GRAVEL)), new ItemStack(MaterialCompat.safe(XMaterial.FLINT), 2));
+        addRecipe(new ItemStack(MaterialCompat.safe(XMaterial.ICE)), new ItemStack(MaterialCompat.safe(XMaterial.SNOWBALL), 4));
+        addRecipe(new ItemStack(MaterialCompat.safe(XMaterial.QUARTZ_STAIRS)), new ItemStack(MaterialCompat.safe(XMaterial.QUARTZ), 4));
+        addRecipe(new ItemStack(MaterialCompat.safe(XMaterial.SANDSTONE)), new ItemStack(MaterialCompat.safe(XMaterial.SAND), 4));
+        addRecipe(new ItemStack(MaterialCompat.safe(XMaterial.STONE)), new ItemStack(MaterialCompat.safe(XMaterial.COBBLESTONE)));
+        addRecipe(new ItemStack(MaterialCompat.safe(XMaterial.GRANITE)), new ItemStack(MaterialCompat.safe(XMaterial.GRAVEL)));
+        addRecipe(new ItemStack(MaterialCompat.safe(XMaterial.ANDESITE)), new ItemStack(MaterialCompat.safe(XMaterial.GRAVEL)));
+        addRecipe(new ItemStack(MaterialCompat.safe(XMaterial.DIORITE)), new ItemStack(MaterialCompat.safe(XMaterial.GRAVEL)));
+        addRecipe(new ItemStack(MaterialCompat.safe(XMaterial.IRON_ORE)), SlimefunItems.IRON_DUST.asQuantity(2));
+        addRecipe(new ItemStack(MaterialCompat.safe(XMaterial.COAL_ORE)), CustomItemStack.create(Items.COAL_DUST.item(), 2));
+        addRecipe(new ItemStack(MaterialCompat.safe(XMaterial.LAPIS_ORE)), Items.LAPIS_DUST.asQuantity(2));
+        addRecipe(new ItemStack(MaterialCompat.safe(XMaterial.GOLD_ORE)), SlimefunItems.GOLD_DUST.asQuantity(2));
+        addRecipe(new ItemStack(MaterialCompat.safe(XMaterial.REDSTONE_ORE)), Items.REDSTONE_DUST.asQuantity(2));
+        addRecipe(new ItemStack(MaterialCompat.safe(XMaterial.DIAMOND_ORE)), Items.DIAMOND_DUST.asQuantity(2));
+        addRecipe(new ItemStack(MaterialCompat.safe(XMaterial.EMERALD_ORE)), Items.EMERALD_DUST.asQuantity(2));
+        addRecipe(new ItemStack(MaterialCompat.safe(XMaterial.NETHER_QUARTZ_ORE)), Items.QUARTZ_DUST.asQuantity(2));
 
         if (Slimefun.getMinecraftVersion().isAtLeast(MinecraftVersion.MINECRAFT_1_16)) {
-            addRecipe(new ItemStack(Material.NETHER_GOLD_ORE), SlimefunItems.GOLD_DUST.item().asQuantity(2));
-            addRecipe(new ItemStack(Material.ANCIENT_DEBRIS), Items.ANCIENT_DEBRIS_DUST.item().asQuantity(2));
+            addRecipe(new ItemStack(MaterialCompat.safe(XMaterial.NETHER_GOLD_ORE)), SlimefunItems.GOLD_DUST.asQuantity(2));
+            addRecipe(new ItemStack(MaterialCompat.safe(XMaterial.ANCIENT_DEBRIS)), Items.ANCIENT_DEBRIS_DUST.asQuantity(2));
         }
 
-        for (Material mat : Tag.WOOL.getValues()) {
-            addRecipe(new ItemStack(mat), new ItemStack(Material.STRING, 4));
+        for (Material mat : TagCompat.values("WOOL")) {
+            addRecipe(new ItemStack(mat), new ItemStack(MaterialCompat.safe(XMaterial.STRING), 4));
         }
     }
 
@@ -77,7 +79,7 @@ public class Macerator extends AContainer implements PoweredMachine {
 
     @Override
     public ItemStack getProgressBar() {
-        return new ItemStack(Material.FIRE_CHARGE);
+        return new ItemStack(MaterialCompat.safe(XMaterial.FIRE_CHARGE));
     }
 
     @Nonnull

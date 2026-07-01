@@ -5,9 +5,11 @@ import io.github.thebusybiscuit.slimefun5.api.MinecraftVersion;
 import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun5.implementation.items.electric.generators.CoalGenerator;
+import dev.j3fftw.litexpansion.compat.MaterialCompat;
+import dev.j3fftw.litexpansion.compat.TagCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.MachineFuel;
 import org.bukkit.Material;
-import org.bukkit.Tag;
 import org.bukkit.inventory.ItemStack;
 
 import javax.annotation.Nonnull;
@@ -23,7 +25,7 @@ public class Generator extends CoalGenerator {
         super(Items.LITEXPANSION, Items.GENERATOR, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
             null, Items.RE_BATTERY.item(), null,
             null, Items.MACHINE_BLOCK.item(), null,
-            null, new ItemStack(Material.FURNACE), null
+            null, new ItemStack(MaterialCompat.safe(XMaterial.FURNACE)), null
         });
     }
 
@@ -36,7 +38,7 @@ public class Generator extends CoalGenerator {
     @Nonnull
     @Override
     public ItemStack getProgressBar() {
-        return new ItemStack(Material.FIRE_CHARGE);
+        return new ItemStack(MaterialCompat.safe(XMaterial.FIRE_CHARGE));
     }
 
     @Override
@@ -48,62 +50,55 @@ public class Generator extends CoalGenerator {
     protected void registerDefaultFuelTypes() {
         super.registerDefaultFuelTypes();
 
-        super.registerFuel(new MachineFuel(100, new ItemStack(Material.LAVA_BUCKET)));
-        super.registerFuel(new MachineFuel(8, new ItemStack(Material.CHARCOAL)));
-        super.registerFuel(new MachineFuel(6, new ItemStack(Material.SCAFFOLDING)));
-        super.registerFuel(new MachineFuel(1, new ItemStack(Material.WOODEN_AXE)));
-        super.registerFuel(new MachineFuel(1, new ItemStack(Material.WOODEN_HOE)));
-        super.registerFuel(new MachineFuel(1, new ItemStack(Material.WOODEN_PICKAXE)));
-        super.registerFuel(new MachineFuel(1, new ItemStack(Material.WOODEN_SHOVEL)));
-        super.registerFuel(new MachineFuel(1, new ItemStack(Material.WOODEN_SWORD)));
-        super.registerFuel(new MachineFuel(1, new ItemStack(Material.LADDER)));
-        super.registerFuel(new MachineFuel(1, new ItemStack(Material.CRAFTING_TABLE)));
-        super.registerFuel(new MachineFuel(1, new ItemStack(Material.CARTOGRAPHY_TABLE)));
-        super.registerFuel(new MachineFuel(1, new ItemStack(Material.FLETCHING_TABLE)));
-        super.registerFuel(new MachineFuel(1, new ItemStack(Material.SMITHING_TABLE)));
-        super.registerFuel(new MachineFuel(1, new ItemStack(Material.LOOM)));
-        super.registerFuel(new MachineFuel(1, new ItemStack(Material.BOOKSHELF)));
-        super.registerFuel(new MachineFuel(1, new ItemStack(Material.LECTERN)));
-        super.registerFuel(new MachineFuel(1, new ItemStack(Material.COMPOSTER)));
-        super.registerFuel(new MachineFuel(1, new ItemStack(Material.CHEST)));
-        super.registerFuel(new MachineFuel(1, new ItemStack(Material.TRAPPED_CHEST)));
-        super.registerFuel(new MachineFuel(1, new ItemStack(Material.BARREL)));
-        super.registerFuel(new MachineFuel(1, new ItemStack(Material.DAYLIGHT_DETECTOR)));
-        super.registerFuel(new MachineFuel(1, new ItemStack(Material.JUKEBOX)));
-        super.registerFuel(new MachineFuel(1, new ItemStack(Material.NOTE_BLOCK)));
-        super.registerFuel(new MachineFuel(1, new ItemStack(Material.BROWN_MUSHROOM_BLOCK)));
-        super.registerFuel(new MachineFuel(1, new ItemStack(Material.RED_MUSHROOM_BLOCK)));
-        super.registerFuel(new MachineFuel(1, new ItemStack(Material.MUSHROOM_STEM)));
-        super.registerFuel(new MachineFuel(1, new ItemStack(Material.CROSSBOW)));
-        super.registerFuel(new MachineFuel(1, new ItemStack(Material.BOW)));
-        super.registerFuel(new MachineFuel(1, new ItemStack(Material.FISHING_ROD)));
-        super.registerFuel(new MachineFuel(1, new ItemStack(Material.BOWL)));
-        super.registerFuel(new MachineFuel(1, new ItemStack(Material.STICK)));
-        super.registerFuel(new MachineFuel(1, new ItemStack(Material.BAMBOO)));
+        super.registerFuel(new MachineFuel(100, new ItemStack(MaterialCompat.safe(XMaterial.LAVA_BUCKET))));
+        super.registerFuel(new MachineFuel(8, new ItemStack(MaterialCompat.safe(XMaterial.CHARCOAL))));
+        super.registerFuel(new MachineFuel(6, new ItemStack(MaterialCompat.safe(XMaterial.SCAFFOLDING))));
+        super.registerFuel(new MachineFuel(1, new ItemStack(MaterialCompat.safe(XMaterial.WOODEN_AXE))));
+        super.registerFuel(new MachineFuel(1, new ItemStack(MaterialCompat.safe(XMaterial.WOODEN_HOE))));
+        super.registerFuel(new MachineFuel(1, new ItemStack(MaterialCompat.safe(XMaterial.WOODEN_PICKAXE))));
+        super.registerFuel(new MachineFuel(1, new ItemStack(MaterialCompat.safe(XMaterial.WOODEN_SHOVEL))));
+        super.registerFuel(new MachineFuel(1, new ItemStack(MaterialCompat.safe(XMaterial.WOODEN_SWORD))));
+        super.registerFuel(new MachineFuel(1, new ItemStack(MaterialCompat.safe(XMaterial.LADDER))));
+        super.registerFuel(new MachineFuel(1, new ItemStack(MaterialCompat.safe(XMaterial.CRAFTING_TABLE))));
+        super.registerFuel(new MachineFuel(1, new ItemStack(MaterialCompat.safe(XMaterial.CARTOGRAPHY_TABLE))));
+        super.registerFuel(new MachineFuel(1, new ItemStack(MaterialCompat.safe(XMaterial.FLETCHING_TABLE))));
+        super.registerFuel(new MachineFuel(1, new ItemStack(MaterialCompat.safe(XMaterial.SMITHING_TABLE))));
+        super.registerFuel(new MachineFuel(1, new ItemStack(MaterialCompat.safe(XMaterial.LOOM))));
+        super.registerFuel(new MachineFuel(1, new ItemStack(MaterialCompat.safe(XMaterial.BOOKSHELF))));
+        super.registerFuel(new MachineFuel(1, new ItemStack(MaterialCompat.safe(XMaterial.LECTERN))));
+        super.registerFuel(new MachineFuel(1, new ItemStack(MaterialCompat.safe(XMaterial.COMPOSTER))));
+        super.registerFuel(new MachineFuel(1, new ItemStack(MaterialCompat.safe(XMaterial.CHEST))));
+        super.registerFuel(new MachineFuel(1, new ItemStack(MaterialCompat.safe(XMaterial.TRAPPED_CHEST))));
+        super.registerFuel(new MachineFuel(1, new ItemStack(MaterialCompat.safe(XMaterial.BARREL))));
+        super.registerFuel(new MachineFuel(1, new ItemStack(MaterialCompat.safe(XMaterial.DAYLIGHT_DETECTOR))));
+        super.registerFuel(new MachineFuel(1, new ItemStack(MaterialCompat.safe(XMaterial.JUKEBOX))));
+        super.registerFuel(new MachineFuel(1, new ItemStack(MaterialCompat.safe(XMaterial.NOTE_BLOCK))));
+        super.registerFuel(new MachineFuel(1, new ItemStack(MaterialCompat.safe(XMaterial.BROWN_MUSHROOM_BLOCK))));
+        super.registerFuel(new MachineFuel(1, new ItemStack(MaterialCompat.safe(XMaterial.RED_MUSHROOM_BLOCK))));
+        super.registerFuel(new MachineFuel(1, new ItemStack(MaterialCompat.safe(XMaterial.MUSHROOM_STEM))));
+        super.registerFuel(new MachineFuel(1, new ItemStack(MaterialCompat.safe(XMaterial.CROSSBOW))));
+        super.registerFuel(new MachineFuel(1, new ItemStack(MaterialCompat.safe(XMaterial.BOW))));
+        super.registerFuel(new MachineFuel(1, new ItemStack(MaterialCompat.safe(XMaterial.FISHING_ROD))));
+        super.registerFuel(new MachineFuel(1, new ItemStack(MaterialCompat.safe(XMaterial.BOWL))));
+        super.registerFuel(new MachineFuel(1, new ItemStack(MaterialCompat.safe(XMaterial.STICK))));
+        super.registerFuel(new MachineFuel(1, new ItemStack(MaterialCompat.safe(XMaterial.BAMBOO))));
 
         // Banners
-        for (Material mat : Tag.ITEMS_BANNERS.getValues()) {
+        for (Material mat : TagCompat.values("ITEMS_BANNERS")) {
             super.registerFuel(new MachineFuel(1, new ItemStack(mat)));
         }
 
-        if (Slimefun.getMinecraftVersion().isBefore(MinecraftVersion.MINECRAFT_1_19)) {
-            for (Material mat : Tag.CARPETS.getValues()) {
-                super.registerFuel(new MachineFuel(1, new ItemStack(mat)));
-            }
-        } else {
-            // Carpets
-            for (Material mat : Tag.WOOL_CARPETS.getValues()) {
-                super.registerFuel(new MachineFuel(1, new ItemStack(mat)));
-            }
+        for (Material mat : TagCompat.values("CARPETS")) {
+            super.registerFuel(new MachineFuel(1, new ItemStack(mat)));
         }
 
         // Saplings
-        for (Material mat : Tag.SAPLINGS.getValues()) {
+        for (Material mat : TagCompat.values("SAPLINGS")) {
             super.registerFuel(new MachineFuel(1, new ItemStack(mat)));
         }
 
         // Wool
-        for (Material mat : Tag.WOOL.getValues()) {
+        for (Material mat : TagCompat.values("WOOL")) {
             super.registerFuel(new MachineFuel(1, new ItemStack(mat)));
         }
 

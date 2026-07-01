@@ -11,6 +11,8 @@ import io.github.thebusybiscuit.slimefun5.implementation.items.SimpleSlimefunIte
 import io.github.thebusybiscuit.slimefun5.libraries.dough.protection.Interaction;
 import io.github.thebusybiscuit.slimefun5.utils.tags.SlimefunTag;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
+import dev.j3fftw.litexpansion.compat.MaterialCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -35,7 +37,7 @@ public class GlassCutter extends SimpleSlimefunItem<ItemUseHandler> implements L
     public GlassCutter() {
         super(Items.LITEXPANSION, Items.GLASS_CUTTER, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
             Items.REFINED_IRON.item(), Items.REFINED_IRON.item(), Items.REFINED_IRON.item(),
-            new ItemStack(Material.SHEARS), Items.ADVANCED_CIRCUIT.item(), new ItemStack(Material.SHEARS),
+            new ItemStack(MaterialCompat.safe(XMaterial.SHEARS)), Items.ADVANCED_CIRCUIT.item(), new ItemStack(MaterialCompat.safe(XMaterial.SHEARS)),
             null, Items.CARBON_PLATE.item(), null
         });
 
@@ -70,7 +72,7 @@ public class GlassCutter extends SimpleSlimefunItem<ItemUseHandler> implements L
             if (slimefunItem == null && removeItemCharge(e.getItem(), 0.5F)) {
                 blockLocation.getWorld().dropItemNaturally(blockLocation,
                     new ItemStack(blockType));
-                block.setType(Material.AIR);
+                block.setType(MaterialCompat.safe(XMaterial.AIR));
             }
         }
     }

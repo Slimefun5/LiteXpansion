@@ -6,7 +6,8 @@ import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun5.core.attributes.Rechargeable;
 import io.github.thebusybiscuit.slimefun5.core.handlers.ItemUseHandler;
 import io.github.thebusybiscuit.slimefun5.implementation.items.SimpleSlimefunItem;
-import org.bukkit.Material;
+import dev.j3fftw.litexpansion.compat.MaterialCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import org.bukkit.event.Event;
 import org.bukkit.event.Listener;
 import org.bukkit.inventory.ItemStack;
@@ -44,8 +45,8 @@ public class MiningDrill extends SimpleSlimefunItem<ItemUseHandler> implements L
         }),
         DIAMOND(Items.DIAMOND_DRILL, new ItemStack[] {
             null, null, null,
-            null, new ItemStack(Material.DIAMOND), null,
-            new ItemStack(Material.DIAMOND), Items.MINING_DRILL.item(), new ItemStack(Material.DIAMOND)
+            null, new ItemStack(MaterialCompat.safe(XMaterial.DIAMOND)), null,
+            new ItemStack(MaterialCompat.safe(XMaterial.DIAMOND)), Items.MINING_DRILL.item(), new ItemStack(MaterialCompat.safe(XMaterial.DIAMOND))
         });
 
         @Nonnull
