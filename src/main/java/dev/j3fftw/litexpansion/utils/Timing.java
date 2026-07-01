@@ -54,7 +54,7 @@ public class Timing {
             sb.append("\n  Final step: ").append(time(steps.get(steps.size() - 1), end));
         }
 
-        System.out.println(sb);
+        dev.j3fftw.litexpansion.LiteXpansion.getInstance().getLogger().info(sb.toString());
     }
 
     private String time(long a, long b) {
