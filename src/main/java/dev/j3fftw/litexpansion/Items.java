@@ -31,519 +31,138 @@ public final class Items {
         CustomItemStack.create(MaterialCompat.stack(XMaterial.REDSTONE), "\u00a77LiteXpansion")
     ).setTheme("energy_tech");
 
-    public static final SlimefunItemStack ELECTRIC_CHESTPLATE = new SlimefunItemStack(
-        "ELECTRIC_CHESTPLATE",
-        MaterialCompat.safe(XMaterial.LEATHER_CHESTPLATE), Color.TEAL,
-        "\u00a79Electric Chestplate",
-        "",
-        "\u00a78\u21E8 \u00a77Negates all the damage dealt to player.",
-        "",
-        "\u00a7c\u00a7o\u00a78\u21E8 \u00a7e\u26A1 \u00a770 / 8192 J"
-    );
+    public static final SlimefunItemStack ELECTRIC_CHESTPLATE = new SlimefunItemStack("ELECTRIC_CHESTPLATE", MaterialCompat.safe(XMaterial.LEATHER_CHESTPLATE), Color.TEAL);
     //endregion
 
     //region Armor
-    public static final SlimefunItemStack NANO_BLADE = new SlimefunItemStack(
-        "NANO_BLADE",
-        MaterialCompat.safe(XMaterial.DIAMOND_SWORD),
-        "\u00a72Nano Blade \u00a7c(Off)",
-        "",
-        "\u00a7fAn advanced piece of technology which can",
-        "\u00a7fcut through organic tissue with ease.",
-        "",
-        "\u00a7fToggle: \u00a7aRight Click",
-        "",
-        "\u00a7c\u00a7o\u00a78\u21E8 \u00a7e\u26A1 \u00a770 / " + NanoBlade.CAPACITY + " J"
-    );
+    public static final SlimefunItemStack NANO_BLADE = new SlimefunItemStack("NANO_BLADE", MaterialCompat.safe(XMaterial.DIAMOND_SWORD));
     //endregion
 
     //region Weapon
     // Tools
-    public static final SlimefunItemStack GLASS_CUTTER = new SlimefunItemStack(
-        "GLASS_CUTTER",
-        MaterialCompat.safe(XMaterial.GHAST_TEAR),
-        "\u00a7bGlass Cutter",
-        "",
-        "\u00a77> \u00a7eLeft Click \u00a77- Cut glass quickly",
-        "\u00a77> \u00a7eRight Click \u00a77- Cut glass slowly",
-        "",
-        "\u00a7c\u00a7o\u00a78\u21E8 \u00a7e\u26A1 \u00a770 / 300 J"
-    );
-    public static final SlimefunItemStack MINING_DRILL = new SlimefunItemStack(
-        "MINING_DRILL",
-        MaterialCompat.safe(XMaterial.IRON_SHOVEL),
-        "\u00a77Mining Drill",
-        "",
-        "\u00a77Instantly breaks stone and stone variants",
-        "\u00a77Right click to break block slower",
-        "",
-        "\u00a7c\u00a7o\u00a78\u21E8 \u00a7e\u26A1 \u00a770 / 1000 J"
-    );
-    public static final SlimefunItemStack DIAMOND_DRILL = new SlimefunItemStack(
-        "DIAMOND_DRILL",
-        MaterialCompat.safe(XMaterial.DIAMOND_SHOVEL),
-        "\u00a7bDiamond Drill",
-        "",
-        "\u00a77Instantly breaks obsidian, stone, and stone variants",
-        "\u00a77Right click to break block slower",
-        "",
-        "\u00a7c\u00a7o\u00a78\u21E8 \u00a7e\u26A1 \u00a770 / 1000 J"
-    );
-    public static final SlimefunItemStack TREETAP = new SlimefunItemStack(
-        "TREETAP",
-        MaterialCompat.safe(XMaterial.WOODEN_HOE),
-        "\u00a77Treetap"
-    );
-    public static final SlimefunItemStack CARGO_CONFIGURATOR = new SlimefunItemStack(
-        "CARGO_CONFIGURATOR",
-        MaterialCompat.safe(XMaterial.COMPASS),
-        "\u00a77Cargo Configurator",
-        "",
-        "\u00a77> \u00a7eRight Click \u00a77- Copy node configuration",
-        "\u00a77> \u00a7eLeft Click  \u00a77- Apply node configuration",
-        "\u00a77> \u00a7eShift+Right Click \u00a77- Clear node configurator"
-    );
+    public static final SlimefunItemStack GLASS_CUTTER = new SlimefunItemStack("GLASS_CUTTER", MaterialCompat.safe(XMaterial.GHAST_TEAR));
+    public static final SlimefunItemStack MINING_DRILL = new SlimefunItemStack("MINING_DRILL", MaterialCompat.safe(XMaterial.IRON_SHOVEL));
+    public static final SlimefunItemStack DIAMOND_DRILL = new SlimefunItemStack("DIAMOND_DRILL", MaterialCompat.safe(XMaterial.DIAMOND_SHOVEL));
+    public static final SlimefunItemStack TREETAP = new SlimefunItemStack("TREETAP", MaterialCompat.safe(XMaterial.WOODEN_HOE));
+    public static final SlimefunItemStack CARGO_CONFIGURATOR = new SlimefunItemStack("CARGO_CONFIGURATOR", MaterialCompat.safe(XMaterial.COMPASS));
     //endregion
 
     //region Items
-    public static final SlimefunItemStack TIN_PLATE = new SlimefunItemStack(
-        "TIN_PLATE",
-        MaterialCompat.safe(XMaterial.WHITE_CARPET),
-        "\u00a77Tin Plate"
-    );
+    public static final SlimefunItemStack TIN_PLATE = new SlimefunItemStack("TIN_PLATE", MaterialCompat.safe(XMaterial.WHITE_CARPET));
 
-    public static final SlimefunItemStack TIN_ITEM_CASING = new SlimefunItemStack(
-        "TIN_ITEM_CASING",
-        MaterialCompat.safe(XMaterial.WHITE_CARPET),
-        "\u00a77Tin Item Casing"
-    );
+    public static final SlimefunItemStack TIN_ITEM_CASING = new SlimefunItemStack("TIN_ITEM_CASING", MaterialCompat.safe(XMaterial.WHITE_CARPET));
 
-    public static final SlimefunItemStack UNINSULATED_TIN_CABLE = new SlimefunItemStack(
-        "UNINSULATED_TIN_CABLE",
-        MaterialCompat.safe(XMaterial.STRING),
-        "\u00a77Uninsulated Tin Cable"
-    );
+    public static final SlimefunItemStack UNINSULATED_TIN_CABLE = new SlimefunItemStack("UNINSULATED_TIN_CABLE", MaterialCompat.safe(XMaterial.STRING));
 
-    public static final SlimefunItemStack TIN_CABLE = new SlimefunItemStack(
-        "TIN_CABLE",
-        MaterialCompat.safe(XMaterial.STRING),
-        "\u00a77Tin Cable"
-    );
+    public static final SlimefunItemStack TIN_CABLE = new SlimefunItemStack("TIN_CABLE", MaterialCompat.safe(XMaterial.STRING));
 
-    public static final SlimefunItemStack COPPER_PLATE = new SlimefunItemStack(
-        "COPPER_PLATE",
-        MaterialCompat.safe(XMaterial.ORANGE_CARPET),
-        "\u00a77Copper Plate"
-    );
+    public static final SlimefunItemStack COPPER_PLATE = new SlimefunItemStack("COPPER_PLATE", MaterialCompat.safe(XMaterial.ORANGE_CARPET));
 
-    public static final SlimefunItemStack COPPER_ITEM_CASING = new SlimefunItemStack(
-        "COPPER_ITEM_CASING",
-        MaterialCompat.safe(XMaterial.ORANGE_CARPET),
-        "\u00a77Copper Item Casing"
-    );
+    public static final SlimefunItemStack COPPER_ITEM_CASING = new SlimefunItemStack("COPPER_ITEM_CASING", MaterialCompat.safe(XMaterial.ORANGE_CARPET));
 
-    public static final SlimefunItemStack MAG_THOR = new SlimefunItemStack(
-        "MAG_THOR",
-        MaterialCompat.safe(XMaterial.IRON_INGOT),
-        "\u00a7b\u00a7lMag-Thor",
-        "",
-        "\u00a77\u00a7oAn extremely durable alloy used",
-        "\u00a77\u00a7oonly in the most advanced machines"
-    );
+    public static final SlimefunItemStack MAG_THOR = new SlimefunItemStack("MAG_THOR", MaterialCompat.safe(XMaterial.IRON_INGOT));
 
-    public static final SlimefunItemStack THORIUM = new SlimefunItemStack(
-        "THORIUM",
-        CustomItemStack.create(MaterialCompat.stack(XMaterial.PLAYER_HEAD), "Thorium"),
-        "\u00a78Thorium",
-        "",
-        LoreBuilder.radioactive(Radioactivity.HIGH),
-        LoreBuilder.HAZMAT_SUIT_REQUIRED
-    );
+    public static final SlimefunItemStack THORIUM = new SlimefunItemStack("THORIUM", CustomItemStack.create(MaterialCompat.stack(XMaterial.PLAYER_HEAD), "Thorium"));
 
-    public static final SlimefunItemStack SCRAP = new SlimefunItemStack(
-        "SCRAP",
-        MaterialCompat.safe(XMaterial.DEAD_BUSH),
-        "\u00a78Scrap",
-        "",
-        "\u00a77Can be used to create \u00a75UU-Matter"
-    );
-    public static final SlimefunItemStack UU_MATTER = new SlimefunItemStack(
-        "UU_MATTER",
-        MaterialCompat.safe(XMaterial.PURPLE_DYE),
-        "\u00a75UU-Matter",
-        "",
-        "\u00a77Can be used to create items or resources"
-    );
-    public static final SlimefunItemStack IRIDIUM = new SlimefunItemStack(
-        "IRIDIUM",
-        MaterialCompat.safe(XMaterial.WHITE_DYE),
-        "\u00a7fIridium"
-    );
-    public static final SlimefunItemStack IRIDIUM_PLATE = new SlimefunItemStack(
-        "IRIDIUM_PLATE",
-        MaterialCompat.safe(XMaterial.PAPER),
-        "\u00a7fIridium Plate",
-        "",
-        "\u00a77Used to create Iridium Armor"
-    );
-    public static final SlimefunItemStack THORIUM_DUST = new SlimefunItemStack(
-        "THORIUM_DUST",
-        MaterialCompat.safe(XMaterial.BLACK_DYE),
-        "\u00a78Thorium Dust"
-    );
-    public static final SlimefunItemStack REFINED_IRON = new SlimefunItemStack(
-        "REFINED_IRON",
-        MaterialCompat.safe(XMaterial.IRON_INGOT),
-        "\u00a77Refined Iron"
-    );
-    public static final SlimefunItemStack MACHINE_BLOCK = new SlimefunItemStack(
-        "MACHINE_BLOCK",
-        MaterialCompat.safe(XMaterial.IRON_BLOCK),
-        "\u00a77Machine Block"
-    );
-    public static final SlimefunItemStack UNINSULATED_COPPER_CABLE = new SlimefunItemStack(
-        "UNINSULATED_COPPER_CABLE",
-        MaterialCompat.safe(XMaterial.STRING),
-        "\u00a77Uninsulated Copper Cable"
-    );
-    public static final SlimefunItemStack COPPER_CABLE = new SlimefunItemStack(
-        "COPPER_CABLE",
-        MaterialCompat.safe(XMaterial.STRING),
-        "\u00a77Copper Cable"
-    );
-    public static final SlimefunItemStack RUBBER = new SlimefunItemStack(
-        "RUBBER",
-        MaterialCompat.safe(XMaterial.INK_SAC),
-        "\u00a77Rubber"
-    );
-    public static final SlimefunItemStack ELECTRONIC_CIRCUIT = new SlimefunItemStack(
-        "ELECTRONIC_CIRCUIT",
-        MaterialCompat.safe(XMaterial.COBWEB),
-        "\u00a77Electronic Circuit"
-    );
-    public static final SlimefunItemStack ADVANCED_CIRCUIT = new SlimefunItemStack(
-        "ADVANCED_CIRCUIT",
-        MaterialCompat.safe(XMaterial.COBWEB),
-        "\u00a77Advanced Circuit"
-    );
+    public static final SlimefunItemStack SCRAP = new SlimefunItemStack("SCRAP", MaterialCompat.safe(XMaterial.DEAD_BUSH));
+    public static final SlimefunItemStack UU_MATTER = new SlimefunItemStack("UU_MATTER", MaterialCompat.safe(XMaterial.PURPLE_DYE));
+    public static final SlimefunItemStack IRIDIUM = new SlimefunItemStack("IRIDIUM", MaterialCompat.safe(XMaterial.WHITE_DYE));
+    public static final SlimefunItemStack IRIDIUM_PLATE = new SlimefunItemStack("IRIDIUM_PLATE", MaterialCompat.safe(XMaterial.PAPER));
+    public static final SlimefunItemStack THORIUM_DUST = new SlimefunItemStack("THORIUM_DUST", MaterialCompat.safe(XMaterial.BLACK_DYE));
+    public static final SlimefunItemStack REFINED_IRON = new SlimefunItemStack("REFINED_IRON", MaterialCompat.safe(XMaterial.IRON_INGOT));
+    public static final SlimefunItemStack MACHINE_BLOCK = new SlimefunItemStack("MACHINE_BLOCK", MaterialCompat.safe(XMaterial.IRON_BLOCK));
+    public static final SlimefunItemStack UNINSULATED_COPPER_CABLE = new SlimefunItemStack("UNINSULATED_COPPER_CABLE", MaterialCompat.safe(XMaterial.STRING));
+    public static final SlimefunItemStack COPPER_CABLE = new SlimefunItemStack("COPPER_CABLE", MaterialCompat.safe(XMaterial.STRING));
+    public static final SlimefunItemStack RUBBER = new SlimefunItemStack("RUBBER", MaterialCompat.safe(XMaterial.INK_SAC));
+    public static final SlimefunItemStack ELECTRONIC_CIRCUIT = new SlimefunItemStack("ELECTRONIC_CIRCUIT", MaterialCompat.safe(XMaterial.COBWEB));
+    public static final SlimefunItemStack ADVANCED_CIRCUIT = new SlimefunItemStack("ADVANCED_CIRCUIT", MaterialCompat.safe(XMaterial.COBWEB));
     //endregion
 
     //region Carbon Crap
     //////////////////////////
     // Carbon Crap
     //////////////////////////
-    public static final SlimefunItemStack COAL_DUST = new SlimefunItemStack(
-        "COAL_DUST",
-        MaterialCompat.safe(XMaterial.BLACK_DYE),
-        "\u00a77Coal Dust"
-    );
-    public static final SlimefunItemStack RAW_CARBON_FIBRE = new SlimefunItemStack(
-        "RAW_CARBON_FIBRE",
-        MaterialCompat.safe(XMaterial.BLACK_DYE),
-        "\u00a77Raw Carbon Fibre"
-    );
-    public static final SlimefunItemStack RAW_CARBON_MESH = new SlimefunItemStack(
-        "RAW_CARBON_MESH",
-        MaterialCompat.safe(XMaterial.BLACK_DYE),
-        "\u00a77Raw Carbon Mesh"
-    );
-    public static final SlimefunItemStack CARBON_PLATE = new SlimefunItemStack(
-        "CARBON_PLATE",
-        MaterialCompat.safe(XMaterial.BLACK_CARPET),
-        "\u00a77Carbon Plate"
-    );
-    public static final SlimefunItemStack ADVANCED_ALLOY = new SlimefunItemStack(
-        "ADVANCED_ALLOY",
-        MaterialCompat.safe(XMaterial.PAPER),
-        "\u00a77Advanced Alloy"
-    );
+    public static final SlimefunItemStack COAL_DUST = new SlimefunItemStack("COAL_DUST", MaterialCompat.safe(XMaterial.BLACK_DYE));
+    public static final SlimefunItemStack RAW_CARBON_FIBRE = new SlimefunItemStack("RAW_CARBON_FIBRE", MaterialCompat.safe(XMaterial.BLACK_DYE));
+    public static final SlimefunItemStack RAW_CARBON_MESH = new SlimefunItemStack("RAW_CARBON_MESH", MaterialCompat.safe(XMaterial.BLACK_DYE));
+    public static final SlimefunItemStack CARBON_PLATE = new SlimefunItemStack("CARBON_PLATE", MaterialCompat.safe(XMaterial.BLACK_CARPET));
+    public static final SlimefunItemStack ADVANCED_ALLOY = new SlimefunItemStack("ADVANCED_ALLOY", MaterialCompat.safe(XMaterial.PAPER));
     //endregion
 
-    public static final SlimefunItemStack ADVANCED_MACHINE_BLOCK = new SlimefunItemStack(
-        "ADVANCED_MACHINE_BLOCK",
-        MaterialCompat.safe(XMaterial.DIAMOND_BLOCK),
-        "\u00a77Advanced Machine Block"
-    );
+    public static final SlimefunItemStack ADVANCED_MACHINE_BLOCK = new SlimefunItemStack("ADVANCED_MACHINE_BLOCK", MaterialCompat.safe(XMaterial.DIAMOND_BLOCK));
 
-    public static final SlimefunItemStack LAPOTRON_CRYSTAL = new SlimefunItemStack(
-        "LAPOTRON_CRYSTAL",
-        MaterialCompat.safe(XMaterial.DIAMOND),
-        "\u00a77Lapotron Crystal"
-    );
-    public static final SlimefunItemStack REINFORCED_STONE = new SlimefunItemStack(
-        "REINFORCED_STONE",
-        MaterialCompat.safe(XMaterial.STONE),
-        "\u00a77Reinforced Stone"
-    );
-    public static final SlimefunItemStack REINFORCED_DOOR = new SlimefunItemStack(
-        "REINFORCED_DOOR",
-        MaterialCompat.safe(XMaterial.IRON_DOOR),
-        "\u00a77Reinforced Door"
-    );
-    public static final SlimefunItemStack REINFORCED_GLASS = new SlimefunItemStack(
-        "REINFORCED_GLASS",
-        MaterialCompat.safe(XMaterial.GRAY_STAINED_GLASS),
-        "\u00a77Reinforced Glass"
-    );
-    public static final SlimefunItemStack MIXED_METAL_INGOT = new SlimefunItemStack(
-        "MIXED_METAL_INGOT",
-        MaterialCompat.safe(XMaterial.IRON_INGOT),
-        "\u00a77Mixed Metal Ingot"
-    );
+    public static final SlimefunItemStack LAPOTRON_CRYSTAL = new SlimefunItemStack("LAPOTRON_CRYSTAL", MaterialCompat.safe(XMaterial.DIAMOND));
+    public static final SlimefunItemStack REINFORCED_STONE = new SlimefunItemStack("REINFORCED_STONE", MaterialCompat.safe(XMaterial.STONE));
+    public static final SlimefunItemStack REINFORCED_DOOR = new SlimefunItemStack("REINFORCED_DOOR", MaterialCompat.safe(XMaterial.IRON_DOOR));
+    public static final SlimefunItemStack REINFORCED_GLASS = new SlimefunItemStack("REINFORCED_GLASS", MaterialCompat.safe(XMaterial.GRAY_STAINED_GLASS));
+    public static final SlimefunItemStack MIXED_METAL_INGOT = new SlimefunItemStack("MIXED_METAL_INGOT", MaterialCompat.safe(XMaterial.IRON_INGOT));
     // Machines
-    public static final SlimefunItemStack RECYCLER = new SlimefunItemStack(
-        "SCRAP_MACHINE",
-        MaterialCompat.safe(XMaterial.BLACK_CONCRETE),
-        "\u00a78Recycler",
-        "",
-        "\u00a7fProduces \u00a78Scrap \u00a7ffrom anything",
-        "",
-        LoreBuilderDynamic.powerBuffer(Recycler.CAPACITY),
-        LoreBuilderDynamic.powerPerTick(Recycler.ENERGY_CONSUMPTION)
-    );
-    public static final SlimefunItemStack MASS_FABRICATOR_MACHINE = new SlimefunItemStack(
-        "MASS_FABRICATOR_MACHINE",
-        MaterialCompat.safe(XMaterial.PURPLE_CONCRETE),
-        "\u00a75Mass Fabricator",
-        "",
-        "\u00a7fConverts \u00a78Scrap \u00a7fto \u00a75UU-Matter",
-        "",
-        LoreBuilderDynamic.powerBuffer(MassFabricator.CAPACITY),
-        LoreBuilderDynamic.powerPerTick(MassFabricator.ENERGY_CONSUMPTION)
-    );
-    public static final SlimefunItemStack RUBBER_SYNTHESIZER_MACHINE = new SlimefunItemStack(
-        "RUBBER_SYNTHESIZER",
-        MaterialCompat.safe(XMaterial.ORANGE_CONCRETE),
-        "\u00a76Rubber Synthesizer",
-        "",
-        "\u00a7fConverts Bucket of Oil to \u00a77Rubber",
-        "",
-        LoreBuilderDynamic.powerBuffer(RubberSynthesizer.CAPACITY),
-        LoreBuilderDynamic.powerPerTick(RubberSynthesizer.ENERGY_CONSUMPTION)
-    );
-    public static final SlimefunItemStack MACERATOR = new SlimefunItemStack(
-        "MACERATOR",
-        MaterialCompat.safe(XMaterial.IRON_BLOCK),
-        "\u00a77Macerator"
-    );
+    public static final SlimefunItemStack RECYCLER = new SlimefunItemStack("SCRAP_MACHINE", MaterialCompat.safe(XMaterial.BLACK_CONCRETE));
+    public static final SlimefunItemStack MASS_FABRICATOR_MACHINE = new SlimefunItemStack("MASS_FABRICATOR_MACHINE", MaterialCompat.safe(XMaterial.PURPLE_CONCRETE));
+    public static final SlimefunItemStack RUBBER_SYNTHESIZER_MACHINE = new SlimefunItemStack("RUBBER_SYNTHESIZER", MaterialCompat.safe(XMaterial.ORANGE_CONCRETE));
+    public static final SlimefunItemStack MACERATOR = new SlimefunItemStack("MACERATOR", MaterialCompat.safe(XMaterial.IRON_BLOCK));
     //// Solar panels
-    public static final SlimefunItemStack ADVANCED_SOLAR_PANEL = new SlimefunItemStack(
-        "ADVANCED_SOLAR_PANEL",
-        MaterialCompat.safe(XMaterial.BLACK_GLAZED_TERRACOTTA),
-        "\u00a77\u00a7lAdvanced Solar Panel",
-        "\u00a79Works at Night",
-        "",
-        LoreBuilderDynamic.powerBuffer(AdvancedSolarPanel.ADVANCED_STORAGE),
-        LoreBuilderDynamic.powerPerTick(AdvancedSolarPanel.ADVANCED_DAY_RATE) + " (Day)",
-        LoreBuilderDynamic.powerPerTick(AdvancedSolarPanel.ADVANCED_NIGHT_RATE) + " (Night)"
-    );
-    public static final SlimefunItemStack HYBRID_SOLAR_PANEL = new SlimefunItemStack(
-        "HYBRID_SOLAR_PANEL",
-        MaterialCompat.safe(XMaterial.GRAY_GLAZED_TERRACOTTA),
-        "\u00a7b\u00a7lHybrid Solar Panel",
-        "\u00a79Works at Night",
-        "",
-        LoreBuilderDynamic.powerBuffer(AdvancedSolarPanel.HYBRID_STORAGE),
-        LoreBuilderDynamic.powerPerTick(AdvancedSolarPanel.HYBRID_DAY_RATE) + " (Day + Nether)",
-        LoreBuilderDynamic.powerPerTick(AdvancedSolarPanel.HYBRID_NIGHT_RATE) + " (Night + End)"
-    );
-    public static final SlimefunItemStack ULTIMATE_SOLAR_PANEL = new SlimefunItemStack(
-        "ULTIMATE_SOLAR_PANEL",
-        MaterialCompat.safe(XMaterial.PURPLE_GLAZED_TERRACOTTA),
-        "\u00a75\u00a7lUltimate Solar Panel",
-        "\u00a79Works at Night",
-        "",
-        LoreBuilderDynamic.powerBuffer(AdvancedSolarPanel.ULTIMATE_STORAGE),
-        LoreBuilderDynamic.powerPerTick(AdvancedSolarPanel.ULTIMATE_DAY_RATE) + " (Day)",
-        LoreBuilderDynamic.powerPerTick(AdvancedSolarPanel.ULTIMATE_NIGHT_RATE) + " (Night)"
-    );
-    public static final SlimefunItemStack MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT = new SlimefunItemStack(
-        "MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT",
-        MaterialCompat.safe(XMaterial.IRON_BLOCK),
-        "\u00a77MFE"
-    );
-    public static final SlimefunItemStack MULTI_FUNCTIONAL_STORAGE_UNIT = new SlimefunItemStack(
-        "MULTI_FUNCTIONAL_STORAGE_UNIT",
-        MaterialCompat.safe(XMaterial.DIAMOND_BLOCK),
-        "\u00a77MFSU"
-    );
-    public static final SlimefunItemStack GOLD_PLATE = new SlimefunItemStack(
-        "GOLD_PLATE",
-        MaterialCompat.safe(XMaterial.YELLOW_CARPET),
-        "\u00a77Gold Plate"
-    );
-    public static final SlimefunItemStack GOLD_ITEM_CASING = new SlimefunItemStack(
-        "GOLD_ITEM_CASING",
-        MaterialCompat.safe(XMaterial.YELLOW_CARPET),
-        "\u00a77Gold Item Casing"
-    );
-    public static final SlimefunItemStack UNINSULATED_GOLD_CABLE = new SlimefunItemStack(
-        "UNINSULATED_GOLD_CABLE",
-        MaterialCompat.safe(XMaterial.STRING),
-        "\u00a77Uninsulated Gold Cable"
-    );
-    public static final SlimefunItemStack GOLD_CABLE = new SlimefunItemStack(
-        "GOLD_CABLE",
-        MaterialCompat.safe(XMaterial.STRING),
-        "\u00a77Gold Cable"
-    );
+    public static final SlimefunItemStack ADVANCED_SOLAR_PANEL = new SlimefunItemStack("ADVANCED_SOLAR_PANEL", MaterialCompat.safe(XMaterial.BLACK_GLAZED_TERRACOTTA));
+    public static final SlimefunItemStack HYBRID_SOLAR_PANEL = new SlimefunItemStack("HYBRID_SOLAR_PANEL", MaterialCompat.safe(XMaterial.GRAY_GLAZED_TERRACOTTA));
+    public static final SlimefunItemStack ULTIMATE_SOLAR_PANEL = new SlimefunItemStack("ULTIMATE_SOLAR_PANEL", MaterialCompat.safe(XMaterial.PURPLE_GLAZED_TERRACOTTA));
+    public static final SlimefunItemStack MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT = new SlimefunItemStack("MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT", MaterialCompat.safe(XMaterial.IRON_BLOCK));
+    public static final SlimefunItemStack MULTI_FUNCTIONAL_STORAGE_UNIT = new SlimefunItemStack("MULTI_FUNCTIONAL_STORAGE_UNIT", MaterialCompat.safe(XMaterial.DIAMOND_BLOCK));
+    public static final SlimefunItemStack GOLD_PLATE = new SlimefunItemStack("GOLD_PLATE", MaterialCompat.safe(XMaterial.YELLOW_CARPET));
+    public static final SlimefunItemStack GOLD_ITEM_CASING = new SlimefunItemStack("GOLD_ITEM_CASING", MaterialCompat.safe(XMaterial.YELLOW_CARPET));
+    public static final SlimefunItemStack UNINSULATED_GOLD_CABLE = new SlimefunItemStack("UNINSULATED_GOLD_CABLE", MaterialCompat.safe(XMaterial.STRING));
+    public static final SlimefunItemStack GOLD_CABLE = new SlimefunItemStack("GOLD_CABLE", MaterialCompat.safe(XMaterial.STRING));
     //Basic Machines
-    public static final SlimefunItemStack REFINED_SMELTERY = new SlimefunItemStack(
-        "REFINED_SMELTERY",
-        MaterialCompat.safe(XMaterial.BLAST_FURNACE),
-        "\u00a77Refined Smeltery"
-    );
+    public static final SlimefunItemStack REFINED_SMELTERY = new SlimefunItemStack("REFINED_SMELTERY", MaterialCompat.safe(XMaterial.BLAST_FURNACE));
 
-    public static final SlimefunItemStack METAL_FORGE = new SlimefunItemStack(
-        "METAL_FORGE",
-        MaterialCompat.safe(XMaterial.DISPENSER),
-        "\u00a77Metal Forge"
-    );
+    public static final SlimefunItemStack METAL_FORGE = new SlimefunItemStack("METAL_FORGE", MaterialCompat.safe(XMaterial.DISPENSER));
 
-    public static final SlimefunItemStack MANUAL_MILL = new SlimefunItemStack(
-        "MANUAL_MILL",
-        MaterialCompat.safe(XMaterial.DISPENSER),
-        "\u00a77Manual Mill"
-    );
+    public static final SlimefunItemStack MANUAL_MILL = new SlimefunItemStack("MANUAL_MILL", MaterialCompat.safe(XMaterial.DISPENSER));
 
-    public static final SlimefunItemStack GENERATOR = new SlimefunItemStack(
-        "GENERATOR",
-        MaterialCompat.safe(XMaterial.IRON_BLOCK),
-        "\u00a77Generator"
-    );
+    public static final SlimefunItemStack GENERATOR = new SlimefunItemStack("GENERATOR", MaterialCompat.safe(XMaterial.IRON_BLOCK));
 
-    public static final SlimefunItemStack RE_BATTERY = new SlimefunItemStack(
-        "RE_BATTERY",
-        MaterialCompat.safe(XMaterial.GLASS_BOTTLE),
-        "\u00a77RE Battery"
-    );
+    public static final SlimefunItemStack RE_BATTERY = new SlimefunItemStack("RE_BATTERY", MaterialCompat.safe(XMaterial.GLASS_BOTTLE));
 
-    public static final SlimefunItemStack ADVANCED_SOLAR_HELMET = new SlimefunItemStack(
-        "ADVANCED_SOLAR_HELMET",
-        MaterialCompat.safe(XMaterial.IRON_HELMET),
-        "\u00a77Advanced Solar Helmet"
-    );
+    public static final SlimefunItemStack ADVANCED_SOLAR_HELMET = new SlimefunItemStack("ADVANCED_SOLAR_HELMET", MaterialCompat.safe(XMaterial.IRON_HELMET));
 
-    public static final SlimefunItemStack CARBONADO_SOLAR_HELMET = new SlimefunItemStack(
-        "CARBONADO_SOLAR_HELMET",
-        MaterialCompat.safe(XMaterial.GOLDEN_HELMET),
-        "\u00a77Carbonado Solar Helmet"
-    );
+    public static final SlimefunItemStack CARBONADO_SOLAR_HELMET = new SlimefunItemStack("CARBONADO_SOLAR_HELMET", MaterialCompat.safe(XMaterial.GOLDEN_HELMET));
 
-    public static final SlimefunItemStack ENERGIZED_SOLAR_HELMET = new SlimefunItemStack(
-        "ENERGIZED_SOLAR_HELMET",
-        MaterialCompat.safe(XMaterial.GOLDEN_HELMET),
-        "\u00a77Energized Solar Helmet"
-    );
+    public static final SlimefunItemStack ENERGIZED_SOLAR_HELMET = new SlimefunItemStack("ENERGIZED_SOLAR_HELMET", MaterialCompat.safe(XMaterial.GOLDEN_HELMET));
 
-    public static final SlimefunItemStack ADVANCEDLX_SOLAR_HELMET = new SlimefunItemStack(
-        "ADVANCEDLX_SOLAR_HELMET",
-        MaterialCompat.safe(XMaterial.DIAMOND_HELMET),
-        "\u00a77Super Advanced Solar Helmet"
-    );
+    public static final SlimefunItemStack ADVANCEDLX_SOLAR_HELMET = new SlimefunItemStack("ADVANCEDLX_SOLAR_HELMET", MaterialCompat.safe(XMaterial.DIAMOND_HELMET));
 
-    public static final SlimefunItemStack HYBRID_SOLAR_HELMET = new SlimefunItemStack(
-        "HYBRID_SOLAR_HELMET",
-        MaterialCompat.safe(XMaterial.DIAMOND_HELMET),
-        "\u00a77Hybrid Solar Helmet"
-    );
+    public static final SlimefunItemStack HYBRID_SOLAR_HELMET = new SlimefunItemStack("HYBRID_SOLAR_HELMET", MaterialCompat.safe(XMaterial.DIAMOND_HELMET));
 
-    public static final SlimefunItemStack ULTIMATE_SOLAR_HELMET = new SlimefunItemStack(
-        "ULTIMATE_SOLAR_HELMET",
-        MaterialCompat.safe(XMaterial.DIAMOND_HELMET),
-        "\u00a77Ultimate Solar Helmet"
-    );
+    public static final SlimefunItemStack ULTIMATE_SOLAR_HELMET = new SlimefunItemStack("ULTIMATE_SOLAR_HELMET", MaterialCompat.safe(XMaterial.DIAMOND_HELMET));
 
-    public static final SlimefunItemStack FOOD_SYNTHESIZER = new SlimefunItemStack(
-        "FOOD_SYNTHESIZER",
-        CustomItemStack.create(MaterialCompat.stack(XMaterial.PLAYER_HEAD), "Food Synthesizer"),
-        "\u00a7dFood Synthesizer",
-        "",
-        "\u00a7fKeeps you fed with artificial food.",
-        "\u00a7fComes in the flavors!",
-        "",
-        "\u00a7c\u00a7o\u00a78\u21E8 \u00a7e\u26A1 \u00a770 / 100 J"
-    );
+    public static final SlimefunItemStack FOOD_SYNTHESIZER = new SlimefunItemStack("FOOD_SYNTHESIZER", CustomItemStack.create(MaterialCompat.stack(XMaterial.PLAYER_HEAD), "Food Synthesizer"));
 
     //////////////////////////
     // Plating
     //////////////////////////
-    public static final SlimefunItemStack IRON_PLATE = new SlimefunItemStack(
-        "IRON_PLATE",
-        MaterialCompat.safe(XMaterial.WHITE_CARPET),
-        "\u00a77Iron Plate"
-    );
+    public static final SlimefunItemStack IRON_PLATE = new SlimefunItemStack("IRON_PLATE", MaterialCompat.safe(XMaterial.WHITE_CARPET));
 
-    public static final SlimefunItemStack DIAMOND_PLATE = new SlimefunItemStack(
-        "DIAMOND_PLATE",
-        MaterialCompat.safe(XMaterial.CYAN_CARPET),
-        "\u00a77Diamond Plate"
-    );
-    public static final SlimefunItemStack THORIUM_PLATE = new SlimefunItemStack(
-        "THORIUM_PLATE",
-        MaterialCompat.safe(XMaterial.GRAY_CARPET),
-        "\u00a77Thorium Plate"
-    );
+    public static final SlimefunItemStack DIAMOND_PLATE = new SlimefunItemStack("DIAMOND_PLATE", MaterialCompat.safe(XMaterial.CYAN_CARPET));
+    public static final SlimefunItemStack THORIUM_PLATE = new SlimefunItemStack("THORIUM_PLATE", MaterialCompat.safe(XMaterial.GRAY_CARPET));
 
-    public static final SlimefunItemStack POWER_UNIT = new SlimefunItemStack(
-        "POWER_UNIT",
-        MaterialCompat.safe(XMaterial.GOLDEN_HOE),
-        "\u00a77Power Unit"
-    );
+    public static final SlimefunItemStack POWER_UNIT = new SlimefunItemStack("POWER_UNIT", MaterialCompat.safe(XMaterial.GOLDEN_HOE));
 
-    public static final SlimefunItemStack IRON_ITEM_CASING = new SlimefunItemStack(
-        "IRON_ITEM_CASING",
-        MaterialCompat.safe(XMaterial.GRAY_CARPET),
-        "\u00a77Iron Item Casing"
-    );
+    public static final SlimefunItemStack IRON_ITEM_CASING = new SlimefunItemStack("IRON_ITEM_CASING", MaterialCompat.safe(XMaterial.GRAY_CARPET));
 
     //////////////////////////
     // Dust
     //////////////////////////
-    public static final SlimefunItemStack LAPIS_DUST = new SlimefunItemStack(
-        "LAPIS_DUST",
-        MaterialCompat.safe(XMaterial.PURPLE_DYE),
-        "\u00a77Lapiz Dust"
-    );
+    public static final SlimefunItemStack LAPIS_DUST = new SlimefunItemStack("LAPIS_DUST", MaterialCompat.safe(XMaterial.PURPLE_DYE));
 
-    public static final SlimefunItemStack REDSTONE_DUST = new SlimefunItemStack(
-        "REDSTONE_DUST",
-        MaterialCompat.safe(XMaterial.RED_DYE),
-        "\u00a77Redstone Dust"
-    );
+    public static final SlimefunItemStack REDSTONE_DUST = new SlimefunItemStack("REDSTONE_DUST", MaterialCompat.safe(XMaterial.RED_DYE));
 
-    public static final SlimefunItemStack DIAMOND_DUST = new SlimefunItemStack(
-        "DIAMOND_DUST",
-        MaterialCompat.safe(XMaterial.CYAN_DYE),
-        "\u00a77Diamond Dust"
-    );
-    public static final SlimefunItemStack EMERALD_DUST = new SlimefunItemStack(
-        "EMERALD_DUST",
-        MaterialCompat.safe(XMaterial.LIME_DYE),
-        "\u00a77Emerald Dust"
-    );
-    public static final SlimefunItemStack QUARTZ_DUST = new SlimefunItemStack(
-        "QUARTZ_DUST",
-        MaterialCompat.safe(XMaterial.WHITE_DYE),
-        "\u00a77Quartz Dust"
-    );
-    public static final SlimefunItemStack ANCIENT_DEBRIS_DUST = new SlimefunItemStack(
-        "ANCIENT_DEBRIS_DUST",
-        MaterialCompat.safe(XMaterial.BROWN_DYE),
-        "\u00a77Ancient Debris Dust"
-    );
+    public static final SlimefunItemStack DIAMOND_DUST = new SlimefunItemStack("DIAMOND_DUST", MaterialCompat.safe(XMaterial.CYAN_DYE));
+    public static final SlimefunItemStack EMERALD_DUST = new SlimefunItemStack("EMERALD_DUST", MaterialCompat.safe(XMaterial.LIME_DYE));
+    public static final SlimefunItemStack QUARTZ_DUST = new SlimefunItemStack("QUARTZ_DUST", MaterialCompat.safe(XMaterial.WHITE_DYE));
+    public static final SlimefunItemStack ANCIENT_DEBRIS_DUST = new SlimefunItemStack("ANCIENT_DEBRIS_DUST", MaterialCompat.safe(XMaterial.BROWN_DYE));
 
-    public static final SlimefunItemStack UU_CRAFTER = new SlimefunItemStack(
-        "UU_CRAFTER",
-        MaterialCompat.safe(XMaterial.CRAFTING_TABLE),
-        "\u00a77UU Crafter"
-    );
+    public static final SlimefunItemStack UU_CRAFTER = new SlimefunItemStack("UU_CRAFTER", MaterialCompat.safe(XMaterial.CRAFTING_TABLE));
 
-    public static final SlimefunItemStack CONVERTER = new SlimefunItemStack(
-        "CONVER",
-        MaterialCompat.safe(XMaterial.COAL_BLOCK),
-        "\u00a77Converter"
-    );
+    public static final SlimefunItemStack CONVERTER = new SlimefunItemStack("CONVER", MaterialCompat.safe(XMaterial.COAL_BLOCK));
 
     static {
         ADVANCED_SOLAR_HELMET.item().addEnchantment(Enchantment.DURABILITY, 1);
