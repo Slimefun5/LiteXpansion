@@ -1,0 +1,590 @@
+# English item translations for LiteXpansion. Keyed by Slimefun item id.
+# Unified block-lore format: name / type / description / stats / usage.
+ELECTRIC_CHESTPLATE:
+  name: "&9Electric Chestplate"
+  type:
+    - "&7&oArmor"
+  description:
+    - "&7Negates all the damage dealt to player."
+  stats:
+    - "&c&o&8⇨ &e⚡ &770 / 8192 J"
+
+NANO_BLADE:
+  name: "&2Nano Blade &c(Off)"
+  type:
+    - "&7&oWeapon"
+  description:
+    - "&fAn advanced piece of technology which can"
+    - "&fcut through organic tissue with ease."
+  stats:
+    - "&c&o&8⇨ &e⚡ &770 / 4000 J"
+  usage:
+    - "&eRight Click&7 to toggle"
+
+GLASS_CUTTER:
+  name: "&bGlass Cutter"
+  type:
+    - "&7&oTool"
+  description:
+    - "&bAn electric glass tool."
+    - "&7Runs off its internal energy buffer."
+  stats:
+    - "&c&o&8⇨ &e⚡ &770 / 300 J"
+  usage:
+    - "&eLeft Click&7 to cut glass quickly"
+    - "&eRight Click&7 to cut glass slowly"
+
+MINING_DRILL:
+  name: "&7Mining Drill"
+  type:
+    - "&7&oTool"
+  description:
+    - "&7Instantly breaks stone and stone variants"
+  stats:
+    - "&c&o&8⇨ &e⚡ &770 / 1000 J"
+  usage:
+    - "&7Right click to break block slower"
+
+DIAMOND_DRILL:
+  name: "&bDiamond Drill"
+  type:
+    - "&7&oTool"
+  description:
+    - "&7Instantly breaks obsidian, stone, and stone variants"
+  stats:
+    - "&c&o&8⇨ &e⚡ &770 / 1000 J"
+  usage:
+    - "&7Right click to break block slower"
+
+TREETAP:
+  name: "&7Treetap"
+  type:
+    - "&7&oTool"
+  description:
+    - "&7Used to harvest &7Rubber &7from rubber sources"
+    - "&7by hand, without an electric synthesizer."
+
+CARGO_CONFIGURATOR:
+  name: "&7Cargo Configurator"
+  type:
+    - "&7&oTool"
+  description:
+    - "&7Copies and pastes cargo node configurations."
+  usage:
+    - "&7> &eRight Click &7- Copy node configuration"
+    - "&7> &eLeft Click &7- Apply node configuration"
+    - "&7> &eShift+Right Click &7- Clear node configurator"
+
+TIN_PLATE:
+  name: "&7Tin Plate"
+  type:
+    - "&7&oComponent"
+
+TIN_ITEM_CASING:
+  name: "&7Tin Item Casing"
+  type:
+    - "&7&oComponent"
+
+UNINSULATED_TIN_CABLE:
+  name: "&7Uninsulated Tin Cable"
+  type:
+    - "&7&oComponent"
+
+TIN_CABLE:
+  name: "&7Tin Cable"
+  type:
+    - "&7&oComponent"
+
+COPPER_PLATE:
+  name: "&7Copper Plate"
+  type:
+    - "&7&oComponent"
+
+COPPER_ITEM_CASING:
+  name: "&7Copper Item Casing"
+  type:
+    - "&7&oComponent"
+
+MAG_THOR:
+  name: "&b&lMag-Thor"
+  type:
+    - "&7&oResource"
+  description:
+    - "&7&oAn extremely durable alloy used"
+    - "&7&oonly in the most advanced machines"
+
+THORIUM:
+  name: "&8Thorium"
+  type:
+    - "&7&oResource"
+  description:
+    - "&8A radioactive element."
+    - "&7Refined into &7Mag-Thor &7and used in advanced"
+    - "&7plating and machinery."
+  stats:
+    - "&a☢&7 Radiation level: &6HIGH"
+  usage:
+    - "&8⇨ &4Hazmat Suit required!"
+
+SCRAP:
+  name: "&8Scrap"
+  type:
+    - "&7&oResource"
+  description:
+    - "&7Can be used to create &5UU-Matter"
+
+UU_MATTER:
+  name: "&5UU-Matter"
+  type:
+    - "&7&oResource"
+  description:
+    - "&7Can be used to create items or resources"
+
+IRIDIUM:
+  name: "&fIridium"
+  type:
+    - "&7&oResource"
+
+IRIDIUM_PLATE:
+  name: "&fIridium Plate"
+  type:
+    - "&7&oComponent"
+  description:
+    - "&7Used to create Iridium Armor"
+
+THORIUM_DUST:
+  name: "&8Thorium Dust"
+  type:
+    - "&7&oResource"
+
+REFINED_IRON:
+  name: "&7Refined Iron"
+  type:
+    - "&7&oResource"
+
+MACHINE_BLOCK:
+  name: "&7Machine Block"
+  type:
+    - "&7&oComponent"
+
+UNINSULATED_COPPER_CABLE:
+  name: "&7Uninsulated Copper Cable"
+  type:
+    - "&7&oComponent"
+
+COPPER_CABLE:
+  name: "&7Copper Cable"
+  type:
+    - "&7&oComponent"
+
+RUBBER:
+  name: "&7Rubber"
+  type:
+    - "&7&oResource"
+
+ELECTRONIC_CIRCUIT:
+  name: "&7Electronic Circuit"
+  type:
+    - "&7&oComponent"
+
+ADVANCED_CIRCUIT:
+  name: "&7Advanced Circuit"
+  type:
+    - "&7&oComponent"
+
+COAL_DUST:
+  name: "&7Coal Dust"
+  type:
+    - "&7&oResource"
+
+RAW_CARBON_FIBRE:
+  name: "&7Raw Carbon Fibre"
+  type:
+    - "&7&oResource"
+
+RAW_CARBON_MESH:
+  name: "&7Raw Carbon Mesh"
+  type:
+    - "&7&oResource"
+
+CARBON_PLATE:
+  name: "&7Carbon Plate"
+  type:
+    - "&7&oComponent"
+
+ADVANCED_ALLOY:
+  name: "&7Advanced Alloy"
+  type:
+    - "&7&oComponent"
+
+ADVANCED_MACHINE_BLOCK:
+  name: "&7Advanced Machine Block"
+  type:
+    - "&7&oComponent"
+
+LAPOTRON_CRYSTAL:
+  name: "&7Lapotron Crystal"
+  type:
+    - "&7&oComponent"
+
+REINFORCED_STONE:
+  name: "&7Reinforced Stone"
+  type:
+    - "&7&oComponent"
+
+REINFORCED_DOOR:
+  name: "&7Reinforced Door"
+  type:
+    - "&7&oComponent"
+
+REINFORCED_GLASS:
+  name: "&7Reinforced Glass"
+  type:
+    - "&7&oComponent"
+
+MIXED_METAL_INGOT:
+  name: "&7Mixed Metal Ingot"
+  type:
+    - "&7&oResource"
+
+SCRAP_MACHINE:
+  name: "&8Recycler"
+  type:
+    - "&7&oMachine"
+  description:
+    - "&8The Recycler."
+    - "&7Feeds in almost any item and has a chance to"
+    - "&7spit out &8Scrap &7- the raw feedstock for UU-Matter."
+    - "&7Runs on energy; the rest is destroyed."
+  stats:
+    - "&8⇨ &e⚡ &7600 J Buffer"
+    - "&8⇨ &e⚡ &7200 J/t"
+
+MASS_FABRICATOR_MACHINE:
+  name: "&5Mass Fabricator"
+  type:
+    - "&7&oMachine"
+  description:
+    - "&5Converts energy - and optionally &8Scrap &7- into"
+    - "&5UU-Matter&7, the universal building material."
+    - "&7Adding Scrap dramatically reduces the energy cost."
+    - "&8A hungry, end-game machine."
+  stats:
+    - "&8⇨ &e⚡ &749,998 J Buffer"
+    - "&8⇨ &e⚡ &716,666 J/t"
+
+RUBBER_SYNTHESIZER:
+  name: "&6Rubber Synthesizer"
+  type:
+    - "&7&oMachine"
+  description:
+    - "&6Converts a Bucket of Oil into &7Rubber&7."
+    - "&7Rubber insulates bare cables and is used widely"
+    - "&7in circuits and machine recipes."
+  stats:
+    - "&8⇨ &e⚡ &73,845 J Buffer"
+    - "&8⇨ &e⚡ &7769 J/t"
+
+MACERATOR:
+  name: "&7Macerator"
+  type:
+    - "&7&oMachine"
+  description:
+    - "&7Grinds ores and metals into &7dust&7, doubling"
+    - "&7your yield when the dust is smelted back down."
+    - "&7The first step of efficient ore processing."
+  stats:
+    - "&8⇨ &e⚡ &73,845 J Buffer"
+    - "&8⇨ &e⚡ &7769 J/t"
+
+ADVANCED_SOLAR_PANEL:
+  name: "&7&lAdvanced Solar Panel"
+  type:
+    - "&7&oGenerator"
+  description:
+    - "&7A solar panel that &9also works at night&7,"
+    - "&7at a reduced rate."
+    - "&7Includes its own internal energy buffer."
+  stats:
+    - "&8⇨ &e⚡ &7320,000 J Buffer"
+    - "&8⇨ &e⚡ &780 J/t (Day)"
+    - "&8⇨ &e⚡ &710 J/t (Night)"
+
+HYBRID_SOLAR_PANEL:
+  name: "&b&lHybrid Solar Panel"
+  type:
+    - "&7&oGenerator"
+  description:
+    - "&bA dimension-aware solar panel."
+    - "&7Boosted output in the Nether by day and the End"
+    - "&7by night, on top of normal day/night generation."
+  stats:
+    - "&8⇨ &e⚡ &71,000,000 J Buffer"
+    - "&8⇨ &e⚡ &7640 J/t (Day + Nether)"
+    - "&8⇨ &e⚡ &780 J/t (Night + End)"
+
+ULTIMATE_SOLAR_PANEL:
+  name: "&5&lUltimate Solar Panel"
+  type:
+    - "&7&oGenerator"
+  description:
+    - "&5The strongest LiteXpansion solar panel."
+    - "&7Generates large amounts of energy day and night"
+    - "&7with a sizeable built-in buffer."
+  stats:
+    - "&8⇨ &e⚡ &710,000,000 J Buffer"
+    - "&8⇨ &e⚡ &75,120 J/t (Day)"
+    - "&8⇨ &e⚡ &7640 J/t (Night)"
+
+MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  name: "&7MFE"
+  type:
+    - "&7&oMachine"
+  description:
+    - "&7The MFE."
+    - "&7A mid-tier energy capacitor storing a large"
+    - "&7buffer for your machine network."
+  stats:
+    - "&8⇨ &e⚡ &74,000,000 J Buffer"
+    - "&8⇨ &e⚡ &712 J/t Transfer"
+
+MULTI_FUNCTIONAL_STORAGE_UNIT:
+  name: "&7MFSU"
+  type:
+    - "&7&oMachine"
+  description:
+    - "&7The MFSU."
+    - "&7A high-tier capacitor with a huge energy buffer"
+    - "&7for powering demanding end-game machines."
+  stats:
+    - "&8⇨ &e⚡ &740,000,000 J Buffer"
+    - "&8⇨ &e⚡ &752 J/t Transfer"
+
+GOLD_PLATE:
+  name: "&7Gold Plate"
+  type:
+    - "&7&oComponent"
+
+GOLD_ITEM_CASING:
+  name: "&7Gold Item Casing"
+  type:
+    - "&7&oComponent"
+
+UNINSULATED_GOLD_CABLE:
+  name: "&7Uninsulated Gold Cable"
+  type:
+    - "&7&oComponent"
+
+GOLD_CABLE:
+  name: "&7Gold Cable"
+  type:
+    - "&7&oComponent"
+
+REFINED_SMELTERY:
+  name: "&7Refined Smeltery"
+  type:
+    - "&7&oMultiblock"
+  description:
+    - "&7A multiblock smeltery."
+    - "&7Smelts dusts and combines metals into alloys"
+    - "&7such as &7Mixed Metal Ingots &7and &7Refined Iron&7."
+  usage:
+    - "&eRight Click&7 the dispenser to use"
+
+METAL_FORGE:
+  name: "&7Metal Forge"
+  type:
+    - "&7&oMultiblock"
+  description:
+    - "&7A multiblock metal press."
+    - "&7Forms ingots into &fplates &7and &fitem casings &7-"
+    - "&7the components behind cables, machines and armor."
+  usage:
+    - "&eRight Click&7 the dispenser to use"
+
+MANUAL_MILL:
+  name: "&7Manual Mill"
+  type:
+    - "&7&oMultiblock"
+  description:
+    - "&7A hand-cranked multiblock mill."
+    - "&7Grinds materials without any power, giving you an"
+    - "&7early-game alternative to the electric Macerator."
+  usage:
+    - "&eRight Click&7 the dispenser to use"
+
+GENERATOR:
+  name: "&7Generator"
+  type:
+    - "&7&oGenerator"
+  description:
+    - "&7Burns fuel to produce energy."
+    - "&7Your first reliable power source and the basis"
+    - "&7for charging RE-Batteries and running machines."
+  stats:
+    - "&8⇨ &e⚡ &74,000 J Buffer"
+    - "&8⇨ &e⚡ &710 J/t Output"
+
+RE_BATTERY:
+  name: "&7RE Battery"
+  type:
+    - "&7&oComponent"
+
+ADVANCED_SOLAR_HELMET:
+  name: "&7Advanced Solar Helmet"
+  type:
+    - "&7&oArmor"
+  description:
+    - "&eA solar helmet."
+    - "&7Worn on the head, it passively generates energy"
+    - "&7in daylight and charges your other equipment."
+  stats:
+    - "&8⇨ &e⚡ &75 J/t Generation"
+
+CARBONADO_SOLAR_HELMET:
+  name: "&7Carbonado Solar Helmet"
+  type:
+    - "&7&oArmor"
+  description:
+    - "&eA solar helmet."
+    - "&7Worn on the head, it passively generates energy"
+    - "&7in daylight and charges your other equipment."
+  stats:
+    - "&8⇨ &e⚡ &710 J/t Generation"
+
+ENERGIZED_SOLAR_HELMET:
+  name: "&7Energized Solar Helmet"
+  type:
+    - "&7&oArmor"
+  description:
+    - "&eA solar helmet."
+    - "&7Worn on the head, it passively generates energy"
+    - "&7in daylight and charges your other equipment."
+  stats:
+    - "&8⇨ &e⚡ &720 J/t Generation"
+
+ADVANCEDLX_SOLAR_HELMET:
+  name: "&7Super Advanced Solar Helmet"
+  type:
+    - "&7&oArmor"
+  description:
+    - "&eA solar helmet."
+    - "&7Worn on the head, it passively generates energy"
+    - "&7in daylight and charges your other equipment."
+    - "&7Higher tiers produce and store far more."
+  stats:
+    - "&8⇨ &e⚡ &750 J/t Generation"
+
+HYBRID_SOLAR_HELMET:
+  name: "&7Hybrid Solar Helmet"
+  type:
+    - "&7&oArmor"
+  description:
+    - "&eA solar helmet."
+    - "&7Worn on the head, it passively generates energy"
+    - "&7in daylight and charges your other equipment."
+    - "&7Higher tiers produce and store far more."
+  stats:
+    - "&8⇨ &e⚡ &7100 J/t Generation"
+
+ULTIMATE_SOLAR_HELMET:
+  name: "&7Ultimate Solar Helmet"
+  type:
+    - "&7&oArmor"
+  description:
+    - "&eA solar helmet."
+    - "&7Worn on the head, it passively generates energy"
+    - "&7in daylight and charges your other equipment."
+    - "&7Higher tiers produce and store far more."
+  stats:
+    - "&8⇨ &e⚡ &7250 J/t Generation"
+
+FOOD_SYNTHESIZER:
+  name: "&dFood Synthesizer"
+  type:
+    - "&7&oGadget"
+  description:
+    - "&fKeeps you fed with artificial food."
+    - "&fComes in the flavors!"
+  stats:
+    - "&c&o&8⇨ &e⚡ &770 / 100 J"
+
+IRON_PLATE:
+  name: "&7Iron Plate"
+  type:
+    - "&7&oComponent"
+
+DIAMOND_PLATE:
+  name: "&7Diamond Plate"
+  type:
+    - "&7&oComponent"
+
+THORIUM_PLATE:
+  name: "&7Thorium Plate"
+  type:
+    - "&7&oComponent"
+
+POWER_UNIT:
+  name: "&7Power Unit"
+  type:
+    - "&7&oComponent"
+
+IRON_ITEM_CASING:
+  name: "&7Iron Item Casing"
+  type:
+    - "&7&oComponent"
+
+LAPIS_DUST:
+  name: "&7Lapiz Dust"
+  type:
+    - "&7&oResource"
+
+REDSTONE_DUST:
+  name: "&7Redstone Dust"
+  type:
+    - "&7&oResource"
+
+DIAMOND_DUST:
+  name: "&7Diamond Dust"
+  type:
+    - "&7&oResource"
+
+EMERALD_DUST:
+  name: "&7Emerald Dust"
+  type:
+    - "&7&oResource"
+
+QUARTZ_DUST:
+  name: "&7Quartz Dust"
+  type:
+    - "&7&oResource"
+
+ANCIENT_DEBRIS_DUST:
+  name: "&7Ancient Debris Dust"
+  type:
+    - "&7&oResource"
+
+UU_CRAFTER:
+  name: "&7UU Crafter"
+  type:
+    - "&7&oMachine"
+  description:
+    - "&7Automates &5UU-Matter &7crafting."
+    - "&7Supply UU-Matter and it produces the configured"
+    - "&7resource without manual grid crafting."
+  stats:
+    - "&8⇨ &e⚡ &750,000 J Buffer"
+    - "&8⇨ &e⚡ &750,000 J/t"
+  usage:
+    - "&eRight Click&7 the switch to start or stop it"
+
+CONVER:
+  name: "&7Converter"
+  type:
+    - "&7&oMachine"
+  description:
+    - "&7Swaps energy between LiteXpansion and other power"
+    - "&7systems so your grids can interoperate."
+  stats:
+    - "&8⇨ &e⚡ &73,845 J Buffer"
+    - "&8⇨ &e⚡ &7769 J/t"
