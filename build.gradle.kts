@@ -7,29 +7,11 @@ plugins {
 group = "dev.j3fftw"
 description = "LiteXpansion is a Slimefun addon inspired by Industrial Craft 2."
 
-// Shared Slimefun-addon build conventions (Java 8, spigot-api baseline, core dep, publish, shadow, version).
-apply(from = "https://raw.githubusercontent.com/Slimefun5/workflows/stable/slimefun-addon.gradle")
-
-repositories {
-    maven("https://jitpack.io")
-}
+apply(from = "https://raw.githubusercontent.com/Slimefun5/gradle/stable/slimefun-addon.gradle")
 
 dependencies {
     githubImplementation("Slimefun5:SlimefunMetrics:v1.0.0")
     implementation("org.bstats:bstats-bukkit:2.2.1")
-
-    testImplementation(platform("org.junit:junit-bom:5.11.4"))
-    testImplementation("org.junit.jupiter:junit-jupiter")
-    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
-    testImplementation("org.mockito:mockito-core:5.15.2")
-    testImplementation("org.slf4j:slf4j-simple:2.0.16")
-    testImplementation("org.mockbukkit.mockbukkit:mockbukkit-v1.21:4.107.0") {
-        exclude(group = "org.jetbrains", module = "annotations")
-    }
-}
-
-configurations.testImplementation {
-    extendsFrom(configurations.compileOnly.get())
 }
 
 tasks {
@@ -37,6 +19,4 @@ tasks {
         relocate("org.bstats", "litexpansion.libs.bstats")
         relocate("dev.j3fftw.extrautils", "dev.j3fftw.litexpansion.extrautils")
     }
-    compileTestJava { enabled = false }
-    test { enabled = false }
 }
