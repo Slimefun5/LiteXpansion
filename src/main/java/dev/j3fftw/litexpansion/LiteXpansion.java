@@ -9,19 +9,13 @@ import io.github.thebusybiscuit.slimefun5.api.SlimefunAddon;
 import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun5.api.researches.Research;
-<<<<<<< HEAD
-import org.bstats.MetricsBase;
-import org.bukkit.NamespacedKey;
-=======
 import io.github.thebusybiscuit.slimefun5.core.guide.wiki.WikiText;
 import io.github.thebusybiscuit.slimefun5.core.guide.wiki.WikiTopic;
 import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import org.bstats.bukkit.Metrics;
 import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
->>>>>>> origin/experimental
 import org.bukkit.plugin.java.JavaPlugin;
-import dev.walshy.sfmetrics.MetricsModule;
 
 import javax.annotation.Nonnull;
 import java.io.File;
@@ -44,20 +38,14 @@ public class LiteXpansion extends JavaPlugin implements SlimefunAddon {
 
     @Override
     public void onEnable() {
-        MetricsModule.setup(this, 7111);
-
         setInstance(this);
 
         if (!new File(getDataFolder(), "config.yml").exists()) {
             saveDefaultConfig();
         }
 
-<<<<<<< HEAD
-        final         metricsService.setup(metrics);
-=======
         Metrics metrics = new Metrics(this, 7111);
         metricsService.setup(metrics);
->>>>>>> origin/experimental
 
         if (getConfig().getBoolean("options.nerf-other-addons", true)) {
             getServer().getScheduler().runTask(this, this::nerfCrap);
