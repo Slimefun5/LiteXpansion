@@ -1,0 +1,88 @@
+# Per-item balance scores (0-100) for LiteXpansion, relative to vanilla Minecraft.
+# Read by Slimefun's BalanceService (overrides the auto heuristic). Bands:
+#   0-10 Trivial | 11-25 Standard | 26-40 Advanced | 41-69 Powerful | 70-100 Overpowered
+#   (vanilla anchors: iron gear ~15, netherite ~30, beacon ~35, end crystal ~70, mace ~85)
+# Scores derived from real code-read stats (energy/tick, capacity, damage, dig cost),
+# not id/name guessing. See per-item notes for the source numbers.
+scores:
+  # --- Overpowered: infinite passive power far beyond the addon's own needs ---
+  ULTIMATE_SOLAR_PANEL: 72 # 5120 J/t day, 640 J/t night, 10,000,000 J buffer, no fuel
+  # --- Powerful: endgame energy/matter loop, full damage negation, top gear ---
+  ELECTRIC_CHESTPLATE: 62 # negates ANY hit, cost max(1,dmg)x20 J, 8192 J buffer
+  MASS_FABRICATOR_MACHINE: 58 # 33,332 J effective per Scrap, ~100s cycle, creates UU_MATTER from energy
+  UU_CRAFTER: 55 # 50,000 J flat/craft, crafts anything from UU_MATTER (uumatter.yml)
+  ULTIMATE_SOLAR_HELMET: 54 # 250 J/pulse passive charge, Unbreaking VI, top helmet tier
+  NANO_BLADE: 50 # toggle sword, 20 dmg ON (vs diamond 7) / 4 dmg OFF, 4000 J buffer
+  MULTI_FUNCTIONAL_STORAGE_UNIT: 48 # 40,000,000 J capacity, charges at 1040 J/t
+  HYBRID_SOLAR_PANEL: 46 # 640 J/t day(+Nether), 80 J/t night(+End), 1,000,000 J buffer
+  HYBRID_SOLAR_HELMET: 44 # 100 J/pulse passive charge, Unbreaking V
+  # --- Advanced: mid-high machines, storage, and drills ---
+  DIAMOND_DRILL: 38 # 1.5 J/block insta-break, code has NO block restriction (stronger than its lore)
+  ADVANCEDLX_SOLAR_HELMET: 36 # 50 J/pulse passive charge, Unbreaking IV
+  MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT: 34 # 4,000,000 J capacity, charges at 12 J/t
+  UU_MATTER: 32 # sole endgame crafting resource, ~33,332 J + 100s to produce one unit
+  ADVANCED_SOLAR_PANEL: 30 # 80 J/t day, 10 J/t night, 320,000 J buffer
+  ENERGIZED_SOLAR_HELMET: 30 # 20 J/pulse passive charge, Unbreaking III
+  IRIDIUM: 28 # crafted from 8x UU_MATTER, no independent stat but high energy investment
+  REFINED_SMELTERY: 26 # multiblock, no energy, unlocks refined-tier recipes
+  SCRAP_MACHINE: 26 # 400 J effective/cycle (5s), accepts any item, feeds Mass Fabricator
+  # --- Standard: early-mid machines, tools, and processed components ---
+  CARBONADO_SOLAR_HELMET: 24 # 10 J/pulse passive charge, Unbreaking II
+  FOOD_SYNTHESIZER: 22 # 5 J/feed, resets hunger+saturation, 100 J buffer (20 feeds)
+  METAL_FORGE: 22 # multiblock, no energy, unlocks mid-tier alloy recipes
+  RUBBER_SYNTHESIZER: 22 # 1538 J effective/cycle (0.65s), 8 rubber per oil bucket
+  CONVER: 20 # 1538 J effective/cycle (0.25s) item converter
+  MACERATOR: 20 # 1538 J effective/cycle (0.25s), doubles ore into 2 dust
+  ADVANCED_MACHINE_BLOCK: 18 # advanced machine casing component
+  ADVANCED_SOLAR_HELMET: 18 # 5 J/pulse passive charge, Unbreaking I, first tier
+  GENERATOR: 18 # 10 J/t output, 4000 J buffer, needs fuel (lava/charcoal/etc.)
+  MINING_DRILL: 18 # 0.5 J/block insta-break, restricted to stone variants, 1000 J buffer
+  THORIUM: 18 # Radioactivity.HIGH (needs Hazmat), GEO-scanned resource
+  ADVANCED_ALLOY: 16 # refined crafting component
+  ADVANCED_CIRCUIT: 16 # refined crafting component
+  IRIDIUM_PLATE: 16 # processed from Iridium, mid-tier plate
+  ELECTRONIC_CIRCUIT: 14 # base circuit component
+  MACHINE_BLOCK: 14 # base machine casing component
+  MAG_THOR: 14 # refined crafting component
+  MANUAL_MILL: 14 # multiblock, no energy, early-game Macerator substitute
+  MIXED_METAL_INGOT: 14 # processed crafting component
+  POWER_UNIT: 14 # base crafting component
+  REFINED_IRON: 14 # processed crafting component
+  THORIUM_PLATE: 14 # processed from Thorium
+  ANCIENT_DEBRIS_DUST: 12 # macerated at 2 dust/ore, rare-ore tier
+  CARBON_PLATE: 12 # processed plate component
+  DIAMOND_PLATE: 12 # processed plate component
+  RAW_CARBON_FIBRE: 12 # base crafting material
+  RAW_CARBON_MESH: 12 # base crafting material
+  THORIUM_DUST: 12 # macerated at 2 dust/ore
+  GLASS_CUTTER: 10 # 0.5 J/glass block insta-break, glass only, 300 J buffer
+  LAPOTRON_CRYSTAL: 10 # NOT a functional battery in code, pure crafting ingredient
+  # --- Trivial: raw dusts, plates, casings, cables, and dead/unregistered items ---
+  DIAMOND_DUST: 8 # macerated at 2 dust/ore
+  GOLD_ITEM_CASING: 8 # crafting-only, no EnergyNetComponent implemented
+  GOLD_PLATE: 8 # base plate material
+  RE_BATTERY: 8 # NOT a functional battery in code, pure crafting ingredient
+  RUBBER: 8 # crafting material from Rubber Synthesizer
+  COPPER_CABLE: 6 # crafting-only, no EnergyNetComponent implemented
+  COPPER_ITEM_CASING: 6 # crafting-only, no EnergyNetComponent implemented
+  COPPER_PLATE: 6 # base plate material
+  EMERALD_DUST: 6 # macerated at 2 dust/ore
+  GOLD_CABLE: 6 # crafting-only, no EnergyNetComponent implemented
+  IRON_ITEM_CASING: 6 # crafting-only, no EnergyNetComponent implemented
+  IRON_PLATE: 6 # base plate material
+  REINFORCED_GLASS: 6 # decorative block, no combat/energy stat
+  SCRAP: 6 # Recycler byproduct, crafting-only
+  TIN_CABLE: 6 # crafting-only, no EnergyNetComponent implemented
+  TIN_ITEM_CASING: 6 # crafting-only, no EnergyNetComponent implemented
+  TIN_PLATE: 6 # base plate material
+  CARGO_CONFIGURATOR: 5 # utility config tool, no energy/combat stat
+  UNINSULATED_COPPER_CABLE: 4 # crafting-only, no EnergyNetComponent implemented
+  UNINSULATED_GOLD_CABLE: 4 # crafting-only, no EnergyNetComponent implemented
+  UNINSULATED_TIN_CABLE: 4 # crafting-only, no EnergyNetComponent implemented
+  COAL_DUST: 3 # macerated at 2 dust/ore
+  LAPIS_DUST: 3 # macerated at 2 dust/ore
+  QUARTZ_DUST: 3 # macerated at 2 dust/ore
+  REDSTONE_DUST: 3 # macerated at 2 dust/ore
+  REINFORCED_DOOR: 1 # never registered in ItemSetup.java, non-functional dead item
+  REINFORCED_STONE: 1 # never registered in ItemSetup.java, non-functional dead item
+  TREETAP: 1 # never registered in ItemSetup.java, non-functional dead item

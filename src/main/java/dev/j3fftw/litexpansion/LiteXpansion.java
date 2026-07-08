@@ -126,8 +126,8 @@ public class LiteXpansion extends JavaPlugin implements SlimefunAddon {
 
     private static String categoryTitle(String groupKey) {
         switch (groupKey) {
-            case "litexpansion": return "&cLite&7Xpansion";
-            default: return "&cLite&7Xpansion";
+            case "litexpansion": return "LiteXpansion";
+            default: return "LiteXpansion";
         }
     }
 

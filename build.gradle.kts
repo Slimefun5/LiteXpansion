@@ -5,40 +5,9 @@ plugins {
 }
 
 group = "dev.j3fftw"
-fun latestGitTagVersion(): String? = try {
-    val out = providers.exec { workingDir = rootDir; commandLine("git","describe","--tags","--abbrev=0"); isIgnoreExitValue = true }
-    if (out.result.get().exitValue == 0) out.standardOutput.asText.get().trim().removePrefix("gh-").removePrefix("v").takeIf { it.isNotBlank() } else null
-} catch (e: Exception) { null }
-
-version = (project.findProperty("artifact_version") as String?)?.removePrefix("v")?.takeIf { it.isNotBlank() } ?: latestGitTagVersion() ?: "1.0.0"
-val versionSuffix: String = when {
-    !(project.findProperty("artifact_version") as String?).isNullOrBlank() -> ""
-    System.getenv("GITHUB_ACTIONS") == "true" -> "-EXPERIMENTAL"
-    else -> "-UNOFFICIAL"
-}
-val displayVersion = "${project.version}$versionSuffix"
 description = "LiteXpansion is a Slimefun addon inspired by Industrial Craft 2."
 
-github {
-    accessToken = System.getenv("GITHUB_TOKEN") ?: ""
-    publish {
-        tag = System.getenv("GITHUB_REF_NAME")
-    }
-}
-
-java {
-    toolchain {
-        languageVersion.set(JavaLanguageVersion.of(8))
-    }
-}
-
-repositories {
-    maven("https://jitpack.io")
-    mavenCentral()
-    maven("https://hub.spigotmc.org/nexus/content/repositories/snapshots/")
-    maven("https://repo.papermc.io/repository/maven-public/")
-    maven("https://repo.codemc.io/repository/maven-public/")
-}
+apply(from = "https://raw.githubusercontent.com/Slimefun5/gradle/stable/slimefun-addon.gradle")
 
 dependencies {
 <<<<<<< HEAD
@@ -52,6 +21,7 @@ dependencies {
 >>>>>>> origin/experimental
 =======
     implementation("org.bstats:bstats-bukkit:2.2.1")
+<<<<<<< HEAD
 >>>>>>> origin/experimental
     compileOnly("org.spigotmc:spigot-api:1.16.5-R0.1-SNAPSHOT")
 >>>>>>> origin/experimental
@@ -72,25 +42,17 @@ dependencies {
 
 configurations.testImplementation {
     extendsFrom(configurations.compileOnly.get())
+=======
+>>>>>>> origin/experimental
 }
 
 tasks {
-    compileJava {
-        options.encoding = "UTF-8"
-    }
-    processResources {
-        filesMatching("plugin.yml") {
-            expand("version" to displayVersion)
-        }
-    }
-    jar {
-        enabled = false
-    }
     shadowJar {
 <<<<<<< HEAD
         archiveFileName.set("LiteXpansion v${project.version}.jar")
 =======
         relocate("org.bstats", "litexpansion.libs.bstats")
+<<<<<<< HEAD
 <<<<<<< HEAD
         archiveFileName.set("LiteXpansion-1.0.0-UNOFFICIAL.jar")
 >>>>>>> origin/experimental
@@ -108,8 +70,8 @@ tasks {
     }
     test {
         enabled = false
+=======
+        relocate("dev.j3fftw.extrautils", "dev.j3fftw.litexpansion.extrautils")
+>>>>>>> origin/experimental
     }
 }
-
-
-// Trigger CI
