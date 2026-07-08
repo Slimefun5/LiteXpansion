@@ -114,7 +114,7 @@ plugins {
 }
 
 dependencies {
-    "githubCompileOnly"("Slimefun5:LiteXpansion:v1.0.3.5")
+    "githubCompileOnly"("Slimefun5:LiteXpansion:v1.0.3.6")
 }
 ```
 
