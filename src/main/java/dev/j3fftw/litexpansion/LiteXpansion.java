@@ -44,8 +44,11 @@ public class LiteXpansion extends JavaPlugin implements SlimefunAddon {
             saveDefaultConfig();
         }
 
-        Metrics metrics = new Metrics(this, 7111);
-        metricsService.setup(metrics);
+        // Consolidated metrics: only start our own bStats if the server opted out (metrics.disable-addon-metrics = false).
+        if (Slimefun.getCfg().contains("metrics.disable-addon-metrics") && !Slimefun.getCfg().getBoolean("metrics.disable-addon-metrics")) {
+            Metrics metrics = new Metrics(this, 7111);
+            metricsService.setup(metrics);
+        }
 
         if (getConfig().getBoolean("options.nerf-other-addons", true)) {
             getServer().getScheduler().runTask(this, this::nerfCrap);
