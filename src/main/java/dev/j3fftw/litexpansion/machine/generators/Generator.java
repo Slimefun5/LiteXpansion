@@ -83,7 +83,6 @@ public class Generator extends CoalGenerator {
         super.registerFuel(new MachineFuel(1, new ItemStack(MaterialCompat.safe(XMaterial.STICK))));
         super.registerFuel(new MachineFuel(1, new ItemStack(MaterialCompat.safe(XMaterial.BAMBOO))));
 
-        // Banners
         for (Material mat : TagCompat.values("ITEMS_BANNERS")) {
             super.registerFuel(new MachineFuel(1, new ItemStack(mat)));
         }
@@ -92,12 +91,10 @@ public class Generator extends CoalGenerator {
             super.registerFuel(new MachineFuel(1, new ItemStack(mat)));
         }
 
-        // Saplings
         for (Material mat : TagCompat.values("SAPLINGS")) {
             super.registerFuel(new MachineFuel(1, new ItemStack(mat)));
         }
 
-        // Wool
         for (Material mat : TagCompat.values("WOOL")) {
             super.registerFuel(new MachineFuel(1, new ItemStack(mat)));
         }

@@ -80,7 +80,6 @@ public class CargoConfigurator extends SimpleSlimefunItem<ItemUseHandler> implem
             .orElse(new ArrayList<>());
         final List<String> lore = meta.hasLore() ? meta.getLore() : defaultLore;
 
-        // Clear the config and lore
         if ((e.getAction() == Action.RIGHT_CLICK_AIR || e.getAction() == Action.RIGHT_CLICK_BLOCK)
             && e.getPlayer().isSneaking()
         ) {

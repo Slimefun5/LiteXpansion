@@ -128,11 +128,9 @@ public final class UUMatter {
 
     public void addUuMatterRecipe(@Nonnull ItemStack result, @Nonnull ItemStack[] recipe) {
         if (recipe.length < 9) {
-            // Make the new length 9 and fill it with nulls
             recipe = Arrays.copyOf(recipe, 9);
         }
 
-        // Register to the enhanced crafting table
         RecipeType.ENHANCED_CRAFTING_TABLE.register(recipe, result);
         // Add to our recipes set, this is used for the GUI
         this.recipes.put(result, recipe);
