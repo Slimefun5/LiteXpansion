@@ -12,16 +12,12 @@ import java.util.Objects;
 import java.util.Set;
 import java.util.UUID;
 
-/*
- * This class iterates through every item in every player's inv and will look for a PassiveElectricRemoval item.
- * If it finds it, it adds to a set with some other data and continues.
- * At the end it will tick all of these items on the main thread.
- * This is hacky but I don't have the time to make a better way currently
- */
 /**
  * Represents the {@link PassiveElectricRemovalTicker} class.
  *
  * @author j3fftw
+ * @implNote Collects every PassiveElectricRemoval item across all online players' inventories and ticks
+ * them together on the main thread. Hacky, kept only until a better mechanism exists.
  */
 public final class PassiveElectricRemovalTicker implements Runnable {
 

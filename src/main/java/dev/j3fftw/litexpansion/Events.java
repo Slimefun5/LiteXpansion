@@ -307,8 +307,7 @@ public class Events implements Listener {
     @EventHandler
     public void onCatSpawn(EntitySpawnEvent event) {
         Entity entity = event.getEntity();
-        // Java-8 universal port: org.bukkit.entity.Cat is 1.14+. Only touch the Cat-specific helper when
-        // the API and a cat entity are actually present, so the class is never loaded on older versions.
+        // org.bukkit.entity.Cat is 1.14+; gate on the helper so CatEasterEgg never class-loads on older versions
         if (CatEasterEgg.isCatApiAvailable() && "CAT".equals(entity.getType().name())) {
             CatEasterEgg.tryApply(entity);
         }

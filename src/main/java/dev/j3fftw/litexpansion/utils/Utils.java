@@ -22,10 +22,12 @@ public final class Utils {
         player.sendMessage(ChatColor.GRAY + "[LiteXpansion] " + ChatColors.color(message));
     }
 
+    /**
+     * @implNote Java-8 universal port: reads through the version-safe PersistentDataAPI Object/String
+     * overload rather than the 1.14+ PersistentDataContainer API. That overload returns false when unset,
+     * which matches every call site (all treat only a true value as "enabled").
+     */
     public static Optional<Boolean> getOptionalBoolean(@Nonnull ItemMeta meta, @Nonnull String key) {
-        // Java-8 universal port: read via the version-safe PersistentDataAPI Object/String overload
-        // instead of the 1.14+ PersistentDataContainer API. The overload returns false when unset,
-        // which matches every call site (all only treat a true value as "enabled").
         return Optional.of(Pdc.getBoolean(meta, key));
     }
 }
