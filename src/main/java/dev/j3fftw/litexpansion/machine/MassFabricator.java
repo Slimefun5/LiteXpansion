@@ -106,7 +106,6 @@ public class MassFabricator extends SlimefunItem implements InventoryBlock, Ener
             return;
         }
 
-        // yes this is ugly shush
         @Nullable ItemStack input = inv.getItemInSlot(INPUT_SLOTS[0]);
         @Nullable ItemStack input2 = inv.getItemInSlot(INPUT_SLOTS[1]);
         @Nullable final ItemStack output = inv.getItemInSlot(OUTPUT_SLOT);

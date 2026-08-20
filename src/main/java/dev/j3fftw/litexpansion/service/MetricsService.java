@@ -41,7 +41,6 @@ public class MetricsService {
             }
         });
 
-        // Setup charts
         setupCharts(metrics);
     }
 

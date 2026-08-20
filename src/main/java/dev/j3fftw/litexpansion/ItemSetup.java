@@ -137,31 +137,26 @@ final class ItemSetup {
     }
 
     private void registerMiscItems() {
-        // Advanced Alloy
         registerNonPlaceableItem(Items.ADVANCED_ALLOY, RecipeType.COMPRESSOR, Items.MIXED_METAL_INGOT.item());
 
-        // Mixed Metal Ingot
         registerItem(Items.MIXED_METAL_INGOT, MetalForge.RECIPE_TYPE,
             Items.REFINED_IRON.item(), Items.REFINED_IRON.item(), Items.REFINED_IRON.item(),
             SlimefunItems.BRONZE_INGOT.item(), SlimefunItems.BRONZE_INGOT.item(), SlimefunItems.BRONZE_INGOT.item(),
             SlimefunItems.TIN_INGOT.item(), SlimefunItems.TIN_INGOT.item(), SlimefunItems.TIN_INGOT.item()
         );
 
-        // Reinforced glass
         registerNonPlaceableItem(Items.REINFORCED_GLASS, RecipeType.ENHANCED_CRAFTING_TABLE,
             glass, glass, glass,
             Items.ADVANCED_ALLOY.item(), glass, Items.ADVANCED_ALLOY.item(),
             glass, glass, glass
         );
 
-        // Machine block
         registerItem(Items.MACHINE_BLOCK, MetalForge.RECIPE_TYPE,
             Items.REFINED_IRON.item(), Items.REFINED_IRON.item(), Items.REFINED_IRON.item(),
             Items.REFINED_IRON.item(), null, Items.REFINED_IRON.item(),
             Items.REFINED_IRON.item(), Items.REFINED_IRON.item(), Items.REFINED_IRON.item()
         );
 
-        // Advanced Machine Block
         registerItem(Items.ADVANCED_MACHINE_BLOCK, MetalForge.RECIPE_TYPE,
             null, Items.ADVANCED_ALLOY.item(), null,
             Items.CARBON_PLATE.item(), Items.MACHINE_BLOCK.item(), Items.CARBON_PLATE.item(),
@@ -215,7 +210,6 @@ final class ItemSetup {
         registerNonPlaceableItem(Items.THORIUM_PLATE, MetalForge.RECIPE_TYPE, Items.THORIUM.item());
 
 
-        // Circuits
         registerNonPlaceableItem(Items.ELECTRONIC_CIRCUIT, RecipeType.ENHANCED_CRAFTING_TABLE,
             Items.COPPER_CABLE.item(), Items.COPPER_CABLE.item(), Items.COPPER_CABLE.item(),
             new ItemStack(MaterialCompat.safe(XMaterial.REDSTONE)), Items.REFINED_IRON.item(), new ItemStack(MaterialCompat.safe(XMaterial.REDSTONE)),
@@ -241,12 +235,10 @@ final class ItemSetup {
             Items.RE_BATTERY.item(), Items.UNINSULATED_COPPER_CABLE.item(), Items.IRON_ITEM_CASING.item()
         );
 
-        // Refined crap
         registerNonPlaceableItem(Items.REFINED_IRON, RefinedSmeltery.RECIPE_TYPE,
             new ItemStack(MaterialCompat.safe(XMaterial.IRON_INGOT))
         );
 
-        // Dust smelting
         RecipeType.SMELTERY.register(new ItemStack[] {Items.LAPIS_DUST.item()},
             new ItemStack(MaterialCompat.safe(XMaterial.LAPIS_LAZULI))
         );
@@ -266,7 +258,6 @@ final class ItemSetup {
             new ItemStack(MaterialCompat.safe(XMaterial.NETHERITE_INGOT))
         );
 
-        // Resources
         new MagThor().register(plugin);
         new Thorium().register(plugin);
     }
@@ -324,7 +315,6 @@ final class ItemSetup {
         new AdvancedSolarHelmet(AdvancedSolarHelmet.Type.ULTIMATE).register(plugin);
     }
 
-    //Register Items
     private void registerItem(@Nonnull SlimefunItemStack result, @Nonnull RecipeType type,
                               @Nonnull ItemStack... items) {
         ItemStack[] recipe;
