@@ -19,6 +19,7 @@ import me.mrCookieSlime.Slimefun.Objects.handlers.BlockTicker;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
+import org.bukkit.ChatColor;
 import org.bukkit.block.Block;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.inventory.ItemStack;
@@ -77,6 +78,7 @@ public class MassFabricator extends SlimefunItem implements InventoryBlock, Ener
 
     private void setupInv() {
         createPreset(this, "\u00a75Mass Fabricator", blockMenuPreset -> {
+            blockMenuPreset.optOutOfHeaderItem(ChatColor.DARK_PURPLE);
             for (int i = 0; i < 27; i++) {
                 if (i == INPUT_SLOTS[0] || i == INPUT_SLOTS[1]) continue;
                 blockMenuPreset.addItem(i, ChestMenuUtils.getBackground(), ChestMenuUtils.getEmptyClickHandler());

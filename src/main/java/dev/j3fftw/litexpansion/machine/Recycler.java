@@ -21,6 +21,7 @@ import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 import dev.j3fftw.litexpansion.compat.MaterialCompat;
 import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
+import org.bukkit.ChatColor;
 import org.bukkit.block.Block;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.inventory.ItemStack;
@@ -75,6 +76,7 @@ public class Recycler extends SlimefunItem implements InventoryBlock, EnergyNetC
 
     private void setupInv() {
         createPreset(this, "\u00a78Recycler", blockMenuPreset -> {
+            blockMenuPreset.optOutOfHeaderItem(ChatColor.DARK_GRAY);
             for (int i = 0; i < 27; i++) {
                 if (i == INPUT_SLOT) continue;
                 blockMenuPreset.addItem(i, ChestMenuUtils.getBackground(), ChestMenuUtils.getEmptyClickHandler());
