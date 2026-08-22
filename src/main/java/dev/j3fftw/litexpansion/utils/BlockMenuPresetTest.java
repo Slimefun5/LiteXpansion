@@ -12,6 +12,7 @@ import me.mrCookieSlime.Slimefun.api.inventory.BlockMenuPreset;
 import me.mrCookieSlime.Slimefun.api.item_transport.ItemTransportFlow;
 import dev.j3fftw.litexpansion.compat.MaterialCompat;
 import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import org.bukkit.ChatColor;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
 
@@ -38,6 +39,7 @@ public class BlockMenuPresetTest extends BlockMenuPreset {
 
     @Override
     public void init() {
+        optOutOfHeaderItem(ChatColor.DARK_GRAY);
         List<Integer> crafting = new ArrayList<>();
         for (int CRAFTING_SLOT : UUCrafter.CRAFTING_SLOTS) {
             Integer integer = CRAFTING_SLOT;
