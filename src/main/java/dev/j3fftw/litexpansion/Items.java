@@ -165,4 +165,9 @@ public final class Items {
     }
 
     private Items() {}
+
+    /** Places this addon's items in the shared guide categories (see ItemTypeClassifier). */
+    static {
+        LITEXPANSION.setCategory("energy_tech");
+    }
 }
