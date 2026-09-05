@@ -1,0 +1,228 @@
+ADVANCEDLX_SOLAR_HELMET:
+  type:
+  - '&7&oPáncél'
+ADVANCED_ALLOY:
+  type:
+  - '&7&oAlkatrész'
+ADVANCED_CIRCUIT:
+  type:
+  - '&7&oAlkatrész'
+ADVANCED_MACHINE_BLOCK:
+  type:
+  - '&7&oAlkatrész'
+ADVANCED_SOLAR_HELMET:
+  type:
+  - '&7&oPáncél'
+ADVANCED_SOLAR_PANEL:
+  type:
+  - '&7&oGenerátor'
+ANCIENT_DEBRIS_DUST:
+  type:
+  - '&7&oNyersanyag'
+CARBONADO_SOLAR_HELMET:
+  type:
+  - '&7&oPáncél'
+CARBON_PLATE:
+  type:
+  - '&7&oAlkatrész'
+CARGO_CONFIGURATOR:
+  type:
+  - '&7&oEszköz'
+COAL_DUST:
+  type:
+  - '&7&oNyersanyag'
+CONVER:
+  type:
+  - '&7&oGép'
+COPPER_CABLE:
+  type:
+  - '&7&oAlkatrész'
+COPPER_ITEM_CASING:
+  type:
+  - '&7&oAlkatrész'
+COPPER_PLATE:
+  type:
+  - '&7&oAlkatrész'
+DIAMOND_DRILL:
+  type:
+  - '&7&oEszköz'
+DIAMOND_DUST:
+  type:
+  - '&7&oNyersanyag'
+DIAMOND_PLATE:
+  type:
+  - '&7&oAlkatrész'
+ELECTRIC_CHESTPLATE:
+  type:
+  - '&7&oPáncél'
+ELECTRONIC_CIRCUIT:
+  type:
+  - '&7&oAlkatrész'
+EMERALD_DUST:
+  type:
+  - '&7&oNyersanyag'
+ENERGIZED_SOLAR_HELMET:
+  type:
+  - '&7&oPáncél'
+FOOD_SYNTHESIZER:
+  type:
+  - '&7&oKütyü'
+GENERATOR:
+  type:
+  - '&7&oGenerátor'
+GLASS_CUTTER:
+  type:
+  - '&7&oEszköz'
+GOLD_CABLE:
+  type:
+  - '&7&oAlkatrész'
+GOLD_ITEM_CASING:
+  type:
+  - '&7&oAlkatrész'
+GOLD_PLATE:
+  type:
+  - '&7&oAlkatrész'
+HYBRID_SOLAR_HELMET:
+  type:
+  - '&7&oPáncél'
+HYBRID_SOLAR_PANEL:
+  type:
+  - '&7&oGenerátor'
+IRIDIUM:
+  type:
+  - '&7&oNyersanyag'
+IRIDIUM_PLATE:
+  type:
+  - '&7&oAlkatrész'
+IRON_ITEM_CASING:
+  type:
+  - '&7&oAlkatrész'
+IRON_PLATE:
+  type:
+  - '&7&oAlkatrész'
+LAPIS_DUST:
+  type:
+  - '&7&oNyersanyag'
+LAPOTRON_CRYSTAL:
+  type:
+  - '&7&oAlkatrész'
+MACERATOR:
+  type:
+  - '&7&oGép'
+MACHINE_BLOCK:
+  type:
+  - '&7&oAlkatrész'
+MAG_THOR:
+  type:
+  - '&7&oNyersanyag'
+MANUAL_MILL:
+  type:
+  - '&7&oMultiblock'
+MASS_FABRICATOR_MACHINE:
+  type:
+  - '&7&oGép'
+METAL_FORGE:
+  type:
+  - '&7&oMultiblock'
+MINING_DRILL:
+  type:
+  - '&7&oEszköz'
+MIXED_METAL_INGOT:
+  type:
+  - '&7&oNyersanyag'
+MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  type:
+  - '&7&oGép'
+MULTI_FUNCTIONAL_STORAGE_UNIT:
+  type:
+  - '&7&oGép'
+NANO_BLADE:
+  type:
+  - '&7&oFegyver'
+POWER_UNIT:
+  type:
+  - '&7&oAlkatrész'
+QUARTZ_DUST:
+  type:
+  - '&7&oNyersanyag'
+RAW_CARBON_FIBRE:
+  type:
+  - '&7&oNyersanyag'
+RAW_CARBON_MESH:
+  type:
+  - '&7&oNyersanyag'
+REDSTONE_DUST:
+  type:
+  - '&7&oNyersanyag'
+REFINED_IRON:
+  type:
+  - '&7&oNyersanyag'
+REFINED_SMELTERY:
+  type:
+  - '&7&oMultiblock'
+REINFORCED_DOOR:
+  type:
+  - '&7&oAlkatrész'
+REINFORCED_GLASS:
+  type:
+  - '&7&oAlkatrész'
+REINFORCED_STONE:
+  type:
+  - '&7&oAlkatrész'
+RE_BATTERY:
+  type:
+  - '&7&oAlkatrész'
+RUBBER:
+  type:
+  - '&7&oNyersanyag'
+RUBBER_SYNTHESIZER:
+  type:
+  - '&7&oGép'
+SCRAP:
+  type:
+  - '&7&oNyersanyag'
+SCRAP_MACHINE:
+  type:
+  - '&7&oGép'
+THORIUM:
+  type:
+  - '&7&oNyersanyag'
+THORIUM_DUST:
+  type:
+  - '&7&oNyersanyag'
+THORIUM_PLATE:
+  type:
+  - '&7&oAlkatrész'
+TIN_CABLE:
+  type:
+  - '&7&oAlkatrész'
+TIN_ITEM_CASING:
+  type:
+  - '&7&oAlkatrész'
+TIN_PLATE:
+  type:
+  - '&7&oAlkatrész'
+TREETAP:
+  type:
+  - '&7&oEszköz'
+ULTIMATE_SOLAR_HELMET:
+  type:
+  - '&7&oPáncél'
+ULTIMATE_SOLAR_PANEL:
+  type:
+  - '&7&oGenerátor'
+UNINSULATED_COPPER_CABLE:
+  type:
+  - '&7&oAlkatrész'
+UNINSULATED_GOLD_CABLE:
+  type:
+  - '&7&oAlkatrész'
+UNINSULATED_TIN_CABLE:
+  type:
+  - '&7&oAlkatrész'
+UU_CRAFTER:
+  type:
+  - '&7&oGép'
+UU_MATTER:
+  type:
+  - '&7&oNyersanyag'

@@ -1,0 +1,228 @@
+ADVANCEDLX_SOLAR_HELMET:
+  type:
+  - '&7&oשריון'
+ADVANCED_ALLOY:
+  type:
+  - '&7&oרכיב'
+ADVANCED_CIRCUIT:
+  type:
+  - '&7&oרכיב'
+ADVANCED_MACHINE_BLOCK:
+  type:
+  - '&7&oרכיב'
+ADVANCED_SOLAR_HELMET:
+  type:
+  - '&7&oשריון'
+ADVANCED_SOLAR_PANEL:
+  type:
+  - '&7&oגנרטור'
+ANCIENT_DEBRIS_DUST:
+  type:
+  - '&7&oמשאב'
+CARBONADO_SOLAR_HELMET:
+  type:
+  - '&7&oשריון'
+CARBON_PLATE:
+  type:
+  - '&7&oרכיב'
+CARGO_CONFIGURATOR:
+  type:
+  - '&7&oכלי'
+COAL_DUST:
+  type:
+  - '&7&oמשאב'
+CONVER:
+  type:
+  - '&7&oמכונה'
+COPPER_CABLE:
+  type:
+  - '&7&oרכיב'
+COPPER_ITEM_CASING:
+  type:
+  - '&7&oרכיב'
+COPPER_PLATE:
+  type:
+  - '&7&oרכיב'
+DIAMOND_DRILL:
+  type:
+  - '&7&oכלי'
+DIAMOND_DUST:
+  type:
+  - '&7&oמשאב'
+DIAMOND_PLATE:
+  type:
+  - '&7&oרכיב'
+ELECTRIC_CHESTPLATE:
+  type:
+  - '&7&oשריון'
+ELECTRONIC_CIRCUIT:
+  type:
+  - '&7&oרכיב'
+EMERALD_DUST:
+  type:
+  - '&7&oמשאב'
+ENERGIZED_SOLAR_HELMET:
+  type:
+  - '&7&oשריון'
+FOOD_SYNTHESIZER:
+  type:
+  - '&7&oגאדג׳ט'
+GENERATOR:
+  type:
+  - '&7&oגנרטור'
+GLASS_CUTTER:
+  type:
+  - '&7&oכלי'
+GOLD_CABLE:
+  type:
+  - '&7&oרכיב'
+GOLD_ITEM_CASING:
+  type:
+  - '&7&oרכיב'
+GOLD_PLATE:
+  type:
+  - '&7&oרכיב'
+HYBRID_SOLAR_HELMET:
+  type:
+  - '&7&oשריון'
+HYBRID_SOLAR_PANEL:
+  type:
+  - '&7&oגנרטור'
+IRIDIUM:
+  type:
+  - '&7&oמשאב'
+IRIDIUM_PLATE:
+  type:
+  - '&7&oרכיב'
+IRON_ITEM_CASING:
+  type:
+  - '&7&oרכיב'
+IRON_PLATE:
+  type:
+  - '&7&oרכיב'
+LAPIS_DUST:
+  type:
+  - '&7&oמשאב'
+LAPOTRON_CRYSTAL:
+  type:
+  - '&7&oרכיב'
+MACERATOR:
+  type:
+  - '&7&oמכונה'
+MACHINE_BLOCK:
+  type:
+  - '&7&oרכיב'
+MAG_THOR:
+  type:
+  - '&7&oמשאב'
+MANUAL_MILL:
+  type:
+  - '&7&oרב בלוק'
+MASS_FABRICATOR_MACHINE:
+  type:
+  - '&7&oמכונה'
+METAL_FORGE:
+  type:
+  - '&7&oרב בלוק'
+MINING_DRILL:
+  type:
+  - '&7&oכלי'
+MIXED_METAL_INGOT:
+  type:
+  - '&7&oמשאב'
+MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  type:
+  - '&7&oמכונה'
+MULTI_FUNCTIONAL_STORAGE_UNIT:
+  type:
+  - '&7&oמכונה'
+NANO_BLADE:
+  type:
+  - '&7&oנשק'
+POWER_UNIT:
+  type:
+  - '&7&oרכיב'
+QUARTZ_DUST:
+  type:
+  - '&7&oמשאב'
+RAW_CARBON_FIBRE:
+  type:
+  - '&7&oמשאב'
+RAW_CARBON_MESH:
+  type:
+  - '&7&oמשאב'
+REDSTONE_DUST:
+  type:
+  - '&7&oמשאב'
+REFINED_IRON:
+  type:
+  - '&7&oמשאב'
+REFINED_SMELTERY:
+  type:
+  - '&7&oרב בלוק'
+REINFORCED_DOOR:
+  type:
+  - '&7&oרכיב'
+REINFORCED_GLASS:
+  type:
+  - '&7&oרכיב'
+REINFORCED_STONE:
+  type:
+  - '&7&oרכיב'
+RE_BATTERY:
+  type:
+  - '&7&oרכיב'
+RUBBER:
+  type:
+  - '&7&oמשאב'
+RUBBER_SYNTHESIZER:
+  type:
+  - '&7&oמכונה'
+SCRAP:
+  type:
+  - '&7&oמשאב'
+SCRAP_MACHINE:
+  type:
+  - '&7&oמכונה'
+THORIUM:
+  type:
+  - '&7&oמשאב'
+THORIUM_DUST:
+  type:
+  - '&7&oמשאב'
+THORIUM_PLATE:
+  type:
+  - '&7&oרכיב'
+TIN_CABLE:
+  type:
+  - '&7&oרכיב'
+TIN_ITEM_CASING:
+  type:
+  - '&7&oרכיב'
+TIN_PLATE:
+  type:
+  - '&7&oרכיב'
+TREETAP:
+  type:
+  - '&7&oכלי'
+ULTIMATE_SOLAR_HELMET:
+  type:
+  - '&7&oשריון'
+ULTIMATE_SOLAR_PANEL:
+  type:
+  - '&7&oגנרטור'
+UNINSULATED_COPPER_CABLE:
+  type:
+  - '&7&oרכיב'
+UNINSULATED_GOLD_CABLE:
+  type:
+  - '&7&oרכיב'
+UNINSULATED_TIN_CABLE:
+  type:
+  - '&7&oרכיב'
+UU_CRAFTER:
+  type:
+  - '&7&oמכונה'
+UU_MATTER:
+  type:
+  - '&7&oמשאב'

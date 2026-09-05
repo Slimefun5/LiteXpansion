@@ -1,0 +1,228 @@
+ADVANCEDLX_SOLAR_HELMET:
+  type:
+  - '&7&oZırh'
+ADVANCED_ALLOY:
+  type:
+  - '&7&oBileşen'
+ADVANCED_CIRCUIT:
+  type:
+  - '&7&oBileşen'
+ADVANCED_MACHINE_BLOCK:
+  type:
+  - '&7&oBileşen'
+ADVANCED_SOLAR_HELMET:
+  type:
+  - '&7&oZırh'
+ADVANCED_SOLAR_PANEL:
+  type:
+  - '&7&oJeneratör'
+ANCIENT_DEBRIS_DUST:
+  type:
+  - '&7&oKaynak'
+CARBONADO_SOLAR_HELMET:
+  type:
+  - '&7&oZırh'
+CARBON_PLATE:
+  type:
+  - '&7&oBileşen'
+CARGO_CONFIGURATOR:
+  type:
+  - '&7&oAlet'
+COAL_DUST:
+  type:
+  - '&7&oKaynak'
+CONVER:
+  type:
+  - '&7&oMakine'
+COPPER_CABLE:
+  type:
+  - '&7&oBileşen'
+COPPER_ITEM_CASING:
+  type:
+  - '&7&oBileşen'
+COPPER_PLATE:
+  type:
+  - '&7&oBileşen'
+DIAMOND_DRILL:
+  type:
+  - '&7&oAlet'
+DIAMOND_DUST:
+  type:
+  - '&7&oKaynak'
+DIAMOND_PLATE:
+  type:
+  - '&7&oBileşen'
+ELECTRIC_CHESTPLATE:
+  type:
+  - '&7&oZırh'
+ELECTRONIC_CIRCUIT:
+  type:
+  - '&7&oBileşen'
+EMERALD_DUST:
+  type:
+  - '&7&oKaynak'
+ENERGIZED_SOLAR_HELMET:
+  type:
+  - '&7&oZırh'
+FOOD_SYNTHESIZER:
+  type:
+  - '&7&oCihaz'
+GENERATOR:
+  type:
+  - '&7&oJeneratör'
+GLASS_CUTTER:
+  type:
+  - '&7&oAlet'
+GOLD_CABLE:
+  type:
+  - '&7&oBileşen'
+GOLD_ITEM_CASING:
+  type:
+  - '&7&oBileşen'
+GOLD_PLATE:
+  type:
+  - '&7&oBileşen'
+HYBRID_SOLAR_HELMET:
+  type:
+  - '&7&oZırh'
+HYBRID_SOLAR_PANEL:
+  type:
+  - '&7&oJeneratör'
+IRIDIUM:
+  type:
+  - '&7&oKaynak'
+IRIDIUM_PLATE:
+  type:
+  - '&7&oBileşen'
+IRON_ITEM_CASING:
+  type:
+  - '&7&oBileşen'
+IRON_PLATE:
+  type:
+  - '&7&oBileşen'
+LAPIS_DUST:
+  type:
+  - '&7&oKaynak'
+LAPOTRON_CRYSTAL:
+  type:
+  - '&7&oBileşen'
+MACERATOR:
+  type:
+  - '&7&oMakine'
+MACHINE_BLOCK:
+  type:
+  - '&7&oBileşen'
+MAG_THOR:
+  type:
+  - '&7&oKaynak'
+MANUAL_MILL:
+  type:
+  - '&7&oYapı'
+MASS_FABRICATOR_MACHINE:
+  type:
+  - '&7&oMakine'
+METAL_FORGE:
+  type:
+  - '&7&oYapı'
+MINING_DRILL:
+  type:
+  - '&7&oAlet'
+MIXED_METAL_INGOT:
+  type:
+  - '&7&oKaynak'
+MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  type:
+  - '&7&oMakine'
+MULTI_FUNCTIONAL_STORAGE_UNIT:
+  type:
+  - '&7&oMakine'
+NANO_BLADE:
+  type:
+  - '&7&oSilah'
+POWER_UNIT:
+  type:
+  - '&7&oBileşen'
+QUARTZ_DUST:
+  type:
+  - '&7&oKaynak'
+RAW_CARBON_FIBRE:
+  type:
+  - '&7&oKaynak'
+RAW_CARBON_MESH:
+  type:
+  - '&7&oKaynak'
+REDSTONE_DUST:
+  type:
+  - '&7&oKaynak'
+REFINED_IRON:
+  type:
+  - '&7&oKaynak'
+REFINED_SMELTERY:
+  type:
+  - '&7&oYapı'
+REINFORCED_DOOR:
+  type:
+  - '&7&oBileşen'
+REINFORCED_GLASS:
+  type:
+  - '&7&oBileşen'
+REINFORCED_STONE:
+  type:
+  - '&7&oBileşen'
+RE_BATTERY:
+  type:
+  - '&7&oBileşen'
+RUBBER:
+  type:
+  - '&7&oKaynak'
+RUBBER_SYNTHESIZER:
+  type:
+  - '&7&oMakine'
+SCRAP:
+  type:
+  - '&7&oKaynak'
+SCRAP_MACHINE:
+  type:
+  - '&7&oMakine'
+THORIUM:
+  type:
+  - '&7&oKaynak'
+THORIUM_DUST:
+  type:
+  - '&7&oKaynak'
+THORIUM_PLATE:
+  type:
+  - '&7&oBileşen'
+TIN_CABLE:
+  type:
+  - '&7&oBileşen'
+TIN_ITEM_CASING:
+  type:
+  - '&7&oBileşen'
+TIN_PLATE:
+  type:
+  - '&7&oBileşen'
+TREETAP:
+  type:
+  - '&7&oAlet'
+ULTIMATE_SOLAR_HELMET:
+  type:
+  - '&7&oZırh'
+ULTIMATE_SOLAR_PANEL:
+  type:
+  - '&7&oJeneratör'
+UNINSULATED_COPPER_CABLE:
+  type:
+  - '&7&oBileşen'
+UNINSULATED_GOLD_CABLE:
+  type:
+  - '&7&oBileşen'
+UNINSULATED_TIN_CABLE:
+  type:
+  - '&7&oBileşen'
+UU_CRAFTER:
+  type:
+  - '&7&oMakine'
+UU_MATTER:
+  type:
+  - '&7&oKaynak'

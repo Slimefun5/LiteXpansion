@@ -1,0 +1,228 @@
+ADVANCEDLX_SOLAR_HELMET:
+  type:
+  - '&7&oRustning'
+ADVANCED_ALLOY:
+  type:
+  - '&7&oKomponent'
+ADVANCED_CIRCUIT:
+  type:
+  - '&7&oKomponent'
+ADVANCED_MACHINE_BLOCK:
+  type:
+  - '&7&oKomponent'
+ADVANCED_SOLAR_HELMET:
+  type:
+  - '&7&oRustning'
+ADVANCED_SOLAR_PANEL:
+  type:
+  - '&7&oGenerator'
+ANCIENT_DEBRIS_DUST:
+  type:
+  - '&7&oRåmaterial'
+CARBONADO_SOLAR_HELMET:
+  type:
+  - '&7&oRustning'
+CARBON_PLATE:
+  type:
+  - '&7&oKomponent'
+CARGO_CONFIGURATOR:
+  type:
+  - '&7&oVerktyg'
+COAL_DUST:
+  type:
+  - '&7&oRåmaterial'
+CONVER:
+  type:
+  - '&7&oMaskin'
+COPPER_CABLE:
+  type:
+  - '&7&oKomponent'
+COPPER_ITEM_CASING:
+  type:
+  - '&7&oKomponent'
+COPPER_PLATE:
+  type:
+  - '&7&oKomponent'
+DIAMOND_DRILL:
+  type:
+  - '&7&oVerktyg'
+DIAMOND_DUST:
+  type:
+  - '&7&oRåmaterial'
+DIAMOND_PLATE:
+  type:
+  - '&7&oKomponent'
+ELECTRIC_CHESTPLATE:
+  type:
+  - '&7&oRustning'
+ELECTRONIC_CIRCUIT:
+  type:
+  - '&7&oKomponent'
+EMERALD_DUST:
+  type:
+  - '&7&oRåmaterial'
+ENERGIZED_SOLAR_HELMET:
+  type:
+  - '&7&oRustning'
+FOOD_SYNTHESIZER:
+  type:
+  - '&7&oPryl'
+GENERATOR:
+  type:
+  - '&7&oGenerator'
+GLASS_CUTTER:
+  type:
+  - '&7&oVerktyg'
+GOLD_CABLE:
+  type:
+  - '&7&oKomponent'
+GOLD_ITEM_CASING:
+  type:
+  - '&7&oKomponent'
+GOLD_PLATE:
+  type:
+  - '&7&oKomponent'
+HYBRID_SOLAR_HELMET:
+  type:
+  - '&7&oRustning'
+HYBRID_SOLAR_PANEL:
+  type:
+  - '&7&oGenerator'
+IRIDIUM:
+  type:
+  - '&7&oRåmaterial'
+IRIDIUM_PLATE:
+  type:
+  - '&7&oKomponent'
+IRON_ITEM_CASING:
+  type:
+  - '&7&oKomponent'
+IRON_PLATE:
+  type:
+  - '&7&oKomponent'
+LAPIS_DUST:
+  type:
+  - '&7&oRåmaterial'
+LAPOTRON_CRYSTAL:
+  type:
+  - '&7&oKomponent'
+MACERATOR:
+  type:
+  - '&7&oMaskin'
+MACHINE_BLOCK:
+  type:
+  - '&7&oKomponent'
+MAG_THOR:
+  type:
+  - '&7&oRåmaterial'
+MANUAL_MILL:
+  type:
+  - '&7&oMultiblock'
+MASS_FABRICATOR_MACHINE:
+  type:
+  - '&7&oMaskin'
+METAL_FORGE:
+  type:
+  - '&7&oMultiblock'
+MINING_DRILL:
+  type:
+  - '&7&oVerktyg'
+MIXED_METAL_INGOT:
+  type:
+  - '&7&oRåmaterial'
+MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  type:
+  - '&7&oMaskin'
+MULTI_FUNCTIONAL_STORAGE_UNIT:
+  type:
+  - '&7&oMaskin'
+NANO_BLADE:
+  type:
+  - '&7&oVapen'
+POWER_UNIT:
+  type:
+  - '&7&oKomponent'
+QUARTZ_DUST:
+  type:
+  - '&7&oRåmaterial'
+RAW_CARBON_FIBRE:
+  type:
+  - '&7&oRåmaterial'
+RAW_CARBON_MESH:
+  type:
+  - '&7&oRåmaterial'
+REDSTONE_DUST:
+  type:
+  - '&7&oRåmaterial'
+REFINED_IRON:
+  type:
+  - '&7&oRåmaterial'
+REFINED_SMELTERY:
+  type:
+  - '&7&oMultiblock'
+REINFORCED_DOOR:
+  type:
+  - '&7&oKomponent'
+REINFORCED_GLASS:
+  type:
+  - '&7&oKomponent'
+REINFORCED_STONE:
+  type:
+  - '&7&oKomponent'
+RE_BATTERY:
+  type:
+  - '&7&oKomponent'
+RUBBER:
+  type:
+  - '&7&oRåmaterial'
+RUBBER_SYNTHESIZER:
+  type:
+  - '&7&oMaskin'
+SCRAP:
+  type:
+  - '&7&oRåmaterial'
+SCRAP_MACHINE:
+  type:
+  - '&7&oMaskin'
+THORIUM:
+  type:
+  - '&7&oRåmaterial'
+THORIUM_DUST:
+  type:
+  - '&7&oRåmaterial'
+THORIUM_PLATE:
+  type:
+  - '&7&oKomponent'
+TIN_CABLE:
+  type:
+  - '&7&oKomponent'
+TIN_ITEM_CASING:
+  type:
+  - '&7&oKomponent'
+TIN_PLATE:
+  type:
+  - '&7&oKomponent'
+TREETAP:
+  type:
+  - '&7&oVerktyg'
+ULTIMATE_SOLAR_HELMET:
+  type:
+  - '&7&oRustning'
+ULTIMATE_SOLAR_PANEL:
+  type:
+  - '&7&oGenerator'
+UNINSULATED_COPPER_CABLE:
+  type:
+  - '&7&oKomponent'
+UNINSULATED_GOLD_CABLE:
+  type:
+  - '&7&oKomponent'
+UNINSULATED_TIN_CABLE:
+  type:
+  - '&7&oKomponent'
+UU_CRAFTER:
+  type:
+  - '&7&oMaskin'
+UU_MATTER:
+  type:
+  - '&7&oRåmaterial'

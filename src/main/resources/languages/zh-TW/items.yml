@@ -1,0 +1,228 @@
+ADVANCEDLX_SOLAR_HELMET:
+  type:
+  - '&7&o護甲'
+ADVANCED_ALLOY:
+  type:
+  - '&7&o元件'
+ADVANCED_CIRCUIT:
+  type:
+  - '&7&o元件'
+ADVANCED_MACHINE_BLOCK:
+  type:
+  - '&7&o元件'
+ADVANCED_SOLAR_HELMET:
+  type:
+  - '&7&o護甲'
+ADVANCED_SOLAR_PANEL:
+  type:
+  - '&7&o發電機'
+ANCIENT_DEBRIS_DUST:
+  type:
+  - '&7&o資源'
+CARBONADO_SOLAR_HELMET:
+  type:
+  - '&7&o護甲'
+CARBON_PLATE:
+  type:
+  - '&7&o元件'
+CARGO_CONFIGURATOR:
+  type:
+  - '&7&o工具'
+COAL_DUST:
+  type:
+  - '&7&o資源'
+CONVER:
+  type:
+  - '&7&o機器'
+COPPER_CABLE:
+  type:
+  - '&7&o元件'
+COPPER_ITEM_CASING:
+  type:
+  - '&7&o元件'
+COPPER_PLATE:
+  type:
+  - '&7&o元件'
+DIAMOND_DRILL:
+  type:
+  - '&7&o工具'
+DIAMOND_DUST:
+  type:
+  - '&7&o資源'
+DIAMOND_PLATE:
+  type:
+  - '&7&o元件'
+ELECTRIC_CHESTPLATE:
+  type:
+  - '&7&o護甲'
+ELECTRONIC_CIRCUIT:
+  type:
+  - '&7&o元件'
+EMERALD_DUST:
+  type:
+  - '&7&o資源'
+ENERGIZED_SOLAR_HELMET:
+  type:
+  - '&7&o護甲'
+FOOD_SYNTHESIZER:
+  type:
+  - '&7&o裝置'
+GENERATOR:
+  type:
+  - '&7&o發電機'
+GLASS_CUTTER:
+  type:
+  - '&7&o工具'
+GOLD_CABLE:
+  type:
+  - '&7&o元件'
+GOLD_ITEM_CASING:
+  type:
+  - '&7&o元件'
+GOLD_PLATE:
+  type:
+  - '&7&o元件'
+HYBRID_SOLAR_HELMET:
+  type:
+  - '&7&o護甲'
+HYBRID_SOLAR_PANEL:
+  type:
+  - '&7&o發電機'
+IRIDIUM:
+  type:
+  - '&7&o資源'
+IRIDIUM_PLATE:
+  type:
+  - '&7&o元件'
+IRON_ITEM_CASING:
+  type:
+  - '&7&o元件'
+IRON_PLATE:
+  type:
+  - '&7&o元件'
+LAPIS_DUST:
+  type:
+  - '&7&o資源'
+LAPOTRON_CRYSTAL:
+  type:
+  - '&7&o元件'
+MACERATOR:
+  type:
+  - '&7&o機器'
+MACHINE_BLOCK:
+  type:
+  - '&7&o元件'
+MAG_THOR:
+  type:
+  - '&7&o資源'
+MANUAL_MILL:
+  type:
+  - '&7&o多重方塊'
+MASS_FABRICATOR_MACHINE:
+  type:
+  - '&7&o機器'
+METAL_FORGE:
+  type:
+  - '&7&o多重方塊'
+MINING_DRILL:
+  type:
+  - '&7&o工具'
+MIXED_METAL_INGOT:
+  type:
+  - '&7&o資源'
+MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  type:
+  - '&7&o機器'
+MULTI_FUNCTIONAL_STORAGE_UNIT:
+  type:
+  - '&7&o機器'
+NANO_BLADE:
+  type:
+  - '&7&o武器'
+POWER_UNIT:
+  type:
+  - '&7&o元件'
+QUARTZ_DUST:
+  type:
+  - '&7&o資源'
+RAW_CARBON_FIBRE:
+  type:
+  - '&7&o資源'
+RAW_CARBON_MESH:
+  type:
+  - '&7&o資源'
+REDSTONE_DUST:
+  type:
+  - '&7&o資源'
+REFINED_IRON:
+  type:
+  - '&7&o資源'
+REFINED_SMELTERY:
+  type:
+  - '&7&o多重方塊'
+REINFORCED_DOOR:
+  type:
+  - '&7&o元件'
+REINFORCED_GLASS:
+  type:
+  - '&7&o元件'
+REINFORCED_STONE:
+  type:
+  - '&7&o元件'
+RE_BATTERY:
+  type:
+  - '&7&o元件'
+RUBBER:
+  type:
+  - '&7&o資源'
+RUBBER_SYNTHESIZER:
+  type:
+  - '&7&o機器'
+SCRAP:
+  type:
+  - '&7&o資源'
+SCRAP_MACHINE:
+  type:
+  - '&7&o機器'
+THORIUM:
+  type:
+  - '&7&o資源'
+THORIUM_DUST:
+  type:
+  - '&7&o資源'
+THORIUM_PLATE:
+  type:
+  - '&7&o元件'
+TIN_CABLE:
+  type:
+  - '&7&o元件'
+TIN_ITEM_CASING:
+  type:
+  - '&7&o元件'
+TIN_PLATE:
+  type:
+  - '&7&o元件'
+TREETAP:
+  type:
+  - '&7&o工具'
+ULTIMATE_SOLAR_HELMET:
+  type:
+  - '&7&o護甲'
+ULTIMATE_SOLAR_PANEL:
+  type:
+  - '&7&o發電機'
+UNINSULATED_COPPER_CABLE:
+  type:
+  - '&7&o元件'
+UNINSULATED_GOLD_CABLE:
+  type:
+  - '&7&o元件'
+UNINSULATED_TIN_CABLE:
+  type:
+  - '&7&o元件'
+UU_CRAFTER:
+  type:
+  - '&7&o機器'
+UU_MATTER:
+  type:
+  - '&7&o資源'

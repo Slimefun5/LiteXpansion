@@ -1,0 +1,228 @@
+ADVANCEDLX_SOLAR_HELMET:
+  type:
+  - '&7&oArmură'
+ADVANCED_ALLOY:
+  type:
+  - '&7&oComponentă'
+ADVANCED_CIRCUIT:
+  type:
+  - '&7&oComponentă'
+ADVANCED_MACHINE_BLOCK:
+  type:
+  - '&7&oComponentă'
+ADVANCED_SOLAR_HELMET:
+  type:
+  - '&7&oArmură'
+ADVANCED_SOLAR_PANEL:
+  type:
+  - '&7&oGenerator'
+ANCIENT_DEBRIS_DUST:
+  type:
+  - '&7&oResursă'
+CARBONADO_SOLAR_HELMET:
+  type:
+  - '&7&oArmură'
+CARBON_PLATE:
+  type:
+  - '&7&oComponentă'
+CARGO_CONFIGURATOR:
+  type:
+  - '&7&oUnealtă'
+COAL_DUST:
+  type:
+  - '&7&oResursă'
+CONVER:
+  type:
+  - '&7&oMașină'
+COPPER_CABLE:
+  type:
+  - '&7&oComponentă'
+COPPER_ITEM_CASING:
+  type:
+  - '&7&oComponentă'
+COPPER_PLATE:
+  type:
+  - '&7&oComponentă'
+DIAMOND_DRILL:
+  type:
+  - '&7&oUnealtă'
+DIAMOND_DUST:
+  type:
+  - '&7&oResursă'
+DIAMOND_PLATE:
+  type:
+  - '&7&oComponentă'
+ELECTRIC_CHESTPLATE:
+  type:
+  - '&7&oArmură'
+ELECTRONIC_CIRCUIT:
+  type:
+  - '&7&oComponentă'
+EMERALD_DUST:
+  type:
+  - '&7&oResursă'
+ENERGIZED_SOLAR_HELMET:
+  type:
+  - '&7&oArmură'
+FOOD_SYNTHESIZER:
+  type:
+  - '&7&oGadget'
+GENERATOR:
+  type:
+  - '&7&oGenerator'
+GLASS_CUTTER:
+  type:
+  - '&7&oUnealtă'
+GOLD_CABLE:
+  type:
+  - '&7&oComponentă'
+GOLD_ITEM_CASING:
+  type:
+  - '&7&oComponentă'
+GOLD_PLATE:
+  type:
+  - '&7&oComponentă'
+HYBRID_SOLAR_HELMET:
+  type:
+  - '&7&oArmură'
+HYBRID_SOLAR_PANEL:
+  type:
+  - '&7&oGenerator'
+IRIDIUM:
+  type:
+  - '&7&oResursă'
+IRIDIUM_PLATE:
+  type:
+  - '&7&oComponentă'
+IRON_ITEM_CASING:
+  type:
+  - '&7&oComponentă'
+IRON_PLATE:
+  type:
+  - '&7&oComponentă'
+LAPIS_DUST:
+  type:
+  - '&7&oResursă'
+LAPOTRON_CRYSTAL:
+  type:
+  - '&7&oComponentă'
+MACERATOR:
+  type:
+  - '&7&oMașină'
+MACHINE_BLOCK:
+  type:
+  - '&7&oComponentă'
+MAG_THOR:
+  type:
+  - '&7&oResursă'
+MANUAL_MILL:
+  type:
+  - '&7&oMultibloc'
+MASS_FABRICATOR_MACHINE:
+  type:
+  - '&7&oMașină'
+METAL_FORGE:
+  type:
+  - '&7&oMultibloc'
+MINING_DRILL:
+  type:
+  - '&7&oUnealtă'
+MIXED_METAL_INGOT:
+  type:
+  - '&7&oResursă'
+MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  type:
+  - '&7&oMașină'
+MULTI_FUNCTIONAL_STORAGE_UNIT:
+  type:
+  - '&7&oMașină'
+NANO_BLADE:
+  type:
+  - '&7&oArmă'
+POWER_UNIT:
+  type:
+  - '&7&oComponentă'
+QUARTZ_DUST:
+  type:
+  - '&7&oResursă'
+RAW_CARBON_FIBRE:
+  type:
+  - '&7&oResursă'
+RAW_CARBON_MESH:
+  type:
+  - '&7&oResursă'
+REDSTONE_DUST:
+  type:
+  - '&7&oResursă'
+REFINED_IRON:
+  type:
+  - '&7&oResursă'
+REFINED_SMELTERY:
+  type:
+  - '&7&oMultibloc'
+REINFORCED_DOOR:
+  type:
+  - '&7&oComponentă'
+REINFORCED_GLASS:
+  type:
+  - '&7&oComponentă'
+REINFORCED_STONE:
+  type:
+  - '&7&oComponentă'
+RE_BATTERY:
+  type:
+  - '&7&oComponentă'
+RUBBER:
+  type:
+  - '&7&oResursă'
+RUBBER_SYNTHESIZER:
+  type:
+  - '&7&oMașină'
+SCRAP:
+  type:
+  - '&7&oResursă'
+SCRAP_MACHINE:
+  type:
+  - '&7&oMașină'
+THORIUM:
+  type:
+  - '&7&oResursă'
+THORIUM_DUST:
+  type:
+  - '&7&oResursă'
+THORIUM_PLATE:
+  type:
+  - '&7&oComponentă'
+TIN_CABLE:
+  type:
+  - '&7&oComponentă'
+TIN_ITEM_CASING:
+  type:
+  - '&7&oComponentă'
+TIN_PLATE:
+  type:
+  - '&7&oComponentă'
+TREETAP:
+  type:
+  - '&7&oUnealtă'
+ULTIMATE_SOLAR_HELMET:
+  type:
+  - '&7&oArmură'
+ULTIMATE_SOLAR_PANEL:
+  type:
+  - '&7&oGenerator'
+UNINSULATED_COPPER_CABLE:
+  type:
+  - '&7&oComponentă'
+UNINSULATED_GOLD_CABLE:
+  type:
+  - '&7&oComponentă'
+UNINSULATED_TIN_CABLE:
+  type:
+  - '&7&oComponentă'
+UU_CRAFTER:
+  type:
+  - '&7&oMașină'
+UU_MATTER:
+  type:
+  - '&7&oResursă'

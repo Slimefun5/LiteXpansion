@@ -1,0 +1,228 @@
+ADVANCEDLX_SOLAR_HELMET:
+  type:
+  - '&7&oเกราะ'
+ADVANCED_ALLOY:
+  type:
+  - '&7&oส่วนประกอบ'
+ADVANCED_CIRCUIT:
+  type:
+  - '&7&oส่วนประกอบ'
+ADVANCED_MACHINE_BLOCK:
+  type:
+  - '&7&oส่วนประกอบ'
+ADVANCED_SOLAR_HELMET:
+  type:
+  - '&7&oเกราะ'
+ADVANCED_SOLAR_PANEL:
+  type:
+  - '&7&oเครื่องกำเนิดไฟฟ้า'
+ANCIENT_DEBRIS_DUST:
+  type:
+  - '&7&oทรัพยากร'
+CARBONADO_SOLAR_HELMET:
+  type:
+  - '&7&oเกราะ'
+CARBON_PLATE:
+  type:
+  - '&7&oส่วนประกอบ'
+CARGO_CONFIGURATOR:
+  type:
+  - '&7&oเครื่องมือ'
+COAL_DUST:
+  type:
+  - '&7&oทรัพยากร'
+CONVER:
+  type:
+  - '&7&oเครื่องจักร'
+COPPER_CABLE:
+  type:
+  - '&7&oส่วนประกอบ'
+COPPER_ITEM_CASING:
+  type:
+  - '&7&oส่วนประกอบ'
+COPPER_PLATE:
+  type:
+  - '&7&oส่วนประกอบ'
+DIAMOND_DRILL:
+  type:
+  - '&7&oเครื่องมือ'
+DIAMOND_DUST:
+  type:
+  - '&7&oทรัพยากร'
+DIAMOND_PLATE:
+  type:
+  - '&7&oส่วนประกอบ'
+ELECTRIC_CHESTPLATE:
+  type:
+  - '&7&oเกราะ'
+ELECTRONIC_CIRCUIT:
+  type:
+  - '&7&oส่วนประกอบ'
+EMERALD_DUST:
+  type:
+  - '&7&oทรัพยากร'
+ENERGIZED_SOLAR_HELMET:
+  type:
+  - '&7&oเกราะ'
+FOOD_SYNTHESIZER:
+  type:
+  - '&7&oอุปกรณ์'
+GENERATOR:
+  type:
+  - '&7&oเครื่องกำเนิดไฟฟ้า'
+GLASS_CUTTER:
+  type:
+  - '&7&oเครื่องมือ'
+GOLD_CABLE:
+  type:
+  - '&7&oส่วนประกอบ'
+GOLD_ITEM_CASING:
+  type:
+  - '&7&oส่วนประกอบ'
+GOLD_PLATE:
+  type:
+  - '&7&oส่วนประกอบ'
+HYBRID_SOLAR_HELMET:
+  type:
+  - '&7&oเกราะ'
+HYBRID_SOLAR_PANEL:
+  type:
+  - '&7&oเครื่องกำเนิดไฟฟ้า'
+IRIDIUM:
+  type:
+  - '&7&oทรัพยากร'
+IRIDIUM_PLATE:
+  type:
+  - '&7&oส่วนประกอบ'
+IRON_ITEM_CASING:
+  type:
+  - '&7&oส่วนประกอบ'
+IRON_PLATE:
+  type:
+  - '&7&oส่วนประกอบ'
+LAPIS_DUST:
+  type:
+  - '&7&oทรัพยากร'
+LAPOTRON_CRYSTAL:
+  type:
+  - '&7&oส่วนประกอบ'
+MACERATOR:
+  type:
+  - '&7&oเครื่องจักร'
+MACHINE_BLOCK:
+  type:
+  - '&7&oส่วนประกอบ'
+MAG_THOR:
+  type:
+  - '&7&oทรัพยากร'
+MANUAL_MILL:
+  type:
+  - '&7&oMultiblock'
+MASS_FABRICATOR_MACHINE:
+  type:
+  - '&7&oเครื่องจักร'
+METAL_FORGE:
+  type:
+  - '&7&oMultiblock'
+MINING_DRILL:
+  type:
+  - '&7&oเครื่องมือ'
+MIXED_METAL_INGOT:
+  type:
+  - '&7&oทรัพยากร'
+MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  type:
+  - '&7&oเครื่องจักร'
+MULTI_FUNCTIONAL_STORAGE_UNIT:
+  type:
+  - '&7&oเครื่องจักร'
+NANO_BLADE:
+  type:
+  - '&7&oอาวุธ'
+POWER_UNIT:
+  type:
+  - '&7&oส่วนประกอบ'
+QUARTZ_DUST:
+  type:
+  - '&7&oทรัพยากร'
+RAW_CARBON_FIBRE:
+  type:
+  - '&7&oทรัพยากร'
+RAW_CARBON_MESH:
+  type:
+  - '&7&oทรัพยากร'
+REDSTONE_DUST:
+  type:
+  - '&7&oทรัพยากร'
+REFINED_IRON:
+  type:
+  - '&7&oทรัพยากร'
+REFINED_SMELTERY:
+  type:
+  - '&7&oMultiblock'
+REINFORCED_DOOR:
+  type:
+  - '&7&oส่วนประกอบ'
+REINFORCED_GLASS:
+  type:
+  - '&7&oส่วนประกอบ'
+REINFORCED_STONE:
+  type:
+  - '&7&oส่วนประกอบ'
+RE_BATTERY:
+  type:
+  - '&7&oส่วนประกอบ'
+RUBBER:
+  type:
+  - '&7&oทรัพยากร'
+RUBBER_SYNTHESIZER:
+  type:
+  - '&7&oเครื่องจักร'
+SCRAP:
+  type:
+  - '&7&oทรัพยากร'
+SCRAP_MACHINE:
+  type:
+  - '&7&oเครื่องจักร'
+THORIUM:
+  type:
+  - '&7&oทรัพยากร'
+THORIUM_DUST:
+  type:
+  - '&7&oทรัพยากร'
+THORIUM_PLATE:
+  type:
+  - '&7&oส่วนประกอบ'
+TIN_CABLE:
+  type:
+  - '&7&oส่วนประกอบ'
+TIN_ITEM_CASING:
+  type:
+  - '&7&oส่วนประกอบ'
+TIN_PLATE:
+  type:
+  - '&7&oส่วนประกอบ'
+TREETAP:
+  type:
+  - '&7&oเครื่องมือ'
+ULTIMATE_SOLAR_HELMET:
+  type:
+  - '&7&oเกราะ'
+ULTIMATE_SOLAR_PANEL:
+  type:
+  - '&7&oเครื่องกำเนิดไฟฟ้า'
+UNINSULATED_COPPER_CABLE:
+  type:
+  - '&7&oส่วนประกอบ'
+UNINSULATED_GOLD_CABLE:
+  type:
+  - '&7&oส่วนประกอบ'
+UNINSULATED_TIN_CABLE:
+  type:
+  - '&7&oส่วนประกอบ'
+UU_CRAFTER:
+  type:
+  - '&7&oเครื่องจักร'
+UU_MATTER:
+  type:
+  - '&7&oทรัพยากร'

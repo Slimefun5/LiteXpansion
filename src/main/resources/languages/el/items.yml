@@ -1,0 +1,228 @@
+ADVANCEDLX_SOLAR_HELMET:
+  type:
+  - '&7&oΠανοπλία'
+ADVANCED_ALLOY:
+  type:
+  - '&7&oΕξάρτημα'
+ADVANCED_CIRCUIT:
+  type:
+  - '&7&oΕξάρτημα'
+ADVANCED_MACHINE_BLOCK:
+  type:
+  - '&7&oΕξάρτημα'
+ADVANCED_SOLAR_HELMET:
+  type:
+  - '&7&oΠανοπλία'
+ADVANCED_SOLAR_PANEL:
+  type:
+  - '&7&oΓεννήτρια'
+ANCIENT_DEBRIS_DUST:
+  type:
+  - '&7&oΠόρος'
+CARBONADO_SOLAR_HELMET:
+  type:
+  - '&7&oΠανοπλία'
+CARBON_PLATE:
+  type:
+  - '&7&oΕξάρτημα'
+CARGO_CONFIGURATOR:
+  type:
+  - '&7&oΕργαλείο'
+COAL_DUST:
+  type:
+  - '&7&oΠόρος'
+CONVER:
+  type:
+  - '&7&oΜηχανή'
+COPPER_CABLE:
+  type:
+  - '&7&oΕξάρτημα'
+COPPER_ITEM_CASING:
+  type:
+  - '&7&oΕξάρτημα'
+COPPER_PLATE:
+  type:
+  - '&7&oΕξάρτημα'
+DIAMOND_DRILL:
+  type:
+  - '&7&oΕργαλείο'
+DIAMOND_DUST:
+  type:
+  - '&7&oΠόρος'
+DIAMOND_PLATE:
+  type:
+  - '&7&oΕξάρτημα'
+ELECTRIC_CHESTPLATE:
+  type:
+  - '&7&oΠανοπλία'
+ELECTRONIC_CIRCUIT:
+  type:
+  - '&7&oΕξάρτημα'
+EMERALD_DUST:
+  type:
+  - '&7&oΠόρος'
+ENERGIZED_SOLAR_HELMET:
+  type:
+  - '&7&oΠανοπλία'
+FOOD_SYNTHESIZER:
+  type:
+  - '&7&oΣυσκευή'
+GENERATOR:
+  type:
+  - '&7&oΓεννήτρια'
+GLASS_CUTTER:
+  type:
+  - '&7&oΕργαλείο'
+GOLD_CABLE:
+  type:
+  - '&7&oΕξάρτημα'
+GOLD_ITEM_CASING:
+  type:
+  - '&7&oΕξάρτημα'
+GOLD_PLATE:
+  type:
+  - '&7&oΕξάρτημα'
+HYBRID_SOLAR_HELMET:
+  type:
+  - '&7&oΠανοπλία'
+HYBRID_SOLAR_PANEL:
+  type:
+  - '&7&oΓεννήτρια'
+IRIDIUM:
+  type:
+  - '&7&oΠόρος'
+IRIDIUM_PLATE:
+  type:
+  - '&7&oΕξάρτημα'
+IRON_ITEM_CASING:
+  type:
+  - '&7&oΕξάρτημα'
+IRON_PLATE:
+  type:
+  - '&7&oΕξάρτημα'
+LAPIS_DUST:
+  type:
+  - '&7&oΠόρος'
+LAPOTRON_CRYSTAL:
+  type:
+  - '&7&oΕξάρτημα'
+MACERATOR:
+  type:
+  - '&7&oΜηχανή'
+MACHINE_BLOCK:
+  type:
+  - '&7&oΕξάρτημα'
+MAG_THOR:
+  type:
+  - '&7&oΠόρος'
+MANUAL_MILL:
+  type:
+  - '&7&oΠολυμπλόκ'
+MASS_FABRICATOR_MACHINE:
+  type:
+  - '&7&oΜηχανή'
+METAL_FORGE:
+  type:
+  - '&7&oΠολυμπλόκ'
+MINING_DRILL:
+  type:
+  - '&7&oΕργαλείο'
+MIXED_METAL_INGOT:
+  type:
+  - '&7&oΠόρος'
+MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  type:
+  - '&7&oΜηχανή'
+MULTI_FUNCTIONAL_STORAGE_UNIT:
+  type:
+  - '&7&oΜηχανή'
+NANO_BLADE:
+  type:
+  - '&7&oΌπλο'
+POWER_UNIT:
+  type:
+  - '&7&oΕξάρτημα'
+QUARTZ_DUST:
+  type:
+  - '&7&oΠόρος'
+RAW_CARBON_FIBRE:
+  type:
+  - '&7&oΠόρος'
+RAW_CARBON_MESH:
+  type:
+  - '&7&oΠόρος'
+REDSTONE_DUST:
+  type:
+  - '&7&oΠόρος'
+REFINED_IRON:
+  type:
+  - '&7&oΠόρος'
+REFINED_SMELTERY:
+  type:
+  - '&7&oΠολυμπλόκ'
+REINFORCED_DOOR:
+  type:
+  - '&7&oΕξάρτημα'
+REINFORCED_GLASS:
+  type:
+  - '&7&oΕξάρτημα'
+REINFORCED_STONE:
+  type:
+  - '&7&oΕξάρτημα'
+RE_BATTERY:
+  type:
+  - '&7&oΕξάρτημα'
+RUBBER:
+  type:
+  - '&7&oΠόρος'
+RUBBER_SYNTHESIZER:
+  type:
+  - '&7&oΜηχανή'
+SCRAP:
+  type:
+  - '&7&oΠόρος'
+SCRAP_MACHINE:
+  type:
+  - '&7&oΜηχανή'
+THORIUM:
+  type:
+  - '&7&oΠόρος'
+THORIUM_DUST:
+  type:
+  - '&7&oΠόρος'
+THORIUM_PLATE:
+  type:
+  - '&7&oΕξάρτημα'
+TIN_CABLE:
+  type:
+  - '&7&oΕξάρτημα'
+TIN_ITEM_CASING:
+  type:
+  - '&7&oΕξάρτημα'
+TIN_PLATE:
+  type:
+  - '&7&oΕξάρτημα'
+TREETAP:
+  type:
+  - '&7&oΕργαλείο'
+ULTIMATE_SOLAR_HELMET:
+  type:
+  - '&7&oΠανοπλία'
+ULTIMATE_SOLAR_PANEL:
+  type:
+  - '&7&oΓεννήτρια'
+UNINSULATED_COPPER_CABLE:
+  type:
+  - '&7&oΕξάρτημα'
+UNINSULATED_GOLD_CABLE:
+  type:
+  - '&7&oΕξάρτημα'
+UNINSULATED_TIN_CABLE:
+  type:
+  - '&7&oΕξάρτημα'
+UU_CRAFTER:
+  type:
+  - '&7&oΜηχανή'
+UU_MATTER:
+  type:
+  - '&7&oΠόρος'

@@ -1,0 +1,228 @@
+ADVANCEDLX_SOLAR_HELMET:
+  type:
+  - '&7&oසන්නාහය'
+ADVANCED_ALLOY:
+  type:
+  - '&7&oසංරචකය'
+ADVANCED_CIRCUIT:
+  type:
+  - '&7&oසංරචකය'
+ADVANCED_MACHINE_BLOCK:
+  type:
+  - '&7&oසංරචකය'
+ADVANCED_SOLAR_HELMET:
+  type:
+  - '&7&oසන්නාහය'
+ADVANCED_SOLAR_PANEL:
+  type:
+  - '&7&oජනකය'
+ANCIENT_DEBRIS_DUST:
+  type:
+  - '&7&oසම්පත'
+CARBONADO_SOLAR_HELMET:
+  type:
+  - '&7&oසන්නාහය'
+CARBON_PLATE:
+  type:
+  - '&7&oසංරචකය'
+CARGO_CONFIGURATOR:
+  type:
+  - '&7&oමෙවලම'
+COAL_DUST:
+  type:
+  - '&7&oසම්පත'
+CONVER:
+  type:
+  - '&7&oයන්ත්‍රය'
+COPPER_CABLE:
+  type:
+  - '&7&oසංරචකය'
+COPPER_ITEM_CASING:
+  type:
+  - '&7&oසංරචකය'
+COPPER_PLATE:
+  type:
+  - '&7&oසංරචකය'
+DIAMOND_DRILL:
+  type:
+  - '&7&oමෙවලම'
+DIAMOND_DUST:
+  type:
+  - '&7&oසම්පත'
+DIAMOND_PLATE:
+  type:
+  - '&7&oසංරචකය'
+ELECTRIC_CHESTPLATE:
+  type:
+  - '&7&oසන්නාහය'
+ELECTRONIC_CIRCUIT:
+  type:
+  - '&7&oසංරචකය'
+EMERALD_DUST:
+  type:
+  - '&7&oසම්පත'
+ENERGIZED_SOLAR_HELMET:
+  type:
+  - '&7&oසන්නාහය'
+FOOD_SYNTHESIZER:
+  type:
+  - '&7&oඋපාංගය'
+GENERATOR:
+  type:
+  - '&7&oජනකය'
+GLASS_CUTTER:
+  type:
+  - '&7&oමෙවලම'
+GOLD_CABLE:
+  type:
+  - '&7&oසංරචකය'
+GOLD_ITEM_CASING:
+  type:
+  - '&7&oසංරචකය'
+GOLD_PLATE:
+  type:
+  - '&7&oසංරචකය'
+HYBRID_SOLAR_HELMET:
+  type:
+  - '&7&oසන්නාහය'
+HYBRID_SOLAR_PANEL:
+  type:
+  - '&7&oජනකය'
+IRIDIUM:
+  type:
+  - '&7&oසම්පත'
+IRIDIUM_PLATE:
+  type:
+  - '&7&oසංරචකය'
+IRON_ITEM_CASING:
+  type:
+  - '&7&oසංරචකය'
+IRON_PLATE:
+  type:
+  - '&7&oසංරචකය'
+LAPIS_DUST:
+  type:
+  - '&7&oසම්පත'
+LAPOTRON_CRYSTAL:
+  type:
+  - '&7&oසංරචකය'
+MACERATOR:
+  type:
+  - '&7&oයන්ත්‍රය'
+MACHINE_BLOCK:
+  type:
+  - '&7&oසංරචකය'
+MAG_THOR:
+  type:
+  - '&7&oසම්පත'
+MANUAL_MILL:
+  type:
+  - '&7&oබහුකැටය'
+MASS_FABRICATOR_MACHINE:
+  type:
+  - '&7&oයන්ත්‍රය'
+METAL_FORGE:
+  type:
+  - '&7&oබහුකැටය'
+MINING_DRILL:
+  type:
+  - '&7&oමෙවලම'
+MIXED_METAL_INGOT:
+  type:
+  - '&7&oසම්පත'
+MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  type:
+  - '&7&oයන්ත්‍රය'
+MULTI_FUNCTIONAL_STORAGE_UNIT:
+  type:
+  - '&7&oයන්ත්‍රය'
+NANO_BLADE:
+  type:
+  - '&7&oආයුධය'
+POWER_UNIT:
+  type:
+  - '&7&oසංරචකය'
+QUARTZ_DUST:
+  type:
+  - '&7&oසම්පත'
+RAW_CARBON_FIBRE:
+  type:
+  - '&7&oසම්පත'
+RAW_CARBON_MESH:
+  type:
+  - '&7&oසම්පත'
+REDSTONE_DUST:
+  type:
+  - '&7&oසම්පත'
+REFINED_IRON:
+  type:
+  - '&7&oසම්පත'
+REFINED_SMELTERY:
+  type:
+  - '&7&oබහුකැටය'
+REINFORCED_DOOR:
+  type:
+  - '&7&oසංරචකය'
+REINFORCED_GLASS:
+  type:
+  - '&7&oසංරචකය'
+REINFORCED_STONE:
+  type:
+  - '&7&oසංරචකය'
+RE_BATTERY:
+  type:
+  - '&7&oසංරචකය'
+RUBBER:
+  type:
+  - '&7&oසම්පත'
+RUBBER_SYNTHESIZER:
+  type:
+  - '&7&oයන්ත්‍රය'
+SCRAP:
+  type:
+  - '&7&oසම්පත'
+SCRAP_MACHINE:
+  type:
+  - '&7&oයන්ත්‍රය'
+THORIUM:
+  type:
+  - '&7&oසම්පත'
+THORIUM_DUST:
+  type:
+  - '&7&oසම්පත'
+THORIUM_PLATE:
+  type:
+  - '&7&oසංරචකය'
+TIN_CABLE:
+  type:
+  - '&7&oසංරචකය'
+TIN_ITEM_CASING:
+  type:
+  - '&7&oසංරචකය'
+TIN_PLATE:
+  type:
+  - '&7&oසංරචකය'
+TREETAP:
+  type:
+  - '&7&oමෙවලම'
+ULTIMATE_SOLAR_HELMET:
+  type:
+  - '&7&oසන්නාහය'
+ULTIMATE_SOLAR_PANEL:
+  type:
+  - '&7&oජනකය'
+UNINSULATED_COPPER_CABLE:
+  type:
+  - '&7&oසංරචකය'
+UNINSULATED_GOLD_CABLE:
+  type:
+  - '&7&oසංරචකය'
+UNINSULATED_TIN_CABLE:
+  type:
+  - '&7&oසංරචකය'
+UU_CRAFTER:
+  type:
+  - '&7&oයන්ත්‍රය'
+UU_MATTER:
+  type:
+  - '&7&oසම්පත'

@@ -1,153 +1,304 @@
-# Simplified Chinese item translations for LiteXpansion. Keyed by Slimefun item id.
-ELECTRIC_CHESTPLATE:
-  name: "&9电动胸甲"
-NANO_BLADE:
-  name: "&2纳米刀刃 &c(关)"
-GLASS_CUTTER:
-  name: "&b玻璃切割器"
-MINING_DRILL:
-  name: "&7挖掘钻机"
-DIAMOND_DRILL:
-  name: "&b钻石钻机"
-TREETAP:
-  name: "&7采胶器"
-CARGO_CONFIGURATOR:
-  name: "&7货运配置器"
-TIN_PLATE:
-  name: "&7锡板"
-TIN_ITEM_CASING:
-  name: "&7锡外壳"
-UNINSULATED_TIN_CABLE:
-  name: "&7无绝缘锡缆"
-TIN_CABLE:
-  name: "&7锡缆"
-COPPER_PLATE:
-  name: "&7铜板"
-COPPER_ITEM_CASING:
-  name: "&7铜外壳"
-MAG_THOR:
-  name: "&b&lMag-Thor"
-THORIUM:
-  name: "&8钍"
-SCRAP:
-  name: "&8废料"
-UU_MATTER:
-  name: "&5UU-Matter"
-IRIDIUM:
-  name: "&f铱"
-IRIDIUM_PLATE:
-  name: "&f铱板"
-THORIUM_DUST:
-  name: "&8钍粉"
-REFINED_IRON:
-  name: "&7精炼铁"
-MACHINE_BLOCK:
-  name: "&7机器方块"
-UNINSULATED_COPPER_CABLE:
-  name: "&7无绝缘铜缆"
-COPPER_CABLE:
-  name: "&7铜缆"
-RUBBER:
-  name: "&7橡胶"
-ELECTRONIC_CIRCUIT:
-  name: "&7电子电路"
-ADVANCED_CIRCUIT:
-  name: "&7高级电路"
-COAL_DUST:
-  name: "&7煤粉"
-RAW_CARBON_FIBRE:
-  name: "&7粗碳纤维"
-RAW_CARBON_MESH:
-  name: "&7粗碳网"
-CARBON_PLATE:
-  name: "&7碳板"
-ADVANCED_ALLOY:
-  name: "&7高级合金"
-ADVANCED_MACHINE_BLOCK:
-  name: "&7高级机器方块"
-LAPOTRON_CRYSTAL:
-  name: "&7青金石电池水晶"
-REINFORCED_STONE:
-  name: "&7强化石头"
-REINFORCED_DOOR:
-  name: "&7强化门"
-REINFORCED_GLASS:
-  name: "&7强化玻璃"
-MIXED_METAL_INGOT:
-  name: "&7混合金属锭"
-SCRAP_MACHINE:
-  name: "&8回收机"
-MASS_FABRICATOR_MACHINE:
-  name: "&5质量制造机"
-RUBBER_SYNTHESIZER:
-  name: "&6橡胶合成机"
-MACERATOR:
-  name: "&7研磨机"
-ADVANCED_SOLAR_PANEL:
-  name: "&7&l高级太阳能板"
-HYBRID_SOLAR_PANEL:
-  name: "&b&l混合太阳能板"
-ULTIMATE_SOLAR_PANEL:
-  name: "&5&l终极太阳能板"
-MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
-  name: "&7MFE"
-MULTI_FUNCTIONAL_STORAGE_UNIT:
-  name: "&7MFSU"
-GOLD_PLATE:
-  name: "&7金板"
-GOLD_ITEM_CASING:
-  name: "&7金外壳"
-UNINSULATED_GOLD_CABLE:
-  name: "&7无绝缘金缆"
-GOLD_CABLE:
-  name: "&7金缆"
-REFINED_SMELTERY:
-  name: "&7精炼熔炉"
-METAL_FORGE:
-  name: "&7金属锻造台"
-MANUAL_MILL:
-  name: "&7手动磨机"
-GENERATOR:
-  name: "&7发电机"
-RE_BATTERY:
-  name: "&7RE电池"
-ADVANCED_SOLAR_HELMET:
-  name: "&7高级太阳能头盔"
-CARBONADO_SOLAR_HELMET:
-  name: "&7黑金刚石太阳能头盔"
-ENERGIZED_SOLAR_HELMET:
-  name: "&7充能太阳能头盔"
 ADVANCEDLX_SOLAR_HELMET:
-  name: "&7超级高级太阳能头盔"
-HYBRID_SOLAR_HELMET:
-  name: "&7混合太阳能头盔"
-ULTIMATE_SOLAR_HELMET:
-  name: "&7终极太阳能头盔"
-FOOD_SYNTHESIZER:
-  name: "&d食物合成机"
-IRON_PLATE:
-  name: "&7铁板"
-DIAMOND_PLATE:
-  name: "&7钻石板"
-THORIUM_PLATE:
-  name: "&7钍板"
-POWER_UNIT:
-  name: "&7能量单元"
-IRON_ITEM_CASING:
-  name: "&7铁外壳"
-LAPIS_DUST:
-  name: "&7青金石粉"
-REDSTONE_DUST:
-  name: "&7红石粉"
-DIAMOND_DUST:
-  name: "&7钻石粉"
-EMERALD_DUST:
-  name: "&7绿宝石粉"
-QUARTZ_DUST:
-  name: "&7石英粉"
+  name: '&7超级高级太阳能头盔'
+  type:
+  - '&7&o护甲'
+ADVANCED_ALLOY:
+  name: '&7高级合金'
+  type:
+  - '&7&o组件'
+ADVANCED_CIRCUIT:
+  name: '&7高级电路'
+  type:
+  - '&7&o组件'
+ADVANCED_MACHINE_BLOCK:
+  name: '&7高级机器方块'
+  type:
+  - '&7&o组件'
+ADVANCED_SOLAR_HELMET:
+  name: '&7高级太阳能头盔'
+  type:
+  - '&7&o护甲'
+ADVANCED_SOLAR_PANEL:
+  name: '&7&l高级太阳能板'
+  type:
+  - '&7&o发电机'
 ANCIENT_DEBRIS_DUST:
-  name: "&7远古残骸粉"
-UU_CRAFTER:
-  name: "&7UU合成器"
+  name: '&7远古残骸粉'
+  type:
+  - '&7&o资源'
+CARBONADO_SOLAR_HELMET:
+  name: '&7黑金刚石太阳能头盔'
+  type:
+  - '&7&o护甲'
+CARBON_PLATE:
+  name: '&7碳板'
+  type:
+  - '&7&o组件'
+CARGO_CONFIGURATOR:
+  name: '&7货运配置器'
+  type:
+  - '&7&o工具'
+COAL_DUST:
+  name: '&7煤粉'
+  type:
+  - '&7&o资源'
 CONVER:
-  name: "&7转换器"
+  name: '&7转换器'
+  type:
+  - '&7&o机器'
+COPPER_CABLE:
+  name: '&7铜缆'
+  type:
+  - '&7&o组件'
+COPPER_ITEM_CASING:
+  name: '&7铜外壳'
+  type:
+  - '&7&o组件'
+COPPER_PLATE:
+  name: '&7铜板'
+  type:
+  - '&7&o组件'
+DIAMOND_DRILL:
+  name: '&b钻石钻机'
+  type:
+  - '&7&o工具'
+DIAMOND_DUST:
+  name: '&7钻石粉'
+  type:
+  - '&7&o资源'
+DIAMOND_PLATE:
+  name: '&7钻石板'
+  type:
+  - '&7&o组件'
+ELECTRIC_CHESTPLATE:
+  name: '&9电动胸甲'
+  type:
+  - '&7&o护甲'
+ELECTRONIC_CIRCUIT:
+  name: '&7电子电路'
+  type:
+  - '&7&o组件'
+EMERALD_DUST:
+  name: '&7绿宝石粉'
+  type:
+  - '&7&o资源'
+ENERGIZED_SOLAR_HELMET:
+  name: '&7充能太阳能头盔'
+  type:
+  - '&7&o护甲'
+FOOD_SYNTHESIZER:
+  name: '&d食物合成机'
+  type:
+  - '&7&o装置'
+GENERATOR:
+  name: '&7发电机'
+  type:
+  - '&7&o发电机'
+GLASS_CUTTER:
+  name: '&b玻璃切割器'
+  type:
+  - '&7&o工具'
+GOLD_CABLE:
+  name: '&7金缆'
+  type:
+  - '&7&o组件'
+GOLD_ITEM_CASING:
+  name: '&7金外壳'
+  type:
+  - '&7&o组件'
+GOLD_PLATE:
+  name: '&7金板'
+  type:
+  - '&7&o组件'
+HYBRID_SOLAR_HELMET:
+  name: '&7混合太阳能头盔'
+  type:
+  - '&7&o护甲'
+HYBRID_SOLAR_PANEL:
+  name: '&b&l混合太阳能板'
+  type:
+  - '&7&o发电机'
+IRIDIUM:
+  name: '&f铱'
+  type:
+  - '&7&o资源'
+IRIDIUM_PLATE:
+  name: '&f铱板'
+  type:
+  - '&7&o组件'
+IRON_ITEM_CASING:
+  name: '&7铁外壳'
+  type:
+  - '&7&o组件'
+IRON_PLATE:
+  name: '&7铁板'
+  type:
+  - '&7&o组件'
+LAPIS_DUST:
+  name: '&7青金石粉'
+  type:
+  - '&7&o资源'
+LAPOTRON_CRYSTAL:
+  name: '&7青金石电池水晶'
+  type:
+  - '&7&o组件'
+MACERATOR:
+  name: '&7研磨机'
+  type:
+  - '&7&o机器'
+MACHINE_BLOCK:
+  name: '&7机器方块'
+  type:
+  - '&7&o组件'
+MAG_THOR:
+  name: '&b&lMag-Thor'
+  type:
+  - '&7&o资源'
+MANUAL_MILL:
+  name: '&7手动磨机'
+  type:
+  - '&7&o多方块'
+MASS_FABRICATOR_MACHINE:
+  name: '&5质量制造机'
+  type:
+  - '&7&o机器'
+METAL_FORGE:
+  name: '&7金属锻造台'
+  type:
+  - '&7&o多方块'
+MINING_DRILL:
+  name: '&7挖掘钻机'
+  type:
+  - '&7&o工具'
+MIXED_METAL_INGOT:
+  name: '&7混合金属锭'
+  type:
+  - '&7&o资源'
+MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  name: '&7MFE'
+  type:
+  - '&7&o机器'
+MULTI_FUNCTIONAL_STORAGE_UNIT:
+  name: '&7MFSU'
+  type:
+  - '&7&o机器'
+NANO_BLADE:
+  name: '&2纳米刀刃 &c(关)'
+  type:
+  - '&7&o武器'
+POWER_UNIT:
+  name: '&7能量单元'
+  type:
+  - '&7&o组件'
+QUARTZ_DUST:
+  name: '&7石英粉'
+  type:
+  - '&7&o资源'
+RAW_CARBON_FIBRE:
+  name: '&7粗碳纤维'
+  type:
+  - '&7&o资源'
+RAW_CARBON_MESH:
+  name: '&7粗碳网'
+  type:
+  - '&7&o资源'
+REDSTONE_DUST:
+  name: '&7红石粉'
+  type:
+  - '&7&o资源'
+REFINED_IRON:
+  name: '&7精炼铁'
+  type:
+  - '&7&o资源'
+REFINED_SMELTERY:
+  name: '&7精炼熔炉'
+  type:
+  - '&7&o多方块'
+REINFORCED_DOOR:
+  name: '&7强化门'
+  type:
+  - '&7&o组件'
+REINFORCED_GLASS:
+  name: '&7强化玻璃'
+  type:
+  - '&7&o组件'
+REINFORCED_STONE:
+  name: '&7强化石头'
+  type:
+  - '&7&o组件'
+RE_BATTERY:
+  name: '&7RE电池'
+  type:
+  - '&7&o组件'
+RUBBER:
+  name: '&7橡胶'
+  type:
+  - '&7&o资源'
+RUBBER_SYNTHESIZER:
+  name: '&6橡胶合成机'
+  type:
+  - '&7&o机器'
+SCRAP:
+  name: '&8废料'
+  type:
+  - '&7&o资源'
+SCRAP_MACHINE:
+  name: '&8回收机'
+  type:
+  - '&7&o机器'
+THORIUM:
+  name: '&8钍'
+  type:
+  - '&7&o资源'
+THORIUM_DUST:
+  name: '&8钍粉'
+  type:
+  - '&7&o资源'
+THORIUM_PLATE:
+  name: '&7钍板'
+  type:
+  - '&7&o组件'
+TIN_CABLE:
+  name: '&7锡缆'
+  type:
+  - '&7&o组件'
+TIN_ITEM_CASING:
+  name: '&7锡外壳'
+  type:
+  - '&7&o组件'
+TIN_PLATE:
+  name: '&7锡板'
+  type:
+  - '&7&o组件'
+TREETAP:
+  name: '&7采胶器'
+  type:
+  - '&7&o工具'
+ULTIMATE_SOLAR_HELMET:
+  name: '&7终极太阳能头盔'
+  type:
+  - '&7&o护甲'
+ULTIMATE_SOLAR_PANEL:
+  name: '&5&l终极太阳能板'
+  type:
+  - '&7&o发电机'
+UNINSULATED_COPPER_CABLE:
+  name: '&7无绝缘铜缆'
+  type:
+  - '&7&o组件'
+UNINSULATED_GOLD_CABLE:
+  name: '&7无绝缘金缆'
+  type:
+  - '&7&o组件'
+UNINSULATED_TIN_CABLE:
+  name: '&7无绝缘锡缆'
+  type:
+  - '&7&o组件'
+UU_CRAFTER:
+  name: '&7UU合成器'
+  type:
+  - '&7&o机器'
+UU_MATTER:
+  name: '&5UU-Matter'
+  type:
+  - '&7&o资源'

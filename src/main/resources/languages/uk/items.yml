@@ -1,0 +1,228 @@
+ADVANCEDLX_SOLAR_HELMET:
+  type:
+  - '&7&oБроня'
+ADVANCED_ALLOY:
+  type:
+  - '&7&oКомпонент'
+ADVANCED_CIRCUIT:
+  type:
+  - '&7&oКомпонент'
+ADVANCED_MACHINE_BLOCK:
+  type:
+  - '&7&oКомпонент'
+ADVANCED_SOLAR_HELMET:
+  type:
+  - '&7&oБроня'
+ADVANCED_SOLAR_PANEL:
+  type:
+  - '&7&oГенератор'
+ANCIENT_DEBRIS_DUST:
+  type:
+  - '&7&oРесурс'
+CARBONADO_SOLAR_HELMET:
+  type:
+  - '&7&oБроня'
+CARBON_PLATE:
+  type:
+  - '&7&oКомпонент'
+CARGO_CONFIGURATOR:
+  type:
+  - '&7&oІнструмент'
+COAL_DUST:
+  type:
+  - '&7&oРесурс'
+CONVER:
+  type:
+  - '&7&oМашина'
+COPPER_CABLE:
+  type:
+  - '&7&oКомпонент'
+COPPER_ITEM_CASING:
+  type:
+  - '&7&oКомпонент'
+COPPER_PLATE:
+  type:
+  - '&7&oКомпонент'
+DIAMOND_DRILL:
+  type:
+  - '&7&oІнструмент'
+DIAMOND_DUST:
+  type:
+  - '&7&oРесурс'
+DIAMOND_PLATE:
+  type:
+  - '&7&oКомпонент'
+ELECTRIC_CHESTPLATE:
+  type:
+  - '&7&oБроня'
+ELECTRONIC_CIRCUIT:
+  type:
+  - '&7&oКомпонент'
+EMERALD_DUST:
+  type:
+  - '&7&oРесурс'
+ENERGIZED_SOLAR_HELMET:
+  type:
+  - '&7&oБроня'
+FOOD_SYNTHESIZER:
+  type:
+  - '&7&oГаджет'
+GENERATOR:
+  type:
+  - '&7&oГенератор'
+GLASS_CUTTER:
+  type:
+  - '&7&oІнструмент'
+GOLD_CABLE:
+  type:
+  - '&7&oКомпонент'
+GOLD_ITEM_CASING:
+  type:
+  - '&7&oКомпонент'
+GOLD_PLATE:
+  type:
+  - '&7&oКомпонент'
+HYBRID_SOLAR_HELMET:
+  type:
+  - '&7&oБроня'
+HYBRID_SOLAR_PANEL:
+  type:
+  - '&7&oГенератор'
+IRIDIUM:
+  type:
+  - '&7&oРесурс'
+IRIDIUM_PLATE:
+  type:
+  - '&7&oКомпонент'
+IRON_ITEM_CASING:
+  type:
+  - '&7&oКомпонент'
+IRON_PLATE:
+  type:
+  - '&7&oКомпонент'
+LAPIS_DUST:
+  type:
+  - '&7&oРесурс'
+LAPOTRON_CRYSTAL:
+  type:
+  - '&7&oКомпонент'
+MACERATOR:
+  type:
+  - '&7&oМашина'
+MACHINE_BLOCK:
+  type:
+  - '&7&oКомпонент'
+MAG_THOR:
+  type:
+  - '&7&oРесурс'
+MANUAL_MILL:
+  type:
+  - '&7&oСпоруда'
+MASS_FABRICATOR_MACHINE:
+  type:
+  - '&7&oМашина'
+METAL_FORGE:
+  type:
+  - '&7&oСпоруда'
+MINING_DRILL:
+  type:
+  - '&7&oІнструмент'
+MIXED_METAL_INGOT:
+  type:
+  - '&7&oРесурс'
+MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  type:
+  - '&7&oМашина'
+MULTI_FUNCTIONAL_STORAGE_UNIT:
+  type:
+  - '&7&oМашина'
+NANO_BLADE:
+  type:
+  - '&7&oЗброя'
+POWER_UNIT:
+  type:
+  - '&7&oКомпонент'
+QUARTZ_DUST:
+  type:
+  - '&7&oРесурс'
+RAW_CARBON_FIBRE:
+  type:
+  - '&7&oРесурс'
+RAW_CARBON_MESH:
+  type:
+  - '&7&oРесурс'
+REDSTONE_DUST:
+  type:
+  - '&7&oРесурс'
+REFINED_IRON:
+  type:
+  - '&7&oРесурс'
+REFINED_SMELTERY:
+  type:
+  - '&7&oСпоруда'
+REINFORCED_DOOR:
+  type:
+  - '&7&oКомпонент'
+REINFORCED_GLASS:
+  type:
+  - '&7&oКомпонент'
+REINFORCED_STONE:
+  type:
+  - '&7&oКомпонент'
+RE_BATTERY:
+  type:
+  - '&7&oКомпонент'
+RUBBER:
+  type:
+  - '&7&oРесурс'
+RUBBER_SYNTHESIZER:
+  type:
+  - '&7&oМашина'
+SCRAP:
+  type:
+  - '&7&oРесурс'
+SCRAP_MACHINE:
+  type:
+  - '&7&oМашина'
+THORIUM:
+  type:
+  - '&7&oРесурс'
+THORIUM_DUST:
+  type:
+  - '&7&oРесурс'
+THORIUM_PLATE:
+  type:
+  - '&7&oКомпонент'
+TIN_CABLE:
+  type:
+  - '&7&oКомпонент'
+TIN_ITEM_CASING:
+  type:
+  - '&7&oКомпонент'
+TIN_PLATE:
+  type:
+  - '&7&oКомпонент'
+TREETAP:
+  type:
+  - '&7&oІнструмент'
+ULTIMATE_SOLAR_HELMET:
+  type:
+  - '&7&oБроня'
+ULTIMATE_SOLAR_PANEL:
+  type:
+  - '&7&oГенератор'
+UNINSULATED_COPPER_CABLE:
+  type:
+  - '&7&oКомпонент'
+UNINSULATED_GOLD_CABLE:
+  type:
+  - '&7&oКомпонент'
+UNINSULATED_TIN_CABLE:
+  type:
+  - '&7&oКомпонент'
+UU_CRAFTER:
+  type:
+  - '&7&oМашина'
+UU_MATTER:
+  type:
+  - '&7&oРесурс'

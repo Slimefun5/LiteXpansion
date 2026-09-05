@@ -1,0 +1,228 @@
+ADVANCEDLX_SOLAR_HELMET:
+  type:
+  - '&7&oPerisai'
+ADVANCED_ALLOY:
+  type:
+  - '&7&oKomponen'
+ADVANCED_CIRCUIT:
+  type:
+  - '&7&oKomponen'
+ADVANCED_MACHINE_BLOCK:
+  type:
+  - '&7&oKomponen'
+ADVANCED_SOLAR_HELMET:
+  type:
+  - '&7&oPerisai'
+ADVANCED_SOLAR_PANEL:
+  type:
+  - '&7&oPenjana'
+ANCIENT_DEBRIS_DUST:
+  type:
+  - '&7&oSumber'
+CARBONADO_SOLAR_HELMET:
+  type:
+  - '&7&oPerisai'
+CARBON_PLATE:
+  type:
+  - '&7&oKomponen'
+CARGO_CONFIGURATOR:
+  type:
+  - '&7&oAlat'
+COAL_DUST:
+  type:
+  - '&7&oSumber'
+CONVER:
+  type:
+  - '&7&oMesin'
+COPPER_CABLE:
+  type:
+  - '&7&oKomponen'
+COPPER_ITEM_CASING:
+  type:
+  - '&7&oKomponen'
+COPPER_PLATE:
+  type:
+  - '&7&oKomponen'
+DIAMOND_DRILL:
+  type:
+  - '&7&oAlat'
+DIAMOND_DUST:
+  type:
+  - '&7&oSumber'
+DIAMOND_PLATE:
+  type:
+  - '&7&oKomponen'
+ELECTRIC_CHESTPLATE:
+  type:
+  - '&7&oPerisai'
+ELECTRONIC_CIRCUIT:
+  type:
+  - '&7&oKomponen'
+EMERALD_DUST:
+  type:
+  - '&7&oSumber'
+ENERGIZED_SOLAR_HELMET:
+  type:
+  - '&7&oPerisai'
+FOOD_SYNTHESIZER:
+  type:
+  - '&7&oGajet'
+GENERATOR:
+  type:
+  - '&7&oPenjana'
+GLASS_CUTTER:
+  type:
+  - '&7&oAlat'
+GOLD_CABLE:
+  type:
+  - '&7&oKomponen'
+GOLD_ITEM_CASING:
+  type:
+  - '&7&oKomponen'
+GOLD_PLATE:
+  type:
+  - '&7&oKomponen'
+HYBRID_SOLAR_HELMET:
+  type:
+  - '&7&oPerisai'
+HYBRID_SOLAR_PANEL:
+  type:
+  - '&7&oPenjana'
+IRIDIUM:
+  type:
+  - '&7&oSumber'
+IRIDIUM_PLATE:
+  type:
+  - '&7&oKomponen'
+IRON_ITEM_CASING:
+  type:
+  - '&7&oKomponen'
+IRON_PLATE:
+  type:
+  - '&7&oKomponen'
+LAPIS_DUST:
+  type:
+  - '&7&oSumber'
+LAPOTRON_CRYSTAL:
+  type:
+  - '&7&oKomponen'
+MACERATOR:
+  type:
+  - '&7&oMesin'
+MACHINE_BLOCK:
+  type:
+  - '&7&oKomponen'
+MAG_THOR:
+  type:
+  - '&7&oSumber'
+MANUAL_MILL:
+  type:
+  - '&7&oMultiblok'
+MASS_FABRICATOR_MACHINE:
+  type:
+  - '&7&oMesin'
+METAL_FORGE:
+  type:
+  - '&7&oMultiblok'
+MINING_DRILL:
+  type:
+  - '&7&oAlat'
+MIXED_METAL_INGOT:
+  type:
+  - '&7&oSumber'
+MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  type:
+  - '&7&oMesin'
+MULTI_FUNCTIONAL_STORAGE_UNIT:
+  type:
+  - '&7&oMesin'
+NANO_BLADE:
+  type:
+  - '&7&oSenjata'
+POWER_UNIT:
+  type:
+  - '&7&oKomponen'
+QUARTZ_DUST:
+  type:
+  - '&7&oSumber'
+RAW_CARBON_FIBRE:
+  type:
+  - '&7&oSumber'
+RAW_CARBON_MESH:
+  type:
+  - '&7&oSumber'
+REDSTONE_DUST:
+  type:
+  - '&7&oSumber'
+REFINED_IRON:
+  type:
+  - '&7&oSumber'
+REFINED_SMELTERY:
+  type:
+  - '&7&oMultiblok'
+REINFORCED_DOOR:
+  type:
+  - '&7&oKomponen'
+REINFORCED_GLASS:
+  type:
+  - '&7&oKomponen'
+REINFORCED_STONE:
+  type:
+  - '&7&oKomponen'
+RE_BATTERY:
+  type:
+  - '&7&oKomponen'
+RUBBER:
+  type:
+  - '&7&oSumber'
+RUBBER_SYNTHESIZER:
+  type:
+  - '&7&oMesin'
+SCRAP:
+  type:
+  - '&7&oSumber'
+SCRAP_MACHINE:
+  type:
+  - '&7&oMesin'
+THORIUM:
+  type:
+  - '&7&oSumber'
+THORIUM_DUST:
+  type:
+  - '&7&oSumber'
+THORIUM_PLATE:
+  type:
+  - '&7&oKomponen'
+TIN_CABLE:
+  type:
+  - '&7&oKomponen'
+TIN_ITEM_CASING:
+  type:
+  - '&7&oKomponen'
+TIN_PLATE:
+  type:
+  - '&7&oKomponen'
+TREETAP:
+  type:
+  - '&7&oAlat'
+ULTIMATE_SOLAR_HELMET:
+  type:
+  - '&7&oPerisai'
+ULTIMATE_SOLAR_PANEL:
+  type:
+  - '&7&oPenjana'
+UNINSULATED_COPPER_CABLE:
+  type:
+  - '&7&oKomponen'
+UNINSULATED_GOLD_CABLE:
+  type:
+  - '&7&oKomponen'
+UNINSULATED_TIN_CABLE:
+  type:
+  - '&7&oKomponen'
+UU_CRAFTER:
+  type:
+  - '&7&oMesin'
+UU_MATTER:
+  type:
+  - '&7&oSumber'

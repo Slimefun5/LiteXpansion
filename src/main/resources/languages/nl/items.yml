@@ -1,153 +1,304 @@
-# Dutch item translations for LiteXpansion. Keyed by Slimefun item id.
-ELECTRIC_CHESTPLATE:
-  name: "&9Elektrisch borstpantser"
-NANO_BLADE:
-  name: "&2Nano-kling &c(Uit)"
-GLASS_CUTTER:
-  name: "&bGlassnijder"
-MINING_DRILL:
-  name: "&7Mijnboor"
-DIAMOND_DRILL:
-  name: "&bDiamanten boor"
-TREETAP:
-  name: "&7Boomtap"
-CARGO_CONFIGURATOR:
-  name: "&7Vracht-configurator"
-TIN_PLATE:
-  name: "&7Tinnen plaat"
-TIN_ITEM_CASING:
-  name: "&7Tinnen behuizing"
-UNINSULATED_TIN_CABLE:
-  name: "&7Niet-geïsoleerde tinnen kabel"
-TIN_CABLE:
-  name: "&7Tinnen kabel"
-COPPER_PLATE:
-  name: "&7Koperen plaat"
-COPPER_ITEM_CASING:
-  name: "&7Koperen behuizing"
-MAG_THOR:
-  name: "&b&lMag-Thor"
-THORIUM:
-  name: "&8Thorium"
-SCRAP:
-  name: "&8Schroot"
-UU_MATTER:
-  name: "&5UU-Matter"
-IRIDIUM:
-  name: "&fIridium"
-IRIDIUM_PLATE:
-  name: "&fIridiumplaat"
-THORIUM_DUST:
-  name: "&8Thoriumstof"
-REFINED_IRON:
-  name: "&7Geraffineerd ijzer"
-MACHINE_BLOCK:
-  name: "&7Machineblok"
-UNINSULATED_COPPER_CABLE:
-  name: "&7Niet-geïsoleerde koperen kabel"
-COPPER_CABLE:
-  name: "&7Koperen kabel"
-RUBBER:
-  name: "&7Rubber"
-ELECTRONIC_CIRCUIT:
-  name: "&7Elektronisch circuit"
-ADVANCED_CIRCUIT:
-  name: "&7Geavanceerd circuit"
-COAL_DUST:
-  name: "&7Koolstof"
-RAW_CARBON_FIBRE:
-  name: "&7Ruwe koolstofvezel"
-RAW_CARBON_MESH:
-  name: "&7Ruw koolstofgaas"
-CARBON_PLATE:
-  name: "&7Koolstofplaat"
-ADVANCED_ALLOY:
-  name: "&7Geavanceerde legering"
-ADVANCED_MACHINE_BLOCK:
-  name: "&7Geavanceerd machineblok"
-LAPOTRON_CRYSTAL:
-  name: "&7Lapotron-kristal"
-REINFORCED_STONE:
-  name: "&7Versterkte steen"
-REINFORCED_DOOR:
-  name: "&7Versterkte deur"
-REINFORCED_GLASS:
-  name: "&7Versterkt glas"
-MIXED_METAL_INGOT:
-  name: "&7Gemengde metaalstaaf"
-SCRAP_MACHINE:
-  name: "&8Recycler"
-MASS_FABRICATOR_MACHINE:
-  name: "&5Massafabrikator"
-RUBBER_SYNTHESIZER:
-  name: "&6Rubber-synthesizer"
-MACERATOR:
-  name: "&7Vermaler"
-ADVANCED_SOLAR_PANEL:
-  name: "&7&lGeavanceerd zonnepaneel"
-HYBRID_SOLAR_PANEL:
-  name: "&b&lHybride zonnepaneel"
-ULTIMATE_SOLAR_PANEL:
-  name: "&5&lUltiem zonnepaneel"
-MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
-  name: "&7MFE"
-MULTI_FUNCTIONAL_STORAGE_UNIT:
-  name: "&7MFSU"
-GOLD_PLATE:
-  name: "&7Gouden plaat"
-GOLD_ITEM_CASING:
-  name: "&7Gouden behuizing"
-UNINSULATED_GOLD_CABLE:
-  name: "&7Niet-geïsoleerde gouden kabel"
-GOLD_CABLE:
-  name: "&7Gouden kabel"
-REFINED_SMELTERY:
-  name: "&7Geraffineerde smelterij"
-METAL_FORGE:
-  name: "&7Metaalsmederij"
-MANUAL_MILL:
-  name: "&7Handmolen"
-GENERATOR:
-  name: "&7Generator"
-RE_BATTERY:
-  name: "&7RE-batterij"
-ADVANCED_SOLAR_HELMET:
-  name: "&7Geavanceerde zonnehelm"
-CARBONADO_SOLAR_HELMET:
-  name: "&7Carbonado zonnehelm"
-ENERGIZED_SOLAR_HELMET:
-  name: "&7Geladen zonnehelm"
 ADVANCEDLX_SOLAR_HELMET:
-  name: "&7Super geavanceerde zonnehelm"
-HYBRID_SOLAR_HELMET:
-  name: "&7Hybride zonnehelm"
-ULTIMATE_SOLAR_HELMET:
-  name: "&7Ultieme zonnehelm"
-FOOD_SYNTHESIZER:
-  name: "&dVoedsel-synthesizer"
-IRON_PLATE:
-  name: "&7IJzeren plaat"
-DIAMOND_PLATE:
-  name: "&7Diamanten plaat"
-THORIUM_PLATE:
-  name: "&7Thoriumplaat"
-POWER_UNIT:
-  name: "&7Energie-eenheid"
-IRON_ITEM_CASING:
-  name: "&7IJzeren behuizing"
-LAPIS_DUST:
-  name: "&7Lapisstof"
-REDSTONE_DUST:
-  name: "&7Redstone-stof"
-DIAMOND_DUST:
-  name: "&7Diamantstof"
-EMERALD_DUST:
-  name: "&7Smaragdstof"
-QUARTZ_DUST:
-  name: "&7Kwartsstof"
+  name: '&7Super geavanceerde zonnehelm'
+  type:
+  - '&7&oWapenrusting'
+ADVANCED_ALLOY:
+  name: '&7Geavanceerde legering'
+  type:
+  - '&7&oOnderdeel'
+ADVANCED_CIRCUIT:
+  name: '&7Geavanceerd circuit'
+  type:
+  - '&7&oOnderdeel'
+ADVANCED_MACHINE_BLOCK:
+  name: '&7Geavanceerd machineblok'
+  type:
+  - '&7&oOnderdeel'
+ADVANCED_SOLAR_HELMET:
+  name: '&7Geavanceerde zonnehelm'
+  type:
+  - '&7&oWapenrusting'
+ADVANCED_SOLAR_PANEL:
+  name: '&7&lGeavanceerd zonnepaneel'
+  type:
+  - '&7&oGenerator'
 ANCIENT_DEBRIS_DUST:
-  name: "&7Oeroud puinstof"
-UU_CRAFTER:
-  name: "&7UU-maker"
+  name: '&7Oeroud puinstof'
+  type:
+  - '&7&oGrondstof'
+CARBONADO_SOLAR_HELMET:
+  name: '&7Carbonado zonnehelm'
+  type:
+  - '&7&oWapenrusting'
+CARBON_PLATE:
+  name: '&7Koolstofplaat'
+  type:
+  - '&7&oOnderdeel'
+CARGO_CONFIGURATOR:
+  name: '&7Vracht-configurator'
+  type:
+  - '&7&oGereedschap'
+COAL_DUST:
+  name: '&7Koolstof'
+  type:
+  - '&7&oGrondstof'
 CONVER:
-  name: "&7Omvormer"
+  name: '&7Omvormer'
+  type:
+  - '&7&oMachine'
+COPPER_CABLE:
+  name: '&7Koperen kabel'
+  type:
+  - '&7&oOnderdeel'
+COPPER_ITEM_CASING:
+  name: '&7Koperen behuizing'
+  type:
+  - '&7&oOnderdeel'
+COPPER_PLATE:
+  name: '&7Koperen plaat'
+  type:
+  - '&7&oOnderdeel'
+DIAMOND_DRILL:
+  name: '&bDiamanten boor'
+  type:
+  - '&7&oGereedschap'
+DIAMOND_DUST:
+  name: '&7Diamantstof'
+  type:
+  - '&7&oGrondstof'
+DIAMOND_PLATE:
+  name: '&7Diamanten plaat'
+  type:
+  - '&7&oOnderdeel'
+ELECTRIC_CHESTPLATE:
+  name: '&9Elektrisch borstpantser'
+  type:
+  - '&7&oWapenrusting'
+ELECTRONIC_CIRCUIT:
+  name: '&7Elektronisch circuit'
+  type:
+  - '&7&oOnderdeel'
+EMERALD_DUST:
+  name: '&7Smaragdstof'
+  type:
+  - '&7&oGrondstof'
+ENERGIZED_SOLAR_HELMET:
+  name: '&7Geladen zonnehelm'
+  type:
+  - '&7&oWapenrusting'
+FOOD_SYNTHESIZER:
+  name: '&dVoedsel-synthesizer'
+  type:
+  - '&7&oGadget'
+GENERATOR:
+  name: '&7Generator'
+  type:
+  - '&7&oGenerator'
+GLASS_CUTTER:
+  name: '&bGlassnijder'
+  type:
+  - '&7&oGereedschap'
+GOLD_CABLE:
+  name: '&7Gouden kabel'
+  type:
+  - '&7&oOnderdeel'
+GOLD_ITEM_CASING:
+  name: '&7Gouden behuizing'
+  type:
+  - '&7&oOnderdeel'
+GOLD_PLATE:
+  name: '&7Gouden plaat'
+  type:
+  - '&7&oOnderdeel'
+HYBRID_SOLAR_HELMET:
+  name: '&7Hybride zonnehelm'
+  type:
+  - '&7&oWapenrusting'
+HYBRID_SOLAR_PANEL:
+  name: '&b&lHybride zonnepaneel'
+  type:
+  - '&7&oGenerator'
+IRIDIUM:
+  name: '&fIridium'
+  type:
+  - '&7&oGrondstof'
+IRIDIUM_PLATE:
+  name: '&fIridiumplaat'
+  type:
+  - '&7&oOnderdeel'
+IRON_ITEM_CASING:
+  name: '&7IJzeren behuizing'
+  type:
+  - '&7&oOnderdeel'
+IRON_PLATE:
+  name: '&7IJzeren plaat'
+  type:
+  - '&7&oOnderdeel'
+LAPIS_DUST:
+  name: '&7Lapisstof'
+  type:
+  - '&7&oGrondstof'
+LAPOTRON_CRYSTAL:
+  name: '&7Lapotron-kristal'
+  type:
+  - '&7&oOnderdeel'
+MACERATOR:
+  name: '&7Vermaler'
+  type:
+  - '&7&oMachine'
+MACHINE_BLOCK:
+  name: '&7Machineblok'
+  type:
+  - '&7&oOnderdeel'
+MAG_THOR:
+  name: '&b&lMag-Thor'
+  type:
+  - '&7&oGrondstof'
+MANUAL_MILL:
+  name: '&7Handmolen'
+  type:
+  - '&7&oMultiblok'
+MASS_FABRICATOR_MACHINE:
+  name: '&5Massafabrikator'
+  type:
+  - '&7&oMachine'
+METAL_FORGE:
+  name: '&7Metaalsmederij'
+  type:
+  - '&7&oMultiblok'
+MINING_DRILL:
+  name: '&7Mijnboor'
+  type:
+  - '&7&oGereedschap'
+MIXED_METAL_INGOT:
+  name: '&7Gemengde metaalstaaf'
+  type:
+  - '&7&oGrondstof'
+MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  name: '&7MFE'
+  type:
+  - '&7&oMachine'
+MULTI_FUNCTIONAL_STORAGE_UNIT:
+  name: '&7MFSU'
+  type:
+  - '&7&oMachine'
+NANO_BLADE:
+  name: '&2Nano-kling &c(Uit)'
+  type:
+  - '&7&oWapen'
+POWER_UNIT:
+  name: '&7Energie-eenheid'
+  type:
+  - '&7&oOnderdeel'
+QUARTZ_DUST:
+  name: '&7Kwartsstof'
+  type:
+  - '&7&oGrondstof'
+RAW_CARBON_FIBRE:
+  name: '&7Ruwe koolstofvezel'
+  type:
+  - '&7&oGrondstof'
+RAW_CARBON_MESH:
+  name: '&7Ruw koolstofgaas'
+  type:
+  - '&7&oGrondstof'
+REDSTONE_DUST:
+  name: '&7Redstone-stof'
+  type:
+  - '&7&oGrondstof'
+REFINED_IRON:
+  name: '&7Geraffineerd ijzer'
+  type:
+  - '&7&oGrondstof'
+REFINED_SMELTERY:
+  name: '&7Geraffineerde smelterij'
+  type:
+  - '&7&oMultiblok'
+REINFORCED_DOOR:
+  name: '&7Versterkte deur'
+  type:
+  - '&7&oOnderdeel'
+REINFORCED_GLASS:
+  name: '&7Versterkt glas'
+  type:
+  - '&7&oOnderdeel'
+REINFORCED_STONE:
+  name: '&7Versterkte steen'
+  type:
+  - '&7&oOnderdeel'
+RE_BATTERY:
+  name: '&7RE-batterij'
+  type:
+  - '&7&oOnderdeel'
+RUBBER:
+  name: '&7Rubber'
+  type:
+  - '&7&oGrondstof'
+RUBBER_SYNTHESIZER:
+  name: '&6Rubber-synthesizer'
+  type:
+  - '&7&oMachine'
+SCRAP:
+  name: '&8Schroot'
+  type:
+  - '&7&oGrondstof'
+SCRAP_MACHINE:
+  name: '&8Recycler'
+  type:
+  - '&7&oMachine'
+THORIUM:
+  name: '&8Thorium'
+  type:
+  - '&7&oGrondstof'
+THORIUM_DUST:
+  name: '&8Thoriumstof'
+  type:
+  - '&7&oGrondstof'
+THORIUM_PLATE:
+  name: '&7Thoriumplaat'
+  type:
+  - '&7&oOnderdeel'
+TIN_CABLE:
+  name: '&7Tinnen kabel'
+  type:
+  - '&7&oOnderdeel'
+TIN_ITEM_CASING:
+  name: '&7Tinnen behuizing'
+  type:
+  - '&7&oOnderdeel'
+TIN_PLATE:
+  name: '&7Tinnen plaat'
+  type:
+  - '&7&oOnderdeel'
+TREETAP:
+  name: '&7Boomtap'
+  type:
+  - '&7&oGereedschap'
+ULTIMATE_SOLAR_HELMET:
+  name: '&7Ultieme zonnehelm'
+  type:
+  - '&7&oWapenrusting'
+ULTIMATE_SOLAR_PANEL:
+  name: '&5&lUltiem zonnepaneel'
+  type:
+  - '&7&oGenerator'
+UNINSULATED_COPPER_CABLE:
+  name: '&7Niet-geïsoleerde koperen kabel'
+  type:
+  - '&7&oOnderdeel'
+UNINSULATED_GOLD_CABLE:
+  name: '&7Niet-geïsoleerde gouden kabel'
+  type:
+  - '&7&oOnderdeel'
+UNINSULATED_TIN_CABLE:
+  name: '&7Niet-geïsoleerde tinnen kabel'
+  type:
+  - '&7&oOnderdeel'
+UU_CRAFTER:
+  name: '&7UU-maker'
+  type:
+  - '&7&oMachine'
+UU_MATTER:
+  name: '&5UU-Matter'
+  type:
+  - '&7&oGrondstof'

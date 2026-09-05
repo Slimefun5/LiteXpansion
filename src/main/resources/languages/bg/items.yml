@@ -1,304 +1,228 @@
 ADVANCEDLX_SOLAR_HELMET:
-  name: '&7Супер улучшенный солнечный шлем'
   type:
   - '&7&oБроня'
 ADVANCED_ALLOY:
-  name: '&7Улучшенный сплав'
   type:
   - '&7&oКомпонент'
 ADVANCED_CIRCUIT:
-  name: '&7Улучшенная схема'
   type:
   - '&7&oКомпонент'
 ADVANCED_MACHINE_BLOCK:
-  name: '&7Улучшенный машинный блок'
   type:
   - '&7&oКомпонент'
 ADVANCED_SOLAR_HELMET:
-  name: '&7Улучшенный солнечный шлем'
   type:
   - '&7&oБроня'
 ADVANCED_SOLAR_PANEL:
-  name: '&7&lУлучшенная солнечная панель'
   type:
   - '&7&oГенератор'
 ANCIENT_DEBRIS_DUST:
-  name: '&7Пыль древних обломков'
   type:
   - '&7&oРесурс'
 CARBONADO_SOLAR_HELMET:
-  name: '&7Карбонадо солнечный шлем'
   type:
   - '&7&oБроня'
 CARBON_PLATE:
-  name: '&7Углеродная пластина'
   type:
   - '&7&oКомпонент'
 CARGO_CONFIGURATOR:
-  name: '&7Конфигуратор грузов'
   type:
   - '&7&oИнструмент'
 COAL_DUST:
-  name: '&7Угольная пыль'
   type:
   - '&7&oРесурс'
 CONVER:
-  name: '&7Конвертер'
   type:
   - '&7&oМашина'
 COPPER_CABLE:
-  name: '&7Медный кабель'
   type:
   - '&7&oКомпонент'
 COPPER_ITEM_CASING:
-  name: '&7Медный корпус'
   type:
   - '&7&oКомпонент'
 COPPER_PLATE:
-  name: '&7Медная пластина'
   type:
   - '&7&oКомпонент'
 DIAMOND_DRILL:
-  name: '&bАлмазная дрель'
   type:
   - '&7&oИнструмент'
 DIAMOND_DUST:
-  name: '&7Алмазная пыль'
   type:
   - '&7&oРесурс'
 DIAMOND_PLATE:
-  name: '&7Алмазная пластина'
   type:
   - '&7&oКомпонент'
 ELECTRIC_CHESTPLATE:
-  name: '&9Электрическая кираса'
   type:
   - '&7&oБроня'
 ELECTRONIC_CIRCUIT:
-  name: '&7Электронная схема'
   type:
   - '&7&oКомпонент'
 EMERALD_DUST:
-  name: '&7Изумрудная пыль'
   type:
   - '&7&oРесурс'
 ENERGIZED_SOLAR_HELMET:
-  name: '&7Заряженный солнечный шлем'
   type:
   - '&7&oБроня'
 FOOD_SYNTHESIZER:
-  name: '&dСинтезатор пищи'
   type:
-  - '&7&oГаджет'
+  - '&7&oДжаджа'
 GENERATOR:
-  name: '&7Генератор'
   type:
   - '&7&oГенератор'
 GLASS_CUTTER:
-  name: '&bСтеклорез'
   type:
   - '&7&oИнструмент'
 GOLD_CABLE:
-  name: '&7Золотой кабель'
   type:
   - '&7&oКомпонент'
 GOLD_ITEM_CASING:
-  name: '&7Золотой корпус'
   type:
   - '&7&oКомпонент'
 GOLD_PLATE:
-  name: '&7Золотая пластина'
   type:
   - '&7&oКомпонент'
 HYBRID_SOLAR_HELMET:
-  name: '&7Гибридный солнечный шлем'
   type:
   - '&7&oБроня'
 HYBRID_SOLAR_PANEL:
-  name: '&b&lГибридная солнечная панель'
   type:
   - '&7&oГенератор'
 IRIDIUM:
-  name: '&fИридий'
   type:
   - '&7&oРесурс'
 IRIDIUM_PLATE:
-  name: '&fИридиевая пластина'
   type:
   - '&7&oКомпонент'
 IRON_ITEM_CASING:
-  name: '&7Железный корпус'
   type:
   - '&7&oКомпонент'
 IRON_PLATE:
-  name: '&7Железная пластина'
   type:
   - '&7&oКомпонент'
 LAPIS_DUST:
-  name: '&7Лазуритовая пыль'
   type:
   - '&7&oРесурс'
 LAPOTRON_CRYSTAL:
-  name: '&7Кристалл Лапотрон'
   type:
   - '&7&oКомпонент'
 MACERATOR:
-  name: '&7Мацератор'
   type:
   - '&7&oМашина'
 MACHINE_BLOCK:
-  name: '&7Машинный блок'
   type:
   - '&7&oКомпонент'
 MAG_THOR:
-  name: '&b&lМаг-Тор'
   type:
   - '&7&oРесурс'
 MANUAL_MILL:
-  name: '&7Ручная мельница'
   type:
-  - '&7&oМультиблок'
+  - '&7&oМултиблок'
 MASS_FABRICATOR_MACHINE:
-  name: '&5Масс-фабрикатор'
   type:
   - '&7&oМашина'
 METAL_FORGE:
-  name: '&7Кузница металлов'
   type:
-  - '&7&oМультиблок'
+  - '&7&oМултиблок'
 MINING_DRILL:
-  name: '&7Шахтёрская дрель'
   type:
   - '&7&oИнструмент'
 MIXED_METAL_INGOT:
-  name: '&7Смешанный металлический слиток'
   type:
   - '&7&oРесурс'
 MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
-  name: '&7MFE'
   type:
   - '&7&oМашина'
 MULTI_FUNCTIONAL_STORAGE_UNIT:
-  name: '&7MFSU'
   type:
   - '&7&oМашина'
 NANO_BLADE:
-  name: '&2Нано-клинок &c(Выкл)'
   type:
-  - '&7&oОружие'
+  - '&7&oОръжие'
 POWER_UNIT:
-  name: '&7Энергоблок'
   type:
   - '&7&oКомпонент'
 QUARTZ_DUST:
-  name: '&7Кварцевая пыль'
   type:
   - '&7&oРесурс'
 RAW_CARBON_FIBRE:
-  name: '&7Сырое углеволокно'
   type:
   - '&7&oРесурс'
 RAW_CARBON_MESH:
-  name: '&7Сырая углеродная сетка'
   type:
   - '&7&oРесурс'
 REDSTONE_DUST:
-  name: '&7Красная пыль'
   type:
   - '&7&oРесурс'
 REFINED_IRON:
-  name: '&7Очищенное железо'
   type:
   - '&7&oРесурс'
 REFINED_SMELTERY:
-  name: '&7Очищенная плавильня'
   type:
-  - '&7&oМультиблок'
+  - '&7&oМултиблок'
 REINFORCED_DOOR:
-  name: '&7Укреплённая дверь'
   type:
   - '&7&oКомпонент'
 REINFORCED_GLASS:
-  name: '&7Укреплённое стекло'
   type:
   - '&7&oКомпонент'
 REINFORCED_STONE:
-  name: '&7Укреплённый камень'
   type:
   - '&7&oКомпонент'
 RE_BATTERY:
-  name: '&7RE-батарея'
   type:
   - '&7&oКомпонент'
 RUBBER:
-  name: '&7Резина'
   type:
   - '&7&oРесурс'
 RUBBER_SYNTHESIZER:
-  name: '&6Синтезатор резины'
   type:
   - '&7&oМашина'
 SCRAP:
-  name: '&8Лом'
   type:
   - '&7&oРесурс'
 SCRAP_MACHINE:
-  name: '&8Переработчик'
   type:
   - '&7&oМашина'
 THORIUM:
-  name: '&8Торий'
   type:
   - '&7&oРесурс'
 THORIUM_DUST:
-  name: '&8Ториевая пыль'
   type:
   - '&7&oРесурс'
 THORIUM_PLATE:
-  name: '&7Ториевая пластина'
   type:
   - '&7&oКомпонент'
 TIN_CABLE:
-  name: '&7Оловянный кабель'
   type:
   - '&7&oКомпонент'
 TIN_ITEM_CASING:
-  name: '&7Оловянный корпус'
   type:
   - '&7&oКомпонент'
 TIN_PLATE:
-  name: '&7Оловянная пластина'
   type:
   - '&7&oКомпонент'
 TREETAP:
-  name: '&7Надрез для дерева'
   type:
   - '&7&oИнструмент'
 ULTIMATE_SOLAR_HELMET:
-  name: '&7Ультимативный солнечный шлем'
   type:
   - '&7&oБроня'
 ULTIMATE_SOLAR_PANEL:
-  name: '&5&lУльтимативная солнечная панель'
   type:
   - '&7&oГенератор'
 UNINSULATED_COPPER_CABLE:
-  name: '&7Неизолированный медный кабель'
   type:
   - '&7&oКомпонент'
 UNINSULATED_GOLD_CABLE:
-  name: '&7Неизолированный золотой кабель'
   type:
   - '&7&oКомпонент'
 UNINSULATED_TIN_CABLE:
-  name: '&7Неизолированный оловянный кабель'
   type:
   - '&7&oКомпонент'
 UU_CRAFTER:
-  name: '&7UU-крафтер'
   type:
   - '&7&oМашина'
 UU_MATTER:
-  name: '&5UU-Matter'
   type:
   - '&7&oРесурс'

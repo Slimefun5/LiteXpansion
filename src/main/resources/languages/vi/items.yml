@@ -1,0 +1,228 @@
+ADVANCEDLX_SOLAR_HELMET:
+  type:
+  - '&7&oGiáp'
+ADVANCED_ALLOY:
+  type:
+  - '&7&oThành Phần'
+ADVANCED_CIRCUIT:
+  type:
+  - '&7&oThành Phần'
+ADVANCED_MACHINE_BLOCK:
+  type:
+  - '&7&oThành Phần'
+ADVANCED_SOLAR_HELMET:
+  type:
+  - '&7&oGiáp'
+ADVANCED_SOLAR_PANEL:
+  type:
+  - '&7&oMáy Phát Điện'
+ANCIENT_DEBRIS_DUST:
+  type:
+  - '&7&oTài Nguyên'
+CARBONADO_SOLAR_HELMET:
+  type:
+  - '&7&oGiáp'
+CARBON_PLATE:
+  type:
+  - '&7&oThành Phần'
+CARGO_CONFIGURATOR:
+  type:
+  - '&7&oDụng Cụ'
+COAL_DUST:
+  type:
+  - '&7&oTài Nguyên'
+CONVER:
+  type:
+  - '&7&oMáy Móc'
+COPPER_CABLE:
+  type:
+  - '&7&oThành Phần'
+COPPER_ITEM_CASING:
+  type:
+  - '&7&oThành Phần'
+COPPER_PLATE:
+  type:
+  - '&7&oThành Phần'
+DIAMOND_DRILL:
+  type:
+  - '&7&oDụng Cụ'
+DIAMOND_DUST:
+  type:
+  - '&7&oTài Nguyên'
+DIAMOND_PLATE:
+  type:
+  - '&7&oThành Phần'
+ELECTRIC_CHESTPLATE:
+  type:
+  - '&7&oGiáp'
+ELECTRONIC_CIRCUIT:
+  type:
+  - '&7&oThành Phần'
+EMERALD_DUST:
+  type:
+  - '&7&oTài Nguyên'
+ENERGIZED_SOLAR_HELMET:
+  type:
+  - '&7&oGiáp'
+FOOD_SYNTHESIZER:
+  type:
+  - '&7&oThiết Bị'
+GENERATOR:
+  type:
+  - '&7&oMáy Phát Điện'
+GLASS_CUTTER:
+  type:
+  - '&7&oDụng Cụ'
+GOLD_CABLE:
+  type:
+  - '&7&oThành Phần'
+GOLD_ITEM_CASING:
+  type:
+  - '&7&oThành Phần'
+GOLD_PLATE:
+  type:
+  - '&7&oThành Phần'
+HYBRID_SOLAR_HELMET:
+  type:
+  - '&7&oGiáp'
+HYBRID_SOLAR_PANEL:
+  type:
+  - '&7&oMáy Phát Điện'
+IRIDIUM:
+  type:
+  - '&7&oTài Nguyên'
+IRIDIUM_PLATE:
+  type:
+  - '&7&oThành Phần'
+IRON_ITEM_CASING:
+  type:
+  - '&7&oThành Phần'
+IRON_PLATE:
+  type:
+  - '&7&oThành Phần'
+LAPIS_DUST:
+  type:
+  - '&7&oTài Nguyên'
+LAPOTRON_CRYSTAL:
+  type:
+  - '&7&oThành Phần'
+MACERATOR:
+  type:
+  - '&7&oMáy Móc'
+MACHINE_BLOCK:
+  type:
+  - '&7&oThành Phần'
+MAG_THOR:
+  type:
+  - '&7&oTài Nguyên'
+MANUAL_MILL:
+  type:
+  - '&7&oĐa khối'
+MASS_FABRICATOR_MACHINE:
+  type:
+  - '&7&oMáy Móc'
+METAL_FORGE:
+  type:
+  - '&7&oĐa khối'
+MINING_DRILL:
+  type:
+  - '&7&oDụng Cụ'
+MIXED_METAL_INGOT:
+  type:
+  - '&7&oTài Nguyên'
+MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  type:
+  - '&7&oMáy Móc'
+MULTI_FUNCTIONAL_STORAGE_UNIT:
+  type:
+  - '&7&oMáy Móc'
+NANO_BLADE:
+  type:
+  - '&7&oVũ Khí'
+POWER_UNIT:
+  type:
+  - '&7&oThành Phần'
+QUARTZ_DUST:
+  type:
+  - '&7&oTài Nguyên'
+RAW_CARBON_FIBRE:
+  type:
+  - '&7&oTài Nguyên'
+RAW_CARBON_MESH:
+  type:
+  - '&7&oTài Nguyên'
+REDSTONE_DUST:
+  type:
+  - '&7&oTài Nguyên'
+REFINED_IRON:
+  type:
+  - '&7&oTài Nguyên'
+REFINED_SMELTERY:
+  type:
+  - '&7&oĐa khối'
+REINFORCED_DOOR:
+  type:
+  - '&7&oThành Phần'
+REINFORCED_GLASS:
+  type:
+  - '&7&oThành Phần'
+REINFORCED_STONE:
+  type:
+  - '&7&oThành Phần'
+RE_BATTERY:
+  type:
+  - '&7&oThành Phần'
+RUBBER:
+  type:
+  - '&7&oTài Nguyên'
+RUBBER_SYNTHESIZER:
+  type:
+  - '&7&oMáy Móc'
+SCRAP:
+  type:
+  - '&7&oTài Nguyên'
+SCRAP_MACHINE:
+  type:
+  - '&7&oMáy Móc'
+THORIUM:
+  type:
+  - '&7&oTài Nguyên'
+THORIUM_DUST:
+  type:
+  - '&7&oTài Nguyên'
+THORIUM_PLATE:
+  type:
+  - '&7&oThành Phần'
+TIN_CABLE:
+  type:
+  - '&7&oThành Phần'
+TIN_ITEM_CASING:
+  type:
+  - '&7&oThành Phần'
+TIN_PLATE:
+  type:
+  - '&7&oThành Phần'
+TREETAP:
+  type:
+  - '&7&oDụng Cụ'
+ULTIMATE_SOLAR_HELMET:
+  type:
+  - '&7&oGiáp'
+ULTIMATE_SOLAR_PANEL:
+  type:
+  - '&7&oMáy Phát Điện'
+UNINSULATED_COPPER_CABLE:
+  type:
+  - '&7&oThành Phần'
+UNINSULATED_GOLD_CABLE:
+  type:
+  - '&7&oThành Phần'
+UNINSULATED_TIN_CABLE:
+  type:
+  - '&7&oThành Phần'
+UU_CRAFTER:
+  type:
+  - '&7&oMáy Móc'
+UU_MATTER:
+  type:
+  - '&7&oTài Nguyên'

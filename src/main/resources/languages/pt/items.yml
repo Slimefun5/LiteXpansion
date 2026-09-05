@@ -1,304 +1,228 @@
 ADVANCEDLX_SOLAR_HELMET:
-  name: '&7Capacete solar super avançado'
   type:
   - '&7&oArmadura'
 ADVANCED_ALLOY:
-  name: '&7Liga avançada'
   type:
   - '&7&oComponente'
 ADVANCED_CIRCUIT:
-  name: '&7Circuito avançado'
   type:
   - '&7&oComponente'
 ADVANCED_MACHINE_BLOCK:
-  name: '&7Bloco de máquina avançado'
   type:
   - '&7&oComponente'
 ADVANCED_SOLAR_HELMET:
-  name: '&7Capacete solar avançado'
   type:
   - '&7&oArmadura'
 ADVANCED_SOLAR_PANEL:
-  name: '&7&lPainel solar avançado'
   type:
   - '&7&oGerador'
 ANCIENT_DEBRIS_DUST:
-  name: '&7Pó de detritos antigos'
   type:
   - '&7&oRecurso'
 CARBONADO_SOLAR_HELMET:
-  name: '&7Capacete solar de carbonado'
   type:
   - '&7&oArmadura'
 CARBON_PLATE:
-  name: '&7Placa de carbono'
   type:
   - '&7&oComponente'
 CARGO_CONFIGURATOR:
-  name: '&7Configurador de carga'
   type:
   - '&7&oFerramenta'
 COAL_DUST:
-  name: '&7Pó de carvão'
   type:
   - '&7&oRecurso'
 CONVER:
-  name: '&7Conversor'
   type:
   - '&7&oMáquina'
 COPPER_CABLE:
-  name: '&7Cabo de cobre'
   type:
   - '&7&oComponente'
 COPPER_ITEM_CASING:
-  name: '&7Revestimento de cobre'
   type:
   - '&7&oComponente'
 COPPER_PLATE:
-  name: '&7Placa de cobre'
   type:
   - '&7&oComponente'
 DIAMOND_DRILL:
-  name: '&bFuradeira de diamante'
   type:
   - '&7&oFerramenta'
 DIAMOND_DUST:
-  name: '&7Pó de diamante'
   type:
   - '&7&oRecurso'
 DIAMOND_PLATE:
-  name: '&7Placa de diamante'
   type:
   - '&7&oComponente'
 ELECTRIC_CHESTPLATE:
-  name: '&9Peitoral elétrico'
   type:
   - '&7&oArmadura'
 ELECTRONIC_CIRCUIT:
-  name: '&7Circuito eletrônico'
   type:
   - '&7&oComponente'
 EMERALD_DUST:
-  name: '&7Pó de esmeralda'
   type:
   - '&7&oRecurso'
 ENERGIZED_SOLAR_HELMET:
-  name: '&7Capacete solar energizado'
   type:
   - '&7&oArmadura'
 FOOD_SYNTHESIZER:
-  name: '&dSintetizador de comida'
   type:
-  - '&7&oUtensílio'
+  - '&7&oAcessório'
 GENERATOR:
-  name: '&7Gerador'
   type:
   - '&7&oGerador'
 GLASS_CUTTER:
-  name: '&bCortador de vidro'
   type:
   - '&7&oFerramenta'
 GOLD_CABLE:
-  name: '&7Cabo de ouro'
   type:
   - '&7&oComponente'
 GOLD_ITEM_CASING:
-  name: '&7Revestimento de ouro'
   type:
   - '&7&oComponente'
 GOLD_PLATE:
-  name: '&7Placa de ouro'
   type:
   - '&7&oComponente'
 HYBRID_SOLAR_HELMET:
-  name: '&7Capacete solar híbrido'
   type:
   - '&7&oArmadura'
 HYBRID_SOLAR_PANEL:
-  name: '&b&lPainel solar híbrido'
   type:
   - '&7&oGerador'
 IRIDIUM:
-  name: '&fIrídio'
   type:
   - '&7&oRecurso'
 IRIDIUM_PLATE:
-  name: '&fPlaca de irídio'
   type:
   - '&7&oComponente'
 IRON_ITEM_CASING:
-  name: '&7Revestimento de ferro'
   type:
   - '&7&oComponente'
 IRON_PLATE:
-  name: '&7Placa de ferro'
   type:
   - '&7&oComponente'
 LAPIS_DUST:
-  name: '&7Pó de lápis-lazúli'
   type:
   - '&7&oRecurso'
 LAPOTRON_CRYSTAL:
-  name: '&7Cristal de Lapotron'
   type:
   - '&7&oComponente'
 MACERATOR:
-  name: '&7Macerador'
   type:
   - '&7&oMáquina'
 MACHINE_BLOCK:
-  name: '&7Bloco de máquina'
   type:
   - '&7&oComponente'
 MAG_THOR:
-  name: '&b&lMag-Thor'
   type:
   - '&7&oRecurso'
 MANUAL_MILL:
-  name: '&7Moinho manual'
   type:
   - '&7&oMultibloco'
 MASS_FABRICATOR_MACHINE:
-  name: '&5Fabricador de massa'
   type:
   - '&7&oMáquina'
 METAL_FORGE:
-  name: '&7Forja de metais'
   type:
   - '&7&oMultibloco'
 MINING_DRILL:
-  name: '&7Furadeira de mineração'
   type:
   - '&7&oFerramenta'
 MIXED_METAL_INGOT:
-  name: '&7Barra de metal misto'
   type:
   - '&7&oRecurso'
 MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
-  name: '&7MFE'
   type:
   - '&7&oMáquina'
 MULTI_FUNCTIONAL_STORAGE_UNIT:
-  name: '&7MFSU'
   type:
   - '&7&oMáquina'
 NANO_BLADE:
-  name: '&2Nano-lâmina &c(Desligada)'
   type:
   - '&7&oArma'
 POWER_UNIT:
-  name: '&7Unidade de energia'
   type:
   - '&7&oComponente'
 QUARTZ_DUST:
-  name: '&7Pó de quartzo'
   type:
   - '&7&oRecurso'
 RAW_CARBON_FIBRE:
-  name: '&7Fibra de carbono bruta'
   type:
   - '&7&oRecurso'
 RAW_CARBON_MESH:
-  name: '&7Malha de carbono bruta'
   type:
   - '&7&oRecurso'
 REDSTONE_DUST:
-  name: '&7Pó de redstone'
   type:
   - '&7&oRecurso'
 REFINED_IRON:
-  name: '&7Ferro refinado'
   type:
   - '&7&oRecurso'
 REFINED_SMELTERY:
-  name: '&7Fundição refinada'
   type:
   - '&7&oMultibloco'
 REINFORCED_DOOR:
-  name: '&7Porta reforçada'
   type:
   - '&7&oComponente'
 REINFORCED_GLASS:
-  name: '&7Vidro reforçado'
   type:
   - '&7&oComponente'
 REINFORCED_STONE:
-  name: '&7Pedra reforçada'
   type:
   - '&7&oComponente'
 RE_BATTERY:
-  name: '&7Bateria RE'
   type:
   - '&7&oComponente'
 RUBBER:
-  name: '&7Borracha'
   type:
   - '&7&oRecurso'
 RUBBER_SYNTHESIZER:
-  name: '&6Sintetizador de borracha'
   type:
   - '&7&oMáquina'
 SCRAP:
-  name: '&8Sucata'
   type:
   - '&7&oRecurso'
 SCRAP_MACHINE:
-  name: '&8Reciclador'
   type:
   - '&7&oMáquina'
 THORIUM:
-  name: '&8Tório'
   type:
   - '&7&oRecurso'
 THORIUM_DUST:
-  name: '&8Pó de tório'
   type:
   - '&7&oRecurso'
 THORIUM_PLATE:
-  name: '&7Placa de tório'
   type:
   - '&7&oComponente'
 TIN_CABLE:
-  name: '&7Cabo de estanho'
   type:
   - '&7&oComponente'
 TIN_ITEM_CASING:
-  name: '&7Revestimento de estanho'
   type:
   - '&7&oComponente'
 TIN_PLATE:
-  name: '&7Placa de estanho'
   type:
   - '&7&oComponente'
 TREETAP:
-  name: '&7Torneira de árvore'
   type:
   - '&7&oFerramenta'
 ULTIMATE_SOLAR_HELMET:
-  name: '&7Capacete solar definitivo'
   type:
   - '&7&oArmadura'
 ULTIMATE_SOLAR_PANEL:
-  name: '&5&lPainel solar definitivo'
   type:
   - '&7&oGerador'
 UNINSULATED_COPPER_CABLE:
-  name: '&7Cabo de cobre não isolado'
   type:
   - '&7&oComponente'
 UNINSULATED_GOLD_CABLE:
-  name: '&7Cabo de ouro não isolado'
   type:
   - '&7&oComponente'
 UNINSULATED_TIN_CABLE:
-  name: '&7Cabo de estanho não isolado'
   type:
   - '&7&oComponente'
 UU_CRAFTER:
-  name: '&7Fabricador UU'
   type:
   - '&7&oMáquina'
 UU_MATTER:
-  name: '&5UU-Matter'
   type:
   - '&7&oRecurso'

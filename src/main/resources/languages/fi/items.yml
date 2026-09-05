@@ -1,0 +1,228 @@
+ADVANCEDLX_SOLAR_HELMET:
+  type:
+  - '&7&oPanssari'
+ADVANCED_ALLOY:
+  type:
+  - '&7&oKomponentti'
+ADVANCED_CIRCUIT:
+  type:
+  - '&7&oKomponentti'
+ADVANCED_MACHINE_BLOCK:
+  type:
+  - '&7&oKomponentti'
+ADVANCED_SOLAR_HELMET:
+  type:
+  - '&7&oPanssari'
+ADVANCED_SOLAR_PANEL:
+  type:
+  - '&7&oGeneraattori'
+ANCIENT_DEBRIS_DUST:
+  type:
+  - '&7&oResurssi'
+CARBONADO_SOLAR_HELMET:
+  type:
+  - '&7&oPanssari'
+CARBON_PLATE:
+  type:
+  - '&7&oKomponentti'
+CARGO_CONFIGURATOR:
+  type:
+  - '&7&oTyökalu'
+COAL_DUST:
+  type:
+  - '&7&oResurssi'
+CONVER:
+  type:
+  - '&7&oKone'
+COPPER_CABLE:
+  type:
+  - '&7&oKomponentti'
+COPPER_ITEM_CASING:
+  type:
+  - '&7&oKomponentti'
+COPPER_PLATE:
+  type:
+  - '&7&oKomponentti'
+DIAMOND_DRILL:
+  type:
+  - '&7&oTyökalu'
+DIAMOND_DUST:
+  type:
+  - '&7&oResurssi'
+DIAMOND_PLATE:
+  type:
+  - '&7&oKomponentti'
+ELECTRIC_CHESTPLATE:
+  type:
+  - '&7&oPanssari'
+ELECTRONIC_CIRCUIT:
+  type:
+  - '&7&oKomponentti'
+EMERALD_DUST:
+  type:
+  - '&7&oResurssi'
+ENERGIZED_SOLAR_HELMET:
+  type:
+  - '&7&oPanssari'
+FOOD_SYNTHESIZER:
+  type:
+  - '&7&oGadgetti'
+GENERATOR:
+  type:
+  - '&7&oGeneraattori'
+GLASS_CUTTER:
+  type:
+  - '&7&oTyökalu'
+GOLD_CABLE:
+  type:
+  - '&7&oKomponentti'
+GOLD_ITEM_CASING:
+  type:
+  - '&7&oKomponentti'
+GOLD_PLATE:
+  type:
+  - '&7&oKomponentti'
+HYBRID_SOLAR_HELMET:
+  type:
+  - '&7&oPanssari'
+HYBRID_SOLAR_PANEL:
+  type:
+  - '&7&oGeneraattori'
+IRIDIUM:
+  type:
+  - '&7&oResurssi'
+IRIDIUM_PLATE:
+  type:
+  - '&7&oKomponentti'
+IRON_ITEM_CASING:
+  type:
+  - '&7&oKomponentti'
+IRON_PLATE:
+  type:
+  - '&7&oKomponentti'
+LAPIS_DUST:
+  type:
+  - '&7&oResurssi'
+LAPOTRON_CRYSTAL:
+  type:
+  - '&7&oKomponentti'
+MACERATOR:
+  type:
+  - '&7&oKone'
+MACHINE_BLOCK:
+  type:
+  - '&7&oKomponentti'
+MAG_THOR:
+  type:
+  - '&7&oResurssi'
+MANUAL_MILL:
+  type:
+  - '&7&oMultiblokki'
+MASS_FABRICATOR_MACHINE:
+  type:
+  - '&7&oKone'
+METAL_FORGE:
+  type:
+  - '&7&oMultiblokki'
+MINING_DRILL:
+  type:
+  - '&7&oTyökalu'
+MIXED_METAL_INGOT:
+  type:
+  - '&7&oResurssi'
+MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  type:
+  - '&7&oKone'
+MULTI_FUNCTIONAL_STORAGE_UNIT:
+  type:
+  - '&7&oKone'
+NANO_BLADE:
+  type:
+  - '&7&oAse'
+POWER_UNIT:
+  type:
+  - '&7&oKomponentti'
+QUARTZ_DUST:
+  type:
+  - '&7&oResurssi'
+RAW_CARBON_FIBRE:
+  type:
+  - '&7&oResurssi'
+RAW_CARBON_MESH:
+  type:
+  - '&7&oResurssi'
+REDSTONE_DUST:
+  type:
+  - '&7&oResurssi'
+REFINED_IRON:
+  type:
+  - '&7&oResurssi'
+REFINED_SMELTERY:
+  type:
+  - '&7&oMultiblokki'
+REINFORCED_DOOR:
+  type:
+  - '&7&oKomponentti'
+REINFORCED_GLASS:
+  type:
+  - '&7&oKomponentti'
+REINFORCED_STONE:
+  type:
+  - '&7&oKomponentti'
+RE_BATTERY:
+  type:
+  - '&7&oKomponentti'
+RUBBER:
+  type:
+  - '&7&oResurssi'
+RUBBER_SYNTHESIZER:
+  type:
+  - '&7&oKone'
+SCRAP:
+  type:
+  - '&7&oResurssi'
+SCRAP_MACHINE:
+  type:
+  - '&7&oKone'
+THORIUM:
+  type:
+  - '&7&oResurssi'
+THORIUM_DUST:
+  type:
+  - '&7&oResurssi'
+THORIUM_PLATE:
+  type:
+  - '&7&oKomponentti'
+TIN_CABLE:
+  type:
+  - '&7&oKomponentti'
+TIN_ITEM_CASING:
+  type:
+  - '&7&oKomponentti'
+TIN_PLATE:
+  type:
+  - '&7&oKomponentti'
+TREETAP:
+  type:
+  - '&7&oTyökalu'
+ULTIMATE_SOLAR_HELMET:
+  type:
+  - '&7&oPanssari'
+ULTIMATE_SOLAR_PANEL:
+  type:
+  - '&7&oGeneraattori'
+UNINSULATED_COPPER_CABLE:
+  type:
+  - '&7&oKomponentti'
+UNINSULATED_GOLD_CABLE:
+  type:
+  - '&7&oKomponentti'
+UNINSULATED_TIN_CABLE:
+  type:
+  - '&7&oKomponentti'
+UU_CRAFTER:
+  type:
+  - '&7&oKone'
+UU_MATTER:
+  type:
+  - '&7&oResurssi'

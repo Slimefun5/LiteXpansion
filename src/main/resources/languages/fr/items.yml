@@ -1,153 +1,304 @@
-# French item translations for LiteXpansion. Keyed by Slimefun item id.
-ELECTRIC_CHESTPLATE:
-  name: "&9Plastron électrique"
-NANO_BLADE:
-  name: "&2Nano-lame &c(Éteinte)"
-GLASS_CUTTER:
-  name: "&bCoupe-verre"
-MINING_DRILL:
-  name: "&7Foreuse minière"
-DIAMOND_DRILL:
-  name: "&bForeuse en diamant"
-TREETAP:
-  name: "&7Robinet à sève"
-CARGO_CONFIGURATOR:
-  name: "&7Configurateur de cargaison"
-TIN_PLATE:
-  name: "&7Plaque d'étain"
-TIN_ITEM_CASING:
-  name: "&7Boîtier en étain"
-UNINSULATED_TIN_CABLE:
-  name: "&7Câble d'étain non isolé"
-TIN_CABLE:
-  name: "&7Câble d'étain"
-COPPER_PLATE:
-  name: "&7Plaque de cuivre"
-COPPER_ITEM_CASING:
-  name: "&7Boîtier en cuivre"
-MAG_THOR:
-  name: "&b&lMag-Thor"
-THORIUM:
-  name: "&8Thorium"
-SCRAP:
-  name: "&8Ferraille"
-UU_MATTER:
-  name: "&5UU-Matter"
-IRIDIUM:
-  name: "&fIridium"
-IRIDIUM_PLATE:
-  name: "&fPlaque d'iridium"
-THORIUM_DUST:
-  name: "&8Poudre de thorium"
-REFINED_IRON:
-  name: "&7Fer raffiné"
-MACHINE_BLOCK:
-  name: "&7Bloc de machine"
-UNINSULATED_COPPER_CABLE:
-  name: "&7Câble de cuivre non isolé"
-COPPER_CABLE:
-  name: "&7Câble de cuivre"
-RUBBER:
-  name: "&7Caoutchouc"
-ELECTRONIC_CIRCUIT:
-  name: "&7Circuit électronique"
-ADVANCED_CIRCUIT:
-  name: "&7Circuit avancé"
-COAL_DUST:
-  name: "&7Poudre de charbon"
-RAW_CARBON_FIBRE:
-  name: "&7Fibre de carbone brute"
-RAW_CARBON_MESH:
-  name: "&7Maille de carbone brute"
-CARBON_PLATE:
-  name: "&7Plaque de carbone"
-ADVANCED_ALLOY:
-  name: "&7Alliage avancé"
-ADVANCED_MACHINE_BLOCK:
-  name: "&7Bloc de machine avancé"
-LAPOTRON_CRYSTAL:
-  name: "&7Cristal de Lapotron"
-REINFORCED_STONE:
-  name: "&7Pierre renforcée"
-REINFORCED_DOOR:
-  name: "&7Porte renforcée"
-REINFORCED_GLASS:
-  name: "&7Verre renforcé"
-MIXED_METAL_INGOT:
-  name: "&7Lingot de métal mixte"
-SCRAP_MACHINE:
-  name: "&8Recycleur"
-MASS_FABRICATOR_MACHINE:
-  name: "&5Fabricateur de masse"
-RUBBER_SYNTHESIZER:
-  name: "&6Synthétiseur de caoutchouc"
-MACERATOR:
-  name: "&7Macérateur"
-ADVANCED_SOLAR_PANEL:
-  name: "&7&lPanneau solaire avancé"
-HYBRID_SOLAR_PANEL:
-  name: "&b&lPanneau solaire hybride"
-ULTIMATE_SOLAR_PANEL:
-  name: "&5&lPanneau solaire ultime"
-MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
-  name: "&7MFE"
-MULTI_FUNCTIONAL_STORAGE_UNIT:
-  name: "&7MFSU"
-GOLD_PLATE:
-  name: "&7Plaque d'or"
-GOLD_ITEM_CASING:
-  name: "&7Boîtier en or"
-UNINSULATED_GOLD_CABLE:
-  name: "&7Câble d'or non isolé"
-GOLD_CABLE:
-  name: "&7Câble d'or"
-REFINED_SMELTERY:
-  name: "&7Fonderie raffinée"
-METAL_FORGE:
-  name: "&7Forge à métaux"
-MANUAL_MILL:
-  name: "&7Moulin manuel"
-GENERATOR:
-  name: "&7Générateur"
-RE_BATTERY:
-  name: "&7Batterie RE"
-ADVANCED_SOLAR_HELMET:
-  name: "&7Casque solaire avancé"
-CARBONADO_SOLAR_HELMET:
-  name: "&7Casque solaire en carbonado"
-ENERGIZED_SOLAR_HELMET:
-  name: "&7Casque solaire énergisé"
 ADVANCEDLX_SOLAR_HELMET:
-  name: "&7Casque solaire super avancé"
-HYBRID_SOLAR_HELMET:
-  name: "&7Casque solaire hybride"
-ULTIMATE_SOLAR_HELMET:
-  name: "&7Casque solaire ultime"
-FOOD_SYNTHESIZER:
-  name: "&dSynthétiseur de nourriture"
-IRON_PLATE:
-  name: "&7Plaque de fer"
-DIAMOND_PLATE:
-  name: "&7Plaque de diamant"
-THORIUM_PLATE:
-  name: "&7Plaque de thorium"
-POWER_UNIT:
-  name: "&7Unité d'énergie"
-IRON_ITEM_CASING:
-  name: "&7Boîtier en fer"
-LAPIS_DUST:
-  name: "&7Poudre de lapis"
-REDSTONE_DUST:
-  name: "&7Poudre de redstone"
-DIAMOND_DUST:
-  name: "&7Poudre de diamant"
-EMERALD_DUST:
-  name: "&7Poudre d'émeraude"
-QUARTZ_DUST:
-  name: "&7Poudre de quartz"
+  name: '&7Casque solaire super avancé'
+  type:
+  - '&7&oArmure'
+ADVANCED_ALLOY:
+  name: '&7Alliage avancé'
+  type:
+  - '&7&oComposant'
+ADVANCED_CIRCUIT:
+  name: '&7Circuit avancé'
+  type:
+  - '&7&oComposant'
+ADVANCED_MACHINE_BLOCK:
+  name: '&7Bloc de machine avancé'
+  type:
+  - '&7&oComposant'
+ADVANCED_SOLAR_HELMET:
+  name: '&7Casque solaire avancé'
+  type:
+  - '&7&oArmure'
+ADVANCED_SOLAR_PANEL:
+  name: '&7&lPanneau solaire avancé'
+  type:
+  - '&7&oGénérateur'
 ANCIENT_DEBRIS_DUST:
-  name: "&7Poudre de débris antiques"
-UU_CRAFTER:
-  name: "&7Fabricant UU"
+  name: '&7Poudre de débris antiques'
+  type:
+  - '&7&oRessource'
+CARBONADO_SOLAR_HELMET:
+  name: '&7Casque solaire en carbonado'
+  type:
+  - '&7&oArmure'
+CARBON_PLATE:
+  name: '&7Plaque de carbone'
+  type:
+  - '&7&oComposant'
+CARGO_CONFIGURATOR:
+  name: '&7Configurateur de cargaison'
+  type:
+  - '&7&oOutil'
+COAL_DUST:
+  name: '&7Poudre de charbon'
+  type:
+  - '&7&oRessource'
 CONVER:
-  name: "&7Convertisseur"
+  name: '&7Convertisseur'
+  type:
+  - '&7&oMachine'
+COPPER_CABLE:
+  name: '&7Câble de cuivre'
+  type:
+  - '&7&oComposant'
+COPPER_ITEM_CASING:
+  name: '&7Boîtier en cuivre'
+  type:
+  - '&7&oComposant'
+COPPER_PLATE:
+  name: '&7Plaque de cuivre'
+  type:
+  - '&7&oComposant'
+DIAMOND_DRILL:
+  name: '&bForeuse en diamant'
+  type:
+  - '&7&oOutil'
+DIAMOND_DUST:
+  name: '&7Poudre de diamant'
+  type:
+  - '&7&oRessource'
+DIAMOND_PLATE:
+  name: '&7Plaque de diamant'
+  type:
+  - '&7&oComposant'
+ELECTRIC_CHESTPLATE:
+  name: '&9Plastron électrique'
+  type:
+  - '&7&oArmure'
+ELECTRONIC_CIRCUIT:
+  name: '&7Circuit électronique'
+  type:
+  - '&7&oComposant'
+EMERALD_DUST:
+  name: '&7Poudre d''émeraude'
+  type:
+  - '&7&oRessource'
+ENERGIZED_SOLAR_HELMET:
+  name: '&7Casque solaire énergisé'
+  type:
+  - '&7&oArmure'
+FOOD_SYNTHESIZER:
+  name: '&dSynthétiseur de nourriture'
+  type:
+  - '&7&oGadget'
+GENERATOR:
+  name: '&7Générateur'
+  type:
+  - '&7&oGénérateur'
+GLASS_CUTTER:
+  name: '&bCoupe-verre'
+  type:
+  - '&7&oOutil'
+GOLD_CABLE:
+  name: '&7Câble d''or'
+  type:
+  - '&7&oComposant'
+GOLD_ITEM_CASING:
+  name: '&7Boîtier en or'
+  type:
+  - '&7&oComposant'
+GOLD_PLATE:
+  name: '&7Plaque d''or'
+  type:
+  - '&7&oComposant'
+HYBRID_SOLAR_HELMET:
+  name: '&7Casque solaire hybride'
+  type:
+  - '&7&oArmure'
+HYBRID_SOLAR_PANEL:
+  name: '&b&lPanneau solaire hybride'
+  type:
+  - '&7&oGénérateur'
+IRIDIUM:
+  name: '&fIridium'
+  type:
+  - '&7&oRessource'
+IRIDIUM_PLATE:
+  name: '&fPlaque d''iridium'
+  type:
+  - '&7&oComposant'
+IRON_ITEM_CASING:
+  name: '&7Boîtier en fer'
+  type:
+  - '&7&oComposant'
+IRON_PLATE:
+  name: '&7Plaque de fer'
+  type:
+  - '&7&oComposant'
+LAPIS_DUST:
+  name: '&7Poudre de lapis'
+  type:
+  - '&7&oRessource'
+LAPOTRON_CRYSTAL:
+  name: '&7Cristal de Lapotron'
+  type:
+  - '&7&oComposant'
+MACERATOR:
+  name: '&7Macérateur'
+  type:
+  - '&7&oMachine'
+MACHINE_BLOCK:
+  name: '&7Bloc de machine'
+  type:
+  - '&7&oComposant'
+MAG_THOR:
+  name: '&b&lMag-Thor'
+  type:
+  - '&7&oRessource'
+MANUAL_MILL:
+  name: '&7Moulin manuel'
+  type:
+  - '&7&oMultibloc'
+MASS_FABRICATOR_MACHINE:
+  name: '&5Fabricateur de masse'
+  type:
+  - '&7&oMachine'
+METAL_FORGE:
+  name: '&7Forge à métaux'
+  type:
+  - '&7&oMultibloc'
+MINING_DRILL:
+  name: '&7Foreuse minière'
+  type:
+  - '&7&oOutil'
+MIXED_METAL_INGOT:
+  name: '&7Lingot de métal mixte'
+  type:
+  - '&7&oRessource'
+MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  name: '&7MFE'
+  type:
+  - '&7&oMachine'
+MULTI_FUNCTIONAL_STORAGE_UNIT:
+  name: '&7MFSU'
+  type:
+  - '&7&oMachine'
+NANO_BLADE:
+  name: '&2Nano-lame &c(Éteinte)'
+  type:
+  - '&7&oArme'
+POWER_UNIT:
+  name: '&7Unité d''énergie'
+  type:
+  - '&7&oComposant'
+QUARTZ_DUST:
+  name: '&7Poudre de quartz'
+  type:
+  - '&7&oRessource'
+RAW_CARBON_FIBRE:
+  name: '&7Fibre de carbone brute'
+  type:
+  - '&7&oRessource'
+RAW_CARBON_MESH:
+  name: '&7Maille de carbone brute'
+  type:
+  - '&7&oRessource'
+REDSTONE_DUST:
+  name: '&7Poudre de redstone'
+  type:
+  - '&7&oRessource'
+REFINED_IRON:
+  name: '&7Fer raffiné'
+  type:
+  - '&7&oRessource'
+REFINED_SMELTERY:
+  name: '&7Fonderie raffinée'
+  type:
+  - '&7&oMultibloc'
+REINFORCED_DOOR:
+  name: '&7Porte renforcée'
+  type:
+  - '&7&oComposant'
+REINFORCED_GLASS:
+  name: '&7Verre renforcé'
+  type:
+  - '&7&oComposant'
+REINFORCED_STONE:
+  name: '&7Pierre renforcée'
+  type:
+  - '&7&oComposant'
+RE_BATTERY:
+  name: '&7Batterie RE'
+  type:
+  - '&7&oComposant'
+RUBBER:
+  name: '&7Caoutchouc'
+  type:
+  - '&7&oRessource'
+RUBBER_SYNTHESIZER:
+  name: '&6Synthétiseur de caoutchouc'
+  type:
+  - '&7&oMachine'
+SCRAP:
+  name: '&8Ferraille'
+  type:
+  - '&7&oRessource'
+SCRAP_MACHINE:
+  name: '&8Recycleur'
+  type:
+  - '&7&oMachine'
+THORIUM:
+  name: '&8Thorium'
+  type:
+  - '&7&oRessource'
+THORIUM_DUST:
+  name: '&8Poudre de thorium'
+  type:
+  - '&7&oRessource'
+THORIUM_PLATE:
+  name: '&7Plaque de thorium'
+  type:
+  - '&7&oComposant'
+TIN_CABLE:
+  name: '&7Câble d''étain'
+  type:
+  - '&7&oComposant'
+TIN_ITEM_CASING:
+  name: '&7Boîtier en étain'
+  type:
+  - '&7&oComposant'
+TIN_PLATE:
+  name: '&7Plaque d''étain'
+  type:
+  - '&7&oComposant'
+TREETAP:
+  name: '&7Robinet à sève'
+  type:
+  - '&7&oOutil'
+ULTIMATE_SOLAR_HELMET:
+  name: '&7Casque solaire ultime'
+  type:
+  - '&7&oArmure'
+ULTIMATE_SOLAR_PANEL:
+  name: '&5&lPanneau solaire ultime'
+  type:
+  - '&7&oGénérateur'
+UNINSULATED_COPPER_CABLE:
+  name: '&7Câble de cuivre non isolé'
+  type:
+  - '&7&oComposant'
+UNINSULATED_GOLD_CABLE:
+  name: '&7Câble d''or non isolé'
+  type:
+  - '&7&oComposant'
+UNINSULATED_TIN_CABLE:
+  name: '&7Câble d''étain non isolé'
+  type:
+  - '&7&oComposant'
+UU_CRAFTER:
+  name: '&7Fabricant UU'
+  type:
+  - '&7&oMachine'
+UU_MATTER:
+  name: '&5UU-Matter'
+  type:
+  - '&7&oRessource'

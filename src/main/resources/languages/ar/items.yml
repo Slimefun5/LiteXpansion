@@ -1,0 +1,228 @@
+ADVANCEDLX_SOLAR_HELMET:
+  type:
+  - '&7&oدرع'
+ADVANCED_ALLOY:
+  type:
+  - '&7&oمكون'
+ADVANCED_CIRCUIT:
+  type:
+  - '&7&oمكون'
+ADVANCED_MACHINE_BLOCK:
+  type:
+  - '&7&oمكون'
+ADVANCED_SOLAR_HELMET:
+  type:
+  - '&7&oدرع'
+ADVANCED_SOLAR_PANEL:
+  type:
+  - '&7&oمولد'
+ANCIENT_DEBRIS_DUST:
+  type:
+  - '&7&oمورد'
+CARBONADO_SOLAR_HELMET:
+  type:
+  - '&7&oدرع'
+CARBON_PLATE:
+  type:
+  - '&7&oمكون'
+CARGO_CONFIGURATOR:
+  type:
+  - '&7&oأداة'
+COAL_DUST:
+  type:
+  - '&7&oمورد'
+CONVER:
+  type:
+  - '&7&oآلة'
+COPPER_CABLE:
+  type:
+  - '&7&oمكون'
+COPPER_ITEM_CASING:
+  type:
+  - '&7&oمكون'
+COPPER_PLATE:
+  type:
+  - '&7&oمكون'
+DIAMOND_DRILL:
+  type:
+  - '&7&oأداة'
+DIAMOND_DUST:
+  type:
+  - '&7&oمورد'
+DIAMOND_PLATE:
+  type:
+  - '&7&oمكون'
+ELECTRIC_CHESTPLATE:
+  type:
+  - '&7&oدرع'
+ELECTRONIC_CIRCUIT:
+  type:
+  - '&7&oمكون'
+EMERALD_DUST:
+  type:
+  - '&7&oمورد'
+ENERGIZED_SOLAR_HELMET:
+  type:
+  - '&7&oدرع'
+FOOD_SYNTHESIZER:
+  type:
+  - '&7&oجهاز'
+GENERATOR:
+  type:
+  - '&7&oمولد'
+GLASS_CUTTER:
+  type:
+  - '&7&oأداة'
+GOLD_CABLE:
+  type:
+  - '&7&oمكون'
+GOLD_ITEM_CASING:
+  type:
+  - '&7&oمكون'
+GOLD_PLATE:
+  type:
+  - '&7&oمكون'
+HYBRID_SOLAR_HELMET:
+  type:
+  - '&7&oدرع'
+HYBRID_SOLAR_PANEL:
+  type:
+  - '&7&oمولد'
+IRIDIUM:
+  type:
+  - '&7&oمورد'
+IRIDIUM_PLATE:
+  type:
+  - '&7&oمكون'
+IRON_ITEM_CASING:
+  type:
+  - '&7&oمكون'
+IRON_PLATE:
+  type:
+  - '&7&oمكون'
+LAPIS_DUST:
+  type:
+  - '&7&oمورد'
+LAPOTRON_CRYSTAL:
+  type:
+  - '&7&oمكون'
+MACERATOR:
+  type:
+  - '&7&oآلة'
+MACHINE_BLOCK:
+  type:
+  - '&7&oمكون'
+MAG_THOR:
+  type:
+  - '&7&oمورد'
+MANUAL_MILL:
+  type:
+  - '&7&oبنية مركبة'
+MASS_FABRICATOR_MACHINE:
+  type:
+  - '&7&oآلة'
+METAL_FORGE:
+  type:
+  - '&7&oبنية مركبة'
+MINING_DRILL:
+  type:
+  - '&7&oأداة'
+MIXED_METAL_INGOT:
+  type:
+  - '&7&oمورد'
+MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  type:
+  - '&7&oآلة'
+MULTI_FUNCTIONAL_STORAGE_UNIT:
+  type:
+  - '&7&oآلة'
+NANO_BLADE:
+  type:
+  - '&7&oسلاح'
+POWER_UNIT:
+  type:
+  - '&7&oمكون'
+QUARTZ_DUST:
+  type:
+  - '&7&oمورد'
+RAW_CARBON_FIBRE:
+  type:
+  - '&7&oمورد'
+RAW_CARBON_MESH:
+  type:
+  - '&7&oمورد'
+REDSTONE_DUST:
+  type:
+  - '&7&oمورد'
+REFINED_IRON:
+  type:
+  - '&7&oمورد'
+REFINED_SMELTERY:
+  type:
+  - '&7&oبنية مركبة'
+REINFORCED_DOOR:
+  type:
+  - '&7&oمكون'
+REINFORCED_GLASS:
+  type:
+  - '&7&oمكون'
+REINFORCED_STONE:
+  type:
+  - '&7&oمكون'
+RE_BATTERY:
+  type:
+  - '&7&oمكون'
+RUBBER:
+  type:
+  - '&7&oمورد'
+RUBBER_SYNTHESIZER:
+  type:
+  - '&7&oآلة'
+SCRAP:
+  type:
+  - '&7&oمورد'
+SCRAP_MACHINE:
+  type:
+  - '&7&oآلة'
+THORIUM:
+  type:
+  - '&7&oمورد'
+THORIUM_DUST:
+  type:
+  - '&7&oمورد'
+THORIUM_PLATE:
+  type:
+  - '&7&oمكون'
+TIN_CABLE:
+  type:
+  - '&7&oمكون'
+TIN_ITEM_CASING:
+  type:
+  - '&7&oمكون'
+TIN_PLATE:
+  type:
+  - '&7&oمكون'
+TREETAP:
+  type:
+  - '&7&oأداة'
+ULTIMATE_SOLAR_HELMET:
+  type:
+  - '&7&oدرع'
+ULTIMATE_SOLAR_PANEL:
+  type:
+  - '&7&oمولد'
+UNINSULATED_COPPER_CABLE:
+  type:
+  - '&7&oمكون'
+UNINSULATED_GOLD_CABLE:
+  type:
+  - '&7&oمكون'
+UNINSULATED_TIN_CABLE:
+  type:
+  - '&7&oمكون'
+UU_CRAFTER:
+  type:
+  - '&7&oآلة'
+UU_MATTER:
+  type:
+  - '&7&oمورد'

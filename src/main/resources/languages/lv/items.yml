@@ -1,0 +1,228 @@
+ADVANCEDLX_SOLAR_HELMET:
+  type:
+  - '&7&oBruņas'
+ADVANCED_ALLOY:
+  type:
+  - '&7&oSastāvdaļa'
+ADVANCED_CIRCUIT:
+  type:
+  - '&7&oSastāvdaļa'
+ADVANCED_MACHINE_BLOCK:
+  type:
+  - '&7&oSastāvdaļa'
+ADVANCED_SOLAR_HELMET:
+  type:
+  - '&7&oBruņas'
+ADVANCED_SOLAR_PANEL:
+  type:
+  - '&7&oĢenerators'
+ANCIENT_DEBRIS_DUST:
+  type:
+  - '&7&oResurss'
+CARBONADO_SOLAR_HELMET:
+  type:
+  - '&7&oBruņas'
+CARBON_PLATE:
+  type:
+  - '&7&oSastāvdaļa'
+CARGO_CONFIGURATOR:
+  type:
+  - '&7&oRīks'
+COAL_DUST:
+  type:
+  - '&7&oResurss'
+CONVER:
+  type:
+  - '&7&oMašīna'
+COPPER_CABLE:
+  type:
+  - '&7&oSastāvdaļa'
+COPPER_ITEM_CASING:
+  type:
+  - '&7&oSastāvdaļa'
+COPPER_PLATE:
+  type:
+  - '&7&oSastāvdaļa'
+DIAMOND_DRILL:
+  type:
+  - '&7&oRīks'
+DIAMOND_DUST:
+  type:
+  - '&7&oResurss'
+DIAMOND_PLATE:
+  type:
+  - '&7&oSastāvdaļa'
+ELECTRIC_CHESTPLATE:
+  type:
+  - '&7&oBruņas'
+ELECTRONIC_CIRCUIT:
+  type:
+  - '&7&oSastāvdaļa'
+EMERALD_DUST:
+  type:
+  - '&7&oResurss'
+ENERGIZED_SOLAR_HELMET:
+  type:
+  - '&7&oBruņas'
+FOOD_SYNTHESIZER:
+  type:
+  - '&7&oIerīce'
+GENERATOR:
+  type:
+  - '&7&oĢenerators'
+GLASS_CUTTER:
+  type:
+  - '&7&oRīks'
+GOLD_CABLE:
+  type:
+  - '&7&oSastāvdaļa'
+GOLD_ITEM_CASING:
+  type:
+  - '&7&oSastāvdaļa'
+GOLD_PLATE:
+  type:
+  - '&7&oSastāvdaļa'
+HYBRID_SOLAR_HELMET:
+  type:
+  - '&7&oBruņas'
+HYBRID_SOLAR_PANEL:
+  type:
+  - '&7&oĢenerators'
+IRIDIUM:
+  type:
+  - '&7&oResurss'
+IRIDIUM_PLATE:
+  type:
+  - '&7&oSastāvdaļa'
+IRON_ITEM_CASING:
+  type:
+  - '&7&oSastāvdaļa'
+IRON_PLATE:
+  type:
+  - '&7&oSastāvdaļa'
+LAPIS_DUST:
+  type:
+  - '&7&oResurss'
+LAPOTRON_CRYSTAL:
+  type:
+  - '&7&oSastāvdaļa'
+MACERATOR:
+  type:
+  - '&7&oMašīna'
+MACHINE_BLOCK:
+  type:
+  - '&7&oSastāvdaļa'
+MAG_THOR:
+  type:
+  - '&7&oResurss'
+MANUAL_MILL:
+  type:
+  - '&7&oDaudzbloks'
+MASS_FABRICATOR_MACHINE:
+  type:
+  - '&7&oMašīna'
+METAL_FORGE:
+  type:
+  - '&7&oDaudzbloks'
+MINING_DRILL:
+  type:
+  - '&7&oRīks'
+MIXED_METAL_INGOT:
+  type:
+  - '&7&oResurss'
+MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  type:
+  - '&7&oMašīna'
+MULTI_FUNCTIONAL_STORAGE_UNIT:
+  type:
+  - '&7&oMašīna'
+NANO_BLADE:
+  type:
+  - '&7&oIerocis'
+POWER_UNIT:
+  type:
+  - '&7&oSastāvdaļa'
+QUARTZ_DUST:
+  type:
+  - '&7&oResurss'
+RAW_CARBON_FIBRE:
+  type:
+  - '&7&oResurss'
+RAW_CARBON_MESH:
+  type:
+  - '&7&oResurss'
+REDSTONE_DUST:
+  type:
+  - '&7&oResurss'
+REFINED_IRON:
+  type:
+  - '&7&oResurss'
+REFINED_SMELTERY:
+  type:
+  - '&7&oDaudzbloks'
+REINFORCED_DOOR:
+  type:
+  - '&7&oSastāvdaļa'
+REINFORCED_GLASS:
+  type:
+  - '&7&oSastāvdaļa'
+REINFORCED_STONE:
+  type:
+  - '&7&oSastāvdaļa'
+RE_BATTERY:
+  type:
+  - '&7&oSastāvdaļa'
+RUBBER:
+  type:
+  - '&7&oResurss'
+RUBBER_SYNTHESIZER:
+  type:
+  - '&7&oMašīna'
+SCRAP:
+  type:
+  - '&7&oResurss'
+SCRAP_MACHINE:
+  type:
+  - '&7&oMašīna'
+THORIUM:
+  type:
+  - '&7&oResurss'
+THORIUM_DUST:
+  type:
+  - '&7&oResurss'
+THORIUM_PLATE:
+  type:
+  - '&7&oSastāvdaļa'
+TIN_CABLE:
+  type:
+  - '&7&oSastāvdaļa'
+TIN_ITEM_CASING:
+  type:
+  - '&7&oSastāvdaļa'
+TIN_PLATE:
+  type:
+  - '&7&oSastāvdaļa'
+TREETAP:
+  type:
+  - '&7&oRīks'
+ULTIMATE_SOLAR_HELMET:
+  type:
+  - '&7&oBruņas'
+ULTIMATE_SOLAR_PANEL:
+  type:
+  - '&7&oĢenerators'
+UNINSULATED_COPPER_CABLE:
+  type:
+  - '&7&oSastāvdaļa'
+UNINSULATED_GOLD_CABLE:
+  type:
+  - '&7&oSastāvdaļa'
+UNINSULATED_TIN_CABLE:
+  type:
+  - '&7&oSastāvdaļa'
+UU_CRAFTER:
+  type:
+  - '&7&oMašīna'
+UU_MATTER:
+  type:
+  - '&7&oResurss'

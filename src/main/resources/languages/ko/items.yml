@@ -1,0 +1,228 @@
+ADVANCEDLX_SOLAR_HELMET:
+  type:
+  - '&7&o갑옷'
+ADVANCED_ALLOY:
+  type:
+  - '&7&o부품'
+ADVANCED_CIRCUIT:
+  type:
+  - '&7&o부품'
+ADVANCED_MACHINE_BLOCK:
+  type:
+  - '&7&o부품'
+ADVANCED_SOLAR_HELMET:
+  type:
+  - '&7&o갑옷'
+ADVANCED_SOLAR_PANEL:
+  type:
+  - '&7&o발전기'
+ANCIENT_DEBRIS_DUST:
+  type:
+  - '&7&o자원'
+CARBONADO_SOLAR_HELMET:
+  type:
+  - '&7&o갑옷'
+CARBON_PLATE:
+  type:
+  - '&7&o부품'
+CARGO_CONFIGURATOR:
+  type:
+  - '&7&o도구'
+COAL_DUST:
+  type:
+  - '&7&o자원'
+CONVER:
+  type:
+  - '&7&o기계'
+COPPER_CABLE:
+  type:
+  - '&7&o부품'
+COPPER_ITEM_CASING:
+  type:
+  - '&7&o부품'
+COPPER_PLATE:
+  type:
+  - '&7&o부품'
+DIAMOND_DRILL:
+  type:
+  - '&7&o도구'
+DIAMOND_DUST:
+  type:
+  - '&7&o자원'
+DIAMOND_PLATE:
+  type:
+  - '&7&o부품'
+ELECTRIC_CHESTPLATE:
+  type:
+  - '&7&o갑옷'
+ELECTRONIC_CIRCUIT:
+  type:
+  - '&7&o부품'
+EMERALD_DUST:
+  type:
+  - '&7&o자원'
+ENERGIZED_SOLAR_HELMET:
+  type:
+  - '&7&o갑옷'
+FOOD_SYNTHESIZER:
+  type:
+  - '&7&o장치'
+GENERATOR:
+  type:
+  - '&7&o발전기'
+GLASS_CUTTER:
+  type:
+  - '&7&o도구'
+GOLD_CABLE:
+  type:
+  - '&7&o부품'
+GOLD_ITEM_CASING:
+  type:
+  - '&7&o부품'
+GOLD_PLATE:
+  type:
+  - '&7&o부품'
+HYBRID_SOLAR_HELMET:
+  type:
+  - '&7&o갑옷'
+HYBRID_SOLAR_PANEL:
+  type:
+  - '&7&o발전기'
+IRIDIUM:
+  type:
+  - '&7&o자원'
+IRIDIUM_PLATE:
+  type:
+  - '&7&o부품'
+IRON_ITEM_CASING:
+  type:
+  - '&7&o부품'
+IRON_PLATE:
+  type:
+  - '&7&o부품'
+LAPIS_DUST:
+  type:
+  - '&7&o자원'
+LAPOTRON_CRYSTAL:
+  type:
+  - '&7&o부품'
+MACERATOR:
+  type:
+  - '&7&o기계'
+MACHINE_BLOCK:
+  type:
+  - '&7&o부품'
+MAG_THOR:
+  type:
+  - '&7&o자원'
+MANUAL_MILL:
+  type:
+  - '&7&o멀티블록'
+MASS_FABRICATOR_MACHINE:
+  type:
+  - '&7&o기계'
+METAL_FORGE:
+  type:
+  - '&7&o멀티블록'
+MINING_DRILL:
+  type:
+  - '&7&o도구'
+MIXED_METAL_INGOT:
+  type:
+  - '&7&o자원'
+MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  type:
+  - '&7&o기계'
+MULTI_FUNCTIONAL_STORAGE_UNIT:
+  type:
+  - '&7&o기계'
+NANO_BLADE:
+  type:
+  - '&7&o무기'
+POWER_UNIT:
+  type:
+  - '&7&o부품'
+QUARTZ_DUST:
+  type:
+  - '&7&o자원'
+RAW_CARBON_FIBRE:
+  type:
+  - '&7&o자원'
+RAW_CARBON_MESH:
+  type:
+  - '&7&o자원'
+REDSTONE_DUST:
+  type:
+  - '&7&o자원'
+REFINED_IRON:
+  type:
+  - '&7&o자원'
+REFINED_SMELTERY:
+  type:
+  - '&7&o멀티블록'
+REINFORCED_DOOR:
+  type:
+  - '&7&o부품'
+REINFORCED_GLASS:
+  type:
+  - '&7&o부품'
+REINFORCED_STONE:
+  type:
+  - '&7&o부품'
+RE_BATTERY:
+  type:
+  - '&7&o부품'
+RUBBER:
+  type:
+  - '&7&o자원'
+RUBBER_SYNTHESIZER:
+  type:
+  - '&7&o기계'
+SCRAP:
+  type:
+  - '&7&o자원'
+SCRAP_MACHINE:
+  type:
+  - '&7&o기계'
+THORIUM:
+  type:
+  - '&7&o자원'
+THORIUM_DUST:
+  type:
+  - '&7&o자원'
+THORIUM_PLATE:
+  type:
+  - '&7&o부품'
+TIN_CABLE:
+  type:
+  - '&7&o부품'
+TIN_ITEM_CASING:
+  type:
+  - '&7&o부품'
+TIN_PLATE:
+  type:
+  - '&7&o부품'
+TREETAP:
+  type:
+  - '&7&o도구'
+ULTIMATE_SOLAR_HELMET:
+  type:
+  - '&7&o갑옷'
+ULTIMATE_SOLAR_PANEL:
+  type:
+  - '&7&o발전기'
+UNINSULATED_COPPER_CABLE:
+  type:
+  - '&7&o부품'
+UNINSULATED_GOLD_CABLE:
+  type:
+  - '&7&o부품'
+UNINSULATED_TIN_CABLE:
+  type:
+  - '&7&o부품'
+UU_CRAFTER:
+  type:
+  - '&7&o기계'
+UU_MATTER:
+  type:
+  - '&7&o자원'
