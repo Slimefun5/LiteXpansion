@@ -248,8 +248,12 @@ SCRAP_MACHINE:
   - '&7&oMaschine'
 THORIUM:
   name: '&8Thorium'
+  stats:
+  - '&a☢&7 Strahlungslevel: &6HOCH'
   type:
   - '&7&oRohstoff'
+  usage:
+  - '&8⇨ &4Schutzanzug erforderlich!'
 THORIUM_DUST:
   name: '&8Thoriumstaub'
   type:

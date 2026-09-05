@@ -185,8 +185,12 @@ SCRAP_MACHINE:
   type:
   - '&7&oMašina'
 THORIUM:
+  stats:
+  - '&a☢&7 Radiacijos lygis: &6AUKŠTAS'
   type:
   - '&7&oIšteklius'
+  usage:
+  - '&8⇨ &4Reikalingas apsauginis kostiumas!'
 THORIUM_DUST:
   type:
   - '&7&oIšteklius'

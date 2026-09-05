@@ -185,8 +185,12 @@ SCRAP_MACHINE:
   type:
   - '&7&oماشین'
 THORIUM:
+  stats:
+  - '&a☢&7 سطح تشعشع: &6بالا'
   type:
   - '&7&oمنبع'
+  usage:
+  - '&8⇨ &4نیازمند لباس ضدتشعشع!'
 THORIUM_DUST:
   type:
   - '&7&oمنبع'

@@ -185,8 +185,12 @@ SCRAP_MACHINE:
   type:
   - '&7&oයන්ත්‍රය'
 THORIUM:
+  stats:
+  - '&a☢&7 විකිරණ මට්ටම: &6ඉහළ'
   type:
   - '&7&oසම්පත'
+  usage:
+  - '&8⇨ &4හස්මැට් ඇඳුම අවශ්‍යයි!'
 THORIUM_DUST:
   type:
   - '&7&oසම්පත'

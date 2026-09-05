@@ -185,8 +185,12 @@ SCRAP_MACHINE:
   type:
   - '&7&oGép'
 THORIUM:
+  stats:
+  - '&a☢&7 Sugárzási szint: &6MAGAS'
   type:
   - '&7&oNyersanyag'
+  usage:
+  - '&8⇨ &4Vegyvédelmi ruha szükséges!'
 THORIUM_DUST:
   type:
   - '&7&oNyersanyag'

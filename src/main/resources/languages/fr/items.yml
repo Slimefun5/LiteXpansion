@@ -248,8 +248,12 @@ SCRAP_MACHINE:
   - '&7&oMachine'
 THORIUM:
   name: '&8Thorium'
+  stats:
+  - '&a☢&7 Niveau de radiation : &6ÉLEVÉ'
   type:
   - '&7&oRessource'
+  usage:
+  - '&8⇨ &4Combinaison de protection requise !'
 THORIUM_DUST:
   name: '&8Poudre de thorium'
   type:

@@ -185,8 +185,12 @@ SCRAP_MACHINE:
   type:
   - '&7&oמכונה'
 THORIUM:
+  stats:
+  - '&a☢&7 רמת קרינה: &6גבוהה'
   type:
   - '&7&oמשאב'
+  usage:
+  - '&8⇨ &4חליפת מיגון נדרשת!'
 THORIUM_DUST:
   type:
   - '&7&oמשאב'

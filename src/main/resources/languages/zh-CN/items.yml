@@ -248,8 +248,12 @@ SCRAP_MACHINE:
   - '&7&o机器'
 THORIUM:
   name: '&8钍'
+  stats:
+  - '&a☢&7 辐射等级：&6高'
   type:
   - '&7&o资源'
+  usage:
+  - '&8⇨ &4需要防化服！'
 THORIUM_DUST:
   name: '&8钍粉'
   type:

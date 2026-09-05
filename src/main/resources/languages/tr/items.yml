@@ -185,8 +185,12 @@ SCRAP_MACHINE:
   type:
   - '&7&oMakine'
 THORIUM:
+  stats:
+  - '&a☢&7 Radyasyon seviyesi: &6YÜKSEK'
   type:
   - '&7&oKaynak'
+  usage:
+  - '&8⇨ &4Koruyucu Takım gerekli!'
 THORIUM_DUST:
   type:
   - '&7&oKaynak'

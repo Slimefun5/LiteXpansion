@@ -185,8 +185,12 @@ SCRAP_MACHINE:
   type:
   - '&7&oMaskin'
 THORIUM:
+  stats:
+  - '&a☢&7 Strålningsnivå: &6HÖG'
   type:
   - '&7&oRåmaterial'
+  usage:
+  - '&8⇨ &4Hazmat-Dräkt krävs!'
 THORIUM_DUST:
   type:
   - '&7&oRåmaterial'

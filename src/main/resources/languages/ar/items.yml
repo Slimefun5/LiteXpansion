@@ -185,8 +185,12 @@ SCRAP_MACHINE:
   type:
   - '&7&oآلة'
 THORIUM:
+  stats:
+  - '&a☢&7 مستوى الإشعاع: &6مرتفع'
   type:
   - '&7&oمورد'
+  usage:
+  - '&8⇨ &4بدلة الخطر مطلوبة!'
 THORIUM_DUST:
   type:
   - '&7&oمورد'

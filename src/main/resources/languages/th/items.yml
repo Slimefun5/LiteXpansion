@@ -185,8 +185,12 @@ SCRAP_MACHINE:
   type:
   - '&7&oเครื่องจักร'
 THORIUM:
+  stats:
+  - '&a☢&7 ระดับรังสี: &6สูง'
   type:
   - '&7&oทรัพยากร'
+  usage:
+  - '&8⇨ &4ต้องใช้ Hazmat Suit!'
 THORIUM_DUST:
   type:
   - '&7&oทรัพยากร'

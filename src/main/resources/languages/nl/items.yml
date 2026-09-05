@@ -248,8 +248,12 @@ SCRAP_MACHINE:
   - '&7&oMachine'
 THORIUM:
   name: '&8Thorium'
+  stats:
+  - '&a☢&7 Stralingsniveau: &6HOOG'
   type:
   - '&7&oGrondstof'
+  usage:
+  - '&8⇨ &4Hazmat-pak vereist!'
 THORIUM_DUST:
   name: '&8Thoriumstof'
   type:

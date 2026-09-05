@@ -185,8 +185,12 @@ SCRAP_MACHINE:
   type:
   - '&7&oStroj'
 THORIUM:
+  stats:
+  - '&a☢&7 Úroveň radiácie: &6VYSOKÁ'
   type:
   - '&7&oSurovina'
+  usage:
+  - '&8⇨ &4Vyžaduje sa hazmat oblek!'
 THORIUM_DUST:
   type:
   - '&7&oSurovina'

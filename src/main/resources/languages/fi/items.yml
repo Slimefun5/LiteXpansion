@@ -185,8 +185,12 @@ SCRAP_MACHINE:
   type:
   - '&7&oKone'
 THORIUM:
+  stats:
+  - '&a☢&7 Säteilytaso: &6KORKEA'
   type:
   - '&7&oResurssi'
+  usage:
+  - '&8⇨ &4Kemikaalisuoja-asu vaaditaan!'
 THORIUM_DUST:
   type:
   - '&7&oResurssi'

@@ -248,8 +248,12 @@ SCRAP_MACHINE:
   - '&7&oMaszyna'
 THORIUM:
   name: '&8Tor'
+  stats:
+  - '&a☢&7 Poziom promieniowania: &6WYSOKI'
   type:
   - '&7&oSurowiec'
+  usage:
+  - '&8⇨ &4Wymagany Kombinezon Materiałów Niebezpiecznych!'
 THORIUM_DUST:
   name: '&8Pył toru'
   type:

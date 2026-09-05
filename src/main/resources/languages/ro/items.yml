@@ -185,8 +185,12 @@ SCRAP_MACHINE:
   type:
   - '&7&oMașină'
 THORIUM:
+  stats:
+  - '&a☢&7 Nivel de radiație: &6RIDICAT'
   type:
   - '&7&oResursă'
+  usage:
+  - '&8⇨ &4Este necesar costumul de protecție!'
 THORIUM_DUST:
   type:
   - '&7&oResursă'

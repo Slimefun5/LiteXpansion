@@ -248,8 +248,12 @@ SCRAP_MACHINE:
   - '&7&oMáquina'
 THORIUM:
   name: '&8Tório'
+  stats:
+  - '&a☢&7 Nível de Radiação: &6ALTO'
   type:
   - '&7&oRecurso'
+  usage:
+  - '&8⇨ &4Traje de Proteção necessário!'
 THORIUM_DUST:
   name: '&8Pó de tório'
   type:

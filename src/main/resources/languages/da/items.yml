@@ -185,8 +185,12 @@ SCRAP_MACHINE:
   type:
   - '&7&oMaskine'
 THORIUM:
+  stats:
+  - '&a☢&7 Strålingsniveau: &6HØJT'
   type:
   - '&7&oRessource'
+  usage:
+  - '&8⇨ &4Kemikaliedragt påkrævet!'
 THORIUM_DUST:
   type:
   - '&7&oRessource'

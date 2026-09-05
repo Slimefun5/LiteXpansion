@@ -185,8 +185,12 @@ SCRAP_MACHINE:
   type:
   - '&7&oMesin'
 THORIUM:
+  stats:
+  - '&a☢&7 Tahap radiasi: &6TINGGI'
   type:
   - '&7&oSumber'
+  usage:
+  - '&8⇨ &4Sut Bahan Berbahaya diperlukan!'
 THORIUM_DUST:
   type:
   - '&7&oSumber'

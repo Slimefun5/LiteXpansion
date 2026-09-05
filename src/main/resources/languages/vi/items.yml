@@ -185,8 +185,12 @@ SCRAP_MACHINE:
   type:
   - '&7&oMáy Móc'
 THORIUM:
+  stats:
+  - '&a☢&7 Mức độ phóng xạ: &6CAO'
   type:
   - '&7&oTài Nguyên'
+  usage:
+  - '&8⇨ &4Cần Bộ Đồ Khử Nhiễm!'
 THORIUM_DUST:
   type:
   - '&7&oTài Nguyên'

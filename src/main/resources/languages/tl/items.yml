@@ -185,8 +185,12 @@ SCRAP_MACHINE:
   type:
   - '&7&oMakina'
 THORIUM:
+  stats:
+  - '&a☢&7 Antas ng radyasyon: &6MATAAS'
   type:
   - '&7&oRekurso'
+  usage:
+  - '&8⇨ &4Kailangan ng Hazmat Suit!'
 THORIUM_DUST:
   type:
   - '&7&oRekurso'

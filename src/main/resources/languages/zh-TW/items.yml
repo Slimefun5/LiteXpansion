@@ -185,8 +185,12 @@ SCRAP_MACHINE:
   type:
   - '&7&o機器'
 THORIUM:
+  stats:
+  - '&a☢&7 輻射等級：&6高'
   type:
   - '&7&o資源'
+  usage:
+  - '&8⇨ &4需要穿著抗輻射套裝！'
 THORIUM_DUST:
   type:
   - '&7&o資源'

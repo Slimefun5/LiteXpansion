@@ -185,8 +185,12 @@ SCRAP_MACHINE:
   type:
   - '&7&oMáquina'
 THORIUM:
+  stats:
+  - '&a☢&7 Nível de radiação: &6ALTO'
   type:
   - '&7&oRecurso'
+  usage:
+  - '&8⇨ &4Fato Hazmat necessário!'
 THORIUM_DUST:
   type:
   - '&7&oRecurso'

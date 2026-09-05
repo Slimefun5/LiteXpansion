@@ -185,8 +185,12 @@ SCRAP_MACHINE:
   type:
   - '&7&oMasjien'
 THORIUM:
+  stats:
+  - '&a☢&7 Stralingsvlak: &6HOOG'
   type:
   - '&7&oHulpbron'
+  usage:
+  - '&8⇨ &4Gevaarpak nodig!'
 THORIUM_DUST:
   type:
   - '&7&oHulpbron'

@@ -185,8 +185,12 @@ SCRAP_MACHINE:
   type:
   - '&7&oStroj'
 THORIUM:
+  stats:
+  - '&a☢&7 Razina zračenja: &6VISOKA'
   type:
   - '&7&oResurs'
+  usage:
+  - '&8⇨ &4Potrebno zaštitno odijelo!'
 THORIUM_DUST:
   type:
   - '&7&oResurs'
