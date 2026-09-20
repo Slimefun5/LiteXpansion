@@ -1,190 +1,429 @@
 ADVANCEDLX_SOLAR_HELMET:
+  description:
+  - '&eSaules ķivere.'
+  - '&7Nēsāta uz galvas, tā pasīvi ģenerē enerģiju'
+  - '&7dienas gaismā un uzlādē tavu citu ekipējumu.'
+  - '&7Augstāki līmeņi ražo un uzglabā daudz vairāk.'
+  name: '&7Super progresīva saules ķivere'
+  stats:
+  - '&8⇨ &e⚡ &750 J/t ģenerēšana'
   type:
   - '&7&oBruņas'
 ADVANCED_ALLOY:
+  name: '&7Progresīvs sakausējums'
   type:
   - '&7&oSastāvdaļa'
 ADVANCED_CIRCUIT:
+  name: '&7Progresīva shēma'
   type:
   - '&7&oSastāvdaļa'
 ADVANCED_MACHINE_BLOCK:
+  name: '&7Progresīvs mašīnas bloks'
   type:
   - '&7&oSastāvdaļa'
 ADVANCED_SOLAR_HELMET:
+  description:
+  - '&eSaules ķivere.'
+  - '&7Nēsāta uz galvas, tā pasīvi ģenerē enerģiju'
+  - '&7dienas gaismā un uzlādē tavu citu ekipējumu.'
+  name: '&7Progresīva saules ķivere'
+  stats:
+  - '&8⇨ &e⚡ &75 J/t ģenerēšana'
   type:
   - '&7&oBruņas'
 ADVANCED_SOLAR_PANEL:
+  description:
+  - '&7Saules panelis, kas &9darbojas arī naktī&7,'
+  - '&7ar samazinātu jaudu.'
+  - '&7Ietver paša iekšējo enerģijas buferi.'
+  name: '&7&lProgresīvs saules panelis'
+  stats:
+  - '&8⇨ &e⚡ &7320,000 J buferis'
+  - '&8⇨ &e⚡ &780 J/t (Diena)'
+  - '&8⇨ &e⚡ &710 J/t (Nakts)'
   type:
   - '&7&oĢenerators'
 ANCIENT_DEBRIS_DUST:
+  name: '&7Seno atlieku putekļi'
   type:
   - '&7&oResurss'
 CARBONADO_SOLAR_HELMET:
+  description:
+  - '&eSaules ķivere.'
+  - '&7Nēsāta uz galvas, tā pasīvi ģenerē enerģiju'
+  - '&7dienas gaismā un uzlādē tavu citu ekipējumu.'
+  name: '&7Karbonado saules ķivere'
+  stats:
+  - '&8⇨ &e⚡ &710 J/t ģenerēšana'
   type:
   - '&7&oBruņas'
 CARBON_PLATE:
+  name: '&7Oglekļa plāksne'
   type:
   - '&7&oSastāvdaļa'
 CARGO_CONFIGURATOR:
+  description:
+  - '&7Kopē un ielīmē kravas mezglu konfigurācijas.'
+  name: '&7Kravas konfigurators'
   type:
   - '&7&oRīks'
+  usage:
+  - '&7> &eLabais klikšķis &7- kopēt mezgla konfigurāciju'
+  - '&7> &eKreisais klikšķis &7- piemērot mezgla konfigurāciju'
+  - '&7> &eShift+labais klikšķis &7- notīrīt mezgla konfiguratoru'
 COAL_DUST:
+  name: '&7Ogļu putekļi'
   type:
   - '&7&oResurss'
 CONVER:
+  description:
+  - '&7Pārnes enerģiju starp LiteXpansion un citām enerģijas'
+  - '&7sistēmām, lai tavi tīkli varētu sadarboties.'
+  name: '&7Pārveidotājs'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J buferis'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMašīna'
 COPPER_CABLE:
+  name: '&7Vara kabelis'
   type:
   - '&7&oSastāvdaļa'
 COPPER_ITEM_CASING:
+  name: '&7Vara priekšmeta apvalks'
   type:
   - '&7&oSastāvdaļa'
 COPPER_PLATE:
+  name: '&7Vara plāksne'
   type:
   - '&7&oSastāvdaļa'
 DIAMOND_DRILL:
+  description:
+  - '&7Uzreiz salauž obsidiānu, akmeni un tā variantus'
+  name: '&bDimanta urbis'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&oRīks'
+  usage:
+  - '&7Labais klikšķis, lai lēnāk lauztu bloku'
 DIAMOND_DUST:
+  name: '&7Dimanta putekļi'
   type:
   - '&7&oResurss'
 DIAMOND_PLATE:
+  name: '&7Dimanta plāksne'
   type:
   - '&7&oSastāvdaļa'
 ELECTRIC_CHESTPLATE:
+  description:
+  - '&7Novērš visu spēlētājam nodarīto bojājumu.'
+  name: '&9Elektriskās krūšu bruņas'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 8192 J'
   type:
   - '&7&oBruņas'
 ELECTRONIC_CIRCUIT:
+  name: '&7Elektroniskā shēma'
   type:
   - '&7&oSastāvdaļa'
 EMERALD_DUST:
+  name: '&7Smaragda putekļi'
   type:
   - '&7&oResurss'
 ENERGIZED_SOLAR_HELMET:
+  description:
+  - '&eSaules ķivere.'
+  - '&7Nēsāta uz galvas, tā pasīvi ģenerē enerģiju'
+  - '&7dienas gaismā un uzlādē tavu citu ekipējumu.'
+  name: '&7Enerģizēta saules ķivere'
+  stats:
+  - '&8⇨ &e⚡ &720 J/t ģenerēšana'
   type:
   - '&7&oBruņas'
 FOOD_SYNTHESIZER:
+  description:
+  - '&fUztur tevi paēdušu ar mākslīgo pārtiku.'
+  - '&fPieejams dažādās garšās!'
+  name: '&dPārtikas sintezators'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 100 J'
   type:
   - '&7&oIerīce'
 GENERATOR:
+  description:
+  - '&7Sadedzina degvielu, lai ražotu enerģiju.'
+  - '&7Tavs pirmais uzticamais enerģijas avots un pamats'
+  - '&7RE bateriju uzlādēšanai un mašīnu darbināšanai.'
+  name: '&7Ģenerators'
+  stats:
+  - '&8⇨ &e⚡ &74,000 J buferis'
+  - '&8⇨ &e⚡ &710 J/t izvade'
   type:
   - '&7&oĢenerators'
 GLASS_CUTTER:
+  description:
+  - '&bElektrisks stikla rīks.'
+  - '&7Darbojas no sava iekšējā enerģijas bufera.'
+  name: '&bStikla griezējs'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 300 J'
   type:
   - '&7&oRīks'
+  usage:
+  - '&eKreisais klikšķis&7, lai ātri grieztu stiklu'
+  - '&eLabais klikšķis&7, lai lēni grieztu stiklu'
 GOLD_CABLE:
+  name: '&7Zelta kabelis'
   type:
   - '&7&oSastāvdaļa'
 GOLD_ITEM_CASING:
+  name: '&7Zelta priekšmeta apvalks'
   type:
   - '&7&oSastāvdaļa'
 GOLD_PLATE:
+  name: '&7Zelta plāksne'
   type:
   - '&7&oSastāvdaļa'
 HYBRID_SOLAR_HELMET:
+  description:
+  - '&eSaules ķivere.'
+  - '&7Nēsāta uz galvas, tā pasīvi ģenerē enerģiju'
+  - '&7dienas gaismā un uzlādē tavu citu ekipējumu.'
+  - '&7Augstāki līmeņi ražo un uzglabā daudz vairāk.'
+  name: '&7Hibrīda saules ķivere'
+  stats:
+  - '&8⇨ &e⚡ &7100 J/t ģenerēšana'
   type:
   - '&7&oBruņas'
 HYBRID_SOLAR_PANEL:
+  description:
+  - '&bSaules panelis, kas ņem vērā dimensiju.'
+  - '&7Paaugstināta izvade Nether dienā un End'
+  - '&7naktī, papildus parastajai dienas/nakts ģenerēšanai.'
+  name: '&b&lHibrīda saules panelis'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J buferis'
+  - '&8⇨ &e⚡ &7640 J/t (Diena + Nether)'
+  - '&8⇨ &e⚡ &780 J/t (Nakts + End)'
   type:
   - '&7&oĢenerators'
 IRIDIUM:
+  name: '&fIrīdijs'
   type:
   - '&7&oResurss'
 IRIDIUM_PLATE:
+  description:
+  - '&7Izmanto irīdija bruņu izgatavošanai'
+  name: '&fIrīdija plāksne'
   type:
   - '&7&oSastāvdaļa'
 IRON_ITEM_CASING:
+  name: '&7Dzelzs priekšmeta apvalks'
   type:
   - '&7&oSastāvdaļa'
 IRON_PLATE:
+  name: '&7Dzelzs plāksne'
   type:
   - '&7&oSastāvdaļa'
 LAPIS_DUST:
+  name: '&7Lazurīta putekļi'
   type:
   - '&7&oResurss'
 LAPOTRON_CRYSTAL:
+  name: '&7Lapotron kristāls'
   type:
   - '&7&oSastāvdaļa'
 MACERATOR:
+  description:
+  - '&7Samaļ rūdas un metālus &7putekļos&7, divkāršojot'
+  - '&7tavu ieguvi, kad putekļi tiek atkal izkausēti.'
+  - '&7Pirmais solis efektīvā rūdu apstrādē.'
+  name: '&7Smalcinātājs'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J buferis'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMašīna'
 MACHINE_BLOCK:
+  name: '&7Mašīnas bloks'
   type:
   - '&7&oSastāvdaļa'
 MAG_THOR:
+  description:
+  - '&7&oĀrkārtīgi izturīgs sakausējums, ko izmanto'
+  - '&7&otikai visprogresīvākajās mašīnās'
+  name: '&b&lMag-Thor'
   type:
   - '&7&oResurss'
 MANUAL_MILL:
+  description:
+  - '&7Ar roku griežamas multibloka dzirnavas.'
+  - '&7Samaļ materiālus bez enerģijas, dodot tev'
+  - '&7agrīnās spēles alternatīvu elektriskajam smalcinātājam.'
+  name: '&7Rokas dzirnavas'
   type:
   - '&7&oDaudzbloks'
+  usage:
+  - '&eLabais klikšķis&7 uz dozatora, lai lietotu'
 MASS_FABRICATOR_MACHINE:
+  description:
+  - '&5Pārvērš enerģiju - un pēc izvēles &8lūžņus &7- par'
+  - '&5UU-matēriju&7, universālo būvmateriālu.'
+  - '&7Lūžņu pievienošana krasi samazina enerģijas patēriņu.'
+  - '&8Rijīga beigu spēles mašīna.'
+  name: '&5Masas fabrikators'
+  stats:
+  - '&8⇨ &e⚡ &749,998 J buferis'
+  - '&8⇨ &e⚡ &716,666 J/t'
   type:
   - '&7&oMašīna'
 METAL_FORGE:
+  description:
+  - '&7Multibloka metāla prese.'
+  - '&7Veido lietņus par &fplāksnēm &7un &fpriekšmetu apvalkiem &7-'
+  - '&7komponentiem, uz kuriem balstās kabeļi, mašīnas un bruņas.'
+  name: '&7Metāla kalve'
   type:
   - '&7&oDaudzbloks'
+  usage:
+  - '&eLabais klikšķis&7 uz dozatora, lai lietotu'
 MINING_DRILL:
+  description:
+  - '&7Uzreiz salauž akmeni un tā variantus'
+  name: '&7Ieguves urbis'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&oRīks'
+  usage:
+  - '&7Labais klikšķis, lai lēnāk lauztu bloku'
 MIXED_METAL_INGOT:
+  name: '&7Jaukta metāla lietnis'
   type:
   - '&7&oResurss'
 MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  description:
+  - '&7MFE.'
+  - '&7Vidēja līmeņa enerģijas kondensators, kas uzglabā lielu'
+  - '&7buferi tavam mašīnu tīklam.'
+  name: '&7MFE'
+  stats:
+  - '&8⇨ &e⚡ &74,000,000 J buferis'
+  - '&8⇨ &e⚡ &712 J/t pārsūtīšana'
   type:
   - '&7&oMašīna'
 MULTI_FUNCTIONAL_STORAGE_UNIT:
+  description:
+  - '&7MFSU.'
+  - '&7Augsta līmeņa kondensators ar milzīgu enerģijas buferi,'
+  - '&7lai darbinātu prasīgas beigu spēles mašīnas.'
+  name: '&7MFSU'
+  stats:
+  - '&8⇨ &e⚡ &740,000,000 J buferis'
+  - '&8⇨ &e⚡ &752 J/t pārsūtīšana'
   type:
   - '&7&oMašīna'
 NANO_BLADE:
+  description:
+  - '&fProgresīva tehnoloģija, kas spēj'
+  - '&fviegli pāršķelt organiskos audus.'
+  name: '&2Nano asmens &c(Izslēgts)'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 4000 J'
   type:
   - '&7&oIerocis'
+  usage:
+  - '&eLabais klikšķis&7, lai pārslēgtu'
 POWER_UNIT:
+  name: '&7Enerģijas vienība'
   type:
   - '&7&oSastāvdaļa'
 QUARTZ_DUST:
+  name: '&7Kvarca putekļi'
   type:
   - '&7&oResurss'
 RAW_CARBON_FIBRE:
+  name: '&7Jēla oglekļa šķiedra'
   type:
   - '&7&oResurss'
 RAW_CARBON_MESH:
+  name: '&7Jēls oglekļa tīklojums'
   type:
   - '&7&oResurss'
 REDSTONE_DUST:
+  name: '&7Sarkanakmens putekļi'
   type:
   - '&7&oResurss'
 REFINED_IRON:
+  name: '&7Attīrīta dzelzs'
   type:
   - '&7&oResurss'
 REFINED_SMELTERY:
+  description:
+  - '&7Multibloka kausētava.'
+  - '&7Kausē putekļus un apvieno metālus sakausējumos,'
+  - '&7tādos kā &7jaukta metāla lietņi &7un &7attīrīta dzelzs&7.'
+  name: '&7Uzlabotā kausētava'
   type:
   - '&7&oDaudzbloks'
+  usage:
+  - '&eLabais klikšķis&7 uz dozatora, lai lietotu'
 REINFORCED_DOOR:
+  name: '&7Pastiprinātas durvis'
   type:
   - '&7&oSastāvdaļa'
 REINFORCED_GLASS:
+  name: '&7Pastiprināts stikls'
   type:
   - '&7&oSastāvdaļa'
 REINFORCED_STONE:
+  name: '&7Pastiprināts akmens'
   type:
   - '&7&oSastāvdaļa'
 RE_BATTERY:
+  name: '&7RE baterija'
   type:
   - '&7&oSastāvdaļa'
 RUBBER:
+  name: '&7Gumija'
   type:
   - '&7&oResurss'
 RUBBER_SYNTHESIZER:
+  description:
+  - '&6Pārvērš naftas spaini par &7gumiju&7.'
+  - '&7Gumija izolē kailus kabeļus un tiek plaši izmantota'
+  - '&7shēmās un mašīnu receptēs.'
+  name: '&6Gumijas sintezators'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J buferis'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMašīna'
 SCRAP:
+  description:
+  - '&7Var izmantot, lai radītu &5UU-matēriju'
+  name: '&8Lūžņi'
   type:
   - '&7&oResurss'
 SCRAP_MACHINE:
+  description:
+  - '&8Pārstrādātājs.'
+  - '&7Uzņem gandrīz jebkuru priekšmetu un ar zināmu iespēju'
+  - '&7izspļauj &8lūžņus &7- izejvielu UU-matērijai.'
+  - '&7Darbojas ar enerģiju; pārējais tiek iznīcināts.'
+  name: '&8Pārstrādātājs'
+  stats:
+  - '&8⇨ &e⚡ &7600 J buferis'
+  - '&8⇨ &e⚡ &7200 J/t'
   type:
   - '&7&oMašīna'
 THORIUM:
+  description:
+  - '&8Radioaktīvs elements.'
+  - '&7Attīrīts par &7Mag-Thor &7un izmantots progresīvā'
+  - '&7apšuvumā un mehānismos.'
+  name: '&8Torijs'
   stats:
   - '&a☢&7 Radiācijas līmenis: &6AUGSTS'
   type:
@@ -192,41 +431,83 @@ THORIUM:
   usage:
   - '&8⇨ &4Nepieciešams aizsargtērps!'
 THORIUM_DUST:
+  name: '&8Torija putekļi'
   type:
   - '&7&oResurss'
 THORIUM_PLATE:
+  name: '&7Torija plāksne'
   type:
   - '&7&oSastāvdaļa'
 TIN_CABLE:
+  name: '&7Alvas kabelis'
   type:
   - '&7&oSastāvdaļa'
 TIN_ITEM_CASING:
+  name: '&7Alvas priekšmeta apvalks'
   type:
   - '&7&oSastāvdaļa'
 TIN_PLATE:
+  name: '&7Alvas plāksne'
   type:
   - '&7&oSastāvdaļa'
 TREETAP:
+  description:
+  - '&7Izmanto, lai novāktu &7gumiju &7no gumijas avotiem'
+  - '&7ar rokām, bez elektriskā sintezatora.'
+  name: '&7Koka krāns'
   type:
   - '&7&oRīks'
 ULTIMATE_SOLAR_HELMET:
+  description:
+  - '&eSaules ķivere.'
+  - '&7Nēsāta uz galvas, tā pasīvi ģenerē enerģiju'
+  - '&7dienas gaismā un uzlādē tavu citu ekipējumu.'
+  - '&7Augstāki līmeņi ražo un uzglabā daudz vairāk.'
+  name: '&7Galējā saules ķivere'
+  stats:
+  - '&8⇨ &e⚡ &7250 J/t ģenerēšana'
   type:
   - '&7&oBruņas'
 ULTIMATE_SOLAR_PANEL:
+  description:
+  - '&5Spēcīgākais LiteXpansion saules panelis.'
+  - '&7Ģenerē lielu daudzumu enerģijas dienā un naktī'
+  - '&7ar ievērojamu iebūvētu buferi.'
+  name: '&5&lGalējais saules panelis'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J buferis'
+  - '&8⇨ &e⚡ &75,120 J/t (Diena)'
+  - '&8⇨ &e⚡ &7640 J/t (Nakts)'
   type:
   - '&7&oĢenerators'
 UNINSULATED_COPPER_CABLE:
+  name: '&7Neizolēts vara kabelis'
   type:
   - '&7&oSastāvdaļa'
 UNINSULATED_GOLD_CABLE:
+  name: '&7Neizolēts zelta kabelis'
   type:
   - '&7&oSastāvdaļa'
 UNINSULATED_TIN_CABLE:
+  name: '&7Neizolēts alvas kabelis'
   type:
   - '&7&oSastāvdaļa'
 UU_CRAFTER:
+  description:
+  - '&7Automatizē &5UU-matērijas &7izgatavošanu.'
+  - '&7Padod UU-matēriju, un tas saražo konfigurēto'
+  - '&7resursu bez manuālas izgatavošanas režģī.'
+  name: '&7UU izgatavotājs'
+  stats:
+  - '&8⇨ &e⚡ &750,000 J buferis'
+  - '&8⇨ &e⚡ &750,000 J/t'
   type:
   - '&7&oMašīna'
+  usage:
+  - '&eLabais klikšķis&7 uz slēdža, lai to palaistu vai apturētu'
 UU_MATTER:
+  description:
+  - '&7Var izmantot priekšmetu vai resursu radīšanai'
+  name: '&5UU-matērija'
   type:
   - '&7&oResurss'
