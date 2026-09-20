@@ -1,190 +1,429 @@
 ADVANCEDLX_SOLAR_HELMET:
+  description:
+  - '&eSolarna kaciga.'
+  - '&7Nosi se na glavi i pasivno stvara energiju'
+  - '&7na danjem svjetlu te puni tvoju ostalu opremu.'
+  - '&7Viši stupnjevi proizvode i pohranjuju znatno više.'
+  name: '&7Super napredna solarna kaciga'
+  stats:
+  - '&8⇨ &e⚡ &750 J/t generiranje'
   type:
   - '&7&oOklop'
 ADVANCED_ALLOY:
+  name: '&7Napredna legura'
   type:
   - '&7&oKomponenta'
 ADVANCED_CIRCUIT:
+  name: '&7Napredni sklop'
   type:
   - '&7&oKomponenta'
 ADVANCED_MACHINE_BLOCK:
+  name: '&7Napredni blok stroja'
   type:
   - '&7&oKomponenta'
 ADVANCED_SOLAR_HELMET:
+  description:
+  - '&eSolarna kaciga.'
+  - '&7Nosi se na glavi i pasivno stvara energiju'
+  - '&7na danjem svjetlu te puni tvoju ostalu opremu.'
+  name: '&7Napredna solarna kaciga'
+  stats:
+  - '&8⇨ &e⚡ &75 J/t generiranje'
   type:
   - '&7&oOklop'
 ADVANCED_SOLAR_PANEL:
+  description:
+  - '&7Solarni panel koji &9radi i noću&7,'
+  - '&7ali smanjenom stopom.'
+  - '&7Uključuje vlastiti unutarnji međuspremnik energije.'
+  name: '&7&lNapredni solarni panel'
+  stats:
+  - '&8⇨ &e⚡ &7320,000 J međuspremnik'
+  - '&8⇨ &e⚡ &780 J/t (Dan)'
+  - '&8⇨ &e⚡ &710 J/t (Noć)'
   type:
   - '&7&oGenerator'
 ANCIENT_DEBRIS_DUST:
+  name: '&7Prah drevnih ostataka'
   type:
   - '&7&oResurs'
 CARBONADO_SOLAR_HELMET:
+  description:
+  - '&eSolarna kaciga.'
+  - '&7Nosi se na glavi i pasivno stvara energiju'
+  - '&7na danjem svjetlu te puni tvoju ostalu opremu.'
+  name: '&7Karbonado solarna kaciga'
+  stats:
+  - '&8⇨ &e⚡ &710 J/t generiranje'
   type:
   - '&7&oOklop'
 CARBON_PLATE:
+  name: '&7Ugljikova ploča'
   type:
   - '&7&oKomponenta'
 CARGO_CONFIGURATOR:
+  description:
+  - '&7Kopira i lijepi postavke teretnih čvorova.'
+  name: '&7Konfigurator tereta'
   type:
   - '&7&oAlat'
+  usage:
+  - '&7> &eDesni klik &7- Kopiraj postavke čvora'
+  - '&7> &eLijevi klik &7- Primijeni postavke čvora'
+  - '&7> &eShift+Desni klik &7- Očisti konfigurator čvora'
 COAL_DUST:
+  name: '&7Ugljeni prah'
   type:
   - '&7&oResurs'
 CONVER:
+  description:
+  - '&7Razmjenjuje energiju između LiteXpansiona i drugih energetskih'
+  - '&7sustava kako bi tvoje mreže mogle surađivati.'
+  name: '&7Pretvarač'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J međuspremnik'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oStroj'
 COPPER_CABLE:
+  name: '&7Bakreni kabel'
   type:
   - '&7&oKomponenta'
 COPPER_ITEM_CASING:
+  name: '&7Bakreno kućište predmeta'
   type:
   - '&7&oKomponenta'
 COPPER_PLATE:
+  name: '&7Bakrena ploča'
   type:
   - '&7&oKomponenta'
 DIAMOND_DRILL:
+  description:
+  - '&7Trenutno razbija opsidijan, kamen i njegove varijante'
+  name: '&bDijamantna bušilica'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&oAlat'
+  usage:
+  - '&7Desni klik za sporije razbijanje bloka'
 DIAMOND_DUST:
+  name: '&7Dijamantni prah'
   type:
   - '&7&oResurs'
 DIAMOND_PLATE:
+  name: '&7Dijamantna ploča'
   type:
   - '&7&oKomponenta'
 ELECTRIC_CHESTPLATE:
+  description:
+  - '&7Poništava svu štetu nanesenu igraču.'
+  name: '&9Električni oklop za prsa'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 8192 J'
   type:
   - '&7&oOklop'
 ELECTRONIC_CIRCUIT:
+  name: '&7Elektronički sklop'
   type:
   - '&7&oKomponenta'
 EMERALD_DUST:
+  name: '&7Smaragdni prah'
   type:
   - '&7&oResurs'
 ENERGIZED_SOLAR_HELMET:
+  description:
+  - '&eSolarna kaciga.'
+  - '&7Nosi se na glavi i pasivno stvara energiju'
+  - '&7na danjem svjetlu te puni tvoju ostalu opremu.'
+  name: '&7Energizirana solarna kaciga'
+  stats:
+  - '&8⇨ &e⚡ &720 J/t generiranje'
   type:
   - '&7&oOklop'
 FOOD_SYNTHESIZER:
+  description:
+  - '&fDrži te sitim umjetnom hranom.'
+  - '&fDolazi u okusima!'
+  name: '&dSintetizator hrane'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 100 J'
   type:
   - '&7&oNaprava'
 GENERATOR:
+  description:
+  - '&7Spaljuje gorivo za proizvodnju energije.'
+  - '&7Tvoj prvi pouzdan izvor energije i temelj'
+  - '&7za punjenje RE-baterija i pogon strojeva.'
+  name: '&7Generator'
+  stats:
+  - '&8⇨ &e⚡ &74,000 J međuspremnik'
+  - '&8⇨ &e⚡ &710 J/t izlaz'
   type:
   - '&7&oGenerator'
 GLASS_CUTTER:
+  description:
+  - '&bElektrični alat za staklo.'
+  - '&7Radi na vlastitom unutarnjem međuspremniku energije.'
+  name: '&bRezač stakla'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 300 J'
   type:
   - '&7&oAlat'
+  usage:
+  - '&eLijevi klik&7 za brzo rezanje stakla'
+  - '&eDesni klik&7 za polagano rezanje stakla'
 GOLD_CABLE:
+  name: '&7Zlatni kabel'
   type:
   - '&7&oKomponenta'
 GOLD_ITEM_CASING:
+  name: '&7Zlatno kućište predmeta'
   type:
   - '&7&oKomponenta'
 GOLD_PLATE:
+  name: '&7Zlatna ploča'
   type:
   - '&7&oKomponenta'
 HYBRID_SOLAR_HELMET:
+  description:
+  - '&eSolarna kaciga.'
+  - '&7Nosi se na glavi i pasivno stvara energiju'
+  - '&7na danjem svjetlu te puni tvoju ostalu opremu.'
+  - '&7Viši stupnjevi proizvode i pohranjuju znatno više.'
+  name: '&7Hibridna solarna kaciga'
+  stats:
+  - '&8⇨ &e⚡ &7100 J/t generiranje'
   type:
   - '&7&oOklop'
 HYBRID_SOLAR_PANEL:
+  description:
+  - '&bSolarni panel svjestan dimenzije.'
+  - '&7Pojačan izlaz u Netheru danju i u Endu'
+  - '&7noću, povrh uobičajenog dnevnog i noćnog stvaranja.'
+  name: '&b&lHibridni solarni panel'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J međuspremnik'
+  - '&8⇨ &e⚡ &7640 J/t (Dan + Nether)'
+  - '&8⇨ &e⚡ &780 J/t (Noć + End)'
   type:
   - '&7&oGenerator'
 IRIDIUM:
+  name: '&fIridij'
   type:
   - '&7&oResurs'
 IRIDIUM_PLATE:
+  description:
+  - '&7Služi za izradu iridijeva oklopa'
+  name: '&fIridijeva ploča'
   type:
   - '&7&oKomponenta'
 IRON_ITEM_CASING:
+  name: '&7Željezno kućište predmeta'
   type:
   - '&7&oKomponenta'
 IRON_PLATE:
+  name: '&7Željezna ploča'
   type:
   - '&7&oKomponenta'
 LAPIS_DUST:
+  name: '&7Lapis prah'
   type:
   - '&7&oResurs'
 LAPOTRON_CRYSTAL:
+  name: '&7Lapotronski kristal'
   type:
   - '&7&oKomponenta'
 MACERATOR:
+  description:
+  - '&7Melje rude i metale u &7prah&7, udvostručujući'
+  - '&7tvoj prinos kad se prah ponovno pretopi.'
+  - '&7Prvi korak učinkovite prerade ruda.'
+  name: '&7Drobilica'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J međuspremnik'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oStroj'
 MACHINE_BLOCK:
+  name: '&7Blok stroja'
   type:
   - '&7&oKomponenta'
 MAG_THOR:
+  description:
+  - '&7&oIznimno izdržljiva legura koja se koristi'
+  - '&7&osamo u najnaprednijim strojevima'
+  name: '&b&lMag-Thor'
   type:
   - '&7&oResurs'
 MANUAL_MILL:
+  description:
+  - '&7Multiblok mlin na ručnu polugu.'
+  - '&7Melje materijale bez ikakve energije i daje ti'
+  - '&7alternativu električnoj drobilici u ranoj igri.'
+  name: '&7Ručni mlin'
   type:
   - '&7&oVišeblok'
+  usage:
+  - '&eDesni klik&7 na dispenzer za upotrebu'
 MASS_FABRICATOR_MACHINE:
+  description:
+  - '&5Pretvara energiju - i po želji &8otpad &7- u'
+  - '&5UU-tvar&7, univerzalni građevni materijal.'
+  - '&7Dodavanje otpada dramatično smanjuje trošak energije.'
+  - '&8Proždrljiv stroj kasne igre.'
+  name: '&5Masovni fabrikator'
+  stats:
+  - '&8⇨ &e⚡ &749,998 J međuspremnik'
+  - '&8⇨ &e⚡ &716,666 J/t'
   type:
   - '&7&oStroj'
 METAL_FORGE:
+  description:
+  - '&7Multiblok preša za metal.'
+  - '&7Oblikuje poluge u &fploče &7i &fkućišta predmeta &7-'
+  - '&7komponente iza kabela, strojeva i oklopa.'
+  name: '&7Kovačnica metala'
   type:
   - '&7&oVišeblok'
+  usage:
+  - '&eDesni klik&7 na dispenzer za upotrebu'
 MINING_DRILL:
+  description:
+  - '&7Trenutno razbija kamen i njegove varijante'
+  name: '&7Rudarska bušilica'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&oAlat'
+  usage:
+  - '&7Desni klik za sporije razbijanje bloka'
 MIXED_METAL_INGOT:
+  name: '&7Poluga miješanih metala'
   type:
   - '&7&oResurs'
 MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  description:
+  - '&7MFE.'
+  - '&7Energetski kondenzator srednjeg stupnja koji čuva velik'
+  - '&7međuspremnik za tvoju mrežu strojeva.'
+  name: '&7MFE'
+  stats:
+  - '&8⇨ &e⚡ &74,000,000 J međuspremnik'
+  - '&8⇨ &e⚡ &712 J/t prijenos'
   type:
   - '&7&oStroj'
 MULTI_FUNCTIONAL_STORAGE_UNIT:
+  description:
+  - '&7MFSU.'
+  - '&7Kondenzator visokog stupnja s golemim međuspremnikom energije'
+  - '&7za napajanje zahtjevnih strojeva kasne igre.'
+  name: '&7MFSU'
+  stats:
+  - '&8⇨ &e⚡ &740,000,000 J međuspremnik'
+  - '&8⇨ &e⚡ &752 J/t prijenos'
   type:
   - '&7&oStroj'
 NANO_BLADE:
+  description:
+  - '&fNapredan komad tehnologije koji može'
+  - '&fs lakoćom rezati organsko tkivo.'
+  name: '&2Nano oštrica &c(Isključena)'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 4000 J'
   type:
   - '&7&oOružje'
+  usage:
+  - '&eDesni klik&7 za uključivanje'
 POWER_UNIT:
+  name: '&7Energetska jedinica'
   type:
   - '&7&oKomponenta'
 QUARTZ_DUST:
+  name: '&7Kvarcni prah'
   type:
   - '&7&oResurs'
 RAW_CARBON_FIBRE:
+  name: '&7Sirovo ugljikovo vlakno'
   type:
   - '&7&oResurs'
 RAW_CARBON_MESH:
+  name: '&7Sirova ugljikova mreža'
   type:
   - '&7&oResurs'
 REDSTONE_DUST:
+  name: '&7Redstone prah'
   type:
   - '&7&oResurs'
 REFINED_IRON:
+  name: '&7Pročišćeno željezo'
   type:
   - '&7&oResurs'
 REFINED_SMELTERY:
+  description:
+  - '&7Multiblok talionica.'
+  - '&7Tali prahove i spaja metale u legure'
+  - '&7poput &7poluga miješanih metala &7i &7pročišćenog željeza&7.'
+  name: '&7Talionica za pročišćavanje'
   type:
   - '&7&oVišeblok'
+  usage:
+  - '&eDesni klik&7 na dispenzer za upotrebu'
 REINFORCED_DOOR:
+  name: '&7Ojačana vrata'
   type:
   - '&7&oKomponenta'
 REINFORCED_GLASS:
+  name: '&7Ojačano staklo'
   type:
   - '&7&oKomponenta'
 REINFORCED_STONE:
+  name: '&7Ojačani kamen'
   type:
   - '&7&oKomponenta'
 RE_BATTERY:
+  name: '&7RE baterija'
   type:
   - '&7&oKomponenta'
 RUBBER:
+  name: '&7Guma'
   type:
   - '&7&oResurs'
 RUBBER_SYNTHESIZER:
+  description:
+  - '&6Pretvara kantu nafte u &7gumu&7.'
+  - '&7Guma izolira gole kabele i široko se koristi'
+  - '&7u sklopovima i receptima strojeva.'
+  name: '&6Sintetizator gume'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J međuspremnik'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oStroj'
 SCRAP:
+  description:
+  - '&7Može se koristiti za stvaranje &5UU-tvari'
+  name: '&8Otpad'
   type:
   - '&7&oResurs'
 SCRAP_MACHINE:
+  description:
+  - '&8Reciklator.'
+  - '&7Guta gotovo svaki predmet i ima šansu'
+  - '&7izbaciti &8otpad &7- sirovinu za UU-tvar.'
+  - '&7Troši energiju; ostatak se uništava.'
+  name: '&8Reciklator'
+  stats:
+  - '&8⇨ &e⚡ &7600 J međuspremnik'
+  - '&8⇨ &e⚡ &7200 J/t'
   type:
   - '&7&oStroj'
 THORIUM:
+  description:
+  - '&8Radioaktivni element.'
+  - '&7Prerađuje se u &7Mag-Thor &7i koristi u naprednom'
+  - '&7oblaganju i strojevima.'
+  name: '&8Torij'
   stats:
   - '&a☢&7 Razina zračenja: &6VISOKA'
   type:
@@ -192,41 +431,83 @@ THORIUM:
   usage:
   - '&8⇨ &4Potrebno zaštitno odijelo!'
 THORIUM_DUST:
+  name: '&8Torijev prah'
   type:
   - '&7&oResurs'
 THORIUM_PLATE:
+  name: '&7Torijeva ploča'
   type:
   - '&7&oKomponenta'
 TIN_CABLE:
+  name: '&7Kositreni kabel'
   type:
   - '&7&oKomponenta'
 TIN_ITEM_CASING:
+  name: '&7Kositreno kućište predmeta'
   type:
   - '&7&oKomponenta'
 TIN_PLATE:
+  name: '&7Kositrena ploča'
   type:
   - '&7&oKomponenta'
 TREETAP:
+  description:
+  - '&7Služi za dobivanje &7gume &7iz izvora gume'
+  - '&7ručno, bez električnog sintetizatora.'
+  name: '&7Slavina za drvo'
   type:
   - '&7&oAlat'
 ULTIMATE_SOLAR_HELMET:
+  description:
+  - '&eSolarna kaciga.'
+  - '&7Nosi se na glavi i pasivno stvara energiju'
+  - '&7na danjem svjetlu te puni tvoju ostalu opremu.'
+  - '&7Viši stupnjevi proizvode i pohranjuju znatno više.'
+  name: '&7Krajnja solarna kaciga'
+  stats:
+  - '&8⇨ &e⚡ &7250 J/t generiranje'
   type:
   - '&7&oOklop'
 ULTIMATE_SOLAR_PANEL:
+  description:
+  - '&5Najjači LiteXpansion solarni panel.'
+  - '&7Stvara velike količine energije danju i noću'
+  - '&7uz pozamašan ugrađeni međuspremnik.'
+  name: '&5&lKrajnji solarni panel'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J međuspremnik'
+  - '&8⇨ &e⚡ &75,120 J/t (Dan)'
+  - '&8⇨ &e⚡ &7640 J/t (Noć)'
   type:
   - '&7&oGenerator'
 UNINSULATED_COPPER_CABLE:
+  name: '&7Neizolirani bakreni kabel'
   type:
   - '&7&oKomponenta'
 UNINSULATED_GOLD_CABLE:
+  name: '&7Neizolirani zlatni kabel'
   type:
   - '&7&oKomponenta'
 UNINSULATED_TIN_CABLE:
+  name: '&7Neizolirani kositreni kabel'
   type:
   - '&7&oKomponenta'
 UU_CRAFTER:
+  description:
+  - '&7Automatizira izradu &5UU-tvari&7.'
+  - '&7Dobavi UU-tvar i proizvest će podešeni'
+  - '&7resurs bez ručne izrade u rešetki.'
+  name: '&7UU izrađivač'
+  stats:
+  - '&8⇨ &e⚡ &750,000 J međuspremnik'
+  - '&8⇨ &e⚡ &750,000 J/t'
   type:
   - '&7&oStroj'
+  usage:
+  - '&eDesni klik&7 na prekidač za pokretanje ili zaustavljanje'
 UU_MATTER:
+  description:
+  - '&7Može se koristiti za stvaranje predmeta ili resursa'
+  name: '&5UU-tvar'
   type:
   - '&7&oResurs'
