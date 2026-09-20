@@ -1,190 +1,429 @@
 ADVANCEDLX_SOLAR_HELMET:
+  description:
+  - '&eSolárna prilba.'
+  - '&7Nosí sa na hlave a pasívne generuje energiu'
+  - '&7za denného svetla a nabíja tvoje ostatné vybavenie.'
+  - '&7Vyššie stupne vyrábajú a ukladajú omnoho viac.'
+  name: '&7Super pokročilá solárna prilba'
+  stats:
+  - '&8⇨ &e⚡ &750 J/t výroba'
   type:
   - '&7&oBrnenie'
 ADVANCED_ALLOY:
+  name: '&7Pokročilá zliatina'
   type:
   - '&7&oKomponent'
 ADVANCED_CIRCUIT:
+  name: '&7Pokročilý obvod'
   type:
   - '&7&oKomponent'
 ADVANCED_MACHINE_BLOCK:
+  name: '&7Pokročilý blok stroja'
   type:
   - '&7&oKomponent'
 ADVANCED_SOLAR_HELMET:
+  description:
+  - '&eSolárna prilba.'
+  - '&7Nosí sa na hlave a pasívne generuje energiu'
+  - '&7za denného svetla a nabíja tvoje ostatné vybavenie.'
+  name: '&7Pokročilá solárna prilba'
+  stats:
+  - '&8⇨ &e⚡ &75 J/t výroba'
   type:
   - '&7&oBrnenie'
 ADVANCED_SOLAR_PANEL:
+  description:
+  - '&7Solárny panel, ktorý &9funguje aj v noci&7,'
+  - '&7hoci so zníženým výkonom.'
+  - '&7Obsahuje vlastný vnútorný zásobník energie.'
+  name: '&7&lPokročilý solárny panel'
+  stats:
+  - '&8⇨ &e⚡ &7320,000 J zásobník'
+  - '&8⇨ &e⚡ &780 J/t (Deň)'
+  - '&8⇨ &e⚡ &710 J/t (Noc)'
   type:
   - '&7&oGenerátor'
 ANCIENT_DEBRIS_DUST:
+  name: '&7Prach zo starovekej sutiny'
   type:
   - '&7&oSurovina'
 CARBONADO_SOLAR_HELMET:
+  description:
+  - '&eSolárna prilba.'
+  - '&7Nosí sa na hlave a pasívne generuje energiu'
+  - '&7za denného svetla a nabíja tvoje ostatné vybavenie.'
+  name: '&7Karbonádová solárna prilba'
+  stats:
+  - '&8⇨ &e⚡ &710 J/t výroba'
   type:
   - '&7&oBrnenie'
 CARBON_PLATE:
+  name: '&7Uhlíková doska'
   type:
   - '&7&oKomponent'
 CARGO_CONFIGURATOR:
+  description:
+  - '&7Kopíruje a vkladá nastavenia nákladových uzlov.'
+  name: '&7Konfigurátor nákladu'
   type:
   - '&7&oNástroj'
+  usage:
+  - '&7> &ePravý klik &7- Skopíruj nastavenie uzla'
+  - '&7> &eĽavý klik &7- Použi nastavenie uzla'
+  - '&7> &eShift + pravý klik &7- Vymaž konfigurátor uzla'
 COAL_DUST:
+  name: '&7Uhoľný prach'
   type:
   - '&7&oSurovina'
 CONVER:
+  description:
+  - '&7Vymieňa energiu medzi LiteXpansion a inými'
+  - '&7sústavami, aby tvoje siete spolupracovali.'
+  name: '&7Menič'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J zásobník'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oStroj'
 COPPER_CABLE:
+  name: '&7Medený kábel'
   type:
   - '&7&oKomponent'
 COPPER_ITEM_CASING:
+  name: '&7Medené puzdro'
   type:
   - '&7&oKomponent'
 COPPER_PLATE:
+  name: '&7Medená doska'
   type:
   - '&7&oKomponent'
 DIAMOND_DRILL:
+  description:
+  - '&7Okamžite rozbíja obsidián, kameň a jeho varianty'
+  name: '&bDiamantová vŕtačka'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&oNástroj'
+  usage:
+  - '&7Pravý klik rozbije blok pomalšie'
 DIAMOND_DUST:
+  name: '&7Diamantový prach'
   type:
   - '&7&oSurovina'
 DIAMOND_PLATE:
+  name: '&7Diamantová doska'
   type:
   - '&7&oKomponent'
 ELECTRIC_CHESTPLATE:
+  description:
+  - '&7Ruší všetko poškodenie spôsobené hráčovi.'
+  name: '&9Elektrický náprsník'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 8192 J'
   type:
   - '&7&oBrnenie'
 ELECTRONIC_CIRCUIT:
+  name: '&7Elektronický obvod'
   type:
   - '&7&oKomponent'
 EMERALD_DUST:
+  name: '&7Smaragdový prach'
   type:
   - '&7&oSurovina'
 ENERGIZED_SOLAR_HELMET:
+  description:
+  - '&eSolárna prilba.'
+  - '&7Nosí sa na hlave a pasívne generuje energiu'
+  - '&7za denného svetla a nabíja tvoje ostatné vybavenie.'
+  name: '&7Energizovaná solárna prilba'
+  stats:
+  - '&8⇨ &e⚡ &720 J/t výroba'
   type:
   - '&7&oBrnenie'
 FOOD_SYNTHESIZER:
+  description:
+  - '&fUdrží ťa najedeného umelým jedlom.'
+  - '&fPrichádza v príchutiach!'
+  name: '&dSyntetizér jedla'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 100 J'
   type:
   - '&7&oGadget'
 GENERATOR:
+  description:
+  - '&7Spaľuje palivo a vyrába energiu.'
+  - '&7Tvoj prvý spoľahlivý zdroj energie a základ'
+  - '&7na nabíjanie RE-batérií a pohon strojov.'
+  name: '&7Generátor'
+  stats:
+  - '&8⇨ &e⚡ &74,000 J zásobník'
+  - '&8⇨ &e⚡ &710 J/t výstup'
   type:
   - '&7&oGenerátor'
 GLASS_CUTTER:
+  description:
+  - '&bElektrický nástroj na sklo.'
+  - '&7Beží z vlastného vnútorného zásobníka energie.'
+  name: '&bRezač skla'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 300 J'
   type:
   - '&7&oNástroj'
+  usage:
+  - '&eĽavý klik&7 na rýchle rezanie skla'
+  - '&ePravý klik&7 na pomalé rezanie skla'
 GOLD_CABLE:
+  name: '&7Zlatý kábel'
   type:
   - '&7&oKomponent'
 GOLD_ITEM_CASING:
+  name: '&7Zlaté puzdro'
   type:
   - '&7&oKomponent'
 GOLD_PLATE:
+  name: '&7Zlatá doska'
   type:
   - '&7&oKomponent'
 HYBRID_SOLAR_HELMET:
+  description:
+  - '&eSolárna prilba.'
+  - '&7Nosí sa na hlave a pasívne generuje energiu'
+  - '&7za denného svetla a nabíja tvoje ostatné vybavenie.'
+  - '&7Vyššie stupne vyrábajú a ukladajú omnoho viac.'
+  name: '&7Hybridná solárna prilba'
+  stats:
+  - '&8⇨ &e⚡ &7100 J/t výroba'
   type:
   - '&7&oBrnenie'
 HYBRID_SOLAR_PANEL:
+  description:
+  - '&bSolárny panel, ktorý pozná dimenziu.'
+  - '&7Zvýšený výkon v Netheri cez deň a v Ende'
+  - '&7v noci, navyše k bežnej dennej a nočnej výrobe.'
+  name: '&b&lHybridný solárny panel'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J zásobník'
+  - '&8⇨ &e⚡ &7640 J/t (Deň + Nether)'
+  - '&8⇨ &e⚡ &780 J/t (Noc + End)'
   type:
   - '&7&oGenerátor'
 IRIDIUM:
+  name: '&fIrídium'
   type:
   - '&7&oSurovina'
 IRIDIUM_PLATE:
+  description:
+  - '&7Používa sa na výrobu irídiového brnenia'
+  name: '&fIrídiová doska'
   type:
   - '&7&oKomponent'
 IRON_ITEM_CASING:
+  name: '&7Železné puzdro'
   type:
   - '&7&oKomponent'
 IRON_PLATE:
+  name: '&7Železná doska'
   type:
   - '&7&oKomponent'
 LAPIS_DUST:
+  name: '&7Lazuritový prach'
   type:
   - '&7&oSurovina'
 LAPOTRON_CRYSTAL:
+  name: '&7Lapotrónový kryštál'
   type:
   - '&7&oKomponent'
 MACERATOR:
+  description:
+  - '&7Melie rudy a kovy na &7prach&7 a zdvojnásobuje'
+  - '&7tvoj výnos, keď sa prach späť pretaví.'
+  - '&7Prvý krok efektívneho spracovania rúd.'
+  name: '&7Drvič'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J zásobník'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oStroj'
 MACHINE_BLOCK:
+  name: '&7Blok stroja'
   type:
   - '&7&oKomponent'
 MAG_THOR:
+  description:
+  - '&7&oMimoriadne odolná zliatina, ktorá sa používa'
+  - '&7&olen v tých najpokročilejších strojoch'
+  name: '&b&lMag-Thor'
   type:
   - '&7&oSurovina'
 MANUAL_MILL:
+  description:
+  - '&7Multiblokový mlyn na ručnú kľuku.'
+  - '&7Melie materiály úplne bez energie a dáva ti'
+  - '&7ranú alternatívu k elektrickému drviču.'
+  name: '&7Ručný mlyn'
   type:
   - '&7&oMultiblok'
+  usage:
+  - '&ePravý klik&7 na dávkovač ho spustí'
 MASS_FABRICATOR_MACHINE:
+  description:
+  - '&5Premieňa energiu - a voliteľne &8šrot &7- na'
+  - '&5UU-hmotu&7, univerzálny stavebný materiál.'
+  - '&7Pridanie šrotu dramaticky znižuje spotrebu energie.'
+  - '&8Hladný stroj pre koncovú hru.'
+  name: '&5Hromadný výrobník'
+  stats:
+  - '&8⇨ &e⚡ &749,998 J zásobník'
+  - '&8⇨ &e⚡ &716,666 J/t'
   type:
   - '&7&oStroj'
 METAL_FORGE:
+  description:
+  - '&7Multiblokový lis na kovy.'
+  - '&7Tvaruje ingoty na &fdosky &7a &fpuzdrá &7-'
+  - '&7komponenty za káblami, strojmi a brnením.'
+  name: '&7Vyhňa na kovy'
   type:
   - '&7&oMultiblok'
+  usage:
+  - '&ePravý klik&7 na dávkovač ho spustí'
 MINING_DRILL:
+  description:
+  - '&7Okamžite rozbíja kameň a jeho varianty'
+  name: '&7Banská vŕtačka'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&oNástroj'
+  usage:
+  - '&7Pravý klik rozbije blok pomalšie'
 MIXED_METAL_INGOT:
+  name: '&7Zmiešaný kovový ingot'
   type:
   - '&7&oSurovina'
 MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  description:
+  - '&7MFE.'
+  - '&7Energetický kondenzátor strednej triedy s veľkým'
+  - '&7zásobníkom pre tvoju sieť strojov.'
+  name: '&7MFE'
+  stats:
+  - '&8⇨ &e⚡ &74,000,000 J zásobník'
+  - '&8⇨ &e⚡ &712 J/t prenos'
   type:
   - '&7&oStroj'
 MULTI_FUNCTIONAL_STORAGE_UNIT:
+  description:
+  - '&7MFSU.'
+  - '&7Kondenzátor vyššej triedy s obrovským zásobníkom'
+  - '&7na napájanie náročných strojov pre koncovú hru.'
+  name: '&7MFSU'
+  stats:
+  - '&8⇨ &e⚡ &740,000,000 J zásobník'
+  - '&8⇨ &e⚡ &752 J/t prenos'
   type:
   - '&7&oStroj'
 NANO_BLADE:
+  description:
+  - '&fPokročilý kus technológie, ktorý dokáže'
+  - '&fs ľahkosťou prerezať organické tkanivo.'
+  name: '&2Nano čepeľ &c(Vypnuté)'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 4000 J'
   type:
   - '&7&oZbraň'
+  usage:
+  - '&ePravý klik&7 na prepnutie'
 POWER_UNIT:
+  name: '&7Energetická jednotka'
   type:
   - '&7&oKomponent'
 QUARTZ_DUST:
+  name: '&7Kremenný prach'
   type:
   - '&7&oSurovina'
 RAW_CARBON_FIBRE:
+  name: '&7Surové uhlíkové vlákno'
   type:
   - '&7&oSurovina'
 RAW_CARBON_MESH:
+  name: '&7Surová uhlíková sieťovina'
   type:
   - '&7&oSurovina'
 REDSTONE_DUST:
+  name: '&7Redstonový prach'
   type:
   - '&7&oSurovina'
 REFINED_IRON:
+  name: '&7Rafinované železo'
   type:
   - '&7&oSurovina'
 REFINED_SMELTERY:
+  description:
+  - '&7Multibloková taviareň.'
+  - '&7Taví prachy a spája kovy do zliatin'
+  - '&7ako sú &7zmiešané kovové ingoty &7a &7rafinované železo&7.'
+  name: '&7Rafinovaná taviareň'
   type:
   - '&7&oMultiblok'
+  usage:
+  - '&ePravý klik&7 na dávkovač ho spustí'
 REINFORCED_DOOR:
+  name: '&7Vystužené dvere'
   type:
   - '&7&oKomponent'
 REINFORCED_GLASS:
+  name: '&7Vystužené sklo'
   type:
   - '&7&oKomponent'
 REINFORCED_STONE:
+  name: '&7Vystužený kameň'
   type:
   - '&7&oKomponent'
 RE_BATTERY:
+  name: '&7RE batéria'
   type:
   - '&7&oKomponent'
 RUBBER:
+  name: '&7Kaučuk'
   type:
   - '&7&oSurovina'
 RUBBER_SYNTHESIZER:
+  description:
+  - '&6Premieňa vedro ropy na &7kaučuk&7.'
+  - '&7Kaučuk izoluje holé káble a široko sa používa'
+  - '&7v obvodoch a receptoch strojov.'
+  name: '&6Syntetizér kaučuku'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J zásobník'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oStroj'
 SCRAP:
+  description:
+  - '&7Dá sa použiť na výrobu &5UU-hmoty'
+  name: '&8Šrot'
   type:
   - '&7&oSurovina'
 SCRAP_MACHINE:
+  description:
+  - '&8Recyklátor.'
+  - '&7Vezme takmer akýkoľvek predmet a má šancu'
+  - '&7vypľuť &8šrot &7- surovinu pre UU-hmotu.'
+  - '&7Beží na energiu; zvyšok sa zničí.'
+  name: '&8Recyklátor'
+  stats:
+  - '&8⇨ &e⚡ &7600 J zásobník'
+  - '&8⇨ &e⚡ &7200 J/t'
   type:
   - '&7&oStroj'
 THORIUM:
+  description:
+  - '&8Rádioaktívny prvok.'
+  - '&7Rafinuje sa na &7Mag-Thor &7a používa sa v pokročilom'
+  - '&7pancierovaní a strojoch.'
+  name: '&8Tórium'
   stats:
   - '&a☢&7 Úroveň radiácie: &6VYSOKÁ'
   type:
@@ -192,41 +431,83 @@ THORIUM:
   usage:
   - '&8⇨ &4Vyžaduje sa hazmat oblek!'
 THORIUM_DUST:
+  name: '&8Tóriový prach'
   type:
   - '&7&oSurovina'
 THORIUM_PLATE:
+  name: '&7Tóriová doska'
   type:
   - '&7&oKomponent'
 TIN_CABLE:
+  name: '&7Cínový kábel'
   type:
   - '&7&oKomponent'
 TIN_ITEM_CASING:
+  name: '&7Cínové puzdro'
   type:
   - '&7&oKomponent'
 TIN_PLATE:
+  name: '&7Cínová doska'
   type:
   - '&7&oKomponent'
 TREETAP:
+  description:
+  - '&7Používa sa na zber &7kaučuku &7z kaučukových zdrojov'
+  - '&7ručne, bez elektrického syntetizéra.'
+  name: '&7Kohútik na miazgu'
   type:
   - '&7&oNástroj'
 ULTIMATE_SOLAR_HELMET:
+  description:
+  - '&eSolárna prilba.'
+  - '&7Nosí sa na hlave a pasívne generuje energiu'
+  - '&7za denného svetla a nabíja tvoje ostatné vybavenie.'
+  - '&7Vyššie stupne vyrábajú a ukladajú omnoho viac.'
+  name: '&7Najvyššia solárna prilba'
+  stats:
+  - '&8⇨ &e⚡ &7250 J/t výroba'
   type:
   - '&7&oBrnenie'
 ULTIMATE_SOLAR_PANEL:
+  description:
+  - '&5Najsilnejší solárny panel z LiteXpansion.'
+  - '&7Generuje veľké množstvá energie vo dne aj v noci'
+  - '&7a má poriadny vstavaný zásobník.'
+  name: '&5&lNajvyšší solárny panel'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J zásobník'
+  - '&8⇨ &e⚡ &75,120 J/t (Deň)'
+  - '&8⇨ &e⚡ &7640 J/t (Noc)'
   type:
   - '&7&oGenerátor'
 UNINSULATED_COPPER_CABLE:
+  name: '&7Neizolovaný medený kábel'
   type:
   - '&7&oKomponent'
 UNINSULATED_GOLD_CABLE:
+  name: '&7Neizolovaný zlatý kábel'
   type:
   - '&7&oKomponent'
 UNINSULATED_TIN_CABLE:
+  name: '&7Neizolovaný cínový kábel'
   type:
   - '&7&oKomponent'
 UU_CRAFTER:
+  description:
+  - '&7Automatizuje výrobu &5UU-hmoty&7.'
+  - '&7Dodaj UU-hmotu a vyrobí nastavenú'
+  - '&7surovinu bez ručnej výroby v mriežke.'
+  name: '&7UU výrobník'
+  stats:
+  - '&8⇨ &e⚡ &750,000 J zásobník'
+  - '&8⇨ &e⚡ &750,000 J/t'
   type:
   - '&7&oStroj'
+  usage:
+  - '&ePravý klik&7 na vypínač ho spustí alebo zastaví'
 UU_MATTER:
+  description:
+  - '&7Dá sa použiť na výrobu predmetov alebo surovín'
+  name: '&5UU-hmota'
   type:
   - '&7&oSurovina'
