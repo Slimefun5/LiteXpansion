@@ -1,190 +1,429 @@
 ADVANCEDLX_SOLAR_HELMET:
+  description:
+  - '&eEn solhjelm.'
+  - '&7Båret på hovedet genererer den passivt energi'
+  - '&7i dagslys og oplader dit andet udstyr.'
+  - '&7Højere trin producerer og opbevarer langt mere.'
+  name: '&7Superavanceret solhjelm'
+  stats:
+  - '&8⇨ &e⚡ &750 J/t generering'
   type:
   - '&7&oRustning'
 ADVANCED_ALLOY:
+  name: '&7Avanceret legering'
   type:
   - '&7&oKomponent'
 ADVANCED_CIRCUIT:
+  name: '&7Avanceret kredsløb'
   type:
   - '&7&oKomponent'
 ADVANCED_MACHINE_BLOCK:
+  name: '&7Avanceret maskinblok'
   type:
   - '&7&oKomponent'
 ADVANCED_SOLAR_HELMET:
+  description:
+  - '&eEn solhjelm.'
+  - '&7Båret på hovedet genererer den passivt energi'
+  - '&7i dagslys og oplader dit andet udstyr.'
+  name: '&7Avanceret solhjelm'
+  stats:
+  - '&8⇨ &e⚡ &75 J/t generering'
   type:
   - '&7&oRustning'
 ADVANCED_SOLAR_PANEL:
+  description:
+  - '&7Et solpanel, der &9også virker om natten&7,'
+  - '&7men med nedsat ydelse.'
+  - '&7Har sin egen indbyggede energibuffer.'
+  name: '&7&lAvanceret solpanel'
+  stats:
+  - '&8⇨ &e⚡ &7320,000 J buffer'
+  - '&8⇨ &e⚡ &780 J/t (dag)'
+  - '&8⇨ &e⚡ &710 J/t (nat)'
   type:
   - '&7&oGenerator'
 ANCIENT_DEBRIS_DUST:
+  name: '&7Støv af ældgamle rester'
   type:
   - '&7&oRessource'
 CARBONADO_SOLAR_HELMET:
+  description:
+  - '&eEn solhjelm.'
+  - '&7Båret på hovedet genererer den passivt energi'
+  - '&7i dagslys og oplader dit andet udstyr.'
+  name: '&7Carbonado-solhjelm'
+  stats:
+  - '&8⇨ &e⚡ &710 J/t generering'
   type:
   - '&7&oRustning'
 CARBON_PLATE:
+  name: '&7Kulstofplade'
   type:
   - '&7&oKomponent'
 CARGO_CONFIGURATOR:
+  description:
+  - '&7Kopierer og indsætter indstillinger for fragtnoder.'
+  name: '&7Fragtkonfigurator'
   type:
   - '&7&oVærktøj'
+  usage:
+  - '&7> &eHøjreklik &7- Kopier nodekonfiguration'
+  - '&7> &eVenstreklik &7- Anvend nodekonfiguration'
+  - '&7> &eShift+Højreklik &7- Ryd nodekonfiguratoren'
 COAL_DUST:
+  name: '&7Kulstøv'
   type:
   - '&7&oRessource'
 CONVER:
+  description:
+  - '&7Flytter energi mellem LiteXpansion og andre strøm-'
+  - '&7systemer, så dine gitre kan arbejde sammen.'
+  name: '&7Omformer'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J buffer'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMaskine'
 COPPER_CABLE:
+  name: '&7Kobberkabel'
   type:
   - '&7&oKomponent'
 COPPER_ITEM_CASING:
+  name: '&7Genstandshylster af kobber'
   type:
   - '&7&oKomponent'
 COPPER_PLATE:
+  name: '&7Kobberplade'
   type:
   - '&7&oKomponent'
 DIAMOND_DRILL:
+  description:
+  - '&7Bryder øjeblikkeligt obsidian, sten og stenvarianter'
+  name: '&bDiamantbor'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&oVærktøj'
+  usage:
+  - '&7Højreklik for at bryde blokken langsommere'
 DIAMOND_DUST:
+  name: '&7Diamantstøv'
   type:
   - '&7&oRessource'
 DIAMOND_PLATE:
+  name: '&7Diamantplade'
   type:
   - '&7&oKomponent'
 ELECTRIC_CHESTPLATE:
+  description:
+  - '&7Ophæver al skade, som spilleren tager.'
+  name: '&9Elektrisk brystplade'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 8192 J'
   type:
   - '&7&oRustning'
 ELECTRONIC_CIRCUIT:
+  name: '&7Elektronisk kredsløb'
   type:
   - '&7&oKomponent'
 EMERALD_DUST:
+  name: '&7Smaragdstøv'
   type:
   - '&7&oRessource'
 ENERGIZED_SOLAR_HELMET:
+  description:
+  - '&eEn solhjelm.'
+  - '&7Båret på hovedet genererer den passivt energi'
+  - '&7i dagslys og oplader dit andet udstyr.'
+  name: '&7Energiladet solhjelm'
+  stats:
+  - '&8⇨ &e⚡ &720 J/t generering'
   type:
   - '&7&oRustning'
 FOOD_SYNTHESIZER:
+  description:
+  - '&fHolder dig mæt med kunstig mad.'
+  - '&fFås i alle smagsvarianter!'
+  name: '&dMadsyntetisator'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 100 J'
   type:
   - '&7&oGadget'
 GENERATOR:
+  description:
+  - '&7Brænder brændstof for at producere energi.'
+  - '&7Din første pålidelige strømkilde og grundlaget'
+  - '&7for at oplade RE-batterier og drive maskiner.'
+  name: '&7Generator'
+  stats:
+  - '&8⇨ &e⚡ &74,000 J buffer'
+  - '&8⇨ &e⚡ &710 J/t udgang'
   type:
   - '&7&oGenerator'
 GLASS_CUTTER:
+  description:
+  - '&bEt elektrisk glasværktøj.'
+  - '&7Kører på sin indbyggede energibuffer.'
+  name: '&bGlasskærer'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 300 J'
   type:
   - '&7&oVærktøj'
+  usage:
+  - '&eVenstreklik&7 for at skære glas hurtigt'
+  - '&eHøjreklik&7 for at skære glas langsomt'
 GOLD_CABLE:
+  name: '&7Guldkabel'
   type:
   - '&7&oKomponent'
 GOLD_ITEM_CASING:
+  name: '&7Genstandshylster af guld'
   type:
   - '&7&oKomponent'
 GOLD_PLATE:
+  name: '&7Guldplade'
   type:
   - '&7&oKomponent'
 HYBRID_SOLAR_HELMET:
+  description:
+  - '&eEn solhjelm.'
+  - '&7Båret på hovedet genererer den passivt energi'
+  - '&7i dagslys og oplader dit andet udstyr.'
+  - '&7Højere trin producerer og opbevarer langt mere.'
+  name: '&7Hybridsolhjelm'
+  stats:
+  - '&8⇨ &e⚡ &7100 J/t generering'
   type:
   - '&7&oRustning'
 HYBRID_SOLAR_PANEL:
+  description:
+  - '&bEt solpanel, der kender sin dimension.'
+  - '&7Forøget ydelse i Nether om dagen og i The End'
+  - '&7om natten, oven i almindelig dag- og natproduktion.'
+  name: '&b&lHybridsolpanel'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J buffer'
+  - '&8⇨ &e⚡ &7640 J/t (dag + Nether)'
+  - '&8⇨ &e⚡ &780 J/t (nat + The End)'
   type:
   - '&7&oGenerator'
 IRIDIUM:
+  name: '&fIridium'
   type:
   - '&7&oRessource'
 IRIDIUM_PLATE:
+  description:
+  - '&7Bruges til at fremstille iridiumrustning'
+  name: '&fIridiumplade'
   type:
   - '&7&oKomponent'
 IRON_ITEM_CASING:
+  name: '&7Genstandshylster af jern'
   type:
   - '&7&oKomponent'
 IRON_PLATE:
+  name: '&7Jernplade'
   type:
   - '&7&oKomponent'
 LAPIS_DUST:
+  name: '&7Lapisstøv'
   type:
   - '&7&oRessource'
 LAPOTRON_CRYSTAL:
+  name: '&7Lapotronkrystal'
   type:
   - '&7&oKomponent'
 MACERATOR:
+  description:
+  - '&7Maler malme og metaller til &7støv&7 og fordobler'
+  - '&7dit udbytte, når støvet smeltes igen.'
+  - '&7Første skridt i effektiv malmforarbejdning.'
+  name: '&7Knuser'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J buffer'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMaskine'
 MACHINE_BLOCK:
+  name: '&7Maskinblok'
   type:
   - '&7&oKomponent'
 MAG_THOR:
+  description:
+  - '&7&oEn ekstremt holdbar legering, der kun'
+  - '&7&obruges i de mest avancerede maskiner'
+  name: '&b&lMag-Thor'
   type:
   - '&7&oRessource'
 MANUAL_MILL:
+  description:
+  - '&7En håndsvinget multiblokmølle.'
+  - '&7Maler materialer helt uden strøm og giver dig et'
+  - '&7tidligt alternativ til den elektriske knuser.'
+  name: '&7Håndmølle'
   type:
   - '&7&oMultiblok'
+  usage:
+  - '&eHøjreklik&7 på dispenseren for at bruge den'
 MASS_FABRICATOR_MACHINE:
+  description:
+  - '&5Omdanner energi - og eventuelt &8Skrot &7- til'
+  - '&5UU-stof&7, det universelle byggemateriale.'
+  - '&7Tilsætning af skrot sænker energiforbruget drastisk.'
+  - '&8En slugvorn slutspilsmaskine.'
+  name: '&5Massefabrikator'
+  stats:
+  - '&8⇨ &e⚡ &749,998 J buffer'
+  - '&8⇨ &e⚡ &716,666 J/t'
   type:
   - '&7&oMaskine'
 METAL_FORGE:
+  description:
+  - '&7En multiblok-metalpresse.'
+  - '&7Former barrer til &fplader &7og &fgenstandshylstre &7-'
+  - '&7komponenterne bag kabler, maskiner og rustning.'
+  name: '&7Metalsmedje'
   type:
   - '&7&oMultiblok'
+  usage:
+  - '&eHøjreklik&7 på dispenseren for at bruge den'
 MINING_DRILL:
+  description:
+  - '&7Bryder øjeblikkeligt sten og stenvarianter'
+  name: '&7Minebor'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&oVærktøj'
+  usage:
+  - '&7Højreklik for at bryde blokken langsommere'
 MIXED_METAL_INGOT:
+  name: '&7Blandet metalbarre'
   type:
   - '&7&oRessource'
 MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  description:
+  - '&7MFE''en.'
+  - '&7En energikondensator på mellemtrin med en stor'
+  - '&7buffer til dit maskinnetværk.'
+  name: '&7MFE'
+  stats:
+  - '&8⇨ &e⚡ &74,000,000 J buffer'
+  - '&8⇨ &e⚡ &712 J/t overførsel'
   type:
   - '&7&oMaskine'
 MULTI_FUNCTIONAL_STORAGE_UNIT:
+  description:
+  - '&7MFSU''en.'
+  - '&7En kondensator på højt trin med en enorm energibuffer'
+  - '&7til at drive krævende slutspilsmaskiner.'
+  name: '&7MFSU'
+  stats:
+  - '&8⇨ &e⚡ &740,000,000 J buffer'
+  - '&8⇨ &e⚡ &752 J/t overførsel'
   type:
   - '&7&oMaskine'
 NANO_BLADE:
+  description:
+  - '&fEt avanceret stykke teknologi, der kan'
+  - '&fskære gennem organisk væv med lethed.'
+  name: '&2Nanoklinge &c(Slukket)'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 4000 J'
   type:
   - '&7&oVåben'
+  usage:
+  - '&eHøjreklik&7 for at slå den til og fra'
 POWER_UNIT:
+  name: '&7Strømenhed'
   type:
   - '&7&oKomponent'
 QUARTZ_DUST:
+  name: '&7Kvartsstøv'
   type:
   - '&7&oRessource'
 RAW_CARBON_FIBRE:
+  name: '&7Rå kulfiber'
   type:
   - '&7&oRessource'
 RAW_CARBON_MESH:
+  name: '&7Råt kulfibernet'
   type:
   - '&7&oRessource'
 REDSTONE_DUST:
+  name: '&7Redstonestøv'
   type:
   - '&7&oRessource'
 REFINED_IRON:
+  name: '&7Raffineret jern'
   type:
   - '&7&oRessource'
 REFINED_SMELTERY:
+  description:
+  - '&7Et multiblok-smelteværk.'
+  - '&7Smelter støv og forener metaller til legeringer'
+  - '&7såsom &7blandede metalbarrer &7og &7raffineret jern&7.'
+  name: '&7Raffineret smelteværk'
   type:
   - '&7&oMultiblok'
+  usage:
+  - '&eHøjreklik&7 på dispenseren for at bruge den'
 REINFORCED_DOOR:
+  name: '&7Forstærket dør'
   type:
   - '&7&oKomponent'
 REINFORCED_GLASS:
+  name: '&7Forstærket glas'
   type:
   - '&7&oKomponent'
 REINFORCED_STONE:
+  name: '&7Forstærket sten'
   type:
   - '&7&oKomponent'
 RE_BATTERY:
+  name: '&7RE-batteri'
   type:
   - '&7&oKomponent'
 RUBBER:
+  name: '&7Gummi'
   type:
   - '&7&oRessource'
 RUBBER_SYNTHESIZER:
+  description:
+  - '&6Omdanner en spand olie til &7gummi&7.'
+  - '&7Gummi isolerer bare kabler og bruges bredt'
+  - '&7i kredsløb og maskinopskrifter.'
+  name: '&6Gummisyntetisator'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J buffer'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMaskine'
 SCRAP:
+  description:
+  - '&7Kan bruges til at fremstille &5UU-stof'
+  name: '&8Skrot'
   type:
   - '&7&oRessource'
 SCRAP_MACHINE:
+  description:
+  - '&8Genbrugeren.'
+  - '&7Æder næsten enhver genstand og har en chance for'
+  - '&7at spytte &8Skrot &7ud - råvaren til UU-stof.'
+  - '&7Kører på energi; resten bliver tilintetgjort.'
+  name: '&8Genbruger'
+  stats:
+  - '&8⇨ &e⚡ &7600 J buffer'
+  - '&8⇨ &e⚡ &7200 J/t'
   type:
   - '&7&oMaskine'
 THORIUM:
+  description:
+  - '&8Et radioaktivt grundstof.'
+  - '&7Raffineres til &7Mag-Thor &7og bruges i avanceret'
+  - '&7plademateriale og maskineri.'
+  name: '&8Thorium'
   stats:
   - '&a☢&7 Strålingsniveau: &6HØJT'
   type:
@@ -192,41 +431,83 @@ THORIUM:
   usage:
   - '&8⇨ &4Kemikaliedragt påkrævet!'
 THORIUM_DUST:
+  name: '&8Thoriumstøv'
   type:
   - '&7&oRessource'
 THORIUM_PLATE:
+  name: '&7Thoriumplade'
   type:
   - '&7&oKomponent'
 TIN_CABLE:
+  name: '&7Tinkabel'
   type:
   - '&7&oKomponent'
 TIN_ITEM_CASING:
+  name: '&7Genstandshylster af tin'
   type:
   - '&7&oKomponent'
 TIN_PLATE:
+  name: '&7Tinplade'
   type:
   - '&7&oKomponent'
 TREETAP:
+  description:
+  - '&7Bruges til at høste &7gummi &7fra gummikilder'
+  - '&7i hånden, uden en elektrisk syntetisator.'
+  name: '&7Træaftapper'
   type:
   - '&7&oVærktøj'
 ULTIMATE_SOLAR_HELMET:
+  description:
+  - '&eEn solhjelm.'
+  - '&7Båret på hovedet genererer den passivt energi'
+  - '&7i dagslys og oplader dit andet udstyr.'
+  - '&7Højere trin producerer og opbevarer langt mere.'
+  name: '&7Ultimativ solhjelm'
+  stats:
+  - '&8⇨ &e⚡ &7250 J/t generering'
   type:
   - '&7&oRustning'
 ULTIMATE_SOLAR_PANEL:
+  description:
+  - '&5Det stærkeste solpanel fra LiteXpansion.'
+  - '&7Genererer store mængder energi dag og nat'
+  - '&7med en anselig indbygget buffer.'
+  name: '&5&lUltimativt solpanel'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J buffer'
+  - '&8⇨ &e⚡ &75,120 J/t (dag)'
+  - '&8⇨ &e⚡ &7640 J/t (nat)'
   type:
   - '&7&oGenerator'
 UNINSULATED_COPPER_CABLE:
+  name: '&7Uisoleret kobberkabel'
   type:
   - '&7&oKomponent'
 UNINSULATED_GOLD_CABLE:
+  name: '&7Uisoleret guldkabel'
   type:
   - '&7&oKomponent'
 UNINSULATED_TIN_CABLE:
+  name: '&7Uisoleret tinkabel'
   type:
   - '&7&oKomponent'
 UU_CRAFTER:
+  description:
+  - '&7Automatiserer fremstilling af &5UU-stof&7.'
+  - '&7Tilfør UU-stof, og den producerer den valgte'
+  - '&7ressource uden manuel fremstilling i gitteret.'
+  name: '&7UU-fremstiller'
+  stats:
+  - '&8⇨ &e⚡ &750,000 J buffer'
+  - '&8⇨ &e⚡ &750,000 J/t'
   type:
   - '&7&oMaskine'
+  usage:
+  - '&eHøjreklik&7 på kontakten for at starte eller stoppe den'
 UU_MATTER:
+  description:
+  - '&7Kan bruges til at fremstille genstande eller ressourcer'
+  name: '&5UU-stof'
   type:
   - '&7&oRessource'
