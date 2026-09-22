@@ -1,190 +1,429 @@
 ADVANCEDLX_SOLAR_HELMET:
+  description:
+  - '&eUm capacete solar.'
+  - '&7Usado na cabeça, gera passivamente energia'
+  - '&7à luz do dia e carrega o teu outro equipamento.'
+  - '&7Níveis superiores produzem e armazenam muito mais.'
+  name: '&7Capacete Solar Super Avançado'
+  stats:
+  - '&8⇨ &e⚡ &750 J/t de Geração'
   type:
   - '&7&oArmadura'
 ADVANCED_ALLOY:
+  name: '&7Liga Avançada'
   type:
   - '&7&oComponente'
 ADVANCED_CIRCUIT:
+  name: '&7Circuito Avançado'
   type:
   - '&7&oComponente'
 ADVANCED_MACHINE_BLOCK:
+  name: '&7Bloco de Máquina Avançado'
   type:
   - '&7&oComponente'
 ADVANCED_SOLAR_HELMET:
+  description:
+  - '&eUm capacete solar.'
+  - '&7Usado na cabeça, gera passivamente energia'
+  - '&7à luz do dia e carrega o teu outro equipamento.'
+  name: '&7Capacete Solar Avançado'
+  stats:
+  - '&8⇨ &e⚡ &75 J/t de Geração'
   type:
   - '&7&oArmadura'
 ADVANCED_SOLAR_PANEL:
+  description:
+  - '&7Um painel solar que &9também funciona de noite&7,'
+  - '&7a um ritmo reduzido.'
+  - '&7Inclui a sua própria reserva interna de energia.'
+  name: '&7&lPainel Solar Avançado'
+  stats:
+  - '&8⇨ &e⚡ &7320,000 J de Reserva'
+  - '&8⇨ &e⚡ &780 J/t (Dia)'
+  - '&8⇨ &e⚡ &710 J/t (Noite)'
   type:
   - '&7&oGerador'
 ANCIENT_DEBRIS_DUST:
+  name: '&7Pó de Destroços Antigos'
   type:
   - '&7&oRecurso'
 CARBONADO_SOLAR_HELMET:
+  description:
+  - '&eUm capacete solar.'
+  - '&7Usado na cabeça, gera passivamente energia'
+  - '&7à luz do dia e carrega o teu outro equipamento.'
+  name: '&7Capacete Solar de Carbonado'
+  stats:
+  - '&8⇨ &e⚡ &710 J/t de Geração'
   type:
   - '&7&oArmadura'
 CARBON_PLATE:
+  name: '&7Placa de Carbono'
   type:
   - '&7&oComponente'
 CARGO_CONFIGURATOR:
+  description:
+  - '&7Copia e cola configurações de nós de carga.'
+  name: '&7Configurador de Carga'
   type:
   - '&7&oFerramenta'
+  usage:
+  - '&7> &eClique Direito &7- Copiar configuração do nó'
+  - '&7> &eClique Esquerdo &7- Aplicar configuração do nó'
+  - '&7> &eShift+Clique Direito &7- Limpar configurador do nó'
 COAL_DUST:
+  name: '&7Pó de Carvão'
   type:
   - '&7&oRecurso'
 CONVER:
+  description:
+  - '&7Troca energia entre o LiteXpansion e outros sistemas'
+  - '&7de energia para as tuas grelhas interoperarem.'
+  name: '&7Conversor'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J de Reserva'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMáquina'
 COPPER_CABLE:
+  name: '&7Cabo de Cobre'
   type:
   - '&7&oComponente'
 COPPER_ITEM_CASING:
+  name: '&7Revestimento de Item de Cobre'
   type:
   - '&7&oComponente'
 COPPER_PLATE:
+  name: '&7Placa de Cobre'
   type:
   - '&7&oComponente'
 DIAMOND_DRILL:
+  description:
+  - '&7Parte instantaneamente obsidiana, pedra e variantes de pedra'
+  name: '&bBerbequim de Diamante'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&oFerramenta'
+  usage:
+  - '&7Clique direito para partir o bloco mais devagar'
 DIAMOND_DUST:
+  name: '&7Pó de Diamante'
   type:
   - '&7&oRecurso'
 DIAMOND_PLATE:
+  name: '&7Placa de Diamante'
   type:
   - '&7&oComponente'
 ELECTRIC_CHESTPLATE:
+  description:
+  - '&7Anula todo o dano causado ao jogador.'
+  name: '&9Peitoral Elétrico'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 8192 J'
   type:
   - '&7&oArmadura'
 ELECTRONIC_CIRCUIT:
+  name: '&7Circuito Eletrónico'
   type:
   - '&7&oComponente'
 EMERALD_DUST:
+  name: '&7Pó de Esmeralda'
   type:
   - '&7&oRecurso'
 ENERGIZED_SOLAR_HELMET:
+  description:
+  - '&eUm capacete solar.'
+  - '&7Usado na cabeça, gera passivamente energia'
+  - '&7à luz do dia e carrega o teu outro equipamento.'
+  name: '&7Capacete Solar Energizado'
+  stats:
+  - '&8⇨ &e⚡ &720 J/t de Geração'
   type:
   - '&7&oArmadura'
 FOOD_SYNTHESIZER:
+  description:
+  - '&fMantém-te alimentado com comida artificial.'
+  - '&fVem com sabores!'
+  name: '&dSintetizador de Comida'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 100 J'
   type:
   - '&7&oAcessório'
 GENERATOR:
+  description:
+  - '&7Queima combustível para produzir energia.'
+  - '&7A tua primeira fonte de energia fiável e a base'
+  - '&7para carregar Baterias RE e pôr máquinas a funcionar.'
+  name: '&7Gerador'
+  stats:
+  - '&8⇨ &e⚡ &74,000 J de Reserva'
+  - '&8⇨ &e⚡ &710 J/t de Saída'
   type:
   - '&7&oGerador'
 GLASS_CUTTER:
+  description:
+  - '&bUma ferramenta elétrica para vidro.'
+  - '&7Funciona com a sua reserva interna de energia.'
+  name: '&bCortador de Vidro'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 300 J'
   type:
   - '&7&oFerramenta'
+  usage:
+  - '&eClique Esquerdo&7 para cortar vidro rapidamente'
+  - '&eClique Direito&7 para cortar vidro lentamente'
 GOLD_CABLE:
+  name: '&7Cabo de Ouro'
   type:
   - '&7&oComponente'
 GOLD_ITEM_CASING:
+  name: '&7Revestimento de Item de Ouro'
   type:
   - '&7&oComponente'
 GOLD_PLATE:
+  name: '&7Placa de Ouro'
   type:
   - '&7&oComponente'
 HYBRID_SOLAR_HELMET:
+  description:
+  - '&eUm capacete solar.'
+  - '&7Usado na cabeça, gera passivamente energia'
+  - '&7à luz do dia e carrega o teu outro equipamento.'
+  - '&7Níveis superiores produzem e armazenam muito mais.'
+  name: '&7Capacete Solar Híbrido'
+  stats:
+  - '&8⇨ &e⚡ &7100 J/t de Geração'
   type:
   - '&7&oArmadura'
 HYBRID_SOLAR_PANEL:
+  description:
+  - '&bUm painel solar sensível à dimensão.'
+  - '&7Produção reforçada no Nether de dia e no End'
+  - '&7de noite, além da geração normal de dia/noite.'
+  name: '&b&lPainel Solar Híbrido'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J de Reserva'
+  - '&8⇨ &e⚡ &7640 J/t (Dia + Nether)'
+  - '&8⇨ &e⚡ &780 J/t (Noite + End)'
   type:
   - '&7&oGerador'
 IRIDIUM:
+  name: '&fIrídio'
   type:
   - '&7&oRecurso'
 IRIDIUM_PLATE:
+  description:
+  - '&7Usada para criar Armadura de Irídio'
+  name: '&fPlaca de Irídio'
   type:
   - '&7&oComponente'
 IRON_ITEM_CASING:
+  name: '&7Revestimento de Item de Ferro'
   type:
   - '&7&oComponente'
 IRON_PLATE:
+  name: '&7Placa de Ferro'
   type:
   - '&7&oComponente'
 LAPIS_DUST:
+  name: '&7Pó de Lápis-lazúli'
   type:
   - '&7&oRecurso'
 LAPOTRON_CRYSTAL:
+  name: '&7Cristal de Lapotron'
   type:
   - '&7&oComponente'
 MACERATOR:
+  description:
+  - '&7Mói minérios e metais em &7pó&7, duplicando'
+  - '&7o teu rendimento quando o pó é fundido de novo.'
+  - '&7O primeiro passo do processamento eficiente de minério.'
+  name: '&7Macerador'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J de Reserva'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMáquina'
 MACHINE_BLOCK:
+  name: '&7Bloco de Máquina'
   type:
   - '&7&oComponente'
 MAG_THOR:
+  description:
+  - '&7&oUma liga extremamente resistente usada'
+  - '&7&oapenas nas máquinas mais avançadas'
+  name: '&b&lMag-Thor'
   type:
   - '&7&oRecurso'
 MANUAL_MILL:
+  description:
+  - '&7Um moinho multibloco acionado à manivela.'
+  - '&7Mói materiais sem energia nenhuma, dando-te uma'
+  - '&7alternativa de início de jogo ao Macerador elétrico.'
+  name: '&7Moinho Manual'
   type:
   - '&7&oMultibloco'
+  usage:
+  - '&eClique Direito&7 no dispensador para usar'
 MASS_FABRICATOR_MACHINE:
+  description:
+  - '&5Converte energia - e opcionalmente &8Sucata &7- em'
+  - '&5Matéria-UU&7, o material de construção universal.'
+  - '&7Juntar Sucata reduz drasticamente o custo energético.'
+  - '&8Uma máquina esfomeada de fim de jogo.'
+  name: '&5Fabricador de Massa'
+  stats:
+  - '&8⇨ &e⚡ &749,998 J de Reserva'
+  - '&8⇨ &e⚡ &716,666 J/t'
   type:
   - '&7&oMáquina'
 METAL_FORGE:
+  description:
+  - '&7Uma prensa de metal multibloco.'
+  - '&7Molda lingotes em &fplacas &7e &frevestimentos de item &7-'
+  - '&7os componentes por trás de cabos, máquinas e armaduras.'
+  name: '&7Forja de Metal'
   type:
   - '&7&oMultibloco'
+  usage:
+  - '&eClique Direito&7 no dispensador para usar'
 MINING_DRILL:
+  description:
+  - '&7Parte instantaneamente pedra e variantes de pedra'
+  name: '&7Berbequim de Mineração'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&oFerramenta'
+  usage:
+  - '&7Clique direito para partir o bloco mais devagar'
 MIXED_METAL_INGOT:
+  name: '&7Lingote de Metal Misto'
   type:
   - '&7&oRecurso'
 MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  description:
+  - '&7O MFE.'
+  - '&7Um condensador de energia de nível médio que guarda uma grande'
+  - '&7reserva para a tua rede de máquinas.'
+  name: '&7MFE'
+  stats:
+  - '&8⇨ &e⚡ &74,000,000 J de Reserva'
+  - '&8⇨ &e⚡ &712 J/t de Transferência'
   type:
   - '&7&oMáquina'
 MULTI_FUNCTIONAL_STORAGE_UNIT:
+  description:
+  - '&7O MFSU.'
+  - '&7Um condensador de nível alto com uma enorme reserva de energia'
+  - '&7para alimentar máquinas exigentes de fim de jogo.'
+  name: '&7MFSU'
+  stats:
+  - '&8⇨ &e⚡ &740,000,000 J de Reserva'
+  - '&8⇨ &e⚡ &752 J/t de Transferência'
   type:
   - '&7&oMáquina'
 NANO_BLADE:
+  description:
+  - '&fUma peça de tecnologia avançada capaz de'
+  - '&fcortar tecido orgânico com facilidade.'
+  name: '&2Nanolâmina &c(Desligada)'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 4000 J'
   type:
   - '&7&oArma'
+  usage:
+  - '&eClique Direito&7 para alternar'
 POWER_UNIT:
+  name: '&7Unidade de Energia'
   type:
   - '&7&oComponente'
 QUARTZ_DUST:
+  name: '&7Pó de Quartzo'
   type:
   - '&7&oRecurso'
 RAW_CARBON_FIBRE:
+  name: '&7Fibra de Carbono Crua'
   type:
   - '&7&oRecurso'
 RAW_CARBON_MESH:
+  name: '&7Malha de Carbono Crua'
   type:
   - '&7&oRecurso'
 REDSTONE_DUST:
+  name: '&7Pó de Redstone'
   type:
   - '&7&oRecurso'
 REFINED_IRON:
+  name: '&7Ferro Refinado'
   type:
   - '&7&oRecurso'
 REFINED_SMELTERY:
+  description:
+  - '&7Uma fundição multibloco.'
+  - '&7Funde pós e combina metais em ligas'
+  - '&7como &7Lingotes de Metal Misto &7e &7Ferro Refinado&7.'
+  name: '&7Fundição Refinada'
   type:
   - '&7&oMultibloco'
+  usage:
+  - '&eClique Direito&7 no dispensador para usar'
 REINFORCED_DOOR:
+  name: '&7Porta Reforçada'
   type:
   - '&7&oComponente'
 REINFORCED_GLASS:
+  name: '&7Vidro Reforçado'
   type:
   - '&7&oComponente'
 REINFORCED_STONE:
+  name: '&7Pedra Reforçada'
   type:
   - '&7&oComponente'
 RE_BATTERY:
+  name: '&7Bateria RE'
   type:
   - '&7&oComponente'
 RUBBER:
+  name: '&7Borracha'
   type:
   - '&7&oRecurso'
 RUBBER_SYNTHESIZER:
+  description:
+  - '&6Converte um Balde de Petróleo em &7Borracha&7.'
+  - '&7A borracha isola cabos nus e é muito usada'
+  - '&7em circuitos e receitas de máquinas.'
+  name: '&6Sintetizador de Borracha'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J de Reserva'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMáquina'
 SCRAP:
+  description:
+  - '&7Pode ser usada para criar &5Matéria-UU'
+  name: '&8Sucata'
   type:
   - '&7&oRecurso'
 SCRAP_MACHINE:
+  description:
+  - '&8O Reciclador.'
+  - '&7Aceita quase qualquer item e tem probabilidade de'
+  - '&7cuspir &8Sucata &7- a matéria-prima da Matéria-UU.'
+  - '&7Funciona a energia; o resto é destruído.'
+  name: '&8Reciclador'
+  stats:
+  - '&8⇨ &e⚡ &7600 J de Reserva'
+  - '&8⇨ &e⚡ &7200 J/t'
   type:
   - '&7&oMáquina'
 THORIUM:
+  description:
+  - '&8Um elemento radioativo.'
+  - '&7Refinado em &7Mag-Thor &7e usado em blindagem'
+  - '&7e maquinaria avançadas.'
+  name: '&8Tório'
   stats:
   - '&a☢&7 Nível de radiação: &6ALTO'
   type:
@@ -192,41 +431,83 @@ THORIUM:
   usage:
   - '&8⇨ &4Fato Hazmat necessário!'
 THORIUM_DUST:
+  name: '&8Pó de Tório'
   type:
   - '&7&oRecurso'
 THORIUM_PLATE:
+  name: '&7Placa de Tório'
   type:
   - '&7&oComponente'
 TIN_CABLE:
+  name: '&7Cabo de Estanho'
   type:
   - '&7&oComponente'
 TIN_ITEM_CASING:
+  name: '&7Revestimento de Item de Estanho'
   type:
   - '&7&oComponente'
 TIN_PLATE:
+  name: '&7Placa de Estanho'
   type:
   - '&7&oComponente'
 TREETAP:
+  description:
+  - '&7Usada para colher &7Borracha &7de fontes de borracha'
+  - '&7à mão, sem um sintetizador elétrico.'
+  name: '&7Torneira de Árvore'
   type:
   - '&7&oFerramenta'
 ULTIMATE_SOLAR_HELMET:
+  description:
+  - '&eUm capacete solar.'
+  - '&7Usado na cabeça, gera passivamente energia'
+  - '&7à luz do dia e carrega o teu outro equipamento.'
+  - '&7Níveis superiores produzem e armazenam muito mais.'
+  name: '&7Capacete Solar Definitivo'
+  stats:
+  - '&8⇨ &e⚡ &7250 J/t de Geração'
   type:
   - '&7&oArmadura'
 ULTIMATE_SOLAR_PANEL:
+  description:
+  - '&5O painel solar mais forte do LiteXpansion.'
+  - '&7Gera grandes quantidades de energia de dia e de noite'
+  - '&7com uma reserva incorporada considerável.'
+  name: '&5&lPainel Solar Definitivo'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J de Reserva'
+  - '&8⇨ &e⚡ &75,120 J/t (Dia)'
+  - '&8⇨ &e⚡ &7640 J/t (Noite)'
   type:
   - '&7&oGerador'
 UNINSULATED_COPPER_CABLE:
+  name: '&7Cabo de Cobre Sem Isolamento'
   type:
   - '&7&oComponente'
 UNINSULATED_GOLD_CABLE:
+  name: '&7Cabo de Ouro Sem Isolamento'
   type:
   - '&7&oComponente'
 UNINSULATED_TIN_CABLE:
+  name: '&7Cabo de Estanho Sem Isolamento'
   type:
   - '&7&oComponente'
 UU_CRAFTER:
+  description:
+  - '&7Automatiza o fabrico de &5Matéria-UU&7.'
+  - '&7Fornece Matéria-UU e ele produz o recurso'
+  - '&7configurado sem fabrico manual na grelha.'
+  name: '&7Fabricador de UU'
+  stats:
+  - '&8⇨ &e⚡ &750,000 J de Reserva'
+  - '&8⇨ &e⚡ &750,000 J/t'
   type:
   - '&7&oMáquina'
+  usage:
+  - '&eClique Direito&7 no interruptor para o ligar ou parar'
 UU_MATTER:
+  description:
+  - '&7Pode ser usada para criar itens ou recursos'
+  name: '&5Matéria-UU'
   type:
   - '&7&oRecurso'
