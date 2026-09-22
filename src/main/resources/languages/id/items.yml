@@ -1,190 +1,429 @@
 ADVANCEDLX_SOLAR_HELMET:
+  description:
+  - '&eSebuah helm surya.'
+  - '&7Dipakai di kepala, secara pasif menghasilkan energi'
+  - '&7di siang hari dan mengisi daya perlengkapan lain Anda.'
+  - '&7Tingkat lebih tinggi memproduksi dan menyimpan jauh lebih banyak.'
+  name: '&7Helm Surya Super Canggih'
+  stats:
+  - '&8⇨ &e⚡ &750 J/t Pembangkitan'
   type:
   - '&7&oBaju Zirah'
 ADVANCED_ALLOY:
+  name: '&7Paduan Canggih'
   type:
   - '&7&oKomponen'
 ADVANCED_CIRCUIT:
+  name: '&7Sirkuit Canggih'
   type:
   - '&7&oKomponen'
 ADVANCED_MACHINE_BLOCK:
+  name: '&7Blok Mesin Canggih'
   type:
   - '&7&oKomponen'
 ADVANCED_SOLAR_HELMET:
+  description:
+  - '&eSebuah helm surya.'
+  - '&7Dipakai di kepala, secara pasif menghasilkan energi'
+  - '&7di siang hari dan mengisi daya perlengkapan lain Anda.'
+  name: '&7Helm Surya Canggih'
+  stats:
+  - '&8⇨ &e⚡ &75 J/t Pembangkitan'
   type:
   - '&7&oBaju Zirah'
 ADVANCED_SOLAR_PANEL:
+  description:
+  - '&7Panel surya yang &9juga bekerja di malam hari&7,'
+  - '&7dengan laju yang lebih rendah.'
+  - '&7Memiliki penyangga energi internal sendiri.'
+  name: '&7&lPanel Surya Canggih'
+  stats:
+  - '&8⇨ &e⚡ &7320,000 J Penyangga'
+  - '&8⇨ &e⚡ &780 J/t (Siang)'
+  - '&8⇨ &e⚡ &710 J/t (Malam)'
   type:
   - '&7&oGenerator'
 ANCIENT_DEBRIS_DUST:
+  name: '&7Serbuk Puing Kuno'
   type:
   - '&7&oSumber Daya'
 CARBONADO_SOLAR_HELMET:
+  description:
+  - '&eSebuah helm surya.'
+  - '&7Dipakai di kepala, secara pasif menghasilkan energi'
+  - '&7di siang hari dan mengisi daya perlengkapan lain Anda.'
+  name: '&7Helm Surya Carbonado'
+  stats:
+  - '&8⇨ &e⚡ &710 J/t Pembangkitan'
   type:
   - '&7&oBaju Zirah'
 CARBON_PLATE:
+  name: '&7Pelat Karbon'
   type:
   - '&7&oKomponen'
 CARGO_CONFIGURATOR:
+  description:
+  - '&7Menyalin dan menempelkan konfigurasi simpul kargo.'
+  name: '&7Pengatur Kargo'
   type:
   - '&7&oAlat'
+  usage:
+  - '&7> &eKlik Kanan &7- Salin konfigurasi simpul'
+  - '&7> &eKlik Kiri &7- Terapkan konfigurasi simpul'
+  - '&7> &eShift+Klik Kanan &7- Bersihkan pengatur simpul'
 COAL_DUST:
+  name: '&7Serbuk Batu Bara'
   type:
   - '&7&oSumber Daya'
 CONVER:
+  description:
+  - '&7Menukar energi antara LiteXpansion dan sistem daya'
+  - '&7lain agar kisi Anda bisa saling bekerja sama.'
+  name: '&7Pengubah'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J Penyangga'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMesin'
 COPPER_CABLE:
+  name: '&7Kabel Tembaga'
   type:
   - '&7&oKomponen'
 COPPER_ITEM_CASING:
+  name: '&7Selongsong Item Tembaga'
   type:
   - '&7&oKomponen'
 COPPER_PLATE:
+  name: '&7Pelat Tembaga'
   type:
   - '&7&oKomponen'
 DIAMOND_DRILL:
+  description:
+  - '&7Seketika menghancurkan obsidian, batu, dan varian batu'
+  name: '&bBor Berlian'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&oAlat'
+  usage:
+  - '&7Klik kanan untuk menghancurkan blok lebih lambat'
 DIAMOND_DUST:
+  name: '&7Serbuk Berlian'
   type:
   - '&7&oSumber Daya'
 DIAMOND_PLATE:
+  name: '&7Pelat Berlian'
   type:
   - '&7&oKomponen'
 ELECTRIC_CHESTPLATE:
+  description:
+  - '&7Meniadakan semua kerusakan yang mengenai pemain.'
+  name: '&9Zirah Dada Listrik'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 8192 J'
   type:
   - '&7&oBaju Zirah'
 ELECTRONIC_CIRCUIT:
+  name: '&7Sirkuit Elektronik'
   type:
   - '&7&oKomponen'
 EMERALD_DUST:
+  name: '&7Serbuk Zamrud'
   type:
   - '&7&oSumber Daya'
 ENERGIZED_SOLAR_HELMET:
+  description:
+  - '&eSebuah helm surya.'
+  - '&7Dipakai di kepala, secara pasif menghasilkan energi'
+  - '&7di siang hari dan mengisi daya perlengkapan lain Anda.'
+  name: '&7Helm Surya Berenergi'
+  stats:
+  - '&8⇨ &e⚡ &720 J/t Pembangkitan'
   type:
   - '&7&oBaju Zirah'
 FOOD_SYNTHESIZER:
+  description:
+  - '&fMembuat Anda tetap kenyang dengan makanan buatan.'
+  - '&fTersedia dalam berbagai rasa!'
+  name: '&dPenyintesis Makanan'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 100 J'
   type:
   - '&7&oGadget'
 GENERATOR:
+  description:
+  - '&7Membakar bahan bakar untuk menghasilkan energi.'
+  - '&7Sumber daya andal pertama Anda dan dasar'
+  - '&7untuk mengisi Baterai RE dan menjalankan mesin.'
+  name: '&7Generator'
+  stats:
+  - '&8⇨ &e⚡ &74,000 J Penyangga'
+  - '&8⇨ &e⚡ &710 J/t Keluaran'
   type:
   - '&7&oGenerator'
 GLASS_CUTTER:
+  description:
+  - '&bAlat kaca bertenaga listrik.'
+  - '&7Berjalan dari penyangga energi internalnya.'
+  name: '&bPemotong Kaca'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 300 J'
   type:
   - '&7&oAlat'
+  usage:
+  - '&eKlik Kiri&7 untuk memotong kaca dengan cepat'
+  - '&eKlik Kanan&7 untuk memotong kaca perlahan'
 GOLD_CABLE:
+  name: '&7Kabel Emas'
   type:
   - '&7&oKomponen'
 GOLD_ITEM_CASING:
+  name: '&7Selongsong Item Emas'
   type:
   - '&7&oKomponen'
 GOLD_PLATE:
+  name: '&7Pelat Emas'
   type:
   - '&7&oKomponen'
 HYBRID_SOLAR_HELMET:
+  description:
+  - '&eSebuah helm surya.'
+  - '&7Dipakai di kepala, secara pasif menghasilkan energi'
+  - '&7di siang hari dan mengisi daya perlengkapan lain Anda.'
+  - '&7Tingkat lebih tinggi memproduksi dan menyimpan jauh lebih banyak.'
+  name: '&7Helm Surya Hibrida'
+  stats:
+  - '&8⇨ &e⚡ &7100 J/t Pembangkitan'
   type:
   - '&7&oBaju Zirah'
 HYBRID_SOLAR_PANEL:
+  description:
+  - '&bPanel surya yang peka dimensi.'
+  - '&7Keluaran meningkat di Nether saat siang dan di End'
+  - '&7saat malam, di atas pembangkitan siang/malam biasa.'
+  name: '&b&lPanel Surya Hibrida'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J Penyangga'
+  - '&8⇨ &e⚡ &7640 J/t (Siang + Nether)'
+  - '&8⇨ &e⚡ &780 J/t (Malam + End)'
   type:
   - '&7&oGenerator'
 IRIDIUM:
+  name: '&fIridium'
   type:
   - '&7&oSumber Daya'
 IRIDIUM_PLATE:
+  description:
+  - '&7Digunakan untuk membuat Zirah Iridium'
+  name: '&fPelat Iridium'
   type:
   - '&7&oKomponen'
 IRON_ITEM_CASING:
+  name: '&7Selongsong Item Besi'
   type:
   - '&7&oKomponen'
 IRON_PLATE:
+  name: '&7Pelat Besi'
   type:
   - '&7&oKomponen'
 LAPIS_DUST:
+  name: '&7Serbuk Lapis'
   type:
   - '&7&oSumber Daya'
 LAPOTRON_CRYSTAL:
+  name: '&7Kristal Lapotron'
   type:
   - '&7&oKomponen'
 MACERATOR:
+  description:
+  - '&7Menggerus bijih dan logam menjadi &7serbuk&7, melipatgandakan'
+  - '&7hasil Anda saat serbuk itu dilebur kembali.'
+  - '&7Langkah pertama pengolahan bijih yang efisien.'
+  name: '&7Penggerus'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J Penyangga'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMesin'
 MACHINE_BLOCK:
+  name: '&7Blok Mesin'
   type:
   - '&7&oKomponen'
 MAG_THOR:
+  description:
+  - '&7&oPaduan yang sangat tahan lama, dipakai'
+  - '&7&ohanya pada mesin paling canggih'
+  name: '&b&lMag-Thor'
   type:
   - '&7&oSumber Daya'
 MANUAL_MILL:
+  description:
+  - '&7Kincir multiblok yang diengkol dengan tangan.'
+  - '&7Menggerus bahan tanpa daya sama sekali, memberi Anda'
+  - '&7alternatif awal permainan untuk Penggerus listrik.'
+  name: '&7Kincir Manual'
   type:
   - '&7&oMultiblock'
+  usage:
+  - '&eKlik Kanan&7 dispenser untuk menggunakannya'
 MASS_FABRICATOR_MACHINE:
+  description:
+  - '&5Mengubah energi - dan bisa pula &8Rongsokan &7- menjadi'
+  - '&5Materi-UU&7, bahan bangunan universal.'
+  - '&7Menambahkan Rongsokan sangat menurunkan biaya energi.'
+  - '&8Mesin akhir permainan yang rakus.'
+  name: '&5Pembuat Massal'
+  stats:
+  - '&8⇨ &e⚡ &749,998 J Penyangga'
+  - '&8⇨ &e⚡ &716,666 J/t'
   type:
   - '&7&oMesin'
 METAL_FORGE:
+  description:
+  - '&7Pres logam multiblok.'
+  - '&7Membentuk batangan menjadi &fpelat &7dan &fselongsong item &7-'
+  - '&7komponen di balik kabel, mesin, dan zirah.'
+  name: '&7Tempa Logam'
   type:
   - '&7&oMultiblock'
+  usage:
+  - '&eKlik Kanan&7 dispenser untuk menggunakannya'
 MINING_DRILL:
+  description:
+  - '&7Seketika menghancurkan batu dan varian batu'
+  name: '&7Bor Tambang'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&oAlat'
+  usage:
+  - '&7Klik kanan untuk menghancurkan blok lebih lambat'
 MIXED_METAL_INGOT:
+  name: '&7Batangan Logam Campuran'
   type:
   - '&7&oSumber Daya'
 MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  description:
+  - '&7Sang MFE.'
+  - '&7Kapasitor energi tingkat menengah yang menyimpan'
+  - '&7penyangga besar untuk jaringan mesin Anda.'
+  name: '&7MFE'
+  stats:
+  - '&8⇨ &e⚡ &74,000,000 J Penyangga'
+  - '&8⇨ &e⚡ &712 J/t Pemindahan'
   type:
   - '&7&oMesin'
 MULTI_FUNCTIONAL_STORAGE_UNIT:
+  description:
+  - '&7Sang MFSU.'
+  - '&7Kapasitor tingkat tinggi dengan penyangga energi raksasa'
+  - '&7untuk menenagai mesin akhir permainan yang haus daya.'
+  name: '&7MFSU'
+  stats:
+  - '&8⇨ &e⚡ &740,000,000 J Penyangga'
+  - '&8⇨ &e⚡ &752 J/t Pemindahan'
   type:
   - '&7&oMesin'
 NANO_BLADE:
+  description:
+  - '&fPerangkat teknologi canggih yang mampu'
+  - '&fmengiris jaringan organik dengan mudah.'
+  name: '&2Bilah Nano &c(Mati)'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 4000 J'
   type:
   - '&7&oSenjata'
+  usage:
+  - '&eKlik Kanan&7 untuk mengalihkan'
 POWER_UNIT:
+  name: '&7Unit Daya'
   type:
   - '&7&oKomponen'
 QUARTZ_DUST:
+  name: '&7Serbuk Kuarsa'
   type:
   - '&7&oSumber Daya'
 RAW_CARBON_FIBRE:
+  name: '&7Serat Karbon Mentah'
   type:
   - '&7&oSumber Daya'
 RAW_CARBON_MESH:
+  name: '&7Anyaman Karbon Mentah'
   type:
   - '&7&oSumber Daya'
 REDSTONE_DUST:
+  name: '&7Serbuk Redstone'
   type:
   - '&7&oSumber Daya'
 REFINED_IRON:
+  name: '&7Besi Murni'
   type:
   - '&7&oSumber Daya'
 REFINED_SMELTERY:
+  description:
+  - '&7Peleburan multiblok.'
+  - '&7Melebur serbuk dan menggabungkan logam menjadi paduan'
+  - '&7seperti &7Batangan Logam Campuran &7dan &7Besi Murni&7.'
+  name: '&7Peleburan Murni'
   type:
   - '&7&oMultiblock'
+  usage:
+  - '&eKlik Kanan&7 dispenser untuk menggunakannya'
 REINFORCED_DOOR:
+  name: '&7Pintu Diperkuat'
   type:
   - '&7&oKomponen'
 REINFORCED_GLASS:
+  name: '&7Kaca Diperkuat'
   type:
   - '&7&oKomponen'
 REINFORCED_STONE:
+  name: '&7Batu Diperkuat'
   type:
   - '&7&oKomponen'
 RE_BATTERY:
+  name: '&7Baterai RE'
   type:
   - '&7&oKomponen'
 RUBBER:
+  name: '&7Karet'
   type:
   - '&7&oSumber Daya'
 RUBBER_SYNTHESIZER:
+  description:
+  - '&6Mengubah Seember Minyak menjadi &7Karet&7.'
+  - '&7Karet mengisolasi kabel telanjang dan banyak dipakai'
+  - '&7dalam resep sirkuit dan mesin.'
+  name: '&6Penyintesis Karet'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J Penyangga'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMesin'
 SCRAP:
+  description:
+  - '&7Bisa dipakai untuk membuat &5Materi-UU'
+  name: '&8Rongsokan'
   type:
   - '&7&oSumber Daya'
 SCRAP_MACHINE:
+  description:
+  - '&8Sang Pendaur Ulang.'
+  - '&7Masukkan hampir semua item dan ada peluang'
+  - '&7memuntahkan &8Rongsokan &7- bahan baku mentah Materi-UU.'
+  - '&7Berjalan dengan energi; sisanya dimusnahkan.'
+  name: '&8Pendaur Ulang'
+  stats:
+  - '&8⇨ &e⚡ &7600 J Penyangga'
+  - '&8⇨ &e⚡ &7200 J/t'
   type:
   - '&7&oMesin'
 THORIUM:
+  description:
+  - '&8Unsur radioaktif.'
+  - '&7Dimurnikan menjadi &7Mag-Thor &7dan dipakai pada'
+  - '&7pelapisan dan permesinan canggih.'
+  name: '&8Torium'
   stats:
   - '&a☢&7 Tingkat radiasi: &6TINGGI'
   type:
@@ -192,41 +431,83 @@ THORIUM:
   usage:
   - '&8⇨ &4Pakaian Hazmat dibutuhkan!'
 THORIUM_DUST:
+  name: '&8Serbuk Torium'
   type:
   - '&7&oSumber Daya'
 THORIUM_PLATE:
+  name: '&7Pelat Torium'
   type:
   - '&7&oKomponen'
 TIN_CABLE:
+  name: '&7Kabel Timah'
   type:
   - '&7&oKomponen'
 TIN_ITEM_CASING:
+  name: '&7Selongsong Item Timah'
   type:
   - '&7&oKomponen'
 TIN_PLATE:
+  name: '&7Pelat Timah'
   type:
   - '&7&oKomponen'
 TREETAP:
+  description:
+  - '&7Digunakan untuk memanen &7Karet &7dari sumber karet'
+  - '&7dengan tangan, tanpa penyintesis listrik.'
+  name: '&7Penyadap Pohon'
   type:
   - '&7&oAlat'
 ULTIMATE_SOLAR_HELMET:
+  description:
+  - '&eSebuah helm surya.'
+  - '&7Dipakai di kepala, secara pasif menghasilkan energi'
+  - '&7di siang hari dan mengisi daya perlengkapan lain Anda.'
+  - '&7Tingkat lebih tinggi memproduksi dan menyimpan jauh lebih banyak.'
+  name: '&7Helm Surya Pamungkas'
+  stats:
+  - '&8⇨ &e⚡ &7250 J/t Pembangkitan'
   type:
   - '&7&oBaju Zirah'
 ULTIMATE_SOLAR_PANEL:
+  description:
+  - '&5Panel surya terkuat dari LiteXpansion.'
+  - '&7Menghasilkan energi dalam jumlah besar siang dan malam'
+  - '&7dengan penyangga bawaan yang cukup besar.'
+  name: '&5&lPanel Surya Pamungkas'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J Penyangga'
+  - '&8⇨ &e⚡ &75,120 J/t (Siang)'
+  - '&8⇨ &e⚡ &7640 J/t (Malam)'
   type:
   - '&7&oGenerator'
 UNINSULATED_COPPER_CABLE:
+  name: '&7Kabel Tembaga Tanpa Isolasi'
   type:
   - '&7&oKomponen'
 UNINSULATED_GOLD_CABLE:
+  name: '&7Kabel Emas Tanpa Isolasi'
   type:
   - '&7&oKomponen'
 UNINSULATED_TIN_CABLE:
+  name: '&7Kabel Timah Tanpa Isolasi'
   type:
   - '&7&oKomponen'
 UU_CRAFTER:
+  description:
+  - '&7Mengotomatiskan pembuatan &5Materi-UU&7.'
+  - '&7Pasok Materi-UU dan mesin menghasilkan sumber daya'
+  - '&7yang diatur tanpa pembuatan kisi manual.'
+  name: '&7Perakit UU'
+  stats:
+  - '&8⇨ &e⚡ &750,000 J Penyangga'
+  - '&8⇨ &e⚡ &750,000 J/t'
   type:
   - '&7&oMesin'
+  usage:
+  - '&eKlik Kanan&7 sakelar untuk menjalankan atau menghentikannya'
 UU_MATTER:
+  description:
+  - '&7Bisa dipakai untuk membuat item atau sumber daya'
+  name: '&5Materi-UU'
   type:
   - '&7&oSumber Daya'
