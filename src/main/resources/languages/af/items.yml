@@ -1,190 +1,429 @@
 ADVANCEDLX_SOLAR_HELMET:
+  description:
+  - '&e''n Sonhelm.'
+  - '&7Op die kop gedra genereer dit passief energie'
+  - '&7in daglig en laai jou ander toerusting.'
+  - '&7Hoër vlakke produseer en stoor heelwat meer.'
+  name: '&7Super Gevorderde Sonhelm'
+  stats:
+  - '&8⇨ &e⚡ &750 J/t Opwekking'
   type:
   - '&7&oWapenrusting'
 ADVANCED_ALLOY:
+  name: '&7Gevorderde Legering'
   type:
   - '&7&oKomponent'
 ADVANCED_CIRCUIT:
+  name: '&7Gevorderde Stroombaan'
   type:
   - '&7&oKomponent'
 ADVANCED_MACHINE_BLOCK:
+  name: '&7Gevorderde Masjienblok'
   type:
   - '&7&oKomponent'
 ADVANCED_SOLAR_HELMET:
+  description:
+  - '&e''n Sonhelm.'
+  - '&7Op die kop gedra genereer dit passief energie'
+  - '&7in daglig en laai jou ander toerusting.'
+  name: '&7Gevorderde Sonhelm'
+  stats:
+  - '&8⇨ &e⚡ &75 J/t Opwekking'
   type:
   - '&7&oWapenrusting'
 ADVANCED_SOLAR_PANEL:
+  description:
+  - '&7Sonpaneel wat &9ook snags werk&7,'
+  - '&7teen ''n verlaagde tempo.'
+  - '&7Sluit sy eie interne energiebuffer in.'
+  name: '&7&lGevorderde Sonpaneel'
+  stats:
+  - '&8⇨ &e⚡ &7320,000 J Buffer'
+  - '&8⇨ &e⚡ &780 J/t (Dag)'
+  - '&8⇨ &e⚡ &710 J/t (Nag)'
   type:
   - '&7&oKragopwekker'
 ANCIENT_DEBRIS_DUST:
+  name: '&7Antieke Puinstof'
   type:
   - '&7&oHulpbron'
 CARBONADO_SOLAR_HELMET:
+  description:
+  - '&e''n Sonhelm.'
+  - '&7Op die kop gedra genereer dit passief energie'
+  - '&7in daglig en laai jou ander toerusting.'
+  name: '&7Carbonado-sonhelm'
+  stats:
+  - '&8⇨ &e⚡ &710 J/t Opwekking'
   type:
   - '&7&oWapenrusting'
 CARBON_PLATE:
+  name: '&7Koolstofplaat'
   type:
   - '&7&oKomponent'
 CARGO_CONFIGURATOR:
+  description:
+  - '&7Kopieer en plak vragnodus-konfigurasies.'
+  name: '&7Vragkonfigureerder'
   type:
   - '&7&oGereedskap'
+  usage:
+  - '&7> &eRegsklik &7- Kopieer nodus-konfigurasie'
+  - '&7> &eLinksklik &7- Pas nodus-konfigurasie toe'
+  - '&7> &eShift+Regsklik &7- Maak nodus-konfigureerder skoon'
 COAL_DUST:
+  name: '&7Steenkoolstof'
   type:
   - '&7&oHulpbron'
 CONVER:
+  description:
+  - '&7Ruil energie tussen LiteXpansion en ander krag-'
+  - '&7stelsels sodat jou roosters saam kan werk.'
+  name: '&7Omskakelaar'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J Buffer'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMasjien'
 COPPER_CABLE:
+  name: '&7Koperkabel'
   type:
   - '&7&oKomponent'
 COPPER_ITEM_CASING:
+  name: '&7Koper-itemomhulsel'
   type:
   - '&7&oKomponent'
 COPPER_PLATE:
+  name: '&7Koperplaat'
   type:
   - '&7&oKomponent'
 DIAMOND_DRILL:
+  description:
+  - '&7Breek obsidiaan, klip en klipvariante onmiddellik'
+  name: '&bDiamantboor'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&oGereedskap'
+  usage:
+  - '&7Regsklik om die blok stadiger te breek'
 DIAMOND_DUST:
+  name: '&7Diamantstof'
   type:
   - '&7&oHulpbron'
 DIAMOND_PLATE:
+  name: '&7Diamantplaat'
   type:
   - '&7&oKomponent'
 ELECTRIC_CHESTPLATE:
+  description:
+  - '&7Neutraliseer alle skade wat aan die speler gedoen word.'
+  name: '&9Elektriese Borsplaat'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 8192 J'
   type:
   - '&7&oWapenrusting'
 ELECTRONIC_CIRCUIT:
+  name: '&7Elektroniese Stroombaan'
   type:
   - '&7&oKomponent'
 EMERALD_DUST:
+  name: '&7Smaragstof'
   type:
   - '&7&oHulpbron'
 ENERGIZED_SOLAR_HELMET:
+  description:
+  - '&e''n Sonhelm.'
+  - '&7Op die kop gedra genereer dit passief energie'
+  - '&7in daglig en laai jou ander toerusting.'
+  name: '&7Geënergiseerde Sonhelm'
+  stats:
+  - '&8⇨ &e⚡ &720 J/t Opwekking'
   type:
   - '&7&oWapenrusting'
 FOOD_SYNTHESIZER:
+  description:
+  - '&fHou jou gevoed met kunsmatige kos.'
+  - '&fKom in die geure!'
+  name: '&dKossintetiseerder'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 100 J'
   type:
   - '&7&oToestel'
 GENERATOR:
+  description:
+  - '&7Verbrand brandstof om energie te produseer.'
+  - '&7Jou eerste betroubare kragbron en die basis'
+  - '&7om RE-Batterye te laai en masjiene te laat loop.'
+  name: '&7Generator'
+  stats:
+  - '&8⇨ &e⚡ &74,000 J Buffer'
+  - '&8⇨ &e⚡ &710 J/t Uitset'
   type:
   - '&7&oKragopwekker'
 GLASS_CUTTER:
+  description:
+  - '&bElektriese glaswerktuig.'
+  - '&7Werk van sy interne energiebuffer af.'
+  name: '&bGlassnyer'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 300 J'
   type:
   - '&7&oGereedskap'
+  usage:
+  - '&eLinksklik&7 om glas vinnig te sny'
+  - '&eRegsklik&7 om glas stadig te sny'
 GOLD_CABLE:
+  name: '&7Goudkabel'
   type:
   - '&7&oKomponent'
 GOLD_ITEM_CASING:
+  name: '&7Gouditemomhulsel'
   type:
   - '&7&oKomponent'
 GOLD_PLATE:
+  name: '&7Goudplaat'
   type:
   - '&7&oKomponent'
 HYBRID_SOLAR_HELMET:
+  description:
+  - '&e''n Sonhelm.'
+  - '&7Op die kop gedra genereer dit passief energie'
+  - '&7in daglig en laai jou ander toerusting.'
+  - '&7Hoër vlakke produseer en stoor heelwat meer.'
+  name: '&7Hibriede Sonhelm'
+  stats:
+  - '&8⇨ &e⚡ &7100 J/t Opwekking'
   type:
   - '&7&oWapenrusting'
 HYBRID_SOLAR_PANEL:
+  description:
+  - '&bDimensiebewuste sonpaneel.'
+  - '&7Verhoogde uitset in die Nether bedags en die End'
+  - '&7snags, bo-op normale dag/nag-opwekking.'
+  name: '&b&lHibriede Sonpaneel'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J Buffer'
+  - '&8⇨ &e⚡ &7640 J/t (Dag + Nether)'
+  - '&8⇨ &e⚡ &780 J/t (Nag + End)'
   type:
   - '&7&oKragopwekker'
 IRIDIUM:
+  name: '&fIridium'
   type:
   - '&7&oHulpbron'
 IRIDIUM_PLATE:
+  description:
+  - '&7Word gebruik om Iridiumwapenrusting te maak'
+  name: '&fIridiumplaat'
   type:
   - '&7&oKomponent'
 IRON_ITEM_CASING:
+  name: '&7Ysteritemomhulsel'
   type:
   - '&7&oKomponent'
 IRON_PLATE:
+  name: '&7Ysterplaat'
   type:
   - '&7&oKomponent'
 LAPIS_DUST:
+  name: '&7Lapisstof'
   type:
   - '&7&oHulpbron'
 LAPOTRON_CRYSTAL:
+  name: '&7Lapotronkristal'
   type:
   - '&7&oKomponent'
 MACERATOR:
+  description:
+  - '&7Maal ertse en metale tot &7stof&7 en verdubbel'
+  - '&7jou opbrengs wanneer die stof teruggesmelt word.'
+  - '&7Die eerste stap van doeltreffende ertsverwerking.'
+  name: '&7Vermaler'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J Buffer'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMasjien'
 MACHINE_BLOCK:
+  name: '&7Masjienblok'
   type:
   - '&7&oKomponent'
 MAG_THOR:
+  description:
+  - '&7&oUiters duursame legering wat slegs'
+  - '&7&oin die mees gevorderde masjiene gebruik word'
+  name: '&b&lMag-Thor'
   type:
   - '&7&oHulpbron'
 MANUAL_MILL:
+  description:
+  - '&7''n Handgeslingerde multiblokmeul.'
+  - '&7Maal materiale sonder enige krag en gee jou ''n'
+  - '&7vroeëspel-alternatief vir die elektriese Fynmaler.'
+  name: '&7Handmeul'
   type:
   - '&7&oMultiblok'
+  usage:
+  - '&eRegsklik&7 die verspreider om te gebruik'
 MASS_FABRICATOR_MACHINE:
+  description:
+  - '&5Omskep energie - en opsioneel &8Skroot &7- in'
+  - '&5UU-Materie&7, die universele boumateriaal.'
+  - '&7Om Skroot by te voeg verminder die energiekoste dramaties.'
+  - '&8''n Gulsige eindspelmasjien.'
+  name: '&5Massavervaardiger'
+  stats:
+  - '&8⇨ &e⚡ &749,998 J Buffer'
+  - '&8⇨ &e⚡ &716,666 J/t'
   type:
   - '&7&oMasjien'
 METAL_FORGE:
+  description:
+  - '&7''n Multiblok-metaalpers.'
+  - '&7Vorm stawe tot &fplate &7en &fitemomhulsels &7-'
+  - '&7die komponente agter kabels, masjiene en wapenrusting.'
+  name: '&7Metaalsmidse'
   type:
   - '&7&oMultiblok'
+  usage:
+  - '&eRegsklik&7 die verspreider om te gebruik'
 MINING_DRILL:
+  description:
+  - '&7Breek klip en klipvariante onmiddellik'
+  name: '&7Mynboor'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&oGereedskap'
+  usage:
+  - '&7Regsklik om die blok stadiger te breek'
 MIXED_METAL_INGOT:
+  name: '&7Gemengde Metaalstaaf'
   type:
   - '&7&oHulpbron'
 MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  description:
+  - '&7Die MFE.'
+  - '&7''n Middelvlak-energiekapasitor wat ''n groot'
+  - '&7buffer vir jou masjiennetwerk stoor.'
+  name: '&7MFE'
+  stats:
+  - '&8⇨ &e⚡ &74,000,000 J Buffer'
+  - '&8⇨ &e⚡ &712 J/t Oordrag'
   type:
   - '&7&oMasjien'
 MULTI_FUNCTIONAL_STORAGE_UNIT:
+  description:
+  - '&7Die MFSU.'
+  - '&7''n Hoëvlak-kapasitor met ''n enorme energiebuffer'
+  - '&7om veeleisende eindspelmasjiene aan te dryf.'
+  name: '&7MFSU'
+  stats:
+  - '&8⇨ &e⚡ &740,000,000 J Buffer'
+  - '&8⇨ &e⚡ &752 J/t Oordrag'
   type:
   - '&7&oMasjien'
 NANO_BLADE:
+  description:
+  - '&fGevorderde stuk tegnologie wat met'
+  - '&fgemak deur organiese weefsel sny.'
+  name: '&2Nanolem &c(Af)'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 4000 J'
   type:
   - '&7&oWapen'
+  usage:
+  - '&eRegsklik&7 om te wissel'
 POWER_UNIT:
+  name: '&7Krageenheid'
   type:
   - '&7&oKomponent'
 QUARTZ_DUST:
+  name: '&7Kwartsstof'
   type:
   - '&7&oHulpbron'
 RAW_CARBON_FIBRE:
+  name: '&7Rou Koolstofvesel'
   type:
   - '&7&oHulpbron'
 RAW_CARBON_MESH:
+  name: '&7Rou Koolstofnet'
   type:
   - '&7&oHulpbron'
 REDSTONE_DUST:
+  name: '&7Rooiklipstof'
   type:
   - '&7&oHulpbron'
 REFINED_IRON:
+  name: '&7Verfynde Yster'
   type:
   - '&7&oHulpbron'
 REFINED_SMELTERY:
+  description:
+  - '&7''n Multiblok-smeltery.'
+  - '&7Smelt stowwe en kombineer metale tot legerings'
+  - '&7soos &7Gemengde Metaalstawe &7en &7Verfynde Yster&7.'
+  name: '&7Verfynde Smeltery'
   type:
   - '&7&oMultiblok'
+  usage:
+  - '&eRegsklik&7 die verspreider om te gebruik'
 REINFORCED_DOOR:
+  name: '&7Versterkte Deur'
   type:
   - '&7&oKomponent'
 REINFORCED_GLASS:
+  name: '&7Versterkte Glas'
   type:
   - '&7&oKomponent'
 REINFORCED_STONE:
+  name: '&7Versterkte Klip'
   type:
   - '&7&oKomponent'
 RE_BATTERY:
+  name: '&7RE-Battery'
   type:
   - '&7&oKomponent'
 RUBBER:
+  name: '&7Rubber'
   type:
   - '&7&oHulpbron'
 RUBBER_SYNTHESIZER:
+  description:
+  - '&6Omskep ''n Emmer Olie in &7Rubber&7.'
+  - '&7Rubber isoleer kaal kabels en word wyd'
+  - '&7in stroombane en masjienresepte gebruik.'
+  name: '&6Rubbersintetiseerder'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J Buffer'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMasjien'
 SCRAP:
+  description:
+  - '&7Kan gebruik word om &5UU-Materie te skep'
+  name: '&8Skroot'
   type:
   - '&7&oHulpbron'
 SCRAP_MACHINE:
+  description:
+  - '&8Die Herwinner.'
+  - '&7Neem byna enige item in en het ''n kans om'
+  - '&7&8Skroot &7uit te spoeg - die rou grondstof vir UU-Materie.'
+  - '&7Werk op energie; die res word vernietig.'
+  name: '&8Herwinner'
+  stats:
+  - '&8⇨ &e⚡ &7600 J Buffer'
+  - '&8⇨ &e⚡ &7200 J/t'
   type:
   - '&7&oMasjien'
 THORIUM:
+  description:
+  - '&8Radioaktiewe element.'
+  - '&7Verfyn tot &7Mag-Thor &7en gebruik in gevorderde'
+  - '&7beplating en masjinerie.'
+  name: '&8Torium'
   stats:
   - '&a☢&7 Stralingsvlak: &6HOOG'
   type:
@@ -192,41 +431,83 @@ THORIUM:
   usage:
   - '&8⇨ &4Gevaarpak nodig!'
 THORIUM_DUST:
+  name: '&8Toriumstof'
   type:
   - '&7&oHulpbron'
 THORIUM_PLATE:
+  name: '&7Toriumplaat'
   type:
   - '&7&oKomponent'
 TIN_CABLE:
+  name: '&7Tinkabel'
   type:
   - '&7&oKomponent'
 TIN_ITEM_CASING:
+  name: '&7Tin-itemomhulsel'
   type:
   - '&7&oKomponent'
 TIN_PLATE:
+  name: '&7Tinplaat'
   type:
   - '&7&oKomponent'
 TREETAP:
+  description:
+  - '&7Word gebruik om &7Rubber &7uit rubberbronne te oes'
+  - '&7met die hand, sonder ''n elektriese sintetiseerder.'
+  name: '&7Boomtap'
   type:
   - '&7&oGereedskap'
 ULTIMATE_SOLAR_HELMET:
+  description:
+  - '&e''n Sonhelm.'
+  - '&7Op die kop gedra genereer dit passief energie'
+  - '&7in daglig en laai jou ander toerusting.'
+  - '&7Hoër vlakke produseer en stoor heelwat meer.'
+  name: '&7Uiterste Sonhelm'
+  stats:
+  - '&8⇨ &e⚡ &7250 J/t Opwekking'
   type:
   - '&7&oWapenrusting'
 ULTIMATE_SOLAR_PANEL:
+  description:
+  - '&5Die sterkste LiteXpansion-sonpaneel.'
+  - '&7Genereer groot hoeveelhede energie dag en nag'
+  - '&7met ''n aansienlike ingeboude buffer.'
+  name: '&5&lUiterste Sonpaneel'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J Buffer'
+  - '&8⇨ &e⚡ &75,120 J/t (Dag)'
+  - '&8⇨ &e⚡ &7640 J/t (Nag)'
   type:
   - '&7&oKragopwekker'
 UNINSULATED_COPPER_CABLE:
+  name: '&7Ongeïsoleerde Koperkabel'
   type:
   - '&7&oKomponent'
 UNINSULATED_GOLD_CABLE:
+  name: '&7Ongeïsoleerde Goudkabel'
   type:
   - '&7&oKomponent'
 UNINSULATED_TIN_CABLE:
+  name: '&7Ongeïsoleerde Tinkabel'
   type:
   - '&7&oKomponent'
 UU_CRAFTER:
+  description:
+  - '&7Outomatiseer die vervaardiging van &5UU-Materie&7.'
+  - '&7Voorsien UU-Materie en dit produseer die gekonfigureerde'
+  - '&7hulpbron sonder handmatige roostervervaardiging.'
+  name: '&7UU-Vervaardiger'
+  stats:
+  - '&8⇨ &e⚡ &750,000 J Buffer'
+  - '&8⇨ &e⚡ &750,000 J/t'
   type:
   - '&7&oMasjien'
+  usage:
+  - '&eRegsklik&7 die skakelaar om dit te begin of te stop'
 UU_MATTER:
+  description:
+  - '&7Kan gebruik word om items of hulpbronne te skep'
+  name: '&5UU-Materie'
   type:
   - '&7&oHulpbron'
