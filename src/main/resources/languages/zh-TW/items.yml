@@ -1,190 +1,429 @@
 ADVANCEDLX_SOLAR_HELMET:
+  description:
+  - '&e一頂太陽能頭盔。'
+  - '&7戴在頭上時會在日光下被動產生能量，'
+  - '&7並為你的其他裝備充電。'
+  - '&7更高階級的產量與儲存量遠遠更多。'
+  name: '&7超級進階太陽能頭盔'
+  stats:
+  - '&8⇨ &e⚡ &750 J/t 發電'
   type:
   - '&7&o護甲'
 ADVANCED_ALLOY:
+  name: '&7進階合金'
   type:
   - '&7&o元件'
 ADVANCED_CIRCUIT:
+  name: '&7進階電路'
   type:
   - '&7&o元件'
 ADVANCED_MACHINE_BLOCK:
+  name: '&7進階機器方塊'
   type:
   - '&7&o元件'
 ADVANCED_SOLAR_HELMET:
+  description:
+  - '&e一頂太陽能頭盔。'
+  - '&7戴在頭上時會在日光下被動產生能量，'
+  - '&7並為你的其他裝備充電。'
+  name: '&7進階太陽能頭盔'
+  stats:
+  - '&8⇨ &e⚡ &75 J/t 發電'
   type:
   - '&7&o護甲'
 ADVANCED_SOLAR_PANEL:
+  description:
+  - '&7一種 &9夜間也能運作&7 的太陽能板，'
+  - '&7但速率較低。'
+  - '&7內建自己的能量緩衝。'
+  name: '&7&l進階太陽能板'
+  stats:
+  - '&8⇨ &e⚡ &7320,000 J 緩衝'
+  - '&8⇨ &e⚡ &780 J/t (白天)'
+  - '&8⇨ &e⚡ &710 J/t (夜晚)'
   type:
   - '&7&o發電機'
 ANCIENT_DEBRIS_DUST:
+  name: '&7遠古遺骸粉末'
   type:
   - '&7&o資源'
 CARBONADO_SOLAR_HELMET:
+  description:
+  - '&e一頂太陽能頭盔。'
+  - '&7戴在頭上時會在日光下被動產生能量，'
+  - '&7並為你的其他裝備充電。'
+  name: '&7黑鑽石太陽能頭盔'
+  stats:
+  - '&8⇨ &e⚡ &710 J/t 發電'
   type:
   - '&7&o護甲'
 CARBON_PLATE:
+  name: '&7碳板'
   type:
   - '&7&o元件'
 CARGO_CONFIGURATOR:
+  description:
+  - '&7複製並貼上貨物節點的設定。'
+  name: '&7貨物設定器'
   type:
   - '&7&o工具'
+  usage:
+  - '&7> &e右鍵點擊 &7- 複製節點設定'
+  - '&7> &e左鍵點擊 &7- 套用節點設定'
+  - '&7> &eShift+右鍵點擊 &7- 清除節點設定'
 COAL_DUST:
+  name: '&7煤炭粉末'
   type:
   - '&7&o資源'
 CONVER:
+  description:
+  - '&7在 LiteXpansion 與其他電力系統之間'
+  - '&7轉換能量，讓你的電網可以互通。'
+  name: '&7轉換器'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J 緩衝'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&o機器'
 COPPER_CABLE:
+  name: '&7銅電纜'
   type:
   - '&7&o元件'
 COPPER_ITEM_CASING:
+  name: '&7銅製物品外殼'
   type:
   - '&7&o元件'
 COPPER_PLATE:
+  name: '&7銅板'
   type:
   - '&7&o元件'
 DIAMOND_DRILL:
+  description:
+  - '&7立即破壞黑曜石、石頭與各種石頭變體'
+  name: '&b鑽石鑽頭'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&o工具'
+  usage:
+  - '&7右鍵點擊可較慢地破壞方塊'
 DIAMOND_DUST:
+  name: '&7鑽石粉末'
   type:
   - '&7&o資源'
 DIAMOND_PLATE:
+  name: '&7鑽石板'
   type:
   - '&7&o元件'
 ELECTRIC_CHESTPLATE:
+  description:
+  - '&7抵銷玩家所受的一切傷害。'
+  name: '&9電力胸甲'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 8192 J'
   type:
   - '&7&o護甲'
 ELECTRONIC_CIRCUIT:
+  name: '&7電子電路'
   type:
   - '&7&o元件'
 EMERALD_DUST:
+  name: '&7綠寶石粉末'
   type:
   - '&7&o資源'
 ENERGIZED_SOLAR_HELMET:
+  description:
+  - '&e一頂太陽能頭盔。'
+  - '&7戴在頭上時會在日光下被動產生能量，'
+  - '&7並為你的其他裝備充電。'
+  name: '&7充能太陽能頭盔'
+  stats:
+  - '&8⇨ &e⚡ &720 J/t 發電'
   type:
   - '&7&o護甲'
 FOOD_SYNTHESIZER:
+  description:
+  - '&f以人造食物讓你保持飽足。'
+  - '&f還附帶多種口味！'
+  name: '&d食物合成機'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 100 J'
   type:
   - '&7&o裝置'
 GENERATOR:
+  description:
+  - '&7燃燒燃料以生產能量。'
+  - '&7你第一個可靠的電力來源，也是'
+  - '&7為 RE 電池充電與驅動機器的基礎。'
+  name: '&7發電機'
+  stats:
+  - '&8⇨ &e⚡ &74,000 J 緩衝'
+  - '&8⇨ &e⚡ &710 J/t 輸出'
   type:
   - '&7&o發電機'
 GLASS_CUTTER:
+  description:
+  - '&b一件電力玻璃工具。'
+  - '&7靠內建的能量緩衝運作。'
+  name: '&b玻璃切割器'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 300 J'
   type:
   - '&7&o工具'
+  usage:
+  - '&e左鍵點擊&7 快速切割玻璃'
+  - '&e右鍵點擊&7 緩慢切割玻璃'
 GOLD_CABLE:
+  name: '&7金電纜'
   type:
   - '&7&o元件'
 GOLD_ITEM_CASING:
+  name: '&7金製物品外殼'
   type:
   - '&7&o元件'
 GOLD_PLATE:
+  name: '&7金板'
   type:
   - '&7&o元件'
 HYBRID_SOLAR_HELMET:
+  description:
+  - '&e一頂太陽能頭盔。'
+  - '&7戴在頭上時會在日光下被動產生能量，'
+  - '&7並為你的其他裝備充電。'
+  - '&7更高階級的產量與儲存量遠遠更多。'
+  name: '&7混合太陽能頭盔'
+  stats:
+  - '&8⇨ &e⚡ &7100 J/t 發電'
   type:
   - '&7&o護甲'
 HYBRID_SOLAR_PANEL:
+  description:
+  - '&b一種能感應維度的太陽能板。'
+  - '&7白天在地獄、夜晚在終界可獲得額外輸出，'
+  - '&7並疊加在正常的日夜發電之上。'
+  name: '&b&l混合太陽能板'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J 緩衝'
+  - '&8⇨ &e⚡ &7640 J/t (白天 + 地獄)'
+  - '&8⇨ &e⚡ &780 J/t (夜晚 + 終界)'
   type:
   - '&7&o發電機'
 IRIDIUM:
+  name: '&f銥'
   type:
   - '&7&o資源'
 IRIDIUM_PLATE:
+  description:
+  - '&7用於製作銥盔甲'
+  name: '&f銥板'
   type:
   - '&7&o元件'
 IRON_ITEM_CASING:
+  name: '&7鐵製物品外殼'
   type:
   - '&7&o元件'
 IRON_PLATE:
+  name: '&7鐵板'
   type:
   - '&7&o元件'
 LAPIS_DUST:
+  name: '&7青金石粉末'
   type:
   - '&7&o資源'
 LAPOTRON_CRYSTAL:
+  name: '&7拉波特隆水晶'
   type:
   - '&7&o元件'
 MACERATOR:
+  description:
+  - '&7將礦石與金屬磨成 &7粉末&7，重新熔煉'
+  - '&7粉末時可讓產量加倍。'
+  - '&7高效率礦石處理的第一步。'
+  name: '&7粉碎機'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J 緩衝'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&o機器'
 MACHINE_BLOCK:
+  name: '&7機器方塊'
   type:
   - '&7&o元件'
 MAG_THOR:
+  description:
+  - '&7&o一種極為耐久的合金，只'
+  - '&7&o用於最先進的機器中'
+  name: '&b&l鎂釷合金'
   type:
   - '&7&o資源'
 MANUAL_MILL:
+  description:
+  - '&7一座手搖式多方塊結構磨坊。'
+  - '&7不需任何電力即可研磨材料，為你提供'
+  - '&7遊戲前期替代電力粉碎機的選擇。'
+  name: '&7手動磨坊'
   type:
   - '&7&o多重方塊'
+  usage:
+  - '&e右鍵點擊&7 發射器即可使用'
 MASS_FABRICATOR_MACHINE:
+  description:
+  - '&5將能量 - 以及選用的 &8廢料 &7- 轉換成'
+  - '&5UU-物質&7，萬用的建造材料。'
+  - '&7加入廢料能大幅降低能量消耗。'
+  - '&8一台極度耗能的終局機器。'
+  name: '&5物質製造機'
+  stats:
+  - '&8⇨ &e⚡ &749,998 J 緩衝'
+  - '&8⇨ &e⚡ &716,666 J/t'
   type:
   - '&7&o機器'
 METAL_FORGE:
+  description:
+  - '&7一台多方塊結構金屬壓製機。'
+  - '&7將錠壓製成 &f板 &7與 &f物品外殼 &7-'
+  - '&7電纜、機器與盔甲背後的元件。'
+  name: '&7金屬鍛造爐'
   type:
   - '&7&o多重方塊'
+  usage:
+  - '&e右鍵點擊&7 發射器即可使用'
 MINING_DRILL:
+  description:
+  - '&7立即破壞石頭與各種石頭變體'
+  name: '&7採礦鑽頭'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&o工具'
+  usage:
+  - '&7右鍵點擊可較慢地破壞方塊'
 MIXED_METAL_INGOT:
+  name: '&7混合金屬錠'
   type:
   - '&7&o資源'
 MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  description:
+  - '&7MFE 電容器。'
+  - '&7中階能量電容器，可為你的機器'
+  - '&7網路儲存大量的緩衝。'
+  name: '&7MFE'
+  stats:
+  - '&8⇨ &e⚡ &74,000,000 J 緩衝'
+  - '&8⇨ &e⚡ &712 J/t 傳輸'
   type:
   - '&7&o機器'
 MULTI_FUNCTIONAL_STORAGE_UNIT:
+  description:
+  - '&7MFSU 電容器。'
+  - '&7高階電容器，擁有龐大的能量緩衝，'
+  - '&7可為耗能的終局機器供電。'
+  name: '&7MFSU'
+  stats:
+  - '&8⇨ &e⚡ &740,000,000 J 緩衝'
+  - '&8⇨ &e⚡ &752 J/t 傳輸'
   type:
   - '&7&o機器'
 NANO_BLADE:
+  description:
+  - '&f一件先進的科技產物，能夠'
+  - '&f輕易切開有機組織。'
+  name: '&2奈米刀刃 &c(關閉)'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 4000 J'
   type:
   - '&7&o武器'
+  usage:
+  - '&e右鍵點擊&7 切換開關'
 POWER_UNIT:
+  name: '&7電力單元'
   type:
   - '&7&o元件'
 QUARTZ_DUST:
+  name: '&7石英粉末'
   type:
   - '&7&o資源'
 RAW_CARBON_FIBRE:
+  name: '&7生碳纖維'
   type:
   - '&7&o資源'
 RAW_CARBON_MESH:
+  name: '&7生碳網'
   type:
   - '&7&o資源'
 REDSTONE_DUST:
+  name: '&7紅石粉末'
   type:
   - '&7&o資源'
 REFINED_IRON:
+  name: '&7精鍊鐵'
   type:
   - '&7&o資源'
 REFINED_SMELTERY:
+  description:
+  - '&7一座多方塊結構熔煉爐。'
+  - '&7熔煉粉末並將金屬合成為合金，'
+  - '&7例如 &7混合金屬錠 &7與 &7精鍊鐵&7。'
+  name: '&7精鍊熔煉爐'
   type:
   - '&7&o多重方塊'
+  usage:
+  - '&e右鍵點擊&7 發射器即可使用'
 REINFORCED_DOOR:
+  name: '&7強化門'
   type:
   - '&7&o元件'
 REINFORCED_GLASS:
+  name: '&7強化玻璃'
   type:
   - '&7&o元件'
 REINFORCED_STONE:
+  name: '&7強化石'
   type:
   - '&7&o元件'
 RE_BATTERY:
+  name: '&7RE 電池'
   type:
   - '&7&o元件'
 RUBBER:
+  name: '&7橡膠'
   type:
   - '&7&o資源'
 RUBBER_SYNTHESIZER:
+  description:
+  - '&6將一桶石油轉換成 &7橡膠&7。'
+  - '&7橡膠可為裸線絕緣，並廣泛用於'
+  - '&7電路與機器的配方中。'
+  name: '&6橡膠合成機'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J 緩衝'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&o機器'
 SCRAP:
+  description:
+  - '&7可用來製造 &5UU-物質'
+  name: '&8廢料'
   type:
   - '&7&o資源'
 SCRAP_MACHINE:
+  description:
+  - '&8回收機。'
+  - '&7幾乎可投入任何物品，並有機率'
+  - '&7吐出 &8廢料 &7- UU-物質的原料。'
+  - '&7以能量運轉，其餘的物品會被銷毀。'
+  name: '&8回收機'
+  stats:
+  - '&8⇨ &e⚡ &7600 J 緩衝'
+  - '&8⇨ &e⚡ &7200 J/t'
   type:
   - '&7&o機器'
 THORIUM:
+  description:
+  - '&8一種放射性元素。'
+  - '&7可精鍊成 &7鎂釷合金&7，用於進階的'
+  - '&7鍍層與機械。'
+  name: '&8釷'
   stats:
   - '&a☢&7 輻射等級：&6高'
   type:
@@ -192,41 +431,83 @@ THORIUM:
   usage:
   - '&8⇨ &4需要穿著抗輻射套裝！'
 THORIUM_DUST:
+  name: '&8釷粉末'
   type:
   - '&7&o資源'
 THORIUM_PLATE:
+  name: '&7釷板'
   type:
   - '&7&o元件'
 TIN_CABLE:
+  name: '&7錫電纜'
   type:
   - '&7&o元件'
 TIN_ITEM_CASING:
+  name: '&7錫製物品外殼'
   type:
   - '&7&o元件'
 TIN_PLATE:
+  name: '&7錫板'
   type:
   - '&7&o元件'
 TREETAP:
+  description:
+  - '&7用於從橡膠來源收穫 &7橡膠&7，'
+  - '&7以手工進行，不需電力合成機。'
+  name: '&7採膠器'
   type:
   - '&7&o工具'
 ULTIMATE_SOLAR_HELMET:
+  description:
+  - '&e一頂太陽能頭盔。'
+  - '&7戴在頭上時會在日光下被動產生能量，'
+  - '&7並為你的其他裝備充電。'
+  - '&7更高階級的產量與儲存量遠遠更多。'
+  name: '&7終極太陽能頭盔'
+  stats:
+  - '&8⇨ &e⚡ &7250 J/t 發電'
   type:
   - '&7&o護甲'
 ULTIMATE_SOLAR_PANEL:
+  description:
+  - '&5LiteXpansion 中最強的太陽能板。'
+  - '&7日夜都能產生大量能量，'
+  - '&7並內建相當大的緩衝。'
+  name: '&5&l終極太陽能板'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J 緩衝'
+  - '&8⇨ &e⚡ &75,120 J/t (白天)'
+  - '&8⇨ &e⚡ &7640 J/t (夜晚)'
   type:
   - '&7&o發電機'
 UNINSULATED_COPPER_CABLE:
+  name: '&7無絕緣銅電纜'
   type:
   - '&7&o元件'
 UNINSULATED_GOLD_CABLE:
+  name: '&7無絕緣金電纜'
   type:
   - '&7&o元件'
 UNINSULATED_TIN_CABLE:
+  name: '&7無絕緣錫電纜'
   type:
   - '&7&o元件'
 UU_CRAFTER:
+  description:
+  - '&7自動化 &5UU-物質 &7的合成。'
+  - '&7提供 UU-物質，它就會產出設定好的'
+  - '&7資源，不需手動在合成格中製作。'
+  name: '&7UU 合成器'
+  stats:
+  - '&8⇨ &e⚡ &750,000 J 緩衝'
+  - '&8⇨ &e⚡ &750,000 J/t'
   type:
   - '&7&o機器'
+  usage:
+  - '&e右鍵點擊&7 拉桿以啟動或停止'
 UU_MATTER:
+  description:
+  - '&7可用來製造物品或資源'
+  name: '&5UU-物質'
   type:
   - '&7&o資源'
