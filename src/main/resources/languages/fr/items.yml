@@ -1,5 +1,12 @@
 ADVANCEDLX_SOLAR_HELMET:
+  description:
+  - '&eUn casque solaire.'
+  - '&7Porté sur la tête, il génère passivement de l''énergie'
+  - '&7à la lumière du jour et charge votre autre équipement.'
+  - '&7Les paliers supérieurs produisent et stockent bien plus.'
   name: '&7Casque solaire super avancé'
+  stats:
+  - '&8⇨ &e⚡ &750 J/t de génération'
   type:
   - '&7&oArmure'
 ADVANCED_ALLOY:
@@ -15,11 +22,25 @@ ADVANCED_MACHINE_BLOCK:
   type:
   - '&7&oComposant'
 ADVANCED_SOLAR_HELMET:
+  description:
+  - '&eUn casque solaire.'
+  - '&7Porté sur la tête, il génère passivement de l''énergie'
+  - '&7à la lumière du jour et charge votre autre équipement.'
   name: '&7Casque solaire avancé'
+  stats:
+  - '&8⇨ &e⚡ &75 J/t de génération'
   type:
   - '&7&oArmure'
 ADVANCED_SOLAR_PANEL:
+  description:
+  - '&7Un panneau solaire qui &9fonctionne aussi la nuit&7,'
+  - '&7à un taux réduit.'
+  - '&7Inclut son propre tampon d''énergie interne.'
   name: '&7&lPanneau solaire avancé'
+  stats:
+  - '&8⇨ &e⚡ &7320,000 J de tampon'
+  - '&8⇨ &e⚡ &780 J/t (Jour)'
+  - '&8⇨ &e⚡ &710 J/t (Nuit)'
   type:
   - '&7&oGénérateur'
 ANCIENT_DEBRIS_DUST:
@@ -27,7 +48,13 @@ ANCIENT_DEBRIS_DUST:
   type:
   - '&7&oRessource'
 CARBONADO_SOLAR_HELMET:
+  description:
+  - '&eUn casque solaire.'
+  - '&7Porté sur la tête, il génère passivement de l''énergie'
+  - '&7à la lumière du jour et charge votre autre équipement.'
   name: '&7Casque solaire en carbonado'
+  stats:
+  - '&8⇨ &e⚡ &710 J/t de génération'
   type:
   - '&7&oArmure'
 CARBON_PLATE:
@@ -35,15 +62,27 @@ CARBON_PLATE:
   type:
   - '&7&oComposant'
 CARGO_CONFIGURATOR:
+  description:
+  - '&7Copie et colle les configurations des nœuds cargo.'
   name: '&7Configurateur de cargaison'
   type:
   - '&7&oOutil'
+  usage:
+  - '&7> &eClic droit &7- Copier la configuration du nœud'
+  - '&7> &eClic gauche &7- Appliquer la configuration du nœud'
+  - '&7> &eShift + Clic droit &7- Effacer le configurateur de nœud'
 COAL_DUST:
   name: '&7Poudre de charbon'
   type:
   - '&7&oRessource'
 CONVER:
+  description:
+  - '&7Échange l''énergie entre LiteXpansion et d''autres systèmes'
+  - '&7d''énergie pour que vos grilles interopèrent.'
   name: '&7Convertisseur'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J de tampon'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMachine'
 COPPER_CABLE:
@@ -59,9 +98,15 @@ COPPER_PLATE:
   type:
   - '&7&oComposant'
 DIAMOND_DRILL:
+  description:
+  - '&7Casse instantanément l''obsidienne, la pierre et ses variantes'
   name: '&bForeuse en diamant'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&oOutil'
+  usage:
+  - '&7Clic droit pour casser le bloc plus lentement'
 DIAMOND_DUST:
   name: '&7Poudre de diamant'
   type:
@@ -71,7 +116,11 @@ DIAMOND_PLATE:
   type:
   - '&7&oComposant'
 ELECTRIC_CHESTPLATE:
+  description:
+  - '&7Annule tous les dégâts infligés au joueur.'
   name: '&9Plastron électrique'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 8192 J'
   type:
   - '&7&oArmure'
 ELECTRONIC_CIRCUIT:
@@ -83,21 +132,47 @@ EMERALD_DUST:
   type:
   - '&7&oRessource'
 ENERGIZED_SOLAR_HELMET:
+  description:
+  - '&eUn casque solaire.'
+  - '&7Porté sur la tête, il génère passivement de l''énergie'
+  - '&7à la lumière du jour et charge votre autre équipement.'
   name: '&7Casque solaire énergisé'
+  stats:
+  - '&8⇨ &e⚡ &720 J/t de génération'
   type:
   - '&7&oArmure'
 FOOD_SYNTHESIZER:
+  description:
+  - '&fVous nourrit avec de la nourriture artificielle.'
+  - '&fDisponible en plusieurs saveurs !'
   name: '&dSynthétiseur de nourriture'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 100 J'
   type:
   - '&7&oGadget'
 GENERATOR:
+  description:
+  - '&7Brûle du carburant pour produire de l''énergie.'
+  - '&7Votre première source d''énergie fiable et la base'
+  - '&7pour charger les RE-Batteries et faire tourner les machines.'
   name: '&7Générateur'
+  stats:
+  - '&8⇨ &e⚡ &74,000 J de tampon'
+  - '&8⇨ &e⚡ &710 J/t de sortie'
   type:
   - '&7&oGénérateur'
 GLASS_CUTTER:
+  description:
+  - '&bUn outil électrique pour le verre.'
+  - '&7Fonctionne sur son tampon d''énergie interne.'
   name: '&bCoupe-verre'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 300 J'
   type:
   - '&7&oOutil'
+  usage:
+  - '&eClic gauche&7 pour couper le verre rapidement'
+  - '&eClic droit&7 pour couper le verre lentement'
 GOLD_CABLE:
   name: '&7Câble d''or'
   type:
@@ -111,11 +186,26 @@ GOLD_PLATE:
   type:
   - '&7&oComposant'
 HYBRID_SOLAR_HELMET:
+  description:
+  - '&eUn casque solaire.'
+  - '&7Porté sur la tête, il génère passivement de l''énergie'
+  - '&7à la lumière du jour et charge votre autre équipement.'
+  - '&7Les paliers supérieurs produisent et stockent bien plus.'
   name: '&7Casque solaire hybride'
+  stats:
+  - '&8⇨ &e⚡ &7100 J/t de génération'
   type:
   - '&7&oArmure'
 HYBRID_SOLAR_PANEL:
+  description:
+  - '&bUn panneau solaire sensible à la dimension.'
+  - '&7Sortie accrue dans le Nether le jour et dans l''End'
+  - '&7la nuit, en plus de la génération jour/nuit normale.'
   name: '&b&lPanneau solaire hybride'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J de tampon'
+  - '&8⇨ &e⚡ &7640 J/t (Jour + Nether)'
+  - '&8⇨ &e⚡ &780 J/t (Nuit + End)'
   type:
   - '&7&oGénérateur'
 IRIDIUM:
@@ -123,6 +213,8 @@ IRIDIUM:
   type:
   - '&7&oRessource'
 IRIDIUM_PLATE:
+  description:
+  - '&7Utilisée pour créer l''Armure en iridium'
   name: '&fPlaque d''iridium'
   type:
   - '&7&oComposant'
@@ -143,7 +235,14 @@ LAPOTRON_CRYSTAL:
   type:
   - '&7&oComposant'
 MACERATOR:
+  description:
+  - '&7Broie les minerais et métaux en &7poudre&7, doublant'
+  - '&7votre rendement quand la poudre est refondue.'
+  - '&7La première étape d''un traitement efficace des minerais.'
   name: '&7Macérateur'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J de tampon'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMachine'
 MACHINE_BLOCK:
@@ -151,41 +250,91 @@ MACHINE_BLOCK:
   type:
   - '&7&oComposant'
 MAG_THOR:
+  description:
+  - '&7&oUn alliage extrêmement résistant utilisé'
+  - '&7&ouniquement dans les machines les plus avancées'
   name: '&b&lMag-Thor'
   type:
   - '&7&oRessource'
 MANUAL_MILL:
+  description:
+  - '&7Un moulin multibloc à manivelle.'
+  - '&7Broie les matériaux sans énergie, vous offrant une'
+  - '&7alternative de début de partie au Macérateur électrique.'
   name: '&7Moulin manuel'
   type:
   - '&7&oMultibloc'
+  usage:
+  - '&eClic droit&7 sur le distributeur pour l''utiliser'
 MASS_FABRICATOR_MACHINE:
+  description:
+  - '&5Convertit l''énergie - et éventuellement la &8Ferraille &7- en'
+  - '&5Matière-UU&7, le matériau de construction universel.'
+  - '&7Ajouter de la Ferraille réduit fortement le coût en énergie.'
+  - '&8Une machine gourmande de fin de jeu.'
   name: '&5Fabricateur de masse'
+  stats:
+  - '&8⇨ &e⚡ &749,998 J de tampon'
+  - '&8⇨ &e⚡ &716,666 J/t'
   type:
   - '&7&oMachine'
 METAL_FORGE:
+  description:
+  - '&7Une presse à métaux multibloc.'
+  - '&7Transforme les lingots en &fplaques &7et &fboîtiers d''objets &7-'
+  - '&7les composants derrière les câbles, machines et armures.'
   name: '&7Forge à métaux'
   type:
   - '&7&oMultibloc'
+  usage:
+  - '&eClic droit&7 sur le distributeur pour l''utiliser'
 MINING_DRILL:
+  description:
+  - '&7Casse instantanément la pierre et ses variantes'
   name: '&7Foreuse minière'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&oOutil'
+  usage:
+  - '&7Clic droit pour casser le bloc plus lentement'
 MIXED_METAL_INGOT:
   name: '&7Lingot de métal mixte'
   type:
   - '&7&oRessource'
 MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  description:
+  - '&7Le MFE.'
+  - '&7Un condensateur d''énergie de palier intermédiaire stockant'
+  - '&7un grand tampon pour votre réseau de machines.'
   name: '&7MFE'
+  stats:
+  - '&8⇨ &e⚡ &74,000,000 J de tampon'
+  - '&8⇨ &e⚡ &712 J/t de transfert'
   type:
   - '&7&oMachine'
 MULTI_FUNCTIONAL_STORAGE_UNIT:
+  description:
+  - '&7Le MFSU.'
+  - '&7Un condensateur de haut palier avec un énorme tampon d''énergie'
+  - '&7pour alimenter les machines exigeantes de fin de jeu.'
   name: '&7MFSU'
+  stats:
+  - '&8⇨ &e⚡ &740,000,000 J de tampon'
+  - '&8⇨ &e⚡ &752 J/t de transfert'
   type:
   - '&7&oMachine'
 NANO_BLADE:
+  description:
+  - '&fUne technologie avancée capable de'
+  - '&ftrancher les tissus organiques avec aisance.'
   name: '&2Nano-lame &c(Éteinte)'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 4000 J'
   type:
   - '&7&oArme'
+  usage:
+  - '&eClic droit&7 pour basculer'
 POWER_UNIT:
   name: '&7Unité d''énergie'
   type:
@@ -211,9 +360,15 @@ REFINED_IRON:
   type:
   - '&7&oRessource'
 REFINED_SMELTERY:
+  description:
+  - '&7Une fonderie multibloc.'
+  - '&7Fond les poudres et combine les métaux en alliages'
+  - '&7comme les &7Lingots de métaux mélangés &7et le &7Fer raffiné&7.'
   name: '&7Fonderie raffinée'
   type:
   - '&7&oMultibloc'
+  usage:
+  - '&eClic droit&7 sur le distributeur pour l''utiliser'
 REINFORCED_DOOR:
   name: '&7Porte renforcée'
   type:
@@ -235,18 +390,39 @@ RUBBER:
   type:
   - '&7&oRessource'
 RUBBER_SYNTHESIZER:
+  description:
+  - '&6Convertit un Seau de pétrole en &7Caoutchouc&7.'
+  - '&7Le caoutchouc isole les câbles nus et sert largement'
+  - '&7dans les circuits et les recettes de machines.'
   name: '&6Synthétiseur de caoutchouc'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J de tampon'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMachine'
 SCRAP:
+  description:
+  - '&7Peut servir à créer de la &5Matière-UU'
   name: '&8Ferraille'
   type:
   - '&7&oRessource'
 SCRAP_MACHINE:
+  description:
+  - '&8Le Recycleur.'
+  - '&7Avale presque n''importe quel objet et a une chance de'
+  - '&7recracher de la &8Ferraille &7- la matière première de la Matière-UU.'
+  - '&7Fonctionne à l''énergie ; le reste est détruit.'
   name: '&8Recycleur'
+  stats:
+  - '&8⇨ &e⚡ &7600 J de tampon'
+  - '&8⇨ &e⚡ &7200 J/t'
   type:
   - '&7&oMachine'
 THORIUM:
+  description:
+  - '&8Un élément radioactif.'
+  - '&7Raffiné en &7Mag-Thor &7et utilisé dans les blindages'
+  - '&7et les machines de pointe.'
   name: '&8Thorium'
   stats:
   - '&a☢&7 Niveau de radiation : &6ÉLEVÉ'
@@ -275,15 +451,33 @@ TIN_PLATE:
   type:
   - '&7&oComposant'
 TREETAP:
+  description:
+  - '&7Utilisé pour récolter du &7Caoutchouc &7sur les sources de caoutchouc'
+  - '&7à la main, sans synthétiseur électrique.'
   name: '&7Robinet à sève'
   type:
   - '&7&oOutil'
 ULTIMATE_SOLAR_HELMET:
+  description:
+  - '&eUn casque solaire.'
+  - '&7Porté sur la tête, il génère passivement de l''énergie'
+  - '&7à la lumière du jour et charge votre autre équipement.'
+  - '&7Les paliers supérieurs produisent et stockent bien plus.'
   name: '&7Casque solaire ultime'
+  stats:
+  - '&8⇨ &e⚡ &7250 J/t de génération'
   type:
   - '&7&oArmure'
 ULTIMATE_SOLAR_PANEL:
+  description:
+  - '&5Le panneau solaire le plus puissant de LiteXpansion.'
+  - '&7Génère de grandes quantités d''énergie jour et nuit'
+  - '&7avec un tampon intégré conséquent.'
   name: '&5&lPanneau solaire ultime'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J de tampon'
+  - '&8⇨ &e⚡ &75,120 J/t (Jour)'
+  - '&8⇨ &e⚡ &7640 J/t (Nuit)'
   type:
   - '&7&oGénérateur'
 UNINSULATED_COPPER_CABLE:
@@ -299,10 +493,21 @@ UNINSULATED_TIN_CABLE:
   type:
   - '&7&oComposant'
 UU_CRAFTER:
+  description:
+  - '&7Automatise la fabrication de &5Matière-UU&7.'
+  - '&7Fournissez de la Matière-UU et elle produit la ressource'
+  - '&7configurée sans fabrication manuelle à la grille.'
   name: '&7Fabricant UU'
+  stats:
+  - '&8⇨ &e⚡ &750,000 J de tampon'
+  - '&8⇨ &e⚡ &750,000 J/t'
   type:
   - '&7&oMachine'
+  usage:
+  - '&eClic droit&7 sur l''interrupteur pour la démarrer ou l''arrêter'
 UU_MATTER:
+  description:
+  - '&7Peut servir à créer des objets ou des ressources'
   name: '&5UU-Matter'
   type:
   - '&7&oRessource'
