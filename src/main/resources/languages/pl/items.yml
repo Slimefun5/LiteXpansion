@@ -1,5 +1,12 @@
 ADVANCEDLX_SOLAR_HELMET:
+  description:
+  - '&eHełm słoneczny.'
+  - '&7Noszony na głowie, pasywnie generuje energię'
+  - '&7w świetle dnia i ładuje twój inny sprzęt.'
+  - '&7Wyższe poziomy produkują i magazynują znacznie więcej.'
   name: '&7Super zaawansowany hełm słoneczny'
+  stats:
+  - '&8⇨ &e⚡ &750 J/t generowania'
   type:
   - '&7&oZbroja'
 ADVANCED_ALLOY:
@@ -15,11 +22,25 @@ ADVANCED_MACHINE_BLOCK:
   type:
   - '&7&oKomponent'
 ADVANCED_SOLAR_HELMET:
+  description:
+  - '&eHełm słoneczny.'
+  - '&7Noszony na głowie, pasywnie generuje energię'
+  - '&7w świetle dnia i ładuje twój inny sprzęt.'
   name: '&7Zaawansowany hełm słoneczny'
+  stats:
+  - '&8⇨ &e⚡ &75 J/t generowania'
   type:
   - '&7&oZbroja'
 ADVANCED_SOLAR_PANEL:
+  description:
+  - '&7Panel słoneczny, który &9działa także nocą&7,'
+  - '&7choć wolniej.'
+  - '&7Ma własny wewnętrzny bufor energii.'
   name: '&7&lZaawansowany panel słoneczny'
+  stats:
+  - '&8⇨ &e⚡ &7320,000 J bufora'
+  - '&8⇨ &e⚡ &780 J/t (dzień)'
+  - '&8⇨ &e⚡ &710 J/t (noc)'
   type:
   - '&7&oGenerator'
 ANCIENT_DEBRIS_DUST:
@@ -27,7 +48,13 @@ ANCIENT_DEBRIS_DUST:
   type:
   - '&7&oSurowiec'
 CARBONADO_SOLAR_HELMET:
+  description:
+  - '&eHełm słoneczny.'
+  - '&7Noszony na głowie, pasywnie generuje energię'
+  - '&7w świetle dnia i ładuje twój inny sprzęt.'
   name: '&7Hełm słoneczny z karbonado'
+  stats:
+  - '&8⇨ &e⚡ &710 J/t generowania'
   type:
   - '&7&oZbroja'
 CARBON_PLATE:
@@ -35,15 +62,27 @@ CARBON_PLATE:
   type:
   - '&7&oKomponent'
 CARGO_CONFIGURATOR:
+  description:
+  - '&7Kopiuje i wkleja ustawienia węzłów cargo.'
   name: '&7Konfigurator cargo'
   type:
   - '&7&oNarzędzie'
+  usage:
+  - '&7> &eKliknij prawym &7- kopiuj ustawienia węzła'
+  - '&7> &eKliknij lewym &7- zastosuj ustawienia węzła'
+  - '&7> &eShift+kliknięcie prawym &7- wyczyść konfigurator węzłów'
 COAL_DUST:
   name: '&7Pył węglowy'
   type:
   - '&7&oSurowiec'
 CONVER:
+  description:
+  - '&7Wymienia energię między LiteXpansion a innymi'
+  - '&7systemami mocy, by twoje sieci współpracowały.'
   name: '&7Konwerter'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J bufora'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMaszyna'
 COPPER_CABLE:
@@ -59,9 +98,15 @@ COPPER_PLATE:
   type:
   - '&7&oKomponent'
 DIAMOND_DRILL:
+  description:
+  - '&7Natychmiast rozbija obsydian, kamień i jego odmiany'
   name: '&bDiamentowe wiertło'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&oNarzędzie'
+  usage:
+  - '&7Kliknij prawym, aby rozbijać blok wolniej'
 DIAMOND_DUST:
   name: '&7Pył diamentowy'
   type:
@@ -71,7 +116,11 @@ DIAMOND_PLATE:
   type:
   - '&7&oKomponent'
 ELECTRIC_CHESTPLATE:
+  description:
+  - '&7Niweluje wszystkie obrażenia zadane graczowi.'
   name: '&9Elektryczny napierśnik'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 8192 J'
   type:
   - '&7&oZbroja'
 ELECTRONIC_CIRCUIT:
@@ -83,21 +132,47 @@ EMERALD_DUST:
   type:
   - '&7&oSurowiec'
 ENERGIZED_SOLAR_HELMET:
+  description:
+  - '&eHełm słoneczny.'
+  - '&7Noszony na głowie, pasywnie generuje energię'
+  - '&7w świetle dnia i ładuje twój inny sprzęt.'
   name: '&7Naładowany hełm słoneczny'
+  stats:
+  - '&8⇨ &e⚡ &720 J/t generowania'
   type:
   - '&7&oZbroja'
 FOOD_SYNTHESIZER:
+  description:
+  - '&fUtrzymuje cię syto sztucznym jedzeniem.'
+  - '&fDostępny w wielu smakach!'
   name: '&dSyntezator jedzenia'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 100 J'
   type:
   - '&7&oGadżet'
 GENERATOR:
+  description:
+  - '&7Spala paliwo, by wytwarzać energię.'
+  - '&7Twoje pierwsze pewne źródło mocy i podstawa'
+  - '&7do ładowania RE-Baterii i napędzania maszyn.'
   name: '&7Generator'
+  stats:
+  - '&8⇨ &e⚡ &74,000 J bufora'
+  - '&8⇨ &e⚡ &710 J/t na wyjściu'
   type:
   - '&7&oGenerator'
 GLASS_CUTTER:
+  description:
+  - '&bElektryczne narzędzie do szkła.'
+  - '&7Działa na własnym buforze energii.'
   name: '&bSzklarz'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 300 J'
   type:
   - '&7&oNarzędzie'
+  usage:
+  - '&eKliknij lewym&7, aby szybko ciąć szkło'
+  - '&eKliknij prawym&7, aby powoli ciąć szkło'
 GOLD_CABLE:
   name: '&7Kabel złoty'
   type:
@@ -111,11 +186,26 @@ GOLD_PLATE:
   type:
   - '&7&oKomponent'
 HYBRID_SOLAR_HELMET:
+  description:
+  - '&eHełm słoneczny.'
+  - '&7Noszony na głowie, pasywnie generuje energię'
+  - '&7w świetle dnia i ładuje twój inny sprzęt.'
+  - '&7Wyższe poziomy produkują i magazynują znacznie więcej.'
   name: '&7Hybrydowy hełm słoneczny'
+  stats:
+  - '&8⇨ &e⚡ &7100 J/t generowania'
   type:
   - '&7&oZbroja'
 HYBRID_SOLAR_PANEL:
+  description:
+  - '&bPanel słoneczny świadomy wymiaru.'
+  - '&7Zwiększona wydajność w Netherze za dnia i w Kresie'
+  - '&7nocą, ponad zwykłe wytwarzanie dzień/noc.'
   name: '&b&lHybrydowy panel słoneczny'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J bufora'
+  - '&8⇨ &e⚡ &7640 J/t (dzień + Nether)'
+  - '&8⇨ &e⚡ &780 J/t (noc + Kres)'
   type:
   - '&7&oGenerator'
 IRIDIUM:
@@ -123,6 +213,8 @@ IRIDIUM:
   type:
   - '&7&oSurowiec'
 IRIDIUM_PLATE:
+  description:
+  - '&7Służy do tworzenia Irydowej zbroi'
   name: '&fIrydowa płyta'
   type:
   - '&7&oKomponent'
@@ -143,7 +235,14 @@ LAPOTRON_CRYSTAL:
   type:
   - '&7&oKomponent'
 MACERATOR:
+  description:
+  - '&7Miele rudy i metale na &7pył&7, podwajając'
+  - '&7twój urobek po przetopieniu pyłu z powrotem.'
+  - '&7Pierwszy krok wydajnej obróbki rud.'
   name: '&7Macerator'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J bufora'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMaszyna'
 MACHINE_BLOCK:
@@ -151,41 +250,91 @@ MACHINE_BLOCK:
   type:
   - '&7&oKomponent'
 MAG_THOR:
+  description:
+  - '&7&oNiezwykle wytrzymały stop używany'
+  - '&7&otylko w najbardziej zaawansowanych maszynach'
   name: '&b&lMag-Thor'
   type:
   - '&7&oSurowiec'
 MANUAL_MILL:
+  description:
+  - '&7Multiblokowy młyn na korbę.'
+  - '&7Miele materiały bez zasilania, dając ci'
+  - '&7wczesną alternatywę dla elektrycznego Rozdrabniacza.'
   name: '&7Ręczny młyn'
   type:
   - '&7&oMultiblok'
+  usage:
+  - '&eKliknij prawym&7 dozownik, aby użyć'
 MASS_FABRICATOR_MACHINE:
+  description:
+  - '&5Przekształca energię - i opcjonalnie &8Złom &7- w'
+  - '&5UU-Matter&7, uniwersalny materiał budulcowy.'
+  - '&7Dodanie Złomu drastycznie obniża koszt energii.'
+  - '&8Żarłoczna maszyna końcowej fazy gry.'
   name: '&5Fabrykator masy'
+  stats:
+  - '&8⇨ &e⚡ &749,998 J bufora'
+  - '&8⇨ &e⚡ &716,666 J/t'
   type:
   - '&7&oMaszyna'
 METAL_FORGE:
+  description:
+  - '&7Multiblokowa prasa do metalu.'
+  - '&7Formuje sztabki w &fpłyty &7i &fobudowy przedmiotów &7-'
+  - '&7podzespoły kabli, maszyn i zbroi.'
   name: '&7Kuźnia metali'
   type:
   - '&7&oMultiblok'
+  usage:
+  - '&eKliknij prawym&7 dozownik, aby użyć'
 MINING_DRILL:
+  description:
+  - '&7Natychmiast rozbija kamień i jego odmiany'
   name: '&7Wiertło górnicze'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&oNarzędzie'
+  usage:
+  - '&7Kliknij prawym, aby rozbijać blok wolniej'
 MIXED_METAL_INGOT:
   name: '&7Mieszana sztabka metalu'
   type:
   - '&7&oSurowiec'
 MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  description:
+  - '&7MFE.'
+  - '&7Kondensator energii średniego poziomu, magazynujący duży'
+  - '&7zapas dla twojej sieci maszyn.'
   name: '&7MFE'
+  stats:
+  - '&8⇨ &e⚡ &74,000,000 J bufora'
+  - '&8⇨ &e⚡ &712 J/t przesyłu'
   type:
   - '&7&oMaszyna'
 MULTI_FUNCTIONAL_STORAGE_UNIT:
+  description:
+  - '&7MFSU.'
+  - '&7Kondensator wysokiego poziomu z ogromnym buforem energii'
+  - '&7do zasilania wymagających maszyn końcowej fazy gry.'
   name: '&7MFSU'
+  stats:
+  - '&8⇨ &e⚡ &740,000,000 J bufora'
+  - '&8⇨ &e⚡ &752 J/t przesyłu'
   type:
   - '&7&oMaszyna'
 NANO_BLADE:
+  description:
+  - '&fZaawansowany element technologii, który potrafi'
+  - '&fbez trudu przecinać tkankę organiczną.'
   name: '&2Nanoostrze &c(Wył)'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 4000 J'
   type:
   - '&7&oBroń'
+  usage:
+  - '&eKliknij prawym&7, aby przełączyć'
 POWER_UNIT:
   name: '&7Jednostka energii'
   type:
@@ -211,9 +360,15 @@ REFINED_IRON:
   type:
   - '&7&oSurowiec'
 REFINED_SMELTERY:
+  description:
+  - '&7Multiblokowa huta.'
+  - '&7Wytapia pyły i łączy metale w stopy'
+  - '&7takie jak &7Sztabki mieszanych metali &7i &7Rafinowane żelazo&7.'
   name: '&7Rafinowana huta'
   type:
   - '&7&oMultiblok'
+  usage:
+  - '&eKliknij prawym&7 dozownik, aby użyć'
 REINFORCED_DOOR:
   name: '&7Wzmocnione drzwi'
   type:
@@ -235,18 +390,39 @@ RUBBER:
   type:
   - '&7&oSurowiec'
 RUBBER_SYNTHESIZER:
+  description:
+  - '&6Przekształca Wiadro ropy w &7kauczuk&7.'
+  - '&7Kauczuk izoluje gołe kable i jest szeroko używany'
+  - '&7w obwodach i przepisach maszyn.'
   name: '&6Syntezator gumy'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J bufora'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMaszyna'
 SCRAP:
+  description:
+  - '&7Można go użyć do stworzenia &5UU-Matter'
   name: '&8Złom'
   type:
   - '&7&oSurowiec'
 SCRAP_MACHINE:
+  description:
+  - '&8Recykler.'
+  - '&7Przyjmuje niemal każdy przedmiot i może'
+  - '&7wypluć &8Złom &7- surowiec wyjściowy dla UU-Matter.'
+  - '&7Działa na energii; reszta ulega zniszczeniu.'
   name: '&8Recykler'
+  stats:
+  - '&8⇨ &e⚡ &7600 J bufora'
+  - '&8⇨ &e⚡ &7200 J/t'
   type:
   - '&7&oMaszyna'
 THORIUM:
+  description:
+  - '&8Pierwiastek promieniotwórczy.'
+  - '&7Rafinowany na &7Mag-Thor &7i używany w zaawansowanym'
+  - '&7opancerzeniu i maszynach.'
   name: '&8Tor'
   stats:
   - '&a☢&7 Poziom promieniowania: &6WYSOKI'
@@ -275,15 +451,33 @@ TIN_PLATE:
   type:
   - '&7&oKomponent'
 TREETAP:
+  description:
+  - '&7Służy do zbierania &7kauczuku &7ze źródeł kauczuku'
+  - '&7ręcznie, bez elektrycznego syntezatora.'
   name: '&7Kranik do drzew'
   type:
   - '&7&oNarzędzie'
 ULTIMATE_SOLAR_HELMET:
+  description:
+  - '&eHełm słoneczny.'
+  - '&7Noszony na głowie, pasywnie generuje energię'
+  - '&7w świetle dnia i ładuje twój inny sprzęt.'
+  - '&7Wyższe poziomy produkują i magazynują znacznie więcej.'
   name: '&7Ultymatywny hełm słoneczny'
+  stats:
+  - '&8⇨ &e⚡ &7250 J/t generowania'
   type:
   - '&7&oZbroja'
 ULTIMATE_SOLAR_PANEL:
+  description:
+  - '&5Najmocniejszy panel słoneczny LiteXpansion.'
+  - '&7Wytwarza duże ilości energii dniem i nocą'
+  - '&7i ma pokaźny wbudowany bufor.'
   name: '&5&lUltymatywny panel słoneczny'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J bufora'
+  - '&8⇨ &e⚡ &75,120 J/t (dzień)'
+  - '&8⇨ &e⚡ &7640 J/t (noc)'
   type:
   - '&7&oGenerator'
 UNINSULATED_COPPER_CABLE:
@@ -299,10 +493,21 @@ UNINSULATED_TIN_CABLE:
   type:
   - '&7&oKomponent'
 UU_CRAFTER:
+  description:
+  - '&7Automatyzuje wytwarzanie &5UU-Matter&7.'
+  - '&7Dostarcz UU-Matter, a wyprodukuje ustawiony'
+  - '&7surowiec bez ręcznego wytwarzania na siatce.'
   name: '&7Wytwórca UU'
+  stats:
+  - '&8⇨ &e⚡ &750,000 J bufora'
+  - '&8⇨ &e⚡ &750,000 J/t'
   type:
   - '&7&oMaszyna'
+  usage:
+  - '&eKliknij prawym&7 przełącznik, aby go uruchomić lub zatrzymać'
 UU_MATTER:
+  description:
+  - '&7Można go użyć do tworzenia przedmiotów lub surowców'
   name: '&5UU-Matter'
   type:
   - '&7&oSurowiec'
