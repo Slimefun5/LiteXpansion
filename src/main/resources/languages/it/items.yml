@@ -1,5 +1,12 @@
 ADVANCEDLX_SOLAR_HELMET:
+  description:
+  - '&eUn elmo solare.'
+  - '&7Indossato sulla testa, genera passivamente energia'
+  - '&7alla luce del giorno e carica il tuo altro equipaggiamento.'
+  - '&7I livelli superiori producono e immagazzinano molto di più.'
   name: '&7Elmo solare super avanzato'
+  stats:
+  - '&8⇨ &e⚡ &750 J/t Generazione'
   type:
   - '&7&oArmatura'
 ADVANCED_ALLOY:
@@ -15,11 +22,25 @@ ADVANCED_MACHINE_BLOCK:
   type:
   - '&7&oComponente'
 ADVANCED_SOLAR_HELMET:
+  description:
+  - '&eUn elmo solare.'
+  - '&7Indossato sulla testa, genera passivamente energia'
+  - '&7alla luce del giorno e carica il tuo altro equipaggiamento.'
   name: '&7Elmo solare avanzato'
+  stats:
+  - '&8⇨ &e⚡ &75 J/t Generazione'
   type:
   - '&7&oArmatura'
 ADVANCED_SOLAR_PANEL:
+  description:
+  - '&7Un pannello solare che &9funziona anche di notte&7,'
+  - '&7a un tasso ridotto.'
+  - '&7Include un proprio buffer di energia interno.'
   name: '&7&lPannello solare avanzato'
+  stats:
+  - '&8⇨ &e⚡ &7320,000 J Buffer'
+  - '&8⇨ &e⚡ &780 J/t (Giorno)'
+  - '&8⇨ &e⚡ &710 J/t (Notte)'
   type:
   - '&7&oGeneratore'
 ANCIENT_DEBRIS_DUST:
@@ -27,7 +48,13 @@ ANCIENT_DEBRIS_DUST:
   type:
   - '&7&oRisorsa'
 CARBONADO_SOLAR_HELMET:
+  description:
+  - '&eUn elmo solare.'
+  - '&7Indossato sulla testa, genera passivamente energia'
+  - '&7alla luce del giorno e carica il tuo altro equipaggiamento.'
   name: '&7Elmo solare in carbonado'
+  stats:
+  - '&8⇨ &e⚡ &710 J/t Generazione'
   type:
   - '&7&oArmatura'
 CARBON_PLATE:
@@ -35,15 +62,27 @@ CARBON_PLATE:
   type:
   - '&7&oComponente'
 CARGO_CONFIGURATOR:
+  description:
+  - '&7Copia e incolla le configurazioni dei nodi cargo.'
   name: '&7Configuratore di carico'
   type:
   - '&7&oStrumento'
+  usage:
+  - '&7> &eClic Destro &7- Copia la configurazione del nodo'
+  - '&7> &eClic Sinistro &7- Applica la configurazione del nodo'
+  - '&7> &eShift+Clic Destro &7- Svuota il configuratore di nodi'
 COAL_DUST:
   name: '&7Polvere di carbone'
   type:
   - '&7&oRisorsa'
 CONVER:
+  description:
+  - '&7Scambia energia tra LiteXpansion e altri sistemi'
+  - '&7di potenza, così le tue griglie possono comunicare.'
   name: '&7Convertitore'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J Buffer'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMacchina'
 COPPER_CABLE:
@@ -59,9 +98,15 @@ COPPER_PLATE:
   type:
   - '&7&oComponente'
 DIAMOND_DRILL:
+  description:
+  - '&7Rompe all''istante ossidiana, pietra e le varianti della pietra'
   name: '&bTrapano di diamante'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&oStrumento'
+  usage:
+  - '&7Clic destro per rompere il blocco più lentamente'
 DIAMOND_DUST:
   name: '&7Polvere di diamante'
   type:
@@ -71,7 +116,11 @@ DIAMOND_PLATE:
   type:
   - '&7&oComponente'
 ELECTRIC_CHESTPLATE:
+  description:
+  - '&7Annulla tutto il danno inflitto al giocatore.'
   name: '&9Corazza elettrica'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 8192 J'
   type:
   - '&7&oArmatura'
 ELECTRONIC_CIRCUIT:
@@ -83,21 +132,47 @@ EMERALD_DUST:
   type:
   - '&7&oRisorsa'
 ENERGIZED_SOLAR_HELMET:
+  description:
+  - '&eUn elmo solare.'
+  - '&7Indossato sulla testa, genera passivamente energia'
+  - '&7alla luce del giorno e carica il tuo altro equipaggiamento.'
   name: '&7Elmo solare energizzato'
+  stats:
+  - '&8⇨ &e⚡ &720 J/t Generazione'
   type:
   - '&7&oArmatura'
 FOOD_SYNTHESIZER:
+  description:
+  - '&fTi tiene sazio con cibo artificiale.'
+  - '&fDisponibile in tanti gusti!'
   name: '&dSintetizzatore di cibo'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 100 J'
   type:
   - '&7&oGadget'
 GENERATOR:
+  description:
+  - '&7Brucia carburante per produrre energia.'
+  - '&7La tua prima fonte di potenza affidabile e la base'
+  - '&7per caricare le RE-Batterie e far girare le macchine.'
   name: '&7Generatore'
+  stats:
+  - '&8⇨ &e⚡ &74,000 J Buffer'
+  - '&8⇨ &e⚡ &710 J/t Uscita'
   type:
   - '&7&oGeneratore'
 GLASS_CUTTER:
+  description:
+  - '&bUno strumento elettrico per il vetro.'
+  - '&7Funziona con il suo buffer di energia interno.'
   name: '&bTagliavetro'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 300 J'
   type:
   - '&7&oStrumento'
+  usage:
+  - '&eClic Sinistro&7 per tagliare il vetro rapidamente'
+  - '&eClic Destro&7 per tagliare il vetro lentamente'
 GOLD_CABLE:
   name: '&7Cavo d''oro'
   type:
@@ -111,11 +186,26 @@ GOLD_PLATE:
   type:
   - '&7&oComponente'
 HYBRID_SOLAR_HELMET:
+  description:
+  - '&eUn elmo solare.'
+  - '&7Indossato sulla testa, genera passivamente energia'
+  - '&7alla luce del giorno e carica il tuo altro equipaggiamento.'
+  - '&7I livelli superiori producono e immagazzinano molto di più.'
   name: '&7Elmo solare ibrido'
+  stats:
+  - '&8⇨ &e⚡ &7100 J/t Generazione'
   type:
   - '&7&oArmatura'
 HYBRID_SOLAR_PANEL:
+  description:
+  - '&bUn pannello solare che riconosce la dimensione.'
+  - '&7Uscita potenziata nel Nether di giorno e nell''End'
+  - '&7di notte, oltre alla normale generazione giorno/notte.'
   name: '&b&lPannello solare ibrido'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J Buffer'
+  - '&8⇨ &e⚡ &7640 J/t (Giorno + Nether)'
+  - '&8⇨ &e⚡ &780 J/t (Notte + End)'
   type:
   - '&7&oGeneratore'
 IRIDIUM:
@@ -123,6 +213,8 @@ IRIDIUM:
   type:
   - '&7&oRisorsa'
 IRIDIUM_PLATE:
+  description:
+  - '&7Usata per creare l''Armatura di Iridio'
   name: '&fPiastra di iridio'
   type:
   - '&7&oComponente'
@@ -143,7 +235,14 @@ LAPOTRON_CRYSTAL:
   type:
   - '&7&oComponente'
 MACERATOR:
+  description:
+  - '&7Macina minerali e metalli in &7polvere&7, raddoppiando'
+  - '&7la resa quando la polvere viene rifusa.'
+  - '&7Il primo passo di una lavorazione efficiente dei minerali.'
   name: '&7Maceratore'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J Buffer'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMacchina'
 MACHINE_BLOCK:
@@ -151,41 +250,91 @@ MACHINE_BLOCK:
   type:
   - '&7&oComponente'
 MAG_THOR:
+  description:
+  - '&7&oUna lega estremamente resistente usata'
+  - '&7&osolo nelle macchine più avanzate'
   name: '&b&lMag-Thor'
   type:
   - '&7&oRisorsa'
 MANUAL_MILL:
+  description:
+  - '&7Un mulino multiblocco a manovella.'
+  - '&7Macina materiali senza potenza, ed è la tua'
+  - '&7alternativa d''inizio partita al Maceratore elettrico.'
   name: '&7Mulino manuale'
   type:
   - '&7&oMultiblocco'
+  usage:
+  - '&eClic Destro&7 sul distributore per usarla'
 MASS_FABRICATOR_MACHINE:
+  description:
+  - '&5Converte energia - e in opzione &8Rottami &7- in'
+  - '&5UU-Matter&7, il materiale da costruzione universale.'
+  - '&7Aggiungere Rottami riduce moltissimo il costo di energia.'
+  - '&8Una macchina End-Game affamata.'
   name: '&5Fabbricatore di massa'
+  stats:
+  - '&8⇨ &e⚡ &749,998 J Buffer'
+  - '&8⇨ &e⚡ &716,666 J/t'
   type:
   - '&7&oMacchina'
 METAL_FORGE:
+  description:
+  - '&7Una pressa per metalli multiblocco.'
+  - '&7Trasforma i lingotti in &fpiastre &7e &finvolucri &7-'
+  - '&7i componenti dietro cavi, macchine e armature.'
   name: '&7Forgia di metalli'
   type:
   - '&7&oMultiblocco'
+  usage:
+  - '&eClic Destro&7 sul distributore per usarla'
 MINING_DRILL:
+  description:
+  - '&7Rompe all''istante la pietra e le sue varianti'
   name: '&7Trapano da miniera'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&oStrumento'
+  usage:
+  - '&7Clic destro per rompere il blocco più lentamente'
 MIXED_METAL_INGOT:
   name: '&7Lingotto di metallo misto'
   type:
   - '&7&oRisorsa'
 MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  description:
+  - '&7L''MFE.'
+  - '&7Un condensatore di energia di livello intermedio con'
+  - '&7un grande buffer per la tua rete di macchine.'
   name: '&7MFE'
+  stats:
+  - '&8⇨ &e⚡ &74,000,000 J Buffer'
+  - '&8⇨ &e⚡ &712 J/t Trasferimento'
   type:
   - '&7&oMacchina'
 MULTI_FUNCTIONAL_STORAGE_UNIT:
+  description:
+  - '&7L''MFSU.'
+  - '&7Un condensatore di livello alto con un enorme buffer'
+  - '&7per alimentare esigenti macchine End-Game.'
   name: '&7MFSU'
+  stats:
+  - '&8⇨ &e⚡ &740,000,000 J Buffer'
+  - '&8⇨ &e⚡ &752 J/t Trasferimento'
   type:
   - '&7&oMacchina'
 NANO_BLADE:
+  description:
+  - '&fUn pezzo di tecnologia avanzata che può'
+  - '&ftagliare i tessuti organici con facilità.'
   name: '&2Nano-lama &c(Spenta)'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 4000 J'
   type:
   - '&7&oArma'
+  usage:
+  - '&eClic Destro&7 per attivare o disattivare'
 POWER_UNIT:
   name: '&7Unità di energia'
   type:
@@ -211,9 +360,15 @@ REFINED_IRON:
   type:
   - '&7&oRisorsa'
 REFINED_SMELTERY:
+  description:
+  - '&7Una fucina multiblocco.'
+  - '&7Fonde polveri e combina metalli in leghe'
+  - '&7come i &7Lingotti di Metallo Misto &7e il &7Ferro Raffinato&7.'
   name: '&7Fonderia raffinata'
   type:
   - '&7&oMultiblocco'
+  usage:
+  - '&eClic Destro&7 sul distributore per usarla'
 REINFORCED_DOOR:
   name: '&7Porta rinforzata'
   type:
@@ -235,18 +390,39 @@ RUBBER:
   type:
   - '&7&oRisorsa'
 RUBBER_SYNTHESIZER:
+  description:
+  - '&6Converte un Secchio di Petrolio in &7Gomma&7.'
+  - '&7La Gomma isola i cavi nudi ed è molto usata'
+  - '&7nei circuiti e nelle ricette delle macchine.'
   name: '&6Sintetizzatore di gomma'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J Buffer'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMacchina'
 SCRAP:
+  description:
+  - '&7Può essere usato per creare &5UU-Matter'
   name: '&8Rottame'
   type:
   - '&7&oRisorsa'
 SCRAP_MACHINE:
+  description:
+  - '&8Il Riciclatore.'
+  - '&7Ingoia quasi ogni oggetto e ha una probabilità di'
+  - '&7sputare &8Rottami &7- la materia prima per l''UU-Matter.'
+  - '&7Funziona a energia; il resto viene distrutto.'
   name: '&8Riciclatore'
+  stats:
+  - '&8⇨ &e⚡ &7600 J Buffer'
+  - '&8⇨ &e⚡ &7200 J/t'
   type:
   - '&7&oMacchina'
 THORIUM:
+  description:
+  - '&8Un elemento radioattivo.'
+  - '&7Raffinato in &7Mag-Thor &7e usato in placcature'
+  - '&7e macchinari avanzati.'
   name: '&8Torio'
   stats:
   - '&a☢&7 Livello di radiazioni: &6ALTO'
@@ -275,15 +451,33 @@ TIN_PLATE:
   type:
   - '&7&oComponente'
 TREETAP:
+  description:
+  - '&7Usato per raccogliere &7Gomma &7dalle fonti di gomma'
+  - '&7a mano, senza un sintetizzatore elettrico.'
   name: '&7Rubinetto per alberi'
   type:
   - '&7&oStrumento'
 ULTIMATE_SOLAR_HELMET:
+  description:
+  - '&eUn elmo solare.'
+  - '&7Indossato sulla testa, genera passivamente energia'
+  - '&7alla luce del giorno e carica il tuo altro equipaggiamento.'
+  - '&7I livelli superiori producono e immagazzinano molto di più.'
   name: '&7Elmo solare definitivo'
+  stats:
+  - '&8⇨ &e⚡ &7250 J/t Generazione'
   type:
   - '&7&oArmatura'
 ULTIMATE_SOLAR_PANEL:
+  description:
+  - '&5Il pannello solare più potente di LiteXpansion.'
+  - '&7Genera grandi quantità di energia giorno e notte'
+  - '&7con un buffer integrato di buone dimensioni.'
   name: '&5&lPannello solare definitivo'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J Buffer'
+  - '&8⇨ &e⚡ &75,120 J/t (Giorno)'
+  - '&8⇨ &e⚡ &7640 J/t (Notte)'
   type:
   - '&7&oGeneratore'
 UNINSULATED_COPPER_CABLE:
@@ -299,10 +493,21 @@ UNINSULATED_TIN_CABLE:
   type:
   - '&7&oComponente'
 UU_CRAFTER:
+  description:
+  - '&7Automatizza la fabbricazione di &5UU-Matter&7.'
+  - '&7Forniscigli UU-Matter e produrrà la risorsa'
+  - '&7configurata senza fabbricazione manuale nella griglia.'
   name: '&7Creatore UU'
+  stats:
+  - '&8⇨ &e⚡ &750,000 J Buffer'
+  - '&8⇨ &e⚡ &750,000 J/t'
   type:
   - '&7&oMacchina'
+  usage:
+  - '&eClic Destro&7 sulla leva per avviarlo o fermarlo'
 UU_MATTER:
+  description:
+  - '&7Può essere usata per creare oggetti o risorse'
   name: '&5UU-Matter'
   type:
   - '&7&oRisorsa'
