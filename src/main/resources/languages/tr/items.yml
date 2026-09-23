@@ -1,190 +1,429 @@
 ADVANCEDLX_SOLAR_HELMET:
+  description:
+  - '&eBir güneş kaskı.'
+  - '&7Kafaya takılır, gün ışığında pasif olarak enerji'
+  - '&7üretir ve diğer teçhizatını şarj eder.'
+  - '&7Daha yüksek kademeler çok daha fazla üretir ve depolar.'
+  name: '&7Süper Gelişmiş Güneş Kaskı'
+  stats:
+  - '&8⇨ &e⚡ &750 J/t Üretim'
   type:
   - '&7&oZırh'
 ADVANCED_ALLOY:
+  name: '&7Gelişmiş Alaşım'
   type:
   - '&7&oBileşen'
 ADVANCED_CIRCUIT:
+  name: '&7Gelişmiş Devre'
   type:
   - '&7&oBileşen'
 ADVANCED_MACHINE_BLOCK:
+  name: '&7Gelişmiş Makine Bloğu'
   type:
   - '&7&oBileşen'
 ADVANCED_SOLAR_HELMET:
+  description:
+  - '&eBir güneş kaskı.'
+  - '&7Kafaya takılır, gün ışığında pasif olarak enerji'
+  - '&7üretir ve diğer teçhizatını şarj eder.'
+  name: '&7Gelişmiş Güneş Kaskı'
+  stats:
+  - '&8⇨ &e⚡ &75 J/t Üretim'
   type:
   - '&7&oZırh'
 ADVANCED_SOLAR_PANEL:
+  description:
+  - '&7Bir güneş paneli, &9gece de çalışır&7,'
+  - '&7ama daha düşük bir hızda.'
+  - '&7Kendi dahili enerji tamponunu içerir.'
+  name: '&7&lGelişmiş Güneş Paneli'
+  stats:
+  - '&8⇨ &e⚡ &7320,000 J Tampon'
+  - '&8⇨ &e⚡ &780 J/t (Gündüz)'
+  - '&8⇨ &e⚡ &710 J/t (Gece)'
   type:
   - '&7&oJeneratör'
 ANCIENT_DEBRIS_DUST:
+  name: '&7Kadim Kalıntı Tozu'
   type:
   - '&7&oKaynak'
 CARBONADO_SOLAR_HELMET:
+  description:
+  - '&eBir güneş kaskı.'
+  - '&7Kafaya takılır, gün ışığında pasif olarak enerji'
+  - '&7üretir ve diğer teçhizatını şarj eder.'
+  name: '&7Karbonado Güneş Kaskı'
+  stats:
+  - '&8⇨ &e⚡ &710 J/t Üretim'
   type:
   - '&7&oZırh'
 CARBON_PLATE:
+  name: '&7Karbon Plaka'
   type:
   - '&7&oBileşen'
 CARGO_CONFIGURATOR:
+  description:
+  - '&7Kargo düğümü ayarlarını kopyalar ve yapıştırır.'
+  name: '&7Kargo Yapılandırıcı'
   type:
   - '&7&oAlet'
+  usage:
+  - '&7> &eSağ Tık &7- Düğüm ayarlarını kopyala'
+  - '&7> &eSol Tık &7- Düğüm ayarlarını uygula'
+  - '&7> &eShift+Sağ Tık &7- Düğüm yapılandırıcısını temizle'
 COAL_DUST:
+  name: '&7Kömür Tozu'
   type:
   - '&7&oKaynak'
 CONVER:
+  description:
+  - '&7LiteXpansion ile diğer güç sistemleri arasında'
+  - '&7enerji takas eder, böylece ağların birlikte çalışır.'
+  name: '&7Dönüştürücü'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J Tampon'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMakine'
 COPPER_CABLE:
+  name: '&7Bakır Kablo'
   type:
   - '&7&oBileşen'
 COPPER_ITEM_CASING:
+  name: '&7Bakır Eşya Kılıfı'
   type:
   - '&7&oBileşen'
 COPPER_PLATE:
+  name: '&7Bakır Plaka'
   type:
   - '&7&oBileşen'
 DIAMOND_DRILL:
+  description:
+  - '&7Obsidyeni, taşı ve taş varyantlarını anında kırar'
+  name: '&bElmas Matkap'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&oAlet'
+  usage:
+  - '&7Bloğu daha yavaş kırmak için sağ tıkla'
 DIAMOND_DUST:
+  name: '&7Elmas Tozu'
   type:
   - '&7&oKaynak'
 DIAMOND_PLATE:
+  name: '&7Elmas Plaka'
   type:
   - '&7&oBileşen'
 ELECTRIC_CHESTPLATE:
+  description:
+  - '&7Oyuncuya verilen tüm hasarı yok eder.'
+  name: '&9Elektrikli Göğüslük'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 8192 J'
   type:
   - '&7&oZırh'
 ELECTRONIC_CIRCUIT:
+  name: '&7Elektronik Devre'
   type:
   - '&7&oBileşen'
 EMERALD_DUST:
+  name: '&7Zümrüt Tozu'
   type:
   - '&7&oKaynak'
 ENERGIZED_SOLAR_HELMET:
+  description:
+  - '&eBir güneş kaskı.'
+  - '&7Kafaya takılır, gün ışığında pasif olarak enerji'
+  - '&7üretir ve diğer teçhizatını şarj eder.'
+  name: '&7Enerjili Güneş Kaskı'
+  stats:
+  - '&8⇨ &e⚡ &720 J/t Üretim'
   type:
   - '&7&oZırh'
 FOOD_SYNTHESIZER:
+  description:
+  - '&fSeni yapay yiyecekle tok tutar.'
+  - '&fÇeşit çeşit lezzetle gelir!'
+  name: '&dYiyecek Sentezleyici'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 100 J'
   type:
   - '&7&oCihaz'
 GENERATOR:
+  description:
+  - '&7Enerji üretmek için yakıt yakar.'
+  - '&7İlk güvenilir güç kaynağın; RE Pillerini şarj'
+  - '&7etmenin ve makineleri çalıştırmanın temeli.'
+  name: '&7Jeneratör'
+  stats:
+  - '&8⇨ &e⚡ &74,000 J Tampon'
+  - '&8⇨ &e⚡ &710 J/t Çıkış'
   type:
   - '&7&oJeneratör'
 GLASS_CUTTER:
+  description:
+  - '&bElektrikli bir cam aleti.'
+  - '&7Kendi dahili enerji tamponuyla çalışır.'
+  name: '&bCam Kesici'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 300 J'
   type:
   - '&7&oAlet'
+  usage:
+  - '&eSol Tık&7 ile camı hızlıca kes'
+  - '&eSağ Tık&7 ile camı yavaşça kes'
 GOLD_CABLE:
+  name: '&7Altın Kablo'
   type:
   - '&7&oBileşen'
 GOLD_ITEM_CASING:
+  name: '&7Altın Eşya Kılıfı'
   type:
   - '&7&oBileşen'
 GOLD_PLATE:
+  name: '&7Altın Plaka'
   type:
   - '&7&oBileşen'
 HYBRID_SOLAR_HELMET:
+  description:
+  - '&eBir güneş kaskı.'
+  - '&7Kafaya takılır, gün ışığında pasif olarak enerji'
+  - '&7üretir ve diğer teçhizatını şarj eder.'
+  - '&7Daha yüksek kademeler çok daha fazla üretir ve depolar.'
+  name: '&7Hibrit Güneş Kaskı'
+  stats:
+  - '&8⇨ &e⚡ &7100 J/t Üretim'
   type:
   - '&7&oZırh'
 HYBRID_SOLAR_PANEL:
+  description:
+  - '&bBoyut duyarlı bir güneş paneli.'
+  - '&7Gündüz Nether''de ve gece End''de artırılmış'
+  - '&7çıkış verir, normal gündüz/gece üretiminin üstüne.'
+  name: '&b&lHibrit Güneş Paneli'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J Tampon'
+  - '&8⇨ &e⚡ &7640 J/t (Gündüz + Nether)'
+  - '&8⇨ &e⚡ &780 J/t (Gece + End)'
   type:
   - '&7&oJeneratör'
 IRIDIUM:
+  name: '&fİridyum'
   type:
   - '&7&oKaynak'
 IRIDIUM_PLATE:
+  description:
+  - '&7İridyum Zırhı üretmek için kullanılır'
+  name: '&fİridyum Plaka'
   type:
   - '&7&oBileşen'
 IRON_ITEM_CASING:
+  name: '&7Demir Eşya Kılıfı'
   type:
   - '&7&oBileşen'
 IRON_PLATE:
+  name: '&7Demir Plaka'
   type:
   - '&7&oBileşen'
 LAPIS_DUST:
+  name: '&7Lapis Tozu'
   type:
   - '&7&oKaynak'
 LAPOTRON_CRYSTAL:
+  name: '&7Lapotron Kristali'
   type:
   - '&7&oBileşen'
 MACERATOR:
+  description:
+  - '&7Cevherleri ve metalleri &7toza &7öğütür,'
+  - '&7toz yeniden eritildiğinde verimin ikiye katlanır.'
+  - '&7Verimli cevher işlemenin ilk adımı.'
+  name: '&7Öğütücü'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J Tampon'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMakine'
 MACHINE_BLOCK:
+  name: '&7Makine Bloğu'
   type:
   - '&7&oBileşen'
 MAG_THOR:
+  description:
+  - '&7&oYalnızca en gelişmiş makinelerde kullanılan'
+  - '&7&oson derece dayanıklı bir alaşım'
+  name: '&b&lMag-Thor'
   type:
   - '&7&oKaynak'
 MANUAL_MILL:
+  description:
+  - '&7Elle çevrilen çok bloklu bir değirmen.'
+  - '&7Malzemeleri hiç güç kullanmadan öğütür ve sana'
+  - '&7elektrikli Öğütücüye erken oyun alternatifi sunar.'
+  name: '&7El Değirmeni'
   type:
   - '&7&oYapı'
+  usage:
+  - '&eSağ Tık&7 ile dağıtıcıyı kullan'
 MASS_FABRICATOR_MACHINE:
+  description:
+  - '&5Enerjiyi - ve istersen &8Hurda&7yı - şuna dönüştürür:'
+  - '&5UU-Madde&7, evrensel yapı malzemesi.'
+  - '&7Hurda eklemek enerji maliyetini çarpıcı biçimde düşürür.'
+  - '&8Açgözlü bir oyun sonu makinesi.'
+  name: '&5Kütle Fabrikatörü'
+  stats:
+  - '&8⇨ &e⚡ &749,998 J Tampon'
+  - '&8⇨ &e⚡ &716,666 J/t'
   type:
   - '&7&oMakine'
 METAL_FORGE:
+  description:
+  - '&7Çok bloklu bir metal presi.'
+  - '&7Külçeleri &fplakalara &7ve &feşya kılıflarına &7dönüştürür -'
+  - '&7kabloların, makinelerin ve zırhların arkasındaki bileşenler.'
+  name: '&7Metal Ocağı'
   type:
   - '&7&oYapı'
+  usage:
+  - '&eSağ Tık&7 ile dağıtıcıyı kullan'
 MINING_DRILL:
+  description:
+  - '&7Taşı ve taş varyantlarını anında kırar'
+  name: '&7Madenci Matkabı'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&oAlet'
+  usage:
+  - '&7Bloğu daha yavaş kırmak için sağ tıkla'
 MIXED_METAL_INGOT:
+  name: '&7Karışık Metal Külçe'
   type:
   - '&7&oKaynak'
 MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  description:
+  - '&7MFE.'
+  - '&7Makine ağın için büyük bir tampon tutan'
+  - '&7orta kademe bir enerji kapasitörü.'
+  name: '&7MFE'
+  stats:
+  - '&8⇨ &e⚡ &74,000,000 J Tampon'
+  - '&8⇨ &e⚡ &712 J/t Aktarım'
   type:
   - '&7&oMakine'
 MULTI_FUNCTIONAL_STORAGE_UNIT:
+  description:
+  - '&7MFSU.'
+  - '&7Zorlu oyun sonu makinelerini beslemek için'
+  - '&7devasa enerji tamponlu üst kademe bir kapasitör.'
+  name: '&7MFSU'
+  stats:
+  - '&8⇨ &e⚡ &740,000,000 J Tampon'
+  - '&8⇨ &e⚡ &752 J/t Aktarım'
   type:
   - '&7&oMakine'
 NANO_BLADE:
+  description:
+  - '&fOrganik dokuyu kolayca kesebilen'
+  - '&fgelişmiş bir teknoloji parçası.'
+  name: '&2Nano Bıçak &c(Kapalı)'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 4000 J'
   type:
   - '&7&oSilah'
+  usage:
+  - '&eSağ Tık&7 ile aç ya da kapat'
 POWER_UNIT:
+  name: '&7Güç Ünitesi'
   type:
   - '&7&oBileşen'
 QUARTZ_DUST:
+  name: '&7Kuvars Tozu'
   type:
   - '&7&oKaynak'
 RAW_CARBON_FIBRE:
+  name: '&7Ham Karbon Elyafı'
   type:
   - '&7&oKaynak'
 RAW_CARBON_MESH:
+  name: '&7Ham Karbon Örgüsü'
   type:
   - '&7&oKaynak'
 REDSTONE_DUST:
+  name: '&7Kızıltaş Tozu'
   type:
   - '&7&oKaynak'
 REFINED_IRON:
+  name: '&7Rafine Demir'
   type:
   - '&7&oKaynak'
 REFINED_SMELTERY:
+  description:
+  - '&7Çok bloklu bir eritme ocağı.'
+  - '&7Tozları eritir ve metalleri alaşımlara dönüştürür,'
+  - '&7örneğin &7Karışık Metal Külçe &7ve &7Rafine Demir&7.'
+  name: '&7Rafine Eritme Ocağı'
   type:
   - '&7&oYapı'
+  usage:
+  - '&eSağ Tık&7 ile dağıtıcıyı kullan'
 REINFORCED_DOOR:
+  name: '&7Takviyeli Kapı'
   type:
   - '&7&oBileşen'
 REINFORCED_GLASS:
+  name: '&7Takviyeli Cam'
   type:
   - '&7&oBileşen'
 REINFORCED_STONE:
+  name: '&7Takviyeli Taş'
   type:
   - '&7&oBileşen'
 RE_BATTERY:
+  name: '&7RE Pili'
   type:
   - '&7&oBileşen'
 RUBBER:
+  name: '&7Kauçuk'
   type:
   - '&7&oKaynak'
 RUBBER_SYNTHESIZER:
+  description:
+  - '&6Bir Kova Petrolü &7Kauçuğa&7 dönüştürür.'
+  - '&7Kauçuk çıplak kabloları yalıtır ve devrelerde'
+  - '&7ve makine tariflerinde yaygın olarak kullanılır.'
+  name: '&6Kauçuk Sentezleyici'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J Tampon'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMakine'
 SCRAP:
+  description:
+  - '&7Şunu üretmek için kullanılabilir: &5UU-Madde'
+  name: '&8Hurda'
   type:
   - '&7&oKaynak'
 SCRAP_MACHINE:
+  description:
+  - '&8Geri Dönüştürücü.'
+  - '&7Neredeyse her eşyayı yutar ve belli bir ihtimalle'
+  - '&7şunu çıkarır: &8Hurda &7- UU-Madde için ham besleme.'
+  - '&7Enerjiyle çalışır; geri kalan yok edilir.'
+  name: '&8Geri Dönüştürücü'
+  stats:
+  - '&8⇨ &e⚡ &7600 J Tampon'
+  - '&8⇨ &e⚡ &7200 J/t'
   type:
   - '&7&oMakine'
 THORIUM:
+  description:
+  - '&8Radyoaktif bir element.'
+  - '&7Rafine edilerek &7Mag-Thor &7olur ve gelişmiş'
+  - '&7kaplama ve makinelerde kullanılır.'
+  name: '&8Toryum'
   stats:
   - '&a☢&7 Radyasyon seviyesi: &6YÜKSEK'
   type:
@@ -192,41 +431,83 @@ THORIUM:
   usage:
   - '&8⇨ &4Koruyucu Takım gerekli!'
 THORIUM_DUST:
+  name: '&8Toryum Tozu'
   type:
   - '&7&oKaynak'
 THORIUM_PLATE:
+  name: '&7Toryum Plaka'
   type:
   - '&7&oBileşen'
 TIN_CABLE:
+  name: '&7Kalay Kablo'
   type:
   - '&7&oBileşen'
 TIN_ITEM_CASING:
+  name: '&7Kalay Eşya Kılıfı'
   type:
   - '&7&oBileşen'
 TIN_PLATE:
+  name: '&7Kalay Plaka'
   type:
   - '&7&oBileşen'
 TREETAP:
+  description:
+  - '&7Kauçuk kaynaklarından &7Kauçuk &7hasat etmek için,'
+  - '&7elektrikli sentezleyici olmadan elle kullanılır.'
+  name: '&7Ağaç Musluğu'
   type:
   - '&7&oAlet'
 ULTIMATE_SOLAR_HELMET:
+  description:
+  - '&eBir güneş kaskı.'
+  - '&7Kafaya takılır, gün ışığında pasif olarak enerji'
+  - '&7üretir ve diğer teçhizatını şarj eder.'
+  - '&7Daha yüksek kademeler çok daha fazla üretir ve depolar.'
+  name: '&7Nihai Güneş Kaskı'
+  stats:
+  - '&8⇨ &e⚡ &7250 J/t Üretim'
   type:
   - '&7&oZırh'
 ULTIMATE_SOLAR_PANEL:
+  description:
+  - '&5En güçlü LiteXpansion güneş paneli.'
+  - '&7Gece gündüz büyük miktarlarda enerji üretir'
+  - '&7ve hatırı sayılır bir dahili tamponu vardır.'
+  name: '&5&lNihai Güneş Paneli'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J Tampon'
+  - '&8⇨ &e⚡ &75,120 J/t (Gündüz)'
+  - '&8⇨ &e⚡ &7640 J/t (Gece)'
   type:
   - '&7&oJeneratör'
 UNINSULATED_COPPER_CABLE:
+  name: '&7Yalıtımsız Bakır Kablo'
   type:
   - '&7&oBileşen'
 UNINSULATED_GOLD_CABLE:
+  name: '&7Yalıtımsız Altın Kablo'
   type:
   - '&7&oBileşen'
 UNINSULATED_TIN_CABLE:
+  name: '&7Yalıtımsız Kalay Kablo'
   type:
   - '&7&oBileşen'
 UU_CRAFTER:
+  description:
+  - '&7Otomatik &5UU-Madde &7üretimi yapar.'
+  - '&7UU-Madde ver, ayarlanmış kaynağı elle'
+  - '&7ızgarada üretmene gerek kalmadan üretsin.'
+  name: '&7UU Üreticisi'
+  stats:
+  - '&8⇨ &e⚡ &750,000 J Tampon'
+  - '&8⇨ &e⚡ &750,000 J/t'
   type:
   - '&7&oMakine'
+  usage:
+  - '&eSağ Tık&7 ile anahtarı çevirip başlat ya da durdur'
 UU_MATTER:
+  description:
+  - '&7Eşya veya kaynak üretmek için kullanılabilir'
+  name: '&5UU-Madde'
   type:
   - '&7&oKaynak'
