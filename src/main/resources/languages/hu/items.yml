@@ -1,190 +1,429 @@
 ADVANCEDLX_SOLAR_HELMET:
+  description:
+  - '&eEgy napelemes sisak.'
+  - '&7A fejen viselve passzívan energiát generál'
+  - '&7napfényben, és tölti a többi felszerelésedet.'
+  - '&7A magasabb szintek sokkal többet termelnek és tárolnak.'
+  name: '&7Szuper Fejlett Napelemes Sisak'
+  stats:
+  - '&8⇨ &e⚡ &750 J/t Generálás'
   type:
   - '&7&oPáncél'
 ADVANCED_ALLOY:
+  name: '&7Fejlett Ötvözet'
   type:
   - '&7&oAlkatrész'
 ADVANCED_CIRCUIT:
+  name: '&7Fejlett Áramkör'
   type:
   - '&7&oAlkatrész'
 ADVANCED_MACHINE_BLOCK:
+  name: '&7Fejlett Gép Blokk'
   type:
   - '&7&oAlkatrész'
 ADVANCED_SOLAR_HELMET:
+  description:
+  - '&eEgy napelemes sisak.'
+  - '&7A fejen viselve passzívan energiát generál'
+  - '&7napfényben, és tölti a többi felszerelésedet.'
+  name: '&7Fejlett Napelemes Sisak'
+  stats:
+  - '&8⇨ &e⚡ &75 J/t Generálás'
   type:
   - '&7&oPáncél'
 ADVANCED_SOLAR_PANEL:
+  description:
+  - '&7Egy napelem, amely &9éjszaka is működik&7,'
+  - '&7csökkentett aránnyal.'
+  - '&7Saját belső energiapufferrel rendelkezik.'
+  name: '&7&lFejlett Napelem'
+  stats:
+  - '&8⇨ &e⚡ &7320,000 J Puffer'
+  - '&8⇨ &e⚡ &780 J/t (Nappal)'
+  - '&8⇨ &e⚡ &710 J/t (Éjjel)'
   type:
   - '&7&oGenerátor'
 ANCIENT_DEBRIS_DUST:
+  name: '&7Ősi Maradvány Por'
   type:
   - '&7&oNyersanyag'
 CARBONADO_SOLAR_HELMET:
+  description:
+  - '&eEgy napelemes sisak.'
+  - '&7A fejen viselve passzívan energiát generál'
+  - '&7napfényben, és tölti a többi felszerelésedet.'
+  name: '&7Carbonado Napelemes Sisak'
+  stats:
+  - '&8⇨ &e⚡ &710 J/t Generálás'
   type:
   - '&7&oPáncél'
 CARBON_PLATE:
+  name: '&7Karbonlemez'
   type:
   - '&7&oAlkatrész'
 CARGO_CONFIGURATOR:
+  description:
+  - '&7Teher csomópontok konfigurációit másolja és illeszti be.'
+  name: '&7Teher Konfigurátor'
   type:
   - '&7&oEszköz'
+  usage:
+  - '&7> &eJobb Klikk &7- Csomópont konfiguráció másolása'
+  - '&7> &eBal Klikk &7- Csomópont konfiguráció alkalmazása'
+  - '&7> &eShift+Jobb Klikk &7- Csomópont konfigurátor törlése'
 COAL_DUST:
+  name: '&7Szénpor'
   type:
   - '&7&oNyersanyag'
 CONVER:
+  description:
+  - '&7Energiát cserél a LiteXpansion és más áram'
+  - '&7rendszerek között, hogy a rácsaid együttműködhessenek.'
+  name: '&7Átalakító'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J Puffer'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oGép'
 COPPER_CABLE:
+  name: '&7Réz Kábel'
   type:
   - '&7&oAlkatrész'
 COPPER_ITEM_CASING:
+  name: '&7Réz Tárgy Burkolat'
   type:
   - '&7&oAlkatrész'
 COPPER_PLATE:
+  name: '&7Réz Lemez'
   type:
   - '&7&oAlkatrész'
 DIAMOND_DRILL:
+  description:
+  - '&7Azonnal kitöri az obszidiánt, a követ és a kő változatait'
+  name: '&bGyémántfúró'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&oEszköz'
+  usage:
+  - '&7Jobb klikk a blokk lassabb kitöréséhez'
 DIAMOND_DUST:
+  name: '&7Gyémánt Por'
   type:
   - '&7&oNyersanyag'
 DIAMOND_PLATE:
+  name: '&7Gyémánt Lemez'
   type:
   - '&7&oAlkatrész'
 ELECTRIC_CHESTPLATE:
+  description:
+  - '&7Semlegesíti a játékosnak okozott összes sebzést.'
+  name: '&9Elektromos Mellvért'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 8192 J'
   type:
   - '&7&oPáncél'
 ELECTRONIC_CIRCUIT:
+  name: '&7Elektronikus Áramkör'
   type:
   - '&7&oAlkatrész'
 EMERALD_DUST:
+  name: '&7Smaragd Por'
   type:
   - '&7&oNyersanyag'
 ENERGIZED_SOLAR_HELMET:
+  description:
+  - '&eEgy napelemes sisak.'
+  - '&7A fejen viselve passzívan energiát generál'
+  - '&7napfényben, és tölti a többi felszerelésedet.'
+  name: '&7Energizált Napelemes Sisak'
+  stats:
+  - '&8⇨ &e⚡ &720 J/t Generálás'
   type:
   - '&7&oPáncél'
 FOOD_SYNTHESIZER:
+  description:
+  - '&fMesterséges étellel tart jól.'
+  - '&fTöbb ízben kapható!'
+  name: '&dÉtel Szintetizátor'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 100 J'
   type:
   - '&7&oKütyü'
 GENERATOR:
+  description:
+  - '&7Üzemanyagot éget energia termeléséhez.'
+  - '&7Az első megbízható áramforrásod, és az alapja'
+  - '&7az RE-Akkumulátorok töltésének és a gépek működtetésének.'
+  name: '&7Generátor'
+  stats:
+  - '&8⇨ &e⚡ &74,000 J Puffer'
+  - '&8⇨ &e⚡ &710 J/t Kimenet'
   type:
   - '&7&oGenerátor'
 GLASS_CUTTER:
+  description:
+  - '&bEgy elektromos üvegszerszám.'
+  - '&7A belső energiapufferéből működik.'
+  name: '&bÜvegvágó'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 300 J'
   type:
   - '&7&oEszköz'
+  usage:
+  - '&eBal Klikk&7 az üveg gyors vágásához'
+  - '&eJobb Klikk&7 az üveg lassú vágásához'
 GOLD_CABLE:
+  name: '&7Arany Kábel'
   type:
   - '&7&oAlkatrész'
 GOLD_ITEM_CASING:
+  name: '&7Arany Tárgy Burkolat'
   type:
   - '&7&oAlkatrész'
 GOLD_PLATE:
+  name: '&7Arany Lemez'
   type:
   - '&7&oAlkatrész'
 HYBRID_SOLAR_HELMET:
+  description:
+  - '&eEgy napelemes sisak.'
+  - '&7A fejen viselve passzívan energiát generál'
+  - '&7napfényben, és tölti a többi felszerelésedet.'
+  - '&7A magasabb szintek sokkal többet termelnek és tárolnak.'
+  name: '&7Hibrid Napelemes Sisak'
+  stats:
+  - '&8⇨ &e⚡ &7100 J/t Generálás'
   type:
   - '&7&oPáncél'
 HYBRID_SOLAR_PANEL:
+  description:
+  - '&bEgy dimenzió-érzékeny napelem.'
+  - '&7Megnövelt kimenet a Netherben nappal és az Endben'
+  - '&7éjjel, a normál nappali/éjszakai generálás felett.'
+  name: '&b&lHibrid Napelem'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J Puffer'
+  - '&8⇨ &e⚡ &7640 J/t (Nappal + Nether)'
+  - '&8⇨ &e⚡ &780 J/t (Éjjel + End)'
   type:
   - '&7&oGenerátor'
 IRIDIUM:
+  name: '&fIrídium'
   type:
   - '&7&oNyersanyag'
 IRIDIUM_PLATE:
+  description:
+  - '&7Irídium Páncél létrehozására használatos'
+  name: '&fIrídium Lemez'
   type:
   - '&7&oAlkatrész'
 IRON_ITEM_CASING:
+  name: '&7Vas Tárgy Burkolat'
   type:
   - '&7&oAlkatrész'
 IRON_PLATE:
+  name: '&7Vas Lemez'
   type:
   - '&7&oAlkatrész'
 LAPIS_DUST:
+  name: '&7Lazurit Por'
   type:
   - '&7&oNyersanyag'
 LAPOTRON_CRYSTAL:
+  name: '&7Lapotron Kristály'
   type:
   - '&7&oAlkatrész'
 MACERATOR:
+  description:
+  - '&7Ércekből és fémekből &7port &7őröl, megduplázva'
+  - '&7a hozamot, ha a port visszaolvasztod.'
+  - '&7A hatékony ércfeldolgozás első lépése.'
+  name: '&7Zúzógép'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J Puffer'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oGép'
 MACHINE_BLOCK:
+  name: '&7Gép Blokk'
   type:
   - '&7&oAlkatrész'
 MAG_THOR:
+  description:
+  - '&7&oEgy rendkívül tartós ötvözet, amelyet'
+  - '&7&ocsak a legfejlettebb gépekben használnak'
+  name: '&b&lMag-Thor'
   type:
   - '&7&oNyersanyag'
 MANUAL_MILL:
+  description:
+  - '&7Egy kézi hajtású multiblokk malom.'
+  - '&7Áram nélkül őröl anyagokat, korai játékbeli'
+  - '&7alternatívát adva az elektromos Zúzógéphez.'
+  name: '&7Kézi Malom'
   type:
   - '&7&oMultiblock'
+  usage:
+  - '&eJobb Klikk&7 az adagolóra a használathoz'
 MASS_FABRICATOR_MACHINE:
+  description:
+  - '&5Energiát - és opcionálisan &8Hulladékot &7- alakít át'
+  - '&5UU-Anyaggá&7, az univerzális építőanyaggá.'
+  - '&7A Hulladék hozzáadása drasztikusan csökkenti az energiaköltséget.'
+  - '&8Egy falánk, végjáték gép.'
+  name: '&5Tömeggyártó'
+  stats:
+  - '&8⇨ &e⚡ &749,998 J Puffer'
+  - '&8⇨ &e⚡ &716,666 J/t'
   type:
   - '&7&oGép'
 METAL_FORGE:
+  description:
+  - '&7Egy multiblokk fémprés.'
+  - '&7Rudakat formál &flemezekké &7és &ftárgy burkolatokká &7-'
+  - '&7ezek a kábelek, gépek és páncélok alkatrészei.'
+  name: '&7Fémkohó'
   type:
   - '&7&oMultiblock'
+  usage:
+  - '&eJobb Klikk&7 az adagolóra a használathoz'
 MINING_DRILL:
+  description:
+  - '&7Azonnal kitöri a követ és a kő változatait'
+  name: '&7Bányafúró'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&oEszköz'
+  usage:
+  - '&7Jobb klikk a blokk lassabb kitöréséhez'
 MIXED_METAL_INGOT:
+  name: '&7Vegyes Fémrúd'
   type:
   - '&7&oNyersanyag'
 MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  description:
+  - '&7Az MFE.'
+  - '&7Egy középszintű energia kondenzátor, amely nagy'
+  - '&7puffert tárol a gép hálózatodhoz.'
+  name: '&7MFE'
+  stats:
+  - '&8⇨ &e⚡ &74,000,000 J Puffer'
+  - '&8⇨ &e⚡ &712 J/t Átvitel'
   type:
   - '&7&oGép'
 MULTI_FUNCTIONAL_STORAGE_UNIT:
+  description:
+  - '&7Az MFSU.'
+  - '&7Egy magas szintű kondenzátor hatalmas energia pufferrel'
+  - '&7az igényes végjáték gépek működtetéséhez.'
+  name: '&7MFSU'
+  stats:
+  - '&8⇨ &e⚡ &740,000,000 J Puffer'
+  - '&8⇨ &e⚡ &752 J/t Átvitel'
   type:
   - '&7&oGép'
 NANO_BLADE:
+  description:
+  - '&fEgy fejlett technológiai eszköz, amely'
+  - '&fkönnyedén átvág szerves szöveteket.'
+  name: '&2Nano Penge &c(Ki)'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 4000 J'
   type:
   - '&7&oFegyver'
+  usage:
+  - '&eJobb Klikk&7 a váltáshoz'
 POWER_UNIT:
+  name: '&7Áram Egység'
   type:
   - '&7&oAlkatrész'
 QUARTZ_DUST:
+  name: '&7Kvarc Por'
   type:
   - '&7&oNyersanyag'
 RAW_CARBON_FIBRE:
+  name: '&7Nyers Karbonszál'
   type:
   - '&7&oNyersanyag'
 RAW_CARBON_MESH:
+  name: '&7Nyers Karbonszövet'
   type:
   - '&7&oNyersanyag'
 REDSTONE_DUST:
+  name: '&7Redstone Por'
   type:
   - '&7&oNyersanyag'
 REFINED_IRON:
+  name: '&7Finomított Vas'
   type:
   - '&7&oNyersanyag'
 REFINED_SMELTERY:
+  description:
+  - '&7Egy multiblokk olvasztó.'
+  - '&7Porokat olvaszt és fémeket ötvözetekké kombinál'
+  - '&7mint a &7Vegyes Fémrudak &7és a &7Finomított Vas&7.'
+  name: '&7Finomított Olvasztó'
   type:
   - '&7&oMultiblock'
+  usage:
+  - '&eJobb Klikk&7 az adagolóra a használathoz'
 REINFORCED_DOOR:
+  name: '&7Megerősített Ajtó'
   type:
   - '&7&oAlkatrész'
 REINFORCED_GLASS:
+  name: '&7Megerősített Üveg'
   type:
   - '&7&oAlkatrész'
 REINFORCED_STONE:
+  name: '&7Megerősített Kő'
   type:
   - '&7&oAlkatrész'
 RE_BATTERY:
+  name: '&7RE Akkumulátor'
   type:
   - '&7&oAlkatrész'
 RUBBER:
+  name: '&7Gumi'
   type:
   - '&7&oNyersanyag'
 RUBBER_SYNTHESIZER:
+  description:
+  - '&6Egy Vödör Olajat alakít át &7Gumivá&7.'
+  - '&7A Gumi szigeteli a csupasz kábeleket, és széles körben'
+  - '&7használatos áramkörökben és gép receptekben.'
+  name: '&6Gumi Szintetizátor'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J Puffer'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oGép'
 SCRAP:
+  description:
+  - '&7Felhasználható ennek létrehozására: &5UU-Anyag'
+  name: '&8Hulladék'
   type:
   - '&7&oNyersanyag'
 SCRAP_MACHINE:
+  description:
+  - '&8Az Újrahasznosító.'
+  - '&7Szinte bármilyen tárgyat befogad, és eséllyel'
+  - '&7kiköp &8Hulladékot &7- az UU-Anyag nyers alapanyagát.'
+  - '&7Energiával működik; a többi elpusztul.'
+  name: '&8Újrahasznosító'
+  stats:
+  - '&8⇨ &e⚡ &7600 J Puffer'
+  - '&8⇨ &e⚡ &7200 J/t'
   type:
   - '&7&oGép'
 THORIUM:
+  description:
+  - '&8Egy radioaktív elem.'
+  - '&7&7Mag-Thorrá &7finomítva, fejlett'
+  - '&7bevonatokban és gépekben használatos.'
+  name: '&8Tórium'
   stats:
   - '&a☢&7 Sugárzási szint: &6MAGAS'
   type:
@@ -192,41 +431,83 @@ THORIUM:
   usage:
   - '&8⇨ &4Vegyvédelmi ruha szükséges!'
 THORIUM_DUST:
+  name: '&8Tórium Por'
   type:
   - '&7&oNyersanyag'
 THORIUM_PLATE:
+  name: '&7Tórium Lemez'
   type:
   - '&7&oAlkatrész'
 TIN_CABLE:
+  name: '&7Ón Kábel'
   type:
   - '&7&oAlkatrész'
 TIN_ITEM_CASING:
+  name: '&7Ón Tárgy Burkolat'
   type:
   - '&7&oAlkatrész'
 TIN_PLATE:
+  name: '&7Ón Lemez'
   type:
   - '&7&oAlkatrész'
 TREETAP:
+  description:
+  - '&7&7Gumi &7betakarítására használatos gumiforrásokból'
+  - '&7kézzel, elektromos szintetizátor nélkül.'
+  name: '&7Facsapoló'
   type:
   - '&7&oEszköz'
 ULTIMATE_SOLAR_HELMET:
+  description:
+  - '&eEgy napelemes sisak.'
+  - '&7A fejen viselve passzívan energiát generál'
+  - '&7napfényben, és tölti a többi felszerelésedet.'
+  - '&7A magasabb szintek sokkal többet termelnek és tárolnak.'
+  name: '&7Végső Napelemes Sisak'
+  stats:
+  - '&8⇨ &e⚡ &7250 J/t Generálás'
   type:
   - '&7&oPáncél'
 ULTIMATE_SOLAR_PANEL:
+  description:
+  - '&5A legerősebb LiteXpansion napelem.'
+  - '&7Nagy mennyiségű energiát generál éjjel-nappal'
+  - '&7tekintélyes beépített pufferrel.'
+  name: '&5&lVégső Napelem'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J Puffer'
+  - '&8⇨ &e⚡ &75,120 J/t (Nappal)'
+  - '&8⇨ &e⚡ &7640 J/t (Éjjel)'
   type:
   - '&7&oGenerátor'
 UNINSULATED_COPPER_CABLE:
+  name: '&7Szigetelés Nélküli Réz Kábel'
   type:
   - '&7&oAlkatrész'
 UNINSULATED_GOLD_CABLE:
+  name: '&7Szigetelés Nélküli Arany Kábel'
   type:
   - '&7&oAlkatrész'
 UNINSULATED_TIN_CABLE:
+  name: '&7Szigetelés Nélküli Ón Kábel'
   type:
   - '&7&oAlkatrész'
 UU_CRAFTER:
+  description:
+  - '&7Automatizálja az &5UU-Anyag &7barkácsolását.'
+  - '&7Adj UU-Anyagot, és előállítja a beállított'
+  - '&7nyersanyagot kézi rács barkácsolás nélkül.'
+  name: '&7UU Barkácsoló'
+  stats:
+  - '&8⇨ &e⚡ &750,000 J Puffer'
+  - '&8⇨ &e⚡ &750,000 J/t'
   type:
   - '&7&oGép'
+  usage:
+  - '&eJobb Klikk&7 a kapcsolóra az indításhoz vagy leállításhoz'
 UU_MATTER:
+  description:
+  - '&7Tárgyak vagy nyersanyagok létrehozására használható'
+  name: '&5UU-Anyag'
   type:
   - '&7&oNyersanyag'
