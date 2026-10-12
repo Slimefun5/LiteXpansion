@@ -1,190 +1,429 @@
 ADVANCEDLX_SOLAR_HELMET:
+  description:
+  - '&e태양광 투구입니다.'
+  - '&7머리에 쓰면 낮에 수동적으로 에너지를'
+  - '&7생성해 다른 장비를 충전합니다.'
+  - '&7상위 티어는 훨씬 더 많이 생산하고 저장합니다.'
+  name: '&7초고급 태양광 투구'
+  stats:
+  - '&8⇨ &e⚡ &750 J/틱 생성'
   type:
   - '&7&o갑옷'
 ADVANCED_ALLOY:
+  name: '&7고급 합금'
   type:
   - '&7&o부품'
 ADVANCED_CIRCUIT:
+  name: '&7고급 회로'
   type:
   - '&7&o부품'
 ADVANCED_MACHINE_BLOCK:
+  name: '&7고급 기계 블록'
   type:
   - '&7&o부품'
 ADVANCED_SOLAR_HELMET:
+  description:
+  - '&e태양광 투구입니다.'
+  - '&7머리에 쓰면 낮에 수동적으로 에너지를'
+  - '&7생성해 다른 장비를 충전합니다.'
+  name: '&7고급 태양광 투구'
+  stats:
+  - '&8⇨ &e⚡ &75 J/틱 생성'
   type:
   - '&7&o갑옷'
 ADVANCED_SOLAR_PANEL:
+  description:
+  - '&7태양광 패널이지만 &9밤에도 작동하며&7,'
+  - '&7발전량은 줄어듭니다.'
+  - '&7자체 내부 에너지 버퍼를 갖추고 있습니다.'
+  name: '&7&l고급 태양광 패널'
+  stats:
+  - '&8⇨ &e⚡ &7320,000 J 버퍼'
+  - '&8⇨ &e⚡ &780 J/틱 (낮)'
+  - '&8⇨ &e⚡ &710 J/틱 (밤)'
   type:
   - '&7&o발전기'
 ANCIENT_DEBRIS_DUST:
+  name: '&7고대 잔해 가루'
   type:
   - '&7&o자원'
 CARBONADO_SOLAR_HELMET:
+  description:
+  - '&e태양광 투구입니다.'
+  - '&7머리에 쓰면 낮에 수동적으로 에너지를'
+  - '&7생성해 다른 장비를 충전합니다.'
+  name: '&7카보나도 태양광 투구'
+  stats:
+  - '&8⇨ &e⚡ &710 J/틱 생성'
   type:
   - '&7&o갑옷'
 CARBON_PLATE:
+  name: '&7탄소 판'
   type:
   - '&7&o부품'
 CARGO_CONFIGURATOR:
+  description:
+  - '&7화물 노드 설정을 복사하고 붙여 넣습니다.'
+  name: '&7화물 설정기'
   type:
   - '&7&o도구'
+  usage:
+  - '&7> &e우클릭 &7- 노드 설정 복사'
+  - '&7> &e좌클릭 &7- 노드 설정 적용'
+  - '&7> &e시프트+우클릭 &7- 노드 설정기 초기화'
 COAL_DUST:
+  name: '&7석탄 가루'
   type:
   - '&7&o자원'
 CONVER:
+  description:
+  - '&7LiteXpansion과 다른 전력 체계 사이에서 에너지를'
+  - '&7바꿔 주어 격자끼리 연동할 수 있게 합니다.'
+  name: '&7변환기'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J 버퍼'
+  - '&8⇨ &e⚡ &7769 J/틱'
   type:
   - '&7&o기계'
 COPPER_CABLE:
+  name: '&7구리 케이블'
   type:
   - '&7&o부품'
 COPPER_ITEM_CASING:
+  name: '&7구리 아이템 외피'
   type:
   - '&7&o부품'
 COPPER_PLATE:
+  name: '&7구리 판'
   type:
   - '&7&o부품'
 DIAMOND_DRILL:
+  description:
+  - '&7흑요석과 돌, 돌 변형 블록을 즉시 파괴합니다'
+  name: '&b다이아몬드 드릴'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&o도구'
+  usage:
+  - '&7우클릭하면 블록을 더 느리게 파괴합니다'
 DIAMOND_DUST:
+  name: '&7다이아몬드 가루'
   type:
   - '&7&o자원'
 DIAMOND_PLATE:
+  name: '&7다이아몬드 판'
   type:
   - '&7&o부품'
 ELECTRIC_CHESTPLATE:
+  description:
+  - '&7플레이어가 받는 모든 피해를 무효화합니다.'
+  name: '&9전기 흉갑'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 8192 J'
   type:
   - '&7&o갑옷'
 ELECTRONIC_CIRCUIT:
+  name: '&7전자 회로'
   type:
   - '&7&o부품'
 EMERALD_DUST:
+  name: '&7에메랄드 가루'
   type:
   - '&7&o자원'
 ENERGIZED_SOLAR_HELMET:
+  description:
+  - '&e태양광 투구입니다.'
+  - '&7머리에 쓰면 낮에 수동적으로 에너지를'
+  - '&7생성해 다른 장비를 충전합니다.'
+  name: '&7고에너지 태양광 투구'
+  stats:
+  - '&8⇨ &e⚡ &720 J/틱 생성'
   type:
   - '&7&o갑옷'
 FOOD_SYNTHESIZER:
+  description:
+  - '&f인공 식품으로 배를 채워 줍니다.'
+  - '&f여러 가지 맛으로 나옵니다!'
+  name: '&d식량 합성기'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 100 J'
   type:
   - '&7&o장치'
 GENERATOR:
+  description:
+  - '&7연료를 태워 에너지를 생산합니다.'
+  - '&7처음으로 믿을 만한 전력원이며, 충전식'
+  - '&7배터리 충전과 기계 가동의 바탕입니다.'
+  name: '&7발전기'
+  stats:
+  - '&8⇨ &e⚡ &74,000 J 버퍼'
+  - '&8⇨ &e⚡ &710 J/틱 출력'
   type:
   - '&7&o발전기'
 GLASS_CUTTER:
+  description:
+  - '&b전기 유리 도구입니다.'
+  - '&7내부 에너지 버퍼로 작동합니다.'
+  name: '&b유리 절단기'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 300 J'
   type:
   - '&7&o도구'
+  usage:
+  - '&e좌클릭&7으로 유리를 빠르게 절단'
+  - '&e우클릭&7으로 유리를 천천히 절단'
 GOLD_CABLE:
+  name: '&7금 케이블'
   type:
   - '&7&o부품'
 GOLD_ITEM_CASING:
+  name: '&7금 아이템 외피'
   type:
   - '&7&o부품'
 GOLD_PLATE:
+  name: '&7금 판'
   type:
   - '&7&o부품'
 HYBRID_SOLAR_HELMET:
+  description:
+  - '&e태양광 투구입니다.'
+  - '&7머리에 쓰면 낮에 수동적으로 에너지를'
+  - '&7생성해 다른 장비를 충전합니다.'
+  - '&7상위 티어는 훨씬 더 많이 생산하고 저장합니다.'
+  name: '&7하이브리드 태양광 투구'
+  stats:
+  - '&8⇨ &e⚡ &7100 J/틱 생성'
   type:
   - '&7&o갑옷'
 HYBRID_SOLAR_PANEL:
+  description:
+  - '&b차원을 인식하는 태양광 패널입니다.'
+  - '&7낮의 네더와 밤의 엔드에서는 출력이'
+  - '&7증가하며, 일반 낮밤 발전에 더해집니다.'
+  name: '&b&l하이브리드 태양광 패널'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J 버퍼'
+  - '&8⇨ &e⚡ &7640 J/틱 (낮 + 네더)'
+  - '&8⇨ &e⚡ &780 J/틱 (밤 + 엔드)'
   type:
   - '&7&o발전기'
 IRIDIUM:
+  name: '&f이리듐'
   type:
   - '&7&o자원'
 IRIDIUM_PLATE:
+  description:
+  - '&7이리듐 방어구를 만드는 데 사용합니다'
+  name: '&f이리듐 판'
   type:
   - '&7&o부품'
 IRON_ITEM_CASING:
+  name: '&7철 아이템 외피'
   type:
   - '&7&o부품'
 IRON_PLATE:
+  name: '&7철 판'
   type:
   - '&7&o부품'
 LAPIS_DUST:
+  name: '&7청금석 가루'
   type:
   - '&7&o자원'
 LAPOTRON_CRYSTAL:
+  name: '&7라포트론 수정'
   type:
   - '&7&o부품'
 MACERATOR:
+  description:
+  - '&7광석과 금속을 &7가루&7로 갈아, 다시 제련하면'
+  - '&7산출량이 두 배가 됩니다.'
+  - '&7효율적인 광석 처리의 첫 단계입니다.'
+  name: '&7분쇄기'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J 버퍼'
+  - '&8⇨ &e⚡ &7769 J/틱'
   type:
   - '&7&o기계'
 MACHINE_BLOCK:
+  name: '&7기계 블록'
   type:
   - '&7&o부품'
 MAG_THOR:
+  description:
+  - '&7&o가장 발전한 기계에만 쓰이는'
+  - '&7&o극도로 튼튼한 합금입니다'
+  name: '&b&l마그-토르'
   type:
   - '&7&o자원'
 MANUAL_MILL:
+  description:
+  - '&7손으로 돌리는 멀티블록 방아입니다.'
+  - '&7전력 없이 재료를 갈아 주어, 전기 분쇄기의'
+  - '&7초반 대안이 되어 줍니다.'
+  name: '&7수동 방아'
   type:
   - '&7&o멀티블록'
+  usage:
+  - '&e우클릭&7으로 발사기를 작동해 사용'
 MASS_FABRICATOR_MACHINE:
+  description:
+  - '&5에너지와 선택적으로 &8고철&7을 넣어'
+  - '&5만능 물질&7, 즉 만능 건축 재료를 만듭니다.'
+  - '&7고철을 넣으면 에너지 비용이 크게 줄어듭니다.'
+  - '&8식욕이 큰 엔드게임 기계입니다.'
+  name: '&5대량 제조기'
+  stats:
+  - '&8⇨ &e⚡ &749,998 J 버퍼'
+  - '&8⇨ &e⚡ &716,666 J/틱'
   type:
   - '&7&o기계'
 METAL_FORGE:
+  description:
+  - '&7멀티블록 금속 압착기입니다.'
+  - '&7주괴를 &f판&7과 &f아이템 외피&7로 만듭니다 -'
+  - '&7케이블과 기계, 방어구의 바탕이 되는 부품입니다.'
+  name: '&7금속 제작소'
   type:
   - '&7&o멀티블록'
+  usage:
+  - '&e우클릭&7으로 발사기를 작동해 사용'
 MINING_DRILL:
+  description:
+  - '&7돌과 돌 변형 블록을 즉시 파괴합니다'
+  name: '&7채굴 드릴'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&o도구'
+  usage:
+  - '&7우클릭하면 블록을 더 느리게 파괴합니다'
 MIXED_METAL_INGOT:
+  name: '&7혼합 금속 주괴'
   type:
   - '&7&o자원'
 MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  description:
+  - '&7다기능 축전 장치입니다.'
+  - '&7기계 네트워크를 위한 큰 버퍼를 담는'
+  - '&7중급 에너지 축전기입니다.'
+  name: '&7다기능 축전 장치'
+  stats:
+  - '&8⇨ &e⚡ &74,000,000 J 버퍼'
+  - '&8⇨ &e⚡ &712 J/틱 전송'
   type:
   - '&7&o기계'
 MULTI_FUNCTIONAL_STORAGE_UNIT:
+  description:
+  - '&7다기능 대용량 축전 장치입니다.'
+  - '&7까다로운 엔드게임 기계에 전력을 공급하는'
+  - '&7거대한 에너지 버퍼를 갖춘 상위 축전기입니다.'
+  name: '&7다기능 대용량 축전 장치'
+  stats:
+  - '&8⇨ &e⚡ &740,000,000 J 버퍼'
+  - '&8⇨ &e⚡ &752 J/틱 전송'
   type:
   - '&7&o기계'
 NANO_BLADE:
+  description:
+  - '&f유기 조직을 손쉽게 베어 버리는'
+  - '&f고급 기술의 산물입니다.'
+  name: '&2나노 검 &c(꺼짐)'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 4000 J'
   type:
   - '&7&o무기'
+  usage:
+  - '&e우클릭&7으로 전환'
 POWER_UNIT:
+  name: '&7전력 유닛'
   type:
   - '&7&o부품'
 QUARTZ_DUST:
+  name: '&7석영 가루'
   type:
   - '&7&o자원'
 RAW_CARBON_FIBRE:
+  name: '&7생 탄소 섬유'
   type:
   - '&7&o자원'
 RAW_CARBON_MESH:
+  name: '&7생 탄소 메시'
   type:
   - '&7&o자원'
 REDSTONE_DUST:
+  name: '&7레드스톤 가루'
   type:
   - '&7&o자원'
 REFINED_IRON:
+  name: '&7정제 철'
   type:
   - '&7&o자원'
 REFINED_SMELTERY:
+  description:
+  - '&7멀티블록 제련소입니다.'
+  - '&7가루를 제련하고 금속을 합금으로 합칩니다'
+  - '&7예를 들어 &7혼합 금속 주괴&7와 &7정제 철&7 등입니다.'
+  name: '&7정제 제련소'
   type:
   - '&7&o멀티블록'
+  usage:
+  - '&e우클릭&7으로 발사기를 작동해 사용'
 REINFORCED_DOOR:
+  name: '&7강화 문'
   type:
   - '&7&o부품'
 REINFORCED_GLASS:
+  name: '&7강화 유리'
   type:
   - '&7&o부품'
 REINFORCED_STONE:
+  name: '&7강화 돌'
   type:
   - '&7&o부품'
 RE_BATTERY:
+  name: '&7충전식 배터리'
   type:
   - '&7&o부품'
 RUBBER:
+  name: '&7고무'
   type:
   - '&7&o자원'
 RUBBER_SYNTHESIZER:
+  description:
+  - '&6기름 양동이를 &7고무&7로 변환합니다.'
+  - '&7고무는 맨케이블을 절연하며 회로와 기계'
+  - '&7조합법에 널리 쓰입니다.'
+  name: '&6고무 합성기'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J 버퍼'
+  - '&8⇨ &e⚡ &7769 J/틱'
   type:
   - '&7&o기계'
 SCRAP:
+  description:
+  - '&7다음을 만들 수 있습니다: &5만능 물질'
+  name: '&8고철'
   type:
   - '&7&o자원'
 SCRAP_MACHINE:
+  description:
+  - '&8재활용기입니다.'
+  - '&7거의 모든 아이템을 넣을 수 있고, 일정 확률로'
+  - '&7내놓는 &8고철&7은 만능 물질의 원료입니다.'
+  - '&7에너지로 작동하며 나머지는 파괴됩니다.'
+  name: '&8재활용기'
+  stats:
+  - '&8⇨ &e⚡ &7600 J 버퍼'
+  - '&8⇨ &e⚡ &7200 J/틱'
   type:
   - '&7&o기계'
 THORIUM:
+  description:
+  - '&8방사성 원소입니다.'
+  - '&7정제하면 &7마그-토르&7가 되어 고급'
+  - '&7도금과 기계류에 쓰입니다.'
+  name: '&8토륨'
   stats:
   - '&a☢&7 방사능 수치: &6높음'
   type:
@@ -192,41 +431,83 @@ THORIUM:
   usage:
   - '&8⇨ &4방호복 필요!'
 THORIUM_DUST:
+  name: '&8토륨 가루'
   type:
   - '&7&o자원'
 THORIUM_PLATE:
+  name: '&7토륨 판'
   type:
   - '&7&o부품'
 TIN_CABLE:
+  name: '&7주석 케이블'
   type:
   - '&7&o부품'
 TIN_ITEM_CASING:
+  name: '&7주석 아이템 외피'
   type:
   - '&7&o부품'
 TIN_PLATE:
+  name: '&7주석 판'
   type:
   - '&7&o부품'
 TREETAP:
+  description:
+  - '&7고무 공급원에서 &7고무&7를 전기 합성기 없이'
+  - '&7손으로 채취하는 데 사용합니다.'
+  name: '&7수액 채취기'
   type:
   - '&7&o도구'
 ULTIMATE_SOLAR_HELMET:
+  description:
+  - '&e태양광 투구입니다.'
+  - '&7머리에 쓰면 낮에 수동적으로 에너지를'
+  - '&7생성해 다른 장비를 충전합니다.'
+  - '&7상위 티어는 훨씬 더 많이 생산하고 저장합니다.'
+  name: '&7궁극 태양광 투구'
+  stats:
+  - '&8⇨ &e⚡ &7250 J/틱 생성'
   type:
   - '&7&o갑옷'
 ULTIMATE_SOLAR_PANEL:
+  description:
+  - '&5LiteXpansion에서 가장 강력한 태양광 패널입니다.'
+  - '&7낮과 밤 모두 많은 양의 에너지를 생성하며'
+  - '&7넉넉한 내장 버퍼를 갖추고 있습니다.'
+  name: '&5&l궁극 태양광 패널'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J 버퍼'
+  - '&8⇨ &e⚡ &75,120 J/틱 (낮)'
+  - '&8⇨ &e⚡ &7640 J/틱 (밤)'
   type:
   - '&7&o발전기'
 UNINSULATED_COPPER_CABLE:
+  name: '&7비절연 구리 케이블'
   type:
   - '&7&o부품'
 UNINSULATED_GOLD_CABLE:
+  name: '&7비절연 금 케이블'
   type:
   - '&7&o부품'
 UNINSULATED_TIN_CABLE:
+  name: '&7비절연 주석 케이블'
   type:
   - '&7&o부품'
 UU_CRAFTER:
+  description:
+  - '&7자동으로 &5만능 물질&7을 제작합니다.'
+  - '&7만능 물질을 공급하면 설정한 자원을'
+  - '&7수동 격자 제작 없이 생산합니다.'
+  name: '&7만능 물질 제작기'
+  stats:
+  - '&8⇨ &e⚡ &750,000 J 버퍼'
+  - '&8⇨ &e⚡ &750,000 J/틱'
   type:
   - '&7&o기계'
+  usage:
+  - '&e우클릭&7으로 스위치를 눌러 시작하거나 멈춥니다'
 UU_MATTER:
+  description:
+  - '&7아이템이나 자원을 만드는 데 쓸 수 있습니다'
+  name: '&5만능 물질'
   type:
   - '&7&o자원'
