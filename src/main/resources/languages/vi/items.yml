@@ -1,190 +1,429 @@
 ADVANCEDLX_SOLAR_HELMET:
+  description:
+  - '&eMột chiếc mũ mặt trời.'
+  - '&7Đội trên đầu, nó thụ động tạo ra năng lượng'
+  - '&7dưới ánh nắng ban ngày và sạc trang bị khác của bạn.'
+  - '&7Bậc cao hơn sản xuất và lưu trữ nhiều hơn hẳn.'
+  name: '&7Mũ Mặt trời Siêu Nâng cao'
+  stats:
+  - '&8⇨ &e⚡ &750 J/t Sản sinh'
   type:
   - '&7&oGiáp'
 ADVANCED_ALLOY:
+  name: '&7Hợp kim Nâng cao'
   type:
   - '&7&oThành Phần'
 ADVANCED_CIRCUIT:
+  name: '&7Mạch điện Nâng cao'
   type:
   - '&7&oThành Phần'
 ADVANCED_MACHINE_BLOCK:
+  name: '&7Khối Máy Nâng cao'
   type:
   - '&7&oThành Phần'
 ADVANCED_SOLAR_HELMET:
+  description:
+  - '&eMột chiếc mũ mặt trời.'
+  - '&7Đội trên đầu, nó thụ động tạo ra năng lượng'
+  - '&7dưới ánh nắng ban ngày và sạc trang bị khác của bạn.'
+  name: '&7Mũ Mặt trời Nâng cao'
+  stats:
+  - '&8⇨ &e⚡ &75 J/t Sản sinh'
   type:
   - '&7&oGiáp'
 ADVANCED_SOLAR_PANEL:
+  description:
+  - '&7Một tấm pin mặt trời &9cũng hoạt động vào ban đêm&7,'
+  - '&7với tỉ lệ giảm bớt.'
+  - '&7Có kèm bộ đệm năng lượng riêng bên trong.'
+  name: '&7&lTấm pin Mặt trời Nâng cao'
+  stats:
+  - '&8⇨ &e⚡ &7320,000 J Bộ đệm'
+  - '&8⇨ &e⚡ &780 J/t (Ngày)'
+  - '&8⇨ &e⚡ &710 J/t (Đêm)'
   type:
   - '&7&oMáy Phát Điện'
 ANCIENT_DEBRIS_DUST:
+  name: '&7Bột Mảnh vỡ Cổ đại'
   type:
   - '&7&oTài Nguyên'
 CARBONADO_SOLAR_HELMET:
+  description:
+  - '&eMột chiếc mũ mặt trời.'
+  - '&7Đội trên đầu, nó thụ động tạo ra năng lượng'
+  - '&7dưới ánh nắng ban ngày và sạc trang bị khác của bạn.'
+  name: '&7Mũ Mặt trời Carbonado'
+  stats:
+  - '&8⇨ &e⚡ &710 J/t Sản sinh'
   type:
   - '&7&oGiáp'
 CARBON_PLATE:
+  name: '&7Tấm Cacbon'
   type:
   - '&7&oThành Phần'
 CARGO_CONFIGURATOR:
+  description:
+  - '&7Sao chép và dán cấu hình nút hàng hóa.'
+  name: '&7Máy cấu hình Hàng hóa'
   type:
   - '&7&oDụng Cụ'
+  usage:
+  - '&7> &eChuột phải &7- Sao chép cấu hình nút'
+  - '&7> &eChuột trái &7- Áp dụng cấu hình nút'
+  - '&7> &eShift+Chuột phải &7- Xóa máy cấu hình nút'
 COAL_DUST:
+  name: '&7Bột Than đá'
   type:
   - '&7&oTài Nguyên'
 CONVER:
+  description:
+  - '&7Đổi năng lượng giữa LiteXpansion và các hệ thống'
+  - '&7điện khác để các lưới của bạn liên thông được.'
+  name: '&7Bộ chuyển đổi'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J Bộ đệm'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMáy Móc'
 COPPER_CABLE:
+  name: '&7Dây Đồng'
   type:
   - '&7&oThành Phần'
 COPPER_ITEM_CASING:
+  name: '&7Vỏ Vật phẩm Đồng'
   type:
   - '&7&oThành Phần'
 COPPER_PLATE:
+  name: '&7Tấm Đồng'
   type:
   - '&7&oThành Phần'
 DIAMOND_DRILL:
+  description:
+  - '&7Phá obsidian, đá và các biến thể của đá ngay lập tức'
+  name: '&bMáy khoan Kim cương'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&oDụng Cụ'
+  usage:
+  - '&7Chuột phải để phá khối chậm hơn'
 DIAMOND_DUST:
+  name: '&7Bột Kim cương'
   type:
   - '&7&oTài Nguyên'
 DIAMOND_PLATE:
+  name: '&7Tấm Kim cương'
   type:
   - '&7&oThành Phần'
 ELECTRIC_CHESTPLATE:
+  description:
+  - '&7Vô hiệu hóa toàn bộ sát thương gây cho người chơi.'
+  name: '&9Áo giáp Điện'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 8192 J'
   type:
   - '&7&oGiáp'
 ELECTRONIC_CIRCUIT:
+  name: '&7Mạch Điện tử'
   type:
   - '&7&oThành Phần'
 EMERALD_DUST:
+  name: '&7Bột Ngọc lục bảo'
   type:
   - '&7&oTài Nguyên'
 ENERGIZED_SOLAR_HELMET:
+  description:
+  - '&eMột chiếc mũ mặt trời.'
+  - '&7Đội trên đầu, nó thụ động tạo ra năng lượng'
+  - '&7dưới ánh nắng ban ngày và sạc trang bị khác của bạn.'
+  name: '&7Mũ Mặt trời Tích điện'
+  stats:
+  - '&8⇨ &e⚡ &720 J/t Sản sinh'
   type:
   - '&7&oGiáp'
 FOOD_SYNTHESIZER:
+  description:
+  - '&fGiữ cho bạn no bằng thức ăn nhân tạo.'
+  - '&fCó đủ các hương vị!'
+  name: '&dMáy tổng hợp Thức ăn'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 100 J'
   type:
   - '&7&oThiết Bị'
 GENERATOR:
+  description:
+  - '&7Đốt nhiên liệu để sản xuất năng lượng.'
+  - '&7Nguồn điện đáng tin cậy đầu tiên của bạn và là nền'
+  - '&7tảng để sạc Pin RE và chạy máy.'
+  name: '&7Máy phát điện'
+  stats:
+  - '&8⇨ &e⚡ &74,000 J Bộ đệm'
+  - '&8⇨ &e⚡ &710 J/t Đầu ra'
   type:
   - '&7&oMáy Phát Điện'
 GLASS_CUTTER:
+  description:
+  - '&bMột công cụ cắt kính dùng điện.'
+  - '&7Chạy bằng bộ đệm năng lượng bên trong.'
+  name: '&bDao cắt Kính'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 300 J'
   type:
   - '&7&oDụng Cụ'
+  usage:
+  - '&eChuột trái&7 để cắt kính nhanh chóng'
+  - '&eChuột phải&7 để cắt kính chậm'
 GOLD_CABLE:
+  name: '&7Dây Vàng'
   type:
   - '&7&oThành Phần'
 GOLD_ITEM_CASING:
+  name: '&7Vỏ Vật phẩm Vàng'
   type:
   - '&7&oThành Phần'
 GOLD_PLATE:
+  name: '&7Tấm Vàng'
   type:
   - '&7&oThành Phần'
 HYBRID_SOLAR_HELMET:
+  description:
+  - '&eMột chiếc mũ mặt trời.'
+  - '&7Đội trên đầu, nó thụ động tạo ra năng lượng'
+  - '&7dưới ánh nắng ban ngày và sạc trang bị khác của bạn.'
+  - '&7Bậc cao hơn sản xuất và lưu trữ nhiều hơn hẳn.'
+  name: '&7Mũ Mặt trời Lai'
+  stats:
+  - '&8⇨ &e⚡ &7100 J/t Sản sinh'
   type:
   - '&7&oGiáp'
 HYBRID_SOLAR_PANEL:
+  description:
+  - '&bMột tấm pin mặt trời nhận biết chiều không gian.'
+  - '&7Đầu ra được tăng ở Nether vào ban ngày và End'
+  - '&7vào ban đêm, cộng thêm sản sinh ngày/đêm thường.'
+  name: '&b&lTấm pin Mặt trời Lai'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J Bộ đệm'
+  - '&8⇨ &e⚡ &7640 J/t (Ngày + Nether)'
+  - '&8⇨ &e⚡ &780 J/t (Đêm + End)'
   type:
   - '&7&oMáy Phát Điện'
 IRIDIUM:
+  name: '&fIridi'
   type:
   - '&7&oTài Nguyên'
 IRIDIUM_PLATE:
+  description:
+  - '&7Dùng để tạo ra Giáp Iridi'
+  name: '&fTấm Iridi'
   type:
   - '&7&oThành Phần'
 IRON_ITEM_CASING:
+  name: '&7Vỏ Vật phẩm Sắt'
   type:
   - '&7&oThành Phần'
 IRON_PLATE:
+  name: '&7Tấm Sắt'
   type:
   - '&7&oThành Phần'
 LAPIS_DUST:
+  name: '&7Bột Lưu ly'
   type:
   - '&7&oTài Nguyên'
 LAPOTRON_CRYSTAL:
+  name: '&7Tinh thể Lapotron'
   type:
   - '&7&oThành Phần'
 MACERATOR:
+  description:
+  - '&7Nghiền quặng và kim loại thành &7bột&7, nhân đôi'
+  - '&7sản lượng khi bột được nung chảy trở lại.'
+  - '&7Bước đầu tiên của việc chế biến quặng hiệu quả.'
+  name: '&7Máy nghiền'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J Bộ đệm'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMáy Móc'
 MACHINE_BLOCK:
+  name: '&7Khối Máy'
   type:
   - '&7&oThành Phần'
 MAG_THOR:
+  description:
+  - '&7&oMột hợp kim cực kỳ bền chỉ được dùng'
+  - '&7&otrong những cỗ máy nâng cao nhất'
+  name: '&b&lMag-Thor'
   type:
   - '&7&oTài Nguyên'
 MANUAL_MILL:
+  description:
+  - '&7Một cối xay đa khối quay bằng tay.'
+  - '&7Nghiền nguyên liệu mà không cần điện, cho bạn một'
+  - '&7lựa chọn đầu kỳ thay cho Máy nghiền điện.'
+  name: '&7Cối xay Thủ công'
   type:
   - '&7&oĐa khối'
+  usage:
+  - '&eChuột phải&7 vào máy nhả để dùng'
 MASS_FABRICATOR_MACHINE:
+  description:
+  - '&5Chuyển đổi năng lượng - và tùy chọn &8Phế liệu &7- thành'
+  - '&5UU-Matter&7, nguyên liệu xây dựng đa dụng.'
+  - '&7Thêm Phế liệu giảm mạnh chi phí năng lượng.'
+  - '&8Một cỗ máy hậu kỳ ngốn năng lượng.'
+  name: '&5Máy chế tạo Khối lượng'
+  stats:
+  - '&8⇨ &e⚡ &749,998 J Bộ đệm'
+  - '&8⇨ &e⚡ &716,666 J/t'
   type:
   - '&7&oMáy Móc'
 METAL_FORGE:
+  description:
+  - '&7Một máy ép kim loại đa khối.'
+  - '&7Tạo thỏi thành &ftấm &7và &fvỏ vật phẩm &7-'
+  - '&7các thành phần đằng sau dây, máy và giáp.'
+  name: '&7Lò rèn Kim loại'
   type:
   - '&7&oĐa khối'
+  usage:
+  - '&eChuột phải&7 vào máy nhả để dùng'
 MINING_DRILL:
+  description:
+  - '&7Phá đá và các biến thể của đá ngay lập tức'
+  name: '&7Máy khoan Khai mỏ'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&oDụng Cụ'
+  usage:
+  - '&7Chuột phải để phá khối chậm hơn'
 MIXED_METAL_INGOT:
+  name: '&7Thỏi Kim loại Trộn'
   type:
   - '&7&oTài Nguyên'
 MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  description:
+  - '&7Thiết bị MFE.'
+  - '&7Một tụ điện bậc trung lưu trữ một bộ đệm'
+  - '&7lớn cho mạng máy của bạn.'
+  name: '&7MFE'
+  stats:
+  - '&8⇨ &e⚡ &74,000,000 J Bộ đệm'
+  - '&8⇨ &e⚡ &712 J/t Truyền tải'
   type:
   - '&7&oMáy Móc'
 MULTI_FUNCTIONAL_STORAGE_UNIT:
+  description:
+  - '&7Thiết bị MFSU.'
+  - '&7Một tụ điện bậc cao với bộ đệm năng lượng khổng lồ'
+  - '&7để cấp điện cho các máy hậu kỳ ngốn điện.'
+  name: '&7MFSU'
+  stats:
+  - '&8⇨ &e⚡ &740,000,000 J Bộ đệm'
+  - '&8⇨ &e⚡ &752 J/t Truyền tải'
   type:
   - '&7&oMáy Móc'
 NANO_BLADE:
+  description:
+  - '&fMột món công nghệ nâng cao có thể'
+  - '&fcắt xuyên qua mô hữu cơ một cách dễ dàng.'
+  name: '&2Lưỡi dao Nano &c(Tắt)'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 4000 J'
   type:
   - '&7&oVũ Khí'
+  usage:
+  - '&eChuột phải&7 để bật tắt'
 POWER_UNIT:
+  name: '&7Thiết bị Điện năng'
   type:
   - '&7&oThành Phần'
 QUARTZ_DUST:
+  name: '&7Bột Thạch anh'
   type:
   - '&7&oTài Nguyên'
 RAW_CARBON_FIBRE:
+  name: '&7Sợi Cacbon Thô'
   type:
   - '&7&oTài Nguyên'
 RAW_CARBON_MESH:
+  name: '&7Lưới Cacbon Thô'
   type:
   - '&7&oTài Nguyên'
 REDSTONE_DUST:
+  name: '&7Bột Đá đỏ'
   type:
   - '&7&oTài Nguyên'
 REFINED_IRON:
+  name: '&7Sắt Tinh luyện'
   type:
   - '&7&oTài Nguyên'
 REFINED_SMELTERY:
+  description:
+  - '&7Một lò nấu đa khối.'
+  - '&7Nung chảy bột và kết hợp kim loại thành hợp kim'
+  - '&7như &7Thỏi Kim loại Trộn &7và &7Sắt Tinh luyện&7.'
+  name: '&7Lò nấu Tinh luyện'
   type:
   - '&7&oĐa khối'
+  usage:
+  - '&eChuột phải&7 vào máy nhả để dùng'
 REINFORCED_DOOR:
+  name: '&7Cửa Gia cố'
   type:
   - '&7&oThành Phần'
 REINFORCED_GLASS:
+  name: '&7Kính Gia cố'
   type:
   - '&7&oThành Phần'
 REINFORCED_STONE:
+  name: '&7Đá Gia cố'
   type:
   - '&7&oThành Phần'
 RE_BATTERY:
+  name: '&7Pin RE'
   type:
   - '&7&oThành Phần'
 RUBBER:
+  name: '&7Cao su'
   type:
   - '&7&oTài Nguyên'
 RUBBER_SYNTHESIZER:
+  description:
+  - '&6Chuyển đổi một Xô Dầu thành &7Cao su&7.'
+  - '&7Cao su cách điện cho dây trần và được dùng rộng rãi'
+  - '&7trong mạch điện và công thức máy.'
+  name: '&6Máy tổng hợp Cao su'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J Bộ đệm'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMáy Móc'
 SCRAP:
+  description:
+  - '&7Có thể dùng để tạo ra &5UU-Matter'
+  name: '&8Phế liệu'
   type:
   - '&7&oTài Nguyên'
 SCRAP_MACHINE:
+  description:
+  - '&8Máy tái chế.'
+  - '&7Nạp vào gần như mọi vật phẩm và có cơ hội'
+  - '&7nhả ra &8Phế liệu &7- nguyên liệu thô cho UU-Matter.'
+  - '&7Chạy bằng năng lượng; phần còn lại bị phá hủy.'
+  name: '&8Máy tái chế'
+  stats:
+  - '&8⇨ &e⚡ &7600 J Bộ đệm'
+  - '&8⇨ &e⚡ &7200 J/t'
   type:
   - '&7&oMáy Móc'
 THORIUM:
+  description:
+  - '&8Một nguyên tố phóng xạ.'
+  - '&7Được tinh luyện thành &7Mag-Thor &7và dùng trong lớp'
+  - '&7bọc và máy móc nâng cao.'
+  name: '&8Thori'
   stats:
   - '&a☢&7 Mức độ phóng xạ: &6CAO'
   type:
@@ -192,41 +431,83 @@ THORIUM:
   usage:
   - '&8⇨ &4Cần Bộ Đồ Khử Nhiễm!'
 THORIUM_DUST:
+  name: '&8Bột Thori'
   type:
   - '&7&oTài Nguyên'
 THORIUM_PLATE:
+  name: '&7Tấm Thori'
   type:
   - '&7&oThành Phần'
 TIN_CABLE:
+  name: '&7Dây Thiếc'
   type:
   - '&7&oThành Phần'
 TIN_ITEM_CASING:
+  name: '&7Vỏ Vật phẩm Thiếc'
   type:
   - '&7&oThành Phần'
 TIN_PLATE:
+  name: '&7Tấm Thiếc'
   type:
   - '&7&oThành Phần'
 TREETAP:
+  description:
+  - '&7Dùng để thu hoạch &7Cao su &7từ các nguồn cao su'
+  - '&7bằng tay, mà không cần máy tổng hợp điện.'
+  name: '&7Vòi hứng nhựa cây'
   type:
   - '&7&oDụng Cụ'
 ULTIMATE_SOLAR_HELMET:
+  description:
+  - '&eMột chiếc mũ mặt trời.'
+  - '&7Đội trên đầu, nó thụ động tạo ra năng lượng'
+  - '&7dưới ánh nắng ban ngày và sạc trang bị khác của bạn.'
+  - '&7Bậc cao hơn sản xuất và lưu trữ nhiều hơn hẳn.'
+  name: '&7Mũ Mặt trời Tối hậu'
+  stats:
+  - '&8⇨ &e⚡ &7250 J/t Sản sinh'
   type:
   - '&7&oGiáp'
 ULTIMATE_SOLAR_PANEL:
+  description:
+  - '&5Tấm pin mặt trời mạnh nhất của LiteXpansion.'
+  - '&7Tạo ra lượng lớn năng lượng cả ngày lẫn đêm'
+  - '&7với một bộ đệm tích hợp khá lớn.'
+  name: '&5&lTấm pin Mặt trời Tối hậu'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J Bộ đệm'
+  - '&8⇨ &e⚡ &75,120 J/t (Ngày)'
+  - '&8⇨ &e⚡ &7640 J/t (Đêm)'
   type:
   - '&7&oMáy Phát Điện'
 UNINSULATED_COPPER_CABLE:
+  name: '&7Dây Đồng Không cách điện'
   type:
   - '&7&oThành Phần'
 UNINSULATED_GOLD_CABLE:
+  name: '&7Dây Vàng Không cách điện'
   type:
   - '&7&oThành Phần'
 UNINSULATED_TIN_CABLE:
+  name: '&7Dây Thiếc Không cách điện'
   type:
   - '&7&oThành Phần'
 UU_CRAFTER:
+  description:
+  - '&7Tự động hóa việc chế tạo &5UU-Matter&7.'
+  - '&7Cung cấp UU-Matter và nó sản xuất tài nguyên đã'
+  - '&7cấu hình mà không cần chế tạo tay trên lưới.'
+  name: '&7Máy chế tạo UU'
+  stats:
+  - '&8⇨ &e⚡ &750,000 J Bộ đệm'
+  - '&8⇨ &e⚡ &750,000 J/t'
   type:
   - '&7&oMáy Móc'
+  usage:
+  - '&eChuột phải&7 vào cần gạt để khởi động hoặc dừng nó'
 UU_MATTER:
+  description:
+  - '&7Có thể dùng để tạo ra vật phẩm hoặc tài nguyên'
+  name: '&5UU-Matter'
   type:
   - '&7&oTài Nguyên'
