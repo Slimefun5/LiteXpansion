@@ -1,190 +1,429 @@
 ADVANCEDLX_SOLAR_HELMET:
+  description:
+  - '&eIsang solar helmet.'
+  - '&7Isinusuot sa ulo, pasibong nagbubuo ng enerhiya'
+  - '&7sa liwanag ng araw at kinakarga ang iba pang kagamitan.'
+  - '&7Ang mas mataas na baitang ay higit na gumagawa at nag-iimbak.'
+  name: '&7Super Abanseng Solar Helmet'
+  stats:
+  - '&8⇨ &e⚡ &750 J/t Pagbuo'
   type:
   - '&7&oBaluti'
 ADVANCED_ALLOY:
+  name: '&7Abanseng Haluang Metal'
   type:
   - '&7&oBahagi'
 ADVANCED_CIRCUIT:
+  name: '&7Abanseng Sirkito'
   type:
   - '&7&oBahagi'
 ADVANCED_MACHINE_BLOCK:
+  name: '&7Abanseng Bloke ng Makina'
   type:
   - '&7&oBahagi'
 ADVANCED_SOLAR_HELMET:
+  description:
+  - '&eIsang solar helmet.'
+  - '&7Isinusuot sa ulo, pasibong nagbubuo ng enerhiya'
+  - '&7sa liwanag ng araw at kinakarga ang iba pang kagamitan.'
+  name: '&7Abanseng Solar Helmet'
+  stats:
+  - '&8⇨ &e⚡ &75 J/t Pagbuo'
   type:
   - '&7&oBaluti'
 ADVANCED_SOLAR_PANEL:
+  description:
+  - '&7Solar panel na &9gumagana rin sa gabi&7,'
+  - '&7sa mas mababang antas.'
+  - '&7May sariling panloob na imbak ng enerhiya.'
+  name: '&7&lAbanseng Solar Panel'
+  stats:
+  - '&8⇨ &e⚡ &7320,000 J Imbak'
+  - '&8⇨ &e⚡ &780 J/t (Araw)'
+  - '&8⇨ &e⚡ &710 J/t (Gabi)'
   type:
   - '&7&oGenerator'
 ANCIENT_DEBRIS_DUST:
+  name: '&7Alikabok ng Sinaunang Labi'
   type:
   - '&7&oRekurso'
 CARBONADO_SOLAR_HELMET:
+  description:
+  - '&eIsang solar helmet.'
+  - '&7Isinusuot sa ulo, pasibong nagbubuo ng enerhiya'
+  - '&7sa liwanag ng araw at kinakarga ang iba pang kagamitan.'
+  name: '&7Carbonadong Solar Helmet'
+  stats:
+  - '&8⇨ &e⚡ &710 J/t Pagbuo'
   type:
   - '&7&oBaluti'
 CARBON_PLATE:
+  name: '&7Plaka ng Karbon'
   type:
   - '&7&oBahagi'
 CARGO_CONFIGURATOR:
+  description:
+  - '&7Kinokopya at idinidikit ang mga ayos ng nodo ng kargamento.'
+  name: '&7Tagaayos ng Kargamento'
   type:
   - '&7&oKasangkapan'
+  usage:
+  - '&7> &eKanang Pindot &7- Kopyahin ang ayos ng nodo'
+  - '&7> &eKaliwang Pindot &7- Ilapat ang ayos ng nodo'
+  - '&7> &eShift+Kanang Pindot &7- Linisin ang tagaayos ng nodo'
 COAL_DUST:
+  name: '&7Alikabok ng Uling'
   type:
   - '&7&oRekurso'
 CONVER:
+  description:
+  - '&7Ipinagpapalit ang enerhiya sa pagitan ng LiteXpansion at iba pang sistema'
+  - '&7ng lakas upang makipagtulungan ang iyong mga grid.'
+  name: '&7Tagapagpalit'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J Imbak'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMakina'
 COPPER_CABLE:
+  name: '&7Kableng Tanso'
   type:
   - '&7&oBahagi'
 COPPER_ITEM_CASING:
+  name: '&7Balot ng Bagay na Tanso'
   type:
   - '&7&oBahagi'
 COPPER_PLATE:
+  name: '&7Plaka ng Tanso'
   type:
   - '&7&oBahagi'
 DIAMOND_DRILL:
+  description:
+  - '&7Agad-agad na binabasag ang obsidiana, bato, at mga baryante ng bato'
+  name: '&bBarenang Diyamante'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&oKasangkapan'
+  usage:
+  - '&7Kanang pindot upang mas mabagal na basagin ang bloke'
 DIAMOND_DUST:
+  name: '&7Alikabok ng Diyamante'
   type:
   - '&7&oRekurso'
 DIAMOND_PLATE:
+  name: '&7Plaka ng Diyamante'
   type:
   - '&7&oBahagi'
 ELECTRIC_CHESTPLATE:
+  description:
+  - '&7Pinapawi ang lahat ng pinsalang tinatamo ng manlalaro.'
+  name: '&9Elektrikong Baluting Dibdib'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 8192 J'
   type:
   - '&7&oBaluti'
 ELECTRONIC_CIRCUIT:
+  name: '&7Elektronikong Sirkito'
   type:
   - '&7&oBahagi'
 EMERALD_DUST:
+  name: '&7Alikabok ng Esmeralda'
   type:
   - '&7&oRekurso'
 ENERGIZED_SOLAR_HELMET:
+  description:
+  - '&eIsang solar helmet.'
+  - '&7Isinusuot sa ulo, pasibong nagbubuo ng enerhiya'
+  - '&7sa liwanag ng araw at kinakarga ang iba pang kagamitan.'
+  name: '&7Enerhisadong Solar Helmet'
+  stats:
+  - '&8⇨ &e⚡ &720 J/t Pagbuo'
   type:
   - '&7&oBaluti'
 FOOD_SYNTHESIZER:
+  description:
+  - '&fPinapanatili kang busog sa artipisyal na pagkain.'
+  - '&fMay kasamang mga lasa!'
+  name: '&dSintesador ng Pagkain'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 100 J'
   type:
   - '&7&oGadyet'
 GENERATOR:
+  description:
+  - '&7Sinusunog ang gatong upang gumawa ng enerhiya.'
+  - '&7Ang unang maaasahang pinagkukunan ng lakas at ang saligan'
+  - '&7sa pagkarga ng RE-Baterya at pagpapatakbo ng mga makina.'
+  name: '&7Generador'
+  stats:
+  - '&8⇨ &e⚡ &74,000 J Imbak'
+  - '&8⇨ &e⚡ &710 J/t Paglabas'
   type:
   - '&7&oGenerator'
 GLASS_CUTTER:
+  description:
+  - '&bElektrikong kasangkapan para sa salamin.'
+  - '&7Umaandar sa panloob na imbak ng enerhiya nito.'
+  name: '&bPanghiwa ng Salamin'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 300 J'
   type:
   - '&7&oKasangkapan'
+  usage:
+  - '&eKaliwang Pindot&7 upang hiwain agad ang salamin'
+  - '&eKanang Pindot&7 upang hiwain dahan-dahan ang salamin'
 GOLD_CABLE:
+  name: '&7Kableng Ginto'
   type:
   - '&7&oBahagi'
 GOLD_ITEM_CASING:
+  name: '&7Balot ng Bagay na Ginto'
   type:
   - '&7&oBahagi'
 GOLD_PLATE:
+  name: '&7Plaka ng Ginto'
   type:
   - '&7&oBahagi'
 HYBRID_SOLAR_HELMET:
+  description:
+  - '&eIsang solar helmet.'
+  - '&7Isinusuot sa ulo, pasibong nagbubuo ng enerhiya'
+  - '&7sa liwanag ng araw at kinakarga ang iba pang kagamitan.'
+  - '&7Ang mas mataas na baitang ay higit na gumagawa at nag-iimbak.'
+  name: '&7Hibridong Solar Helmet'
+  stats:
+  - '&8⇨ &e⚡ &7100 J/t Pagbuo'
   type:
   - '&7&oBaluti'
 HYBRID_SOLAR_PANEL:
+  description:
+  - '&bSolar panel na nakakabatid ng dimensyon.'
+  - '&7Pinalakas ang paglabas sa Nether kung araw at sa End'
+  - '&7kung gabi, bukod sa karaniwang pagbuo sa araw/gabi.'
+  name: '&b&lHibridong Solar Panel'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J Imbak'
+  - '&8⇨ &e⚡ &7640 J/t (Araw + Nether)'
+  - '&8⇨ &e⚡ &780 J/t (Gabi + End)'
   type:
   - '&7&oGenerator'
 IRIDIUM:
+  name: '&fIridyo'
   type:
   - '&7&oRekurso'
 IRIDIUM_PLATE:
+  description:
+  - '&7Ginagamit upang gumawa ng Baluting Iridyo'
+  name: '&fPlaka ng Iridyo'
   type:
   - '&7&oBahagi'
 IRON_ITEM_CASING:
+  name: '&7Balot ng Bagay na Bakal'
   type:
   - '&7&oBahagi'
 IRON_PLATE:
+  name: '&7Plaka ng Bakal'
   type:
   - '&7&oBahagi'
 LAPIS_DUST:
+  name: '&7Alikabok ng Lapis'
   type:
   - '&7&oRekurso'
 LAPOTRON_CRYSTAL:
+  name: '&7Kristal na Lapotron'
   type:
   - '&7&oBahagi'
 MACERATOR:
+  description:
+  - '&7Ginigiling ang mga mineral at metal tungo sa &7alikabok&7, nadodoble'
+  - '&7ang bunga kapag muling tinunaw ang alikabok.'
+  - '&7Ang unang hakbang ng matipid na pagproseso ng mineral.'
+  name: '&7Panggiling'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J Imbak'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMakina'
 MACHINE_BLOCK:
+  name: '&7Bloke ng Makina'
   type:
   - '&7&oBahagi'
 MAG_THOR:
+  description:
+  - '&7&oNapakatibay na haluang metal na ginagamit'
+  - '&7&olamang sa pinaka-abanseng mga makina'
+  name: '&b&lMag-Thor'
   type:
   - '&7&oRekurso'
 MANUAL_MILL:
+  description:
+  - '&7Isang multiblokeng molinong pinipihit sa kamay.'
+  - '&7Ginigiling ang mga materyal nang walang lakas, kaya may'
+  - '&7maagang kapalit sa elektrikong Panggiling.'
+  name: '&7Manu-manong Molino'
   type:
   - '&7&oMultiblock'
+  usage:
+  - '&eKanang Pindot&7 sa dispenser upang magamit'
 MASS_FABRICATOR_MACHINE:
+  description:
+  - '&5Ginagawa ang enerhiya - at kung nais, &8Retaso &7- tungo sa'
+  - '&5UU-Materya&7, ang unibersal na materyal sa pagtatayo.'
+  - '&7Ang pagdagdag ng Retaso ay malaki ang ibinababa sa gastos ng enerhiya.'
+  - '&8Isang matakaw na Pangwakas na Makina.'
+  name: '&5Tagagawa ng Masa'
+  stats:
+  - '&8⇨ &e⚡ &749,998 J Imbak'
+  - '&8⇨ &e⚡ &716,666 J/t'
   type:
   - '&7&oMakina'
 METAL_FORGE:
+  description:
+  - '&7Isang multiblokeng pamprensa ng metal.'
+  - '&7Hinuhubog ang mga bareta bilang &fplaka &7at &fbalot ng bagay &7-'
+  - '&7ang mga sangkap sa likod ng kable, makina at baluti.'
+  name: '&7Pandayan ng Metal'
   type:
   - '&7&oMultiblock'
+  usage:
+  - '&eKanang Pindot&7 sa dispenser upang magamit'
 MINING_DRILL:
+  description:
+  - '&7Agad-agad na binabasag ang bato at mga baryante ng bato'
+  name: '&7Barenang Pangmina'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&oKasangkapan'
+  usage:
+  - '&7Kanang pindot upang mas mabagal na basagin ang bloke'
 MIXED_METAL_INGOT:
+  name: '&7Bareta ng Halong Metal'
   type:
   - '&7&oRekurso'
 MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  description:
+  - '&7Ang MFE.'
+  - '&7Katamtamang baitang na kapasitor ng enerhiya na nag-iimbak ng malaking'
+  - '&7imbak para sa network ng iyong makina.'
+  name: '&7MFE'
+  stats:
+  - '&8⇨ &e⚡ &74,000,000 J Imbak'
+  - '&8⇨ &e⚡ &712 J/t Paglipat'
   type:
   - '&7&oMakina'
 MULTI_FUNCTIONAL_STORAGE_UNIT:
+  description:
+  - '&7Ang MFSU.'
+  - '&7Mataas na baitang na kapasitor na may napakalaking imbak ng enerhiya'
+  - '&7para paganahin ang mabibigat na Pangwakas na Makina.'
+  name: '&7MFSU'
+  stats:
+  - '&8⇨ &e⚡ &740,000,000 J Imbak'
+  - '&8⇨ &e⚡ &752 J/t Paglipat'
   type:
   - '&7&oMakina'
 NANO_BLADE:
+  description:
+  - '&fAbanseng teknolohiya na kayang'
+  - '&fhiwain ang organikong himaymay nang madali.'
+  name: '&2Nanong Talim &c(Patay)'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 4000 J'
   type:
   - '&7&oSandata'
+  usage:
+  - '&eKanang Pindot&7 upang buksan o isara'
 POWER_UNIT:
+  name: '&7Yunit ng Lakas'
   type:
   - '&7&oBahagi'
 QUARTZ_DUST:
+  name: '&7Alikabok ng Kuwarts'
   type:
   - '&7&oRekurso'
 RAW_CARBON_FIBRE:
+  name: '&7Hilaw na Himaymay ng Karbon'
   type:
   - '&7&oRekurso'
 RAW_CARBON_MESH:
+  name: '&7Hilaw na Lambat ng Karbon'
   type:
   - '&7&oRekurso'
 REDSTONE_DUST:
+  name: '&7Alikabok ng Redstone'
   type:
   - '&7&oRekurso'
 REFINED_IRON:
+  name: '&7Dinalisay na Bakal'
   type:
   - '&7&oRekurso'
 REFINED_SMELTERY:
+  description:
+  - '&7Isang multiblokeng tunawan.'
+  - '&7Tinutunaw ang mga alikabok at pinagsasama ang mga metal bilang haluang metal'
+  - '&7tulad ng &7Bareta ng Halong Metal &7at &7Dinalisay na Bakal&7.'
+  name: '&7Dinalisay na Tunawan'
   type:
   - '&7&oMultiblock'
+  usage:
+  - '&eKanang Pindot&7 sa dispenser upang magamit'
 REINFORCED_DOOR:
+  name: '&7Pinatibay na Pinto'
   type:
   - '&7&oBahagi'
 REINFORCED_GLASS:
+  name: '&7Pinatibay na Salamin'
   type:
   - '&7&oBahagi'
 REINFORCED_STONE:
+  name: '&7Pinatibay na Bato'
   type:
   - '&7&oBahagi'
 RE_BATTERY:
+  name: '&7RE Baterya'
   type:
   - '&7&oBahagi'
 RUBBER:
+  name: '&7Goma'
   type:
   - '&7&oRekurso'
 RUBBER_SYNTHESIZER:
+  description:
+  - '&6Pinapalitan ang Timba ng Langis tungo sa &7Goma&7.'
+  - '&7Binabalot ng goma ang mga hubad na kable at malawak na ginagamit'
+  - '&7sa mga sirkito at resipi ng makina.'
+  name: '&6Sintesador ng Goma'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J Imbak'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMakina'
 SCRAP:
+  description:
+  - '&7Magagamit upang gumawa ng &5UU-Materya'
+  name: '&8Retaso'
   type:
   - '&7&oRekurso'
 SCRAP_MACHINE:
+  description:
+  - '&8Ang Tagaresiklo.'
+  - '&7Pinapakain ng halos anumang bagay at may tsansang'
+  - '&7magluwa ng &8Retaso &7- ang hilaw na sangkap ng UU-Materya.'
+  - '&7Umaandar sa enerhiya; ang iba ay nasisira.'
+  name: '&8Tagaresiklo'
+  stats:
+  - '&8⇨ &e⚡ &7600 J Imbak'
+  - '&8⇨ &e⚡ &7200 J/t'
   type:
   - '&7&oMakina'
 THORIUM:
+  description:
+  - '&8Isang elementong radyoaktibo.'
+  - '&7Dinadalisay bilang &7Mag-Thor &7at ginagamit sa abanseng'
+  - '&7pagbabalot at makinarya.'
+  name: '&8Thorium'
   stats:
   - '&a☢&7 Antas ng radyasyon: &6MATAAS'
   type:
@@ -192,41 +431,83 @@ THORIUM:
   usage:
   - '&8⇨ &4Kailangan ng Hazmat Suit!'
 THORIUM_DUST:
+  name: '&8Alikabok ng Thorium'
   type:
   - '&7&oRekurso'
 THORIUM_PLATE:
+  name: '&7Plaka ng Thorium'
   type:
   - '&7&oBahagi'
 TIN_CABLE:
+  name: '&7Kableng Estanyo'
   type:
   - '&7&oBahagi'
 TIN_ITEM_CASING:
+  name: '&7Balot ng Bagay na Estanyo'
   type:
   - '&7&oBahagi'
 TIN_PLATE:
+  name: '&7Plaka ng Estanyo'
   type:
   - '&7&oBahagi'
 TREETAP:
+  description:
+  - '&7Ginagamit upang anihin ang &7Goma &7mula sa mga pinagkukunan ng goma'
+  - '&7gamit ang kamay, nang walang elektrikong sintesador.'
+  name: '&7Panghango ng Dagta'
   type:
   - '&7&oKasangkapan'
 ULTIMATE_SOLAR_HELMET:
+  description:
+  - '&eIsang solar helmet.'
+  - '&7Isinusuot sa ulo, pasibong nagbubuo ng enerhiya'
+  - '&7sa liwanag ng araw at kinakarga ang iba pang kagamitan.'
+  - '&7Ang mas mataas na baitang ay higit na gumagawa at nag-iimbak.'
+  name: '&7Sukdulang Solar Helmet'
+  stats:
+  - '&8⇨ &e⚡ &7250 J/t Pagbuo'
   type:
   - '&7&oBaluti'
 ULTIMATE_SOLAR_PANEL:
+  description:
+  - '&5Ang pinakamalakas na solar panel ng LiteXpansion.'
+  - '&7Nagbubuo ng malaking dami ng enerhiya araw at gabi'
+  - '&7na may malaking nakapaloob na imbak.'
+  name: '&5&lSukdulang Solar Panel'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J Imbak'
+  - '&8⇨ &e⚡ &75,120 J/t (Araw)'
+  - '&8⇨ &e⚡ &7640 J/t (Gabi)'
   type:
   - '&7&oGenerator'
 UNINSULATED_COPPER_CABLE:
+  name: '&7Kableng Tanso na Walang Insulasyon'
   type:
   - '&7&oBahagi'
 UNINSULATED_GOLD_CABLE:
+  name: '&7Kableng Ginto na Walang Insulasyon'
   type:
   - '&7&oBahagi'
 UNINSULATED_TIN_CABLE:
+  name: '&7Kableng Estanyo na Walang Insulasyon'
   type:
   - '&7&oBahagi'
 UU_CRAFTER:
+  description:
+  - '&7Isinasaawtomatiko ang paglikha ng &5UU-Materya&7.'
+  - '&7Magbigay ng UU-Materya at gagawin nito ang nakatakdang'
+  - '&7yaman nang walang manu-manong paglikha sa grid.'
+  name: '&7Tagalikha ng UU'
+  stats:
+  - '&8⇨ &e⚡ &750,000 J Imbak'
+  - '&8⇨ &e⚡ &750,000 J/t'
   type:
   - '&7&oMakina'
+  usage:
+  - '&eKanang Pindot&7 sa switch upang simulan o ihinto ito'
 UU_MATTER:
+  description:
+  - '&7Magagamit upang gumawa ng mga bagay o yaman'
+  name: '&5UU-Materya'
   type:
   - '&7&oRekurso'
