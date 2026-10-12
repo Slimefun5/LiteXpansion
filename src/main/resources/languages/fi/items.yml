@@ -1,190 +1,429 @@
 ADVANCEDLX_SOLAR_HELMET:
+  description:
+  - '&eAurinkokypärä.'
+  - '&7Päässä pidettynä se tuottaa passiivisesti energiaa'
+  - '&7päivänvalossa ja lataa muut varusteesi.'
+  - '&7Korkeammat tasot tuottavat ja varastoivat huomattavasti enemmän.'
+  name: '&7Superkehittynyt aurinkokypärä'
+  stats:
+  - '&8⇨ &e⚡ &750 J/t tuotanto'
   type:
   - '&7&oPanssari'
 ADVANCED_ALLOY:
+  name: '&7Kehittynyt metalliseos'
   type:
   - '&7&oKomponentti'
 ADVANCED_CIRCUIT:
+  name: '&7Kehittynyt piiri'
   type:
   - '&7&oKomponentti'
 ADVANCED_MACHINE_BLOCK:
+  name: '&7Kehittynyt konepalikka'
   type:
   - '&7&oKomponentti'
 ADVANCED_SOLAR_HELMET:
+  description:
+  - '&eAurinkokypärä.'
+  - '&7Päässä pidettynä se tuottaa passiivisesti energiaa'
+  - '&7päivänvalossa ja lataa muut varusteesi.'
+  name: '&7Kehittynyt aurinkokypärä'
+  stats:
+  - '&8⇨ &e⚡ &75 J/t tuotanto'
   type:
   - '&7&oPanssari'
 ADVANCED_SOLAR_PANEL:
+  description:
+  - '&7Aurinkopaneeli, joka &9toimii myös yöllä&7,'
+  - '&7alennetulla nopeudella.'
+  - '&7Sisältää oman sisäisen energiapuskurin.'
+  name: '&7&lKehittynyt aurinkopaneeli'
+  stats:
+  - '&8⇨ &e⚡ &7320,000 J puskuri'
+  - '&8⇨ &e⚡ &780 J/t (Päivä)'
+  - '&8⇨ &e⚡ &710 J/t (Yö)'
   type:
   - '&7&oGeneraattori'
 ANCIENT_DEBRIS_DUST:
+  name: '&7Muinaisjäänteen pöly'
   type:
   - '&7&oResurssi'
 CARBONADO_SOLAR_HELMET:
+  description:
+  - '&eAurinkokypärä.'
+  - '&7Päässä pidettynä se tuottaa passiivisesti energiaa'
+  - '&7päivänvalossa ja lataa muut varusteesi.'
+  name: '&7Karbonado-aurinkokypärä'
+  stats:
+  - '&8⇨ &e⚡ &710 J/t tuotanto'
   type:
   - '&7&oPanssari'
 CARBON_PLATE:
+  name: '&7Hiililevy'
   type:
   - '&7&oKomponentti'
 CARGO_CONFIGURATOR:
+  description:
+  - '&7Kopioi ja liittää rahtisolmujen asetukset.'
+  name: '&7Rahdin määrittäjä'
   type:
   - '&7&oTyökalu'
+  usage:
+  - '&7> &eNapsauta oikealla &7- Kopioi solmun asetukset'
+  - '&7> &eNapsauta vasemmalla &7- Käytä solmun asetuksia'
+  - '&7> &eShift + oikea napsautus &7- Tyhjennä solmun määrittäjä'
 COAL_DUST:
+  name: '&7Kivihiilipöly'
   type:
   - '&7&oResurssi'
 CONVER:
+  description:
+  - '&7Siirtää energiaa LiteXpansionin ja muiden'
+  - '&7virtajärjestelmien välillä, jotta sähköverkkosi toimivat yhdessä.'
+  name: '&7Muuntaja'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J puskuri'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oKone'
 COPPER_CABLE:
+  name: '&7Kuparikaapeli'
   type:
   - '&7&oKomponentti'
 COPPER_ITEM_CASING:
+  name: '&7Kupariesinekuori'
   type:
   - '&7&oKomponentti'
 COPPER_PLATE:
+  name: '&7Kuparilevy'
   type:
   - '&7&oKomponentti'
 DIAMOND_DRILL:
+  description:
+  - '&7Rikkoo välittömästi obsidiaanin, kiven ja kivivariantit'
+  name: '&bTimanttipora'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&oTyökalu'
+  usage:
+  - '&7Napsauta oikealla rikkoaksesi palikan hitaammin'
 DIAMOND_DUST:
+  name: '&7Timanttipöly'
   type:
   - '&7&oResurssi'
 DIAMOND_PLATE:
+  name: '&7Timanttilevy'
   type:
   - '&7&oKomponentti'
 ELECTRIC_CHESTPLATE:
+  description:
+  - '&7Mitätöi kaiken pelaajaan kohdistuvan vahingon.'
+  name: '&9Sähköinen rintapanssari'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 8192 J'
   type:
   - '&7&oPanssari'
 ELECTRONIC_CIRCUIT:
+  name: '&7Elektroninen piiri'
   type:
   - '&7&oKomponentti'
 EMERALD_DUST:
+  name: '&7Smaragdipöly'
   type:
   - '&7&oResurssi'
 ENERGIZED_SOLAR_HELMET:
+  description:
+  - '&eAurinkokypärä.'
+  - '&7Päässä pidettynä se tuottaa passiivisesti energiaa'
+  - '&7päivänvalossa ja lataa muut varusteesi.'
+  name: '&7Energisoitu aurinkokypärä'
+  stats:
+  - '&8⇨ &e⚡ &720 J/t tuotanto'
   type:
   - '&7&oPanssari'
 FOOD_SYNTHESIZER:
+  description:
+  - '&fPitää sinut kylläisenä keinotekoisella ruoalla.'
+  - '&fSaatavilla kaikissa makuissa!'
+  name: '&dRuoansynteesilaite'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 100 J'
   type:
   - '&7&oGadgetti'
 GENERATOR:
+  description:
+  - '&7Polttaa polttoainetta tuottaakseen energiaa.'
+  - '&7Ensimmäinen luotettava virtalähteesi ja perusta'
+  - '&7RE-akkujen lataamiselle ja koneiden käytölle.'
+  name: '&7Generaattori'
+  stats:
+  - '&8⇨ &e⚡ &74,000 J puskuri'
+  - '&8⇨ &e⚡ &710 J/t ulostulo'
   type:
   - '&7&oGeneraattori'
 GLASS_CUTTER:
+  description:
+  - '&bSähköinen lasityökalu.'
+  - '&7Toimii sisäisellä energiapuskurillaan.'
+  name: '&bLasinleikkuri'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 300 J'
   type:
   - '&7&oTyökalu'
+  usage:
+  - '&eNapsauta vasemmalla&7 leikataksesi lasia nopeasti'
+  - '&eNapsauta oikealla&7 leikataksesi lasia hitaasti'
 GOLD_CABLE:
+  name: '&7Kultakaapeli'
   type:
   - '&7&oKomponentti'
 GOLD_ITEM_CASING:
+  name: '&7Kultaesinekuori'
   type:
   - '&7&oKomponentti'
 GOLD_PLATE:
+  name: '&7Kultalevy'
   type:
   - '&7&oKomponentti'
 HYBRID_SOLAR_HELMET:
+  description:
+  - '&eAurinkokypärä.'
+  - '&7Päässä pidettynä se tuottaa passiivisesti energiaa'
+  - '&7päivänvalossa ja lataa muut varusteesi.'
+  - '&7Korkeammat tasot tuottavat ja varastoivat huomattavasti enemmän.'
+  name: '&7Hybridiaurinkokypärä'
+  stats:
+  - '&8⇨ &e⚡ &7100 J/t tuotanto'
   type:
   - '&7&oPanssari'
 HYBRID_SOLAR_PANEL:
+  description:
+  - '&bUlottuvuustietoinen aurinkopaneeli.'
+  - '&7Tehostettu ulostulo Netherissä päivällä ja Endissä'
+  - '&7yöllä, tavallisen päivä- ja yötuotannon lisäksi.'
+  name: '&b&lHybridiaurinkopaneeli'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J puskuri'
+  - '&8⇨ &e⚡ &7640 J/t (Päivä + Nether)'
+  - '&8⇨ &e⚡ &780 J/t (Yö + End)'
   type:
   - '&7&oGeneraattori'
 IRIDIUM:
+  name: '&fIridium'
   type:
   - '&7&oResurssi'
 IRIDIUM_PLATE:
+  description:
+  - '&7Käytetään iridiumhaarniskan luomiseen'
+  name: '&fIridiumlevy'
   type:
   - '&7&oKomponentti'
 IRON_ITEM_CASING:
+  name: '&7Rautaesinekuori'
   type:
   - '&7&oKomponentti'
 IRON_PLATE:
+  name: '&7Rautalevy'
   type:
   - '&7&oKomponentti'
 LAPIS_DUST:
+  name: '&7Lapispöly'
   type:
   - '&7&oResurssi'
 LAPOTRON_CRYSTAL:
+  name: '&7Lapotron-kristalli'
   type:
   - '&7&oKomponentti'
 MACERATOR:
+  description:
+  - '&7Jauhaa malmit ja metallit &7pölyksi&7, mikä kaksinkertaistaa'
+  - '&7saannon, kun pöly sulatetaan takaisin.'
+  - '&7Tehokkaan malminjalostuksen ensimmäinen askel.'
+  name: '&7Murskain'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J puskuri'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oKone'
 MACHINE_BLOCK:
+  name: '&7Konepalikka'
   type:
   - '&7&oKomponentti'
 MAG_THOR:
+  description:
+  - '&7&oErittäin kestävä metalliseos, jota'
+  - '&7&okäytetään vain kehittyneimmissä koneissa'
+  name: '&b&lMag-Thor'
   type:
   - '&7&oResurssi'
 MANUAL_MILL:
+  description:
+  - '&7Käsin veivattava monipalikkamylly.'
+  - '&7Jauhaa materiaaleja ilman virtaa, mikä antaa sinulle'
+  - '&7alkupelin vaihtoehdon sähköiselle murskaimelle.'
+  name: '&7Käsimylly'
   type:
   - '&7&oMultiblokki'
+  usage:
+  - '&eNapsauta oikealla&7 jakajaa käyttääksesi'
 MASS_FABRICATOR_MACHINE:
+  description:
+  - '&5Muuntaa energiaa - ja valinnaisesti &8Romua &7-'
+  - '&5UU-Aineeksi&7, universaaliksi rakennusmateriaaliksi.'
+  - '&7Romun lisääminen vähentää energiankulutusta rajusti.'
+  - '&8Nälkäinen loppupelin kone.'
+  name: '&5Massavalmistin'
+  stats:
+  - '&8⇨ &e⚡ &749,998 J puskuri'
+  - '&8⇨ &e⚡ &716,666 J/t'
   type:
   - '&7&oKone'
 METAL_FORGE:
+  description:
+  - '&7Monipalikkainen metallipuristin.'
+  - '&7Muovaa harkoista &flevyjä &7ja &fesinekuoria &7-'
+  - '&7komponentit kaapeleiden, koneiden ja haarniskojen taustalla.'
+  name: '&7Metallipaja'
   type:
   - '&7&oMultiblokki'
+  usage:
+  - '&eNapsauta oikealla&7 jakajaa käyttääksesi'
 MINING_DRILL:
+  description:
+  - '&7Rikkoo välittömästi kiven ja kivivariantit'
+  name: '&7Louhintapora'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
   - '&7&oTyökalu'
+  usage:
+  - '&7Napsauta oikealla rikkoaksesi palikan hitaammin'
 MIXED_METAL_INGOT:
+  name: '&7Sekametalliharkko'
   type:
   - '&7&oResurssi'
 MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  description:
+  - '&7MFE.'
+  - '&7Keskitason energiakondensaattori, joka varastoi suuren'
+  - '&7puskurin koneverkollesi.'
+  name: '&7MFE'
+  stats:
+  - '&8⇨ &e⚡ &74,000,000 J puskuri'
+  - '&8⇨ &e⚡ &712 J/t siirto'
   type:
   - '&7&oKone'
 MULTI_FUNCTIONAL_STORAGE_UNIT:
+  description:
+  - '&7MFSU.'
+  - '&7Korkean tason kondensaattori, jolla on valtava energiapuskuri'
+  - '&7vaativien loppupelin koneiden virranlähteeksi.'
+  name: '&7MFSU'
+  stats:
+  - '&8⇨ &e⚡ &740,000,000 J puskuri'
+  - '&8⇨ &e⚡ &752 J/t siirto'
   type:
   - '&7&oKone'
 NANO_BLADE:
+  description:
+  - '&fKehittynyt teknologian kappale, joka'
+  - '&fleikkaa orgaanisen kudoksen läpi vaivatta.'
+  name: '&2Nanoterä &c(Pois)'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 4000 J'
   type:
   - '&7&oAse'
+  usage:
+  - '&eNapsauta oikealla&7 vaihtaaksesi tilaa'
 POWER_UNIT:
+  name: '&7Virtayksikkö'
   type:
   - '&7&oKomponentti'
 QUARTZ_DUST:
+  name: '&7Kvartsipöly'
   type:
   - '&7&oResurssi'
 RAW_CARBON_FIBRE:
+  name: '&7Raaka hiilikuitu'
   type:
   - '&7&oResurssi'
 RAW_CARBON_MESH:
+  name: '&7Raaka hiiliverkko'
   type:
   - '&7&oResurssi'
 REDSTONE_DUST:
+  name: '&7Punakivipöly'
   type:
   - '&7&oResurssi'
 REFINED_IRON:
+  name: '&7Jalostettu rauta'
   type:
   - '&7&oResurssi'
 REFINED_SMELTERY:
+  description:
+  - '&7Monipalikkasulatto.'
+  - '&7Sulattaa pölyt ja yhdistää metallit metalliseoksiksi'
+  - '&7kuten &7sekametalliharkoiksi &7ja &7jalostetuksi raudaksi&7.'
+  name: '&7Jalostettu sulatto'
   type:
   - '&7&oMultiblokki'
+  usage:
+  - '&eNapsauta oikealla&7 jakajaa käyttääksesi'
 REINFORCED_DOOR:
+  name: '&7Vahvistettu ovi'
   type:
   - '&7&oKomponentti'
 REINFORCED_GLASS:
+  name: '&7Vahvistettu lasi'
   type:
   - '&7&oKomponentti'
 REINFORCED_STONE:
+  name: '&7Vahvistettu kivi'
   type:
   - '&7&oKomponentti'
 RE_BATTERY:
+  name: '&7RE-akku'
   type:
   - '&7&oKomponentti'
 RUBBER:
+  name: '&7Kumi'
   type:
   - '&7&oResurssi'
 RUBBER_SYNTHESIZER:
+  description:
+  - '&6Muuntaa sangon öljyä &7kumiksi&7.'
+  - '&7Kumi eristää paljaat kaapelit ja sitä käytetään laajasti'
+  - '&7piireissä ja koneiden resepteissä.'
+  name: '&6Kuminsynteesilaite'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J puskuri'
+  - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oKone'
 SCRAP:
+  description:
+  - '&7Voidaan käyttää luomaan &5UU-Ainetta'
+  name: '&8Romu'
   type:
   - '&7&oResurssi'
 SCRAP_MACHINE:
+  description:
+  - '&8Kierrättäjä.'
+  - '&7Syötä lähes mikä tahansa esine, ja se voi'
+  - '&7sylkeä ulos &8Romua &7- UU-Aineen raaka-ainetta.'
+  - '&7Toimii energialla; loput tuhotaan.'
+  name: '&8Kierrättäjä'
+  stats:
+  - '&8⇨ &e⚡ &7600 J puskuri'
+  - '&8⇨ &e⚡ &7200 J/t'
   type:
   - '&7&oKone'
 THORIUM:
+  description:
+  - '&8Radioaktiivinen alkuaine.'
+  - '&7Jalostetaan &7Mag-Thoriksi &7ja käytetään kehittyneessä'
+  - '&7pinnoituksessa ja koneistossa.'
+  name: '&8Torium'
   stats:
   - '&a☢&7 Säteilytaso: &6KORKEA'
   type:
@@ -192,41 +431,83 @@ THORIUM:
   usage:
   - '&8⇨ &4Kemikaalisuoja-asu vaaditaan!'
 THORIUM_DUST:
+  name: '&8Toriumpöly'
   type:
   - '&7&oResurssi'
 THORIUM_PLATE:
+  name: '&7Toriumlevy'
   type:
   - '&7&oKomponentti'
 TIN_CABLE:
+  name: '&7Tinakaapeli'
   type:
   - '&7&oKomponentti'
 TIN_ITEM_CASING:
+  name: '&7Tinaesinekuori'
   type:
   - '&7&oKomponentti'
 TIN_PLATE:
+  name: '&7Tinalevy'
   type:
   - '&7&oKomponentti'
 TREETAP:
+  description:
+  - '&7Käytetään &7kumin &7korjaamiseen kumilähteistä'
+  - '&7käsin, ilman sähköistä synteesilaitetta.'
+  name: '&7Mahlaputki'
   type:
   - '&7&oTyökalu'
 ULTIMATE_SOLAR_HELMET:
+  description:
+  - '&eAurinkokypärä.'
+  - '&7Päässä pidettynä se tuottaa passiivisesti energiaa'
+  - '&7päivänvalossa ja lataa muut varusteesi.'
+  - '&7Korkeammat tasot tuottavat ja varastoivat huomattavasti enemmän.'
+  name: '&7Äärimmäinen aurinkokypärä'
+  stats:
+  - '&8⇨ &e⚡ &7250 J/t tuotanto'
   type:
   - '&7&oPanssari'
 ULTIMATE_SOLAR_PANEL:
+  description:
+  - '&5LiteXpansionin vahvin aurinkopaneeli.'
+  - '&7Tuottaa suuria määriä energiaa päivin ja öin'
+  - '&7ja sisältää tuntuvan sisäänrakennetun puskurin.'
+  name: '&5&lÄärimmäinen aurinkopaneeli'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J puskuri'
+  - '&8⇨ &e⚡ &75,120 J/t (Päivä)'
+  - '&8⇨ &e⚡ &7640 J/t (Yö)'
   type:
   - '&7&oGeneraattori'
 UNINSULATED_COPPER_CABLE:
+  name: '&7Eristämätön kuparikaapeli'
   type:
   - '&7&oKomponentti'
 UNINSULATED_GOLD_CABLE:
+  name: '&7Eristämätön kultakaapeli'
   type:
   - '&7&oKomponentti'
 UNINSULATED_TIN_CABLE:
+  name: '&7Eristämätön tinakaapeli'
   type:
   - '&7&oKomponentti'
 UU_CRAFTER:
+  description:
+  - '&7Automatisoi &5UU-Aineen &7valmistuksen.'
+  - '&7Syötä UU-Ainetta, ja se tuottaa määritellyn'
+  - '&7resurssin ilman käsin tehtävää ruudukkovalmistusta.'
+  name: '&7UU-valmistin'
+  stats:
+  - '&8⇨ &e⚡ &750,000 J puskuri'
+  - '&8⇨ &e⚡ &750,000 J/t'
   type:
   - '&7&oKone'
+  usage:
+  - '&eNapsauta oikealla&7 kytkintä käynnistääksesi tai pysäyttääksesi sen'
 UU_MATTER:
+  description:
+  - '&7Voidaan käyttää esineiden tai resurssien luomiseen'
+  name: '&5UU-Aine'
   type:
   - '&7&oResurssi'
