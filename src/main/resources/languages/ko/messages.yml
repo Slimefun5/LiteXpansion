@@ -1,0 +1,15 @@
+cargo:
+  cleared: "노드 설정을 지웠습니다!"
+  no-config-copied: "복사한 설정이 없습니다!"
+  wrong-node: "이 노드에는 그 설정을 적용할 수 없습니다!"
+  applied: "설정을 적용했습니다!"
+  copied: "노드 설정을 복사했습니다!"
+
+chestplate:
+  absorbed-damage: "%item% 이(가) 피해를 흡수했습니다 - 남은 충전량: %charge% J"
+
+drill:
+  no-upgrade: "%item% 은(는) 업그레이드할 수 없습니다!"
+
+multiblock:
+  no-slimefun-blocks: "Slimefun 블록은 멀티블록의 일부로 사용할 수 없습니다 >:("

@@ -1,0 +1,15 @@
+cargo:
+  cleared: "Nalinis ang konfigurasyon ng node!"
+  no-config-copied: "Wala kang kinopyang konfigurasyon!"
+  wrong-node: "Hindi mo maaaring ilapat ang konfigurasyon sa node na ito!"
+  applied: "Nailapat ang konfigurasyon!"
+  copied: "Nakopya ang konfigurasyon ng node!"
+
+chestplate:
+  absorbed-damage: "Sinipsip ng %item% ang pinsala - Natitirang singil: %charge% J"
+
+drill:
+  no-upgrade: "Hindi mo mapapabuti ang %item% mo!"
+
+multiblock:
+  no-slimefun-blocks: "Hindi mo magagamit ang mga bloke ng Slimefun bilang bahagi ng multiblock >:("

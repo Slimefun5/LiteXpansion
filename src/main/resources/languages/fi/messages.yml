@@ -1,0 +1,15 @@
+cargo:
+  cleared: "Solmun asetukset tyhjennetty!"
+  no-config-copied: "Et ole kopioinut mitään asetuksia!"
+  wrong-node: "Et voi soveltaa näitä asetuksia tähän solmuun!"
+  applied: "Asetukset otettu käyttöön!"
+  copied: "Solmun asetukset kopioitu!"
+
+chestplate:
+  absorbed-damage: "%item% vaimensi vahingon - Varausta jäljellä: %charge% J"
+
+drill:
+  no-upgrade: "Et voi parantaa %item%-esinettäsi!"
+
+multiblock:
+  no-slimefun-blocks: "Et voi käyttää Slimefun-lohkoja osana multiblokkia >:("

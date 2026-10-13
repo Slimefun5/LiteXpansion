@@ -1,0 +1,15 @@
+cargo:
+  cleared: "Configuração do nó apagada!"
+  no-config-copied: "Não tens nenhuma configuração copiada!"
+  wrong-node: "Não podes aplicar a configuração a este nó!"
+  applied: "Configuração aplicada!"
+  copied: "Configuração do nó copiada!"
+
+chestplate:
+  absorbed-damage: "%item% absorveu o dano - Carga restante: %charge% J"
+
+drill:
+  no-upgrade: "Não podes melhorar o teu %item%!"
+
+multiblock:
+  no-slimefun-blocks: "Não podes usar blocos do Slimefun como parte do multibloco >:("

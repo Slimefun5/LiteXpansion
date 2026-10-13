@@ -1,0 +1,15 @@
+cargo:
+  cleared: "Configurația nodului a fost ștearsă!"
+  no-config-copied: "Nu ai copiat nicio configurație!"
+  wrong-node: "Nu poți aplica configurația pe acest nod!"
+  applied: "Configurația a fost aplicată!"
+  copied: "Configurația nodului a fost copiată!"
+
+chestplate:
+  absorbed-damage: "%item% a absorbit daunele - Încărcare rămasă: %charge% J"
+
+drill:
+  no-upgrade: "Nu îți poți îmbunătăți %item%!"
+
+multiblock:
+  no-slimefun-blocks: "Nu poți folosi blocuri Slimefun ca parte a multiblocului >:("

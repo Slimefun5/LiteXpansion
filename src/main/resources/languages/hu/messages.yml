@@ -1,0 +1,15 @@
+cargo:
+  cleared: "A csomópont beállításai törölve!"
+  no-config-copied: "Nem másoltál ki semmilyen beállítást!"
+  wrong-node: "Erre a csomópontra nem alkalmazhatod a beállításokat!"
+  applied: "A beállítások alkalmazva!"
+  copied: "A csomópont beállításai kimásolva!"
+
+chestplate:
+  absorbed-damage: "%item% elnyelte a sebzést - Hátralévő töltés: %charge% J"
+
+drill:
+  no-upgrade: "Nem fejlesztheted a %item% nevű tárgyadat!"
+
+multiblock:
+  no-slimefun-blocks: "Nem használhatsz Slimefun blokkokat a multiblock részeként >:("

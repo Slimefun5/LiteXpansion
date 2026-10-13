@@ -1,0 +1,15 @@
+cargo:
+  cleared: "Nodeoppsettet er tømt!"
+  no-config-copied: "Du har ikke kopiert noe oppsett!"
+  wrong-node: "Du kan ikke bruke oppsettet på denne noden!"
+  applied: "Oppsettet er tatt i bruk!"
+  copied: "Nodeoppsettet er kopiert!"
+
+chestplate:
+  absorbed-damage: "%item% absorberte skaden - Ladning igjen: %charge% J"
+
+drill:
+  no-upgrade: "Du kan ikke oppgradere din %item%!"
+
+multiblock:
+  no-slimefun-blocks: "Du kan ikke bruke Slimefun-blokker som del av multiblokken >:("

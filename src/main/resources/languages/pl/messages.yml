@@ -1,0 +1,15 @@
+cargo:
+  cleared: "Konfiguracja węzła została wyczyszczona!"
+  no-config-copied: "Nie masz skopiowanej żadnej konfiguracji!"
+  wrong-node: "Nie możesz zastosować tej konfiguracji do tego węzła!"
+  applied: "Konfiguracja została zastosowana!"
+  copied: "Konfiguracja węzła została skopiowana!"
+
+chestplate:
+  absorbed-damage: "%item% pochłonął obrażenia - Pozostały ładunek: %charge% J"
+
+drill:
+  no-upgrade: "Nie możesz ulepszyć swojego %item%!"
+
+multiblock:
+  no-slimefun-blocks: "Nie możesz użyć bloków Slimefun jako części multibloku >:("

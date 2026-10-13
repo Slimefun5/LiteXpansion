@@ -1,0 +1,15 @@
+cargo:
+  cleared: "නෝඩයේ වින්‍යාසය මකා දමන ලදි!"
+  no-config-copied: "ඔබ කිසිදු වින්‍යාසයක් පිටපත් කර නැත!"
+  wrong-node: "මෙම නෝඩයට එම වින්‍යාසය යෙදිය නොහැක!"
+  applied: "වින්‍යාසය යොදන ලදි!"
+  copied: "නෝඩයේ වින්‍යාසය පිටපත් කරන ලදි!"
+
+chestplate:
+  absorbed-damage: "%item% හානිය අවශෝෂණය කළා - ඉතිරි ආරෝපණය: %charge% J"
+
+drill:
+  no-upgrade: "ඔබේ %item% උසස් කළ නොහැක!"
+
+multiblock:
+  no-slimefun-blocks: "Slimefun කැට බහුකැටයේ කොටසක් ලෙස භාවිත කළ නොහැක >:("

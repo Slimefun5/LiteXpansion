@@ -1,0 +1,15 @@
+cargo:
+  cleared: "Đã xóa cấu hình của nút!"
+  no-config-copied: "Bạn chưa sao chép cấu hình nào!"
+  wrong-node: "Bạn không thể áp dụng cấu hình cho nút này!"
+  applied: "Đã áp dụng cấu hình!"
+  copied: "Đã sao chép cấu hình của nút!"
+
+chestplate:
+  absorbed-damage: "%item% đã hấp thụ sát thương - Điện còn lại: %charge% J"
+
+drill:
+  no-upgrade: "Bạn không thể nâng cấp %item% của mình!"
+
+multiblock:
+  no-slimefun-blocks: "Bạn không thể dùng khối Slimefun làm phần của cấu trúc đa khối >:("

@@ -1,0 +1,15 @@
+cargo:
+  cleared: "已清除节点配置！"
+  no-config-copied: "你还没有复制任何配置！"
+  wrong-node: "你无法把该配置应用到这个节点上！"
+  applied: "已应用配置！"
+  copied: "已复制节点配置！"
+
+chestplate:
+  absorbed-damage: "%item% 吸收了伤害 - 剩余电量：%charge% J"
+
+drill:
+  no-upgrade: "你无法升级你的 %item%！"
+
+multiblock:
+  no-slimefun-blocks: "你不能把 Slimefun 方块用作多方块结构的一部分 >:("

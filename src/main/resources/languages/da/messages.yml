@@ -1,0 +1,15 @@
+cargo:
+  cleared: "Knudeopsætningen er ryddet!"
+  no-config-copied: "Du har ingen opsætning kopieret!"
+  wrong-node: "Du kan ikke anvende opsætningen på denne knude!"
+  applied: "Opsætningen er anvendt!"
+  copied: "Knudeopsætningen er kopieret!"
+
+chestplate:
+  absorbed-damage: "%item% absorberede skaden - Ladning tilbage: %charge% J"
+
+drill:
+  no-upgrade: "Du kan ikke opgradere din %item%!"
+
+multiblock:
+  no-slimefun-blocks: "Du kan ikke bruge Slimefun-blokke som en del af multiblokken >:("

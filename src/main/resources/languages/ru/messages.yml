@@ -1,0 +1,15 @@
+cargo:
+  cleared: "Настройка узла удалена!"
+  no-config-copied: "Вы не скопировали ни одной настройки!"
+  wrong-node: "Вы не можете применить эту настройку к этому узлу!"
+  applied: "Настройка применена!"
+  copied: "Настройка узла скопирована!"
+
+chestplate:
+  absorbed-damage: "%item% поглотил урон - Остаток заряда: %charge% J"
+
+drill:
+  no-upgrade: "Вы не можете улучшить свой %item%!"
+
+multiblock:
+  no-slimefun-blocks: "Вы не можете использовать блоки Slimefun как часть мультиблока >:("

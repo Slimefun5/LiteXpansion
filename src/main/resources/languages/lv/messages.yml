@@ -1,0 +1,15 @@
+cargo:
+  cleared: "Mezgla konfigurācija notīrīta!"
+  no-config-copied: "Tu neesi nokopējis nevienu konfigurāciju!"
+  wrong-node: "Šo konfigurāciju nevar lietot šim mezglam!"
+  applied: "Konfigurācija pielietota!"
+  copied: "Mezgla konfigurācija nokopēta!"
+
+chestplate:
+  absorbed-damage: "%item% absorbēja bojājumu - Atlikušais lādiņš: %charge% J"
+
+drill:
+  no-upgrade: "Tu nevari uzlabot savu %item%!"
+
+multiblock:
+  no-slimefun-blocks: "Tu nevari izmantot Slimefun blokus kā daudzbloka daļu >:("

@@ -1,0 +1,15 @@
+cargo:
+  cleared: "Knoten-Konfiguration gelöscht!"
+  no-config-copied: "Du hast keine Konfiguration kopiert!"
+  wrong-node: "Du kannst die Konfiguration nicht auf diesen Knoten anwenden!"
+  applied: "Konfiguration angewendet!"
+  copied: "Knoten-Konfiguration kopiert!"
+
+chestplate:
+  absorbed-damage: "%item% hat den Schaden absorbiert - Restladung: %charge% J"
+
+drill:
+  no-upgrade: "Du kannst deinen %item% nicht verbessern!"
+
+multiblock:
+  no-slimefun-blocks: "Du kannst keine Slimefun-Blöcke als Teil des Multiblocks verwenden >:("

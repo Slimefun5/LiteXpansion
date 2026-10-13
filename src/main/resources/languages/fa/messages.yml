@@ -1,0 +1,15 @@
+cargo:
+  cleared: "تنظیمات گره پاک شد!"
+  no-config-copied: "هیچ تنظیماتی کپی نکرده‌ای!"
+  wrong-node: "نمی‌توانی این تنظیمات را روی این گره اعمال کنی!"
+  applied: "تنظیمات اعمال شد!"
+  copied: "تنظیمات گره کپی شد!"
+
+chestplate:
+  absorbed-damage: "%item% آسیب را جذب کرد - شارژ باقی‌مانده: %charge% J"
+
+drill:
+  no-upgrade: "نمی‌توانی %item% خود را ارتقا دهی!"
+
+multiblock:
+  no-slimefun-blocks: "نمی‌توانی از بلوک‌های Slimefun به‌عنوان بخشی از ساختار چندبلوکی استفاده کنی >:("

@@ -1,0 +1,15 @@
+cargo:
+  cleared: "Nodinställningen har rensats!"
+  no-config-copied: "Du har ingen inställning kopierad!"
+  wrong-node: "Du kan inte tillämpa inställningen på den här noden!"
+  applied: "Inställningen har tillämpats!"
+  copied: "Nodinställningen har kopierats!"
+
+chestplate:
+  absorbed-damage: "%item% absorberade skadan - Laddning kvar: %charge% J"
+
+drill:
+  no-upgrade: "Du kan inte uppgradera din %item%!"
+
+multiblock:
+  no-slimefun-blocks: "Du kan inte använda Slimefun-block som del av multiblocket >:("

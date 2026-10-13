@@ -1,0 +1,15 @@
+cargo:
+  cleared: "تم محو إعدادات العقدة!"
+  no-config-copied: "لم تنسخ أي إعدادات!"
+  wrong-node: "لا يمكنك تطبيق الإعدادات على هذه العقدة!"
+  applied: "تم تطبيق الإعدادات!"
+  copied: "تم نسخ إعدادات العقدة!"
+
+chestplate:
+  absorbed-damage: "امتص %item% الضرر - الطاقة المتبقية: %charge% J"
+
+drill:
+  no-upgrade: "لا يمكنك ترقية %item% الخاص بك!"
+
+multiblock:
+  no-slimefun-blocks: "لا يمكنك استخدام كتل Slimefun كجزء من البنية المركبة >:("

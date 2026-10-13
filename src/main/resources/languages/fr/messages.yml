@@ -1,0 +1,15 @@
+cargo:
+  cleared: "Configuration du nœud effacée !"
+  no-config-copied: "Vous n'avez copié aucune configuration !"
+  wrong-node: "Vous ne pouvez pas appliquer la configuration à ce nœud !"
+  applied: "Configuration appliquée !"
+  copied: "Configuration du nœud copiée !"
+
+chestplate:
+  absorbed-damage: "%item% a absorbé les dégâts - Charge restante : %charge% J"
+
+drill:
+  no-upgrade: "Vous ne pouvez pas améliorer votre %item% !"
+
+multiblock:
+  no-slimefun-blocks: "Vous ne pouvez pas utiliser de blocs Slimefun dans le multibloc >:("

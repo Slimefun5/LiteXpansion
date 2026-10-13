@@ -1,0 +1,15 @@
+cargo:
+  cleared: "תצורת הצומת נמחקה!"
+  no-config-copied: "לא העתקת שום תצורה!"
+  wrong-node: "אי אפשר להחיל את התצורה על הצומת הזה!"
+  applied: "התצורה הוחלה!"
+  copied: "תצורת הצומת הועתקה!"
+
+chestplate:
+  absorbed-damage: "%item% ספג את הנזק - מצברים שנותרו: %charge% J"
+
+drill:
+  no-upgrade: "אי אפשר לשדרג את ה%item% שלך!"
+
+multiblock:
+  no-slimefun-blocks: "אי אפשר להשתמש בבלוקים של Slimefun כחלק ממבנה רב הבלוקים >:("

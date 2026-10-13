@@ -1,0 +1,15 @@
+cargo:
+  cleared: "Knooppuntconfiguratie gewist!"
+  no-config-copied: "Je hebt geen configuratie gekopieerd!"
+  wrong-node: "Je kunt de configuratie niet op dit knooppunt toepassen!"
+  applied: "Configuratie toegepast!"
+  copied: "Knooppuntconfiguratie gekopieerd!"
+
+chestplate:
+  absorbed-damage: "%item% heeft de schade geabsorbeerd - Lading over: %charge% J"
+
+drill:
+  no-upgrade: "Je kunt je %item% niet verbeteren!"
+
+multiblock:
+  no-slimefun-blocks: "Je kunt geen Slimefun-blokken als deel van de multiblok gebruiken >:("

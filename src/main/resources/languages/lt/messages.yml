@@ -1,0 +1,15 @@
+cargo:
+  cleared: "Mazgo konfigūracija išvalyta!"
+  no-config-copied: "Nesi nukopijavęs jokios konfigūracijos!"
+  wrong-node: "Negali pritaikyti šios konfigūracijos šiam mazgui!"
+  applied: "Konfigūracija pritaikyta!"
+  copied: "Mazgo konfigūracija nukopijuota!"
+
+chestplate:
+  absorbed-damage: "%item% sugėrė žalą - Liko įkrovos: %charge% J"
+
+drill:
+  no-upgrade: "Negali patobulinti savo %item%!"
+
+multiblock:
+  no-slimefun-blocks: "Negali naudoti Slimefun blokų kaip daugiabloko dalies >:("

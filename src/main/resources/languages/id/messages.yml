@@ -1,0 +1,15 @@
+cargo:
+  cleared: "Konfigurasi node dihapus!"
+  no-config-copied: "Kamu belum menyalin konfigurasi apa pun!"
+  wrong-node: "Kamu tidak bisa menerapkan konfigurasi ke node ini!"
+  applied: "Konfigurasi diterapkan!"
+  copied: "Konfigurasi node disalin!"
+
+chestplate:
+  absorbed-damage: "%item% menyerap kerusakan - Sisa daya: %charge% J"
+
+drill:
+  no-upgrade: "Kamu tidak bisa meningkatkan %item% milikmu!"
+
+multiblock:
+  no-slimefun-blocks: "Kamu tidak bisa memakai blok Slimefun sebagai bagian dari multiblock >:("

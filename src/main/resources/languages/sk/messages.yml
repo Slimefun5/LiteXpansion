@@ -1,0 +1,15 @@
+cargo:
+  cleared: "Nastavenie uzla bolo vymazané!"
+  no-config-copied: "Nemáš skopírované žiadne nastavenie!"
+  wrong-node: "Na tento uzol toto nastavenie použiť nemôžeš!"
+  applied: "Nastavenie bolo použité!"
+  copied: "Nastavenie uzla bolo skopírované!"
+
+chestplate:
+  absorbed-damage: "%item% pohltil poškodenie - Zostávajúci náboj: %charge% J"
+
+drill:
+  no-upgrade: "Svoj %item% vylepšiť nemôžeš!"
+
+multiblock:
+  no-slimefun-blocks: "Bloky zo Slimefun nemôžeš použiť ako časť multibloku >:("

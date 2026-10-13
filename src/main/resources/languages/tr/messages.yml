@@ -1,0 +1,15 @@
+cargo:
+  cleared: "Düğüm yapılandırması temizlendi!"
+  no-config-copied: "Kopyalanmış bir yapılandırman yok!"
+  wrong-node: "Bu yapılandırmayı bu düğüme uygulayamazsın!"
+  applied: "Yapılandırma uygulandı!"
+  copied: "Düğüm yapılandırması kopyalandı!"
+
+chestplate:
+  absorbed-damage: "%item% hasarı emdi - Kalan şarj: %charge% J"
+
+drill:
+  no-upgrade: "%item% öğesini yükseltemezsin!"
+
+multiblock:
+  no-slimefun-blocks: "Slimefun bloklarını yapının parçası olarak kullanamazsın >:("

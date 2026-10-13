@@ -1,0 +1,15 @@
+cargo:
+  cleared: "Поставке чвора су избрисане!"
+  no-config-copied: "Нису копиране никакве поставке!"
+  wrong-node: "Не можеш применити поставке на овај чвор!"
+  applied: "Поставке су примењене!"
+  copied: "Поставке чвора су копиране!"
+
+chestplate:
+  absorbed-damage: "%item% је упио штету - Преостали набој: %charge% J"
+
+drill:
+  no-upgrade: "Не можеш надоградити свој %item%!"
+
+multiblock:
+  no-slimefun-blocks: "Не можеш користити Slimefun блокове као део мултиблока >:("

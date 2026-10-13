@@ -1,0 +1,15 @@
+cargo:
+  cleared: "Наладка вузла выдалена!"
+  no-config-copied: "Вы не скапіявалі ніякай наладкі!"
+  wrong-node: "Вы не можаце ўжыць гэту наладку да гэтага вузла!"
+  applied: "Наладка ўжытая!"
+  copied: "Наладка вузла скапіяваная!"
+
+chestplate:
+  absorbed-damage: "%item% паглынуў пашкоджанне - Заряду засталося: %charge% J"
+
+drill:
+  no-upgrade: "Вы не можаце палепшыць свой %item%!"
+
+multiblock:
+  no-slimefun-blocks: "Вы не можаце выкарыстоўваць блокі Slimefun як частку мультыблока >:("

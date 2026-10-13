@@ -1,0 +1,15 @@
+cargo:
+  cleared: "Konfigurasi nod telah dikosongkan!"
+  no-config-copied: "Anda belum menyalin apa-apa konfigurasi!"
+  wrong-node: "Anda tidak boleh menggunakan konfigurasi itu pada nod ini!"
+  applied: "Konfigurasi telah digunakan!"
+  copied: "Konfigurasi nod telah disalin!"
+
+chestplate:
+  absorbed-damage: "%item% menyerap kerosakan - Baki cas: %charge% J"
+
+drill:
+  no-upgrade: "Anda tidak boleh menaik taraf %item% anda!"
+
+multiblock:
+  no-slimefun-blocks: "Anda tidak boleh guna blok Slimefun sebagai bahagian multiblok >:("
