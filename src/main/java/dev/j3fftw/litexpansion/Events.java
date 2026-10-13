@@ -8,6 +8,7 @@ import dev.j3fftw.litexpansion.items.FoodSynthesizer;
 import dev.j3fftw.litexpansion.items.GlassCutter;
 import dev.j3fftw.litexpansion.items.MiningDrill;
 import dev.j3fftw.litexpansion.items.PassiveElectricRemoval;
+import dev.j3fftw.litexpansion.utils.Messages;
 import dev.j3fftw.litexpansion.utils.Utils;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun5.core.attributes.Rechargeable;
@@ -18,7 +19,7 @@ import io.github.thebusybiscuit.slimefun5.utils.tags.SlimefunTag;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.ChatMessageType;
-import net.md_5.bungee.api.chat.ComponentBuilder;
+import net.md_5.bungee.api.chat.TextComponent;
 import dev.j3fftw.litexpansion.compat.DamageableCompat;
 import dev.j3fftw.litexpansion.compat.MaterialCompat;
 import dev.j3fftw.litexpansion.compat.SoundCompat;
@@ -84,12 +85,13 @@ public class Events implements Listener {
 
                 e.setCancelled(true);
 
-                final ComponentBuilder builder = new ComponentBuilder();
-                builder
-                    .append("Electric Chestplate").color(ChatColor.BLUE)
-                    .append(" absorbed damage - Charge left: ").color(ChatColor.GRAY)
-                    .append(String.valueOf(electricChestplate.getItemCharge(chestplate))).color(ChatColor.YELLOW)
-                    .append(" J");
+                final String absorbed = Messages.get(player, "chestplate.absorbed-damage",
+                    "%item% absorbed damage - Charge left: %charge% J",
+                    line -> line
+                        .replace("%item%", ChatColor.BLUE + org.bukkit.ChatColor.stripColor(
+                            Messages.itemName(player, Items.ELECTRIC_CHESTPLATE)) + ChatColor.GRAY)
+                        .replace("%charge%", ChatColor.YELLOW
+                            + String.valueOf(electricChestplate.getItemCharge(chestplate)) + ChatColor.GRAY));
 
                 final double chargePercent = (newCharge / electricChestplate.getMaxItemCharge(chestplate)) * 100;
                 final int percentOfMax = (int) ((chargePercent / 100) * chestplate.getType().getMaxDurability());
@@ -97,7 +99,8 @@ public class Events implements Listener {
                 DamageableCompat.setDamage(meta, damage);
                 chestplate.setItemMeta(meta);
 
-                ((Player) e.getEntity()).spigot().sendMessage(ChatMessageType.ACTION_BAR, builder.create());
+                player.spigot().sendMessage(ChatMessageType.ACTION_BAR,
+                    TextComponent.fromLegacyText(ChatColor.GRAY + absorbed));
             }
         }
     }
@@ -236,7 +239,8 @@ public class Events implements Listener {
         ) {
 
             e.setCancelled(true);
-            Utils.send(p, "&cYou can not upgrade your Diamond Drill!");
+            Utils.send(p, ChatColor.RED + Messages.get(p, "drill.no-upgrade", "You can not upgrade your %item%!",
+                line -> line.replace("%item%", Messages.itemName(p, Items.DIAMOND_DRILL) + ChatColor.RED)));
         }
     }
 

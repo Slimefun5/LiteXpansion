@@ -2,6 +2,7 @@ package dev.j3fftw.litexpansion.items;
 
 import dev.j3fftw.litexpansion.Items;
 import dev.j3fftw.litexpansion.LiteXpansion;
+import dev.j3fftw.litexpansion.utils.Messages;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun5.core.handlers.ItemUseHandler;
@@ -128,7 +129,7 @@ public class CargoConfigurator extends SimpleSlimefunItem<ItemUseHandler> implem
     ) {
         Pdc.remove(meta, CARGO_BLOCK);
         Pdc.remove(meta, CARGO_CONFIG);
-        player.sendMessage(ChatColor.RED + "Cleared node configuration!");
+        Messages.send(player, ChatColor.RED, "cargo.cleared", "Cleared node configuration!");
 
         if (lore.size() != defaultLore.size()) {
             lore.clear();
@@ -146,18 +147,18 @@ public class CargoConfigurator extends SimpleSlimefunItem<ItemUseHandler> implem
             final String copiedBlock = Pdc.getString(meta, CARGO_BLOCK);
             final String config = Pdc.getString(meta, CARGO_CONFIG);
             if (copiedBlock == null || config == null) {
-                e.getPlayer().sendMessage(ChatColor.RED + "You do not have a config copied!");
+                Messages.send(e.getPlayer(), ChatColor.RED, "cargo.no-config-copied", "You do not have a config copied!");
                 return;
             }
 
             if (!copiedBlock.equals(blockId)) {
-                e.getPlayer().sendMessage(ChatColor.RED + "You can't apply the config to this node!");
+                Messages.send(e.getPlayer(), ChatColor.RED, "cargo.wrong-node", "You can't apply the config to this node!");
                 return;
             }
 
             BlockStorage.setBlockInfo(e.getClickedBlock(), config, true);
             BlockStorage.getStorage(e.getClickedBlock().getWorld()).reloadInventory(e.getClickedBlock().getLocation());
-            e.getPlayer().sendMessage(ChatColor.GREEN + "Applied configuration!");
+            Messages.send(e.getPlayer(), ChatColor.GREEN, "cargo.applied", "Applied configuration!");
         } else if (e.getAction() == Action.RIGHT_CLICK_BLOCK) {
             Pdc.setString(meta, CARGO_BLOCK, blockId);
             Pdc.setString(meta, CARGO_CONFIG, BlockStorage.getBlockInfoAsJson(e.getClickedBlock()));
@@ -171,7 +172,7 @@ public class CargoConfigurator extends SimpleSlimefunItem<ItemUseHandler> implem
                 + ChatColor.RESET + clickedItemStack.getItemMeta().getDisplayName()
                 + ChatColor.GRAY + " config!"
             ));
-            e.getPlayer().sendMessage(ChatColor.GREEN + "Copied node configuration!");
+            Messages.send(e.getPlayer(), ChatColor.GREEN, "cargo.copied", "Copied node configuration!");
         }
     }
 }

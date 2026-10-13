@@ -1,5 +1,6 @@
 package dev.j3fftw.litexpansion.machine.extensions;
 
+import dev.j3fftw.litexpansion.utils.Messages;
 import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
@@ -55,7 +56,8 @@ public abstract class CraftingMultiBlock extends MultiBlockMachine {
         final Block specialBlock = getSpecialBlock(dispenser);
         if (specialBlock != null && specialBlock.getType() != MaterialCompat.safe(XMaterial.AIR)
             && BlockStorage.hasBlockInfo(specialBlock)) {
-            p.sendMessage(ChatColor.RED + "You can't use Slimefun blocks as part of the multi-block >:(");
+            Messages.send(p, ChatColor.RED, "multiblock.no-slimefun-blocks",
+                "You can't use Slimefun blocks as part of the multi-block >:(");
             return;
         }
 
