@@ -1,0 +1,513 @@
+ADVANCEDLX_SOLAR_HELMET:
+  description:
+  - '&eソーラーヘルメット。'
+  - '&7頭に装備すると、自動的にエネルギーを生成し'
+  - '&7日中に他の装備を充電します。'
+  - '&7上位ティアほど生産量と貯蔵量が大幅に増加します。'
+  name: '&7超高性能ソーラーヘルメット'
+  stats:
+  - '&8⇨ &e⚡ &750 J/t 発電'
+  type:
+  - '&7&o防具'
+ADVANCED_ALLOY:
+  name: '&7アドバンス合金'
+  type:
+  - '&7&o部品'
+ADVANCED_CIRCUIT:
+  name: '&7アドバンス回路'
+  type:
+  - '&7&o部品'
+ADVANCED_MACHINE_BLOCK:
+  name: '&7アドバンス機械ブロック'
+  type:
+  - '&7&o部品'
+ADVANCED_SOLAR_HELMET:
+  description:
+  - '&eソーラーヘルメット。'
+  - '&7頭に装備すると、自動的にエネルギーを生成し'
+  - '&7日中に他の装備を充電します。'
+  name: '&7アドバンスソーラーヘルメット'
+  stats:
+  - '&8⇨ &e⚡ &75 J/t 発電'
+  type:
+  - '&7&o防具'
+ADVANCED_SOLAR_PANEL:
+  description:
+  - '&7&9夜間も発電できる&7ソーラーパネル。'
+  - '&7ただし出力は低下します。'
+  - '&7内部エネルギーバッファーを内蔵しています。'
+  name: '&7&lアドバンスソーラーパネル'
+  stats:
+  - '&8⇨ &e⚡ &7320,000 J バッファー'
+  - '&8⇨ &e⚡ &780 J/t (昼間)'
+  - '&8⇨ &e⚡ &710 J/t (夜間)'
+  type:
+  - '&7&o発電機'
+ANCIENT_DEBRIS_DUST:
+  name: '&7古代の残骸のダスト'
+  type:
+  - '&7&o資源'
+CARBONADO_SOLAR_HELMET:
+  description:
+  - '&eソーラーヘルメット。'
+  - '&7頭に装備すると、自動的にエネルギーを生成し'
+  - '&7日中に他の装備を充電します。'
+  name: '&7カーボナードソーラーヘルメット'
+  stats:
+  - '&8⇨ &e⚡ &710 J/t 発電'
+  type:
+  - '&7&o防具'
+CARBON_PLATE:
+  name: '&7カーボンプレート'
+  type:
+  - '&7&o部品'
+CARGO_CONFIGURATOR:
+  description:
+  - '&7カーゴノードの設定をコピーおよび貼り付けします。'
+  name: '&7カーゴコンフィギュレーター'
+  type:
+  - '&7&o道具'
+  usage:
+  - '&7> &e右クリック &7- ノード設定をコピー'
+  - '&7> &e左クリック &7- ノード設定を適用'
+  - '&7> &eシフト+右クリック &7- 設定をクリア'
+COAL_DUST:
+  name: '&7石炭ダスト'
+  type:
+  - '&7&o資源'
+CONVER:
+  description:
+  - '&7LiteXpansionと他の電力システムの間で'
+  - '&7エネルギーを変換し、グリッドを連携させます。'
+  name: '&7コンバーター'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J バッファー'
+  - '&8⇨ &e⚡ &7769 J/t'
+  type:
+  - '&7&o機械'
+COPPER_CABLE:
+  name: '&7銅ケーブル'
+  type:
+  - '&7&o部品'
+COPPER_ITEM_CASING:
+  name: '&7銅アイテムケーシング'
+  type:
+  - '&7&o部品'
+COPPER_PLATE:
+  name: '&7銅プレート'
+  type:
+  - '&7&o部品'
+DIAMOND_DRILL:
+  description:
+  - '&7黒曜石、石、および石系ブロックを瞬時に破壊'
+  name: '&bダイヤモンドドリル'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
+  type:
+  - '&7&o道具'
+  usage:
+  - '&7右クリックでゆっくりブロックを破壊'
+DIAMOND_DUST:
+  name: '&7ダイヤモンドダスト'
+  type:
+  - '&7&o資源'
+DIAMOND_PLATE:
+  name: '&7ダイヤモンドプレート'
+  type:
+  - '&7&o部品'
+ELECTRIC_CHESTPLATE:
+  description:
+  - '&7プレイヤーへのダメージをすべて無効化します。'
+  name: '&9電気チェストプレート'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 8192 J'
+  type:
+  - '&7&o防具'
+ELECTRONIC_CIRCUIT:
+  name: '&7電子回路'
+  type:
+  - '&7&o部品'
+EMERALD_DUST:
+  name: '&7エメラルドダスト'
+  type:
+  - '&7&o資源'
+ENERGIZED_SOLAR_HELMET:
+  description:
+  - '&eソーラーヘルメット。'
+  - '&7頭に装備すると、自動的にエネルギーを生成し'
+  - '&7日中に他の装備を充電します。'
+  name: '&7エナジャイズドソーラーヘルメット'
+  stats:
+  - '&8⇨ &e⚡ &720 J/t 発電'
+  type:
+  - '&7&o防具'
+FOOD_SYNTHESIZER:
+  description:
+  - '&f人工食料で満腹度を維持します。'
+  - '&fさまざまな味が楽しめます!'
+  name: '&d食料合成機'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 100 J'
+  type:
+  - '&7&oガジェット'
+GENERATOR:
+  description:
+  - '&7燃料を燃やしてエネルギーを生成します。'
+  - '&7最初の安定した電源であり、REバッテリーの充電や'
+  - '&7機械の稼働の基盤となります。'
+  name: '&7発電機'
+  stats:
+  - '&8⇨ &e⚡ &74,000 J バッファー'
+  - '&8⇨ &e⚡ &710 J/t 出力'
+  type:
+  - '&7&o発電機'
+GLASS_CUTTER:
+  description:
+  - '&b電動式のガラス加工道具。'
+  - '&7内部エネルギーバッファーで動作します。'
+  name: '&bガラスカッター'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 300 J'
+  type:
+  - '&7&o道具'
+  usage:
+  - '&e左クリック&7でガラスを素早く切断'
+  - '&e右クリック&7でガラスをゆっくり切断'
+GOLD_CABLE:
+  name: '&7金ケーブル'
+  type:
+  - '&7&o部品'
+GOLD_ITEM_CASING:
+  name: '&7金アイテムケーシング'
+  type:
+  - '&7&o部品'
+GOLD_PLATE:
+  name: '&7金プレート'
+  type:
+  - '&7&o部品'
+HYBRID_SOLAR_HELMET:
+  description:
+  - '&eソーラーヘルメット。'
+  - '&7頭に装備すると、自動的にエネルギーを生成し'
+  - '&7日中に他の装備を充電します。'
+  - '&7上位ティアほど生産量と貯蔵量が大幅に増加します。'
+  name: '&7ハイブリッドソーラーヘルメット'
+  stats:
+  - '&8⇨ &e⚡ &7100 J/t 発電'
+  type:
+  - '&7&o防具'
+HYBRID_SOLAR_PANEL:
+  description:
+  - '&bディメンションに反応するソーラーパネル。'
+  - '&7ネザーでは昼間、エンドでは夜間に出力が上昇し'
+  - '&7通常の昼夜発電に上乗せされます。'
+  name: '&b&lハイブリッドソーラーパネル'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J バッファー'
+  - '&8⇨ &e⚡ &7640 J/t (昼間 + ネザー)'
+  - '&8⇨ &e⚡ &780 J/t (夜間 + エンド)'
+  type:
+  - '&7&o発電機'
+IRIDIUM:
+  name: '&fイリジウム'
+  type:
+  - '&7&o資源'
+IRIDIUM_PLATE:
+  description:
+  - '&7イリジウム防具の作成に使用'
+  name: '&fイリジウムプレート'
+  type:
+  - '&7&o部品'
+IRON_ITEM_CASING:
+  name: '&7鉄アイテムケーシング'
+  type:
+  - '&7&o部品'
+IRON_PLATE:
+  name: '&7鉄プレート'
+  type:
+  - '&7&o部品'
+LAPIS_DUST:
+  name: '&7ラピスラズリダスト'
+  type:
+  - '&7&o資源'
+LAPOTRON_CRYSTAL:
+  name: '&7ラポトロンクリスタル'
+  type:
+  - '&7&o部品'
+MACERATOR:
+  description:
+  - '&7鉱石や金属を&7ダスト&7に粉砕し、精錬すると'
+  - '&7産出量が2倍になります。'
+  - '&7効率的な鉱石加工の第一歩です。'
+  name: '&7粉砕機'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J バッファー'
+  - '&8⇨ &e⚡ &7769 J/t'
+  type:
+  - '&7&o機械'
+MACHINE_BLOCK:
+  name: '&7機械ブロック'
+  type:
+  - '&7&o部品'
+MAG_THOR:
+  description:
+  - '&7&o極めて高い耐久性を持つ合金'
+  - '&7&o最先端の機械にのみ使用される'
+  name: '&b&lマグ・ソー'
+  type:
+  - '&7&o資源'
+MANUAL_MILL:
+  description:
+  - '&7手回し式のマルチブロック粉砕機。'
+  - '&7電力を使わずに材料を粉砕でき、序盤の'
+  - '&7電動粉砕機の代替手段となります。'
+  name: '&7手動ミル'
+  type:
+  - '&7&oマルチブロック'
+  usage:
+  - '&e右クリック&7でディスペンサーを使用'
+MASS_FABRICATOR_MACHINE:
+  description:
+  - '&5エネルギーを、任意で&8スクラップ&7も加えて'
+  - '&5UUマター&7、万能の建築素材に変換します。'
+  - '&7スクラップを加えるとエネルギー消費が大幅に減少します。'
+  - '&8エネルギーを大量に消費する終盤の機械です。'
+  name: '&5物質精製機'
+  stats:
+  - '&8⇨ &e⚡ &749,998 J バッファー'
+  - '&8⇨ &e⚡ &716,666 J/t'
+  type:
+  - '&7&o機械'
+METAL_FORGE:
+  description:
+  - '&7マルチブロック式の金属プレス機。'
+  - '&7インゴットを&fプレート&7と&fアイテムケーシング&7に成形します。'
+  - '&7ケーブル、機械、防具の元になる部品です。'
+  name: '&7金属プレス機'
+  type:
+  - '&7&oマルチブロック'
+  usage:
+  - '&e右クリック&7でディスペンサーを使用'
+MINING_DRILL:
+  description:
+  - '&7石および石系ブロックを瞬時に破壊'
+  name: '&7採掘ドリル'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
+  type:
+  - '&7&o道具'
+  usage:
+  - '&7右クリックでゆっくりブロックを破壊'
+MIXED_METAL_INGOT:
+  name: '&7混合金属インゴット'
+  type:
+  - '&7&o資源'
+MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  description:
+  - '&7MFE。'
+  - '&7中位のエネルギーコンデンサーで、機械網用に'
+  - '&7大容量のバッファーを蓄えます。'
+  name: '&7MFE'
+  stats:
+  - '&8⇨ &e⚡ &74,000,000 J バッファー'
+  - '&8⇨ &e⚡ &712 J/t 転送'
+  type:
+  - '&7&o機械'
+MULTI_FUNCTIONAL_STORAGE_UNIT:
+  description:
+  - '&7MFSU。'
+  - '&7巨大なエネルギーバッファーを持つ上位コンデンサーで'
+  - '&7終盤の機械を動かすのに適しています。'
+  name: '&7MFSU'
+  stats:
+  - '&8⇨ &e⚡ &740,000,000 J バッファー'
+  - '&8⇨ &e⚡ &752 J/t 転送'
+  type:
+  - '&7&o機械'
+NANO_BLADE:
+  description:
+  - '&f有機組織を容易に切断できる'
+  - '&f高度な技術を用いた装備。'
+  name: '&2ナノブレード &c(オフ)'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 4000 J'
+  type:
+  - '&7&o武器'
+  usage:
+  - '&e右クリック&7で切り替え'
+POWER_UNIT:
+  name: '&7動力ユニット'
+  type:
+  - '&7&o部品'
+QUARTZ_DUST:
+  name: '&7クォーツダスト'
+  type:
+  - '&7&o資源'
+RAW_CARBON_FIBRE:
+  name: '&7未加工カーボンファイバー'
+  type:
+  - '&7&o資源'
+RAW_CARBON_MESH:
+  name: '&7未加工カーボンメッシュ'
+  type:
+  - '&7&o資源'
+REDSTONE_DUST:
+  name: '&7レッドストーンダスト'
+  type:
+  - '&7&o資源'
+REFINED_IRON:
+  name: '&7精錬鉄'
+  type:
+  - '&7&o資源'
+REFINED_SMELTERY:
+  description:
+  - '&7マルチブロック式の精錬所。'
+  - '&7ダストを精錬し、金属を合金へと結合します。'
+  - '&7例えば &7混合金属インゴット &7や &7精錬鉄&7などです。'
+  name: '&7精錬所'
+  type:
+  - '&7&oマルチブロック'
+  usage:
+  - '&e右クリック&7でディスペンサーを使用'
+REINFORCED_DOOR:
+  name: '&7強化ドア'
+  type:
+  - '&7&o部品'
+REINFORCED_GLASS:
+  name: '&7強化ガラス'
+  type:
+  - '&7&o部品'
+REINFORCED_STONE:
+  name: '&7強化石'
+  type:
+  - '&7&o部品'
+RE_BATTERY:
+  name: '&7REバッテリー'
+  type:
+  - '&7&o部品'
+RUBBER:
+  name: '&7ゴム'
+  type:
+  - '&7&o資源'
+RUBBER_SYNTHESIZER:
+  description:
+  - '&6油入りバケツを&7ゴム&7に変換します。'
+  - '&7ゴムは裸のケーブルを絶縁するために使われ'
+  - '&7回路や機械のレシピに幅広く用いられます。'
+  name: '&6ゴム合成機'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J バッファー'
+  - '&8⇨ &e⚡ &7769 J/t'
+  type:
+  - '&7&o機械'
+SCRAP:
+  description:
+  - '&7&5UUマターの作成に使用可能'
+  name: '&8スクラップ'
+  type:
+  - '&7&o資源'
+SCRAP_MACHINE:
+  description:
+  - '&8リサイクラー。'
+  - '&7ほぼあらゆるアイテムを投入でき、まれに'
+  - '&7&8スクラップ&7を、UUマターの原料として排出します。'
+  - '&7エネルギーで動作し、残りは破棄されます。'
+  name: '&8リサイクラー'
+  stats:
+  - '&8⇨ &e⚡ &7600 J バッファー'
+  - '&8⇨ &e⚡ &7200 J/t'
+  type:
+  - '&7&o機械'
+THORIUM:
+  description:
+  - '&8放射性元素。'
+  - '&7精錬すると&7マグ・ソー&7になり、高度な'
+  - '&7外装や機械に使用されます。'
+  name: '&8トリウム'
+  stats:
+  - '&a☢&7 放射線レベル: &6高'
+  type:
+  - '&7&o資源'
+  usage:
+  - '&8⇨ &4防護服が必要です!'
+THORIUM_DUST:
+  name: '&8トリウムダスト'
+  type:
+  - '&7&o資源'
+THORIUM_PLATE:
+  name: '&7トリウムプレート'
+  type:
+  - '&7&o部品'
+TIN_CABLE:
+  name: '&7錫ケーブル'
+  type:
+  - '&7&o部品'
+TIN_ITEM_CASING:
+  name: '&7錫アイテムケーシング'
+  type:
+  - '&7&o部品'
+TIN_PLATE:
+  name: '&7錫プレート'
+  type:
+  - '&7&o部品'
+TREETAP:
+  description:
+  - '&7電動合成機を使わず、&7手作業でゴムの木から'
+  - '&7ゴム&7を採取するために使用します。'
+  name: '&7樹液採取器'
+  type:
+  - '&7&o道具'
+ULTIMATE_SOLAR_HELMET:
+  description:
+  - '&eソーラーヘルメット。'
+  - '&7頭に装備すると、自動的にエネルギーを生成し'
+  - '&7日中に他の装備を充電します。'
+  - '&7上位ティアほど生産量と貯蔵量が大幅に増加します。'
+  name: '&7アルティメットソーラーヘルメット'
+  stats:
+  - '&8⇨ &e⚡ &7250 J/t 発電'
+  type:
+  - '&7&o防具'
+ULTIMATE_SOLAR_PANEL:
+  description:
+  - '&5LiteXpansion最強のソーラーパネル。'
+  - '&7昼夜を問わず大量のエネルギーを生成し'
+  - '&7内蔵バッファーも大容量です。'
+  name: '&5&lアルティメットソーラーパネル'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J バッファー'
+  - '&8⇨ &e⚡ &75,120 J/t (昼間)'
+  - '&8⇨ &e⚡ &7640 J/t (夜間)'
+  type:
+  - '&7&o発電機'
+UNINSULATED_COPPER_CABLE:
+  name: '&7被覆なし銅ケーブル'
+  type:
+  - '&7&o部品'
+UNINSULATED_GOLD_CABLE:
+  name: '&7被覆なし金ケーブル'
+  type:
+  - '&7&o部品'
+UNINSULATED_TIN_CABLE:
+  name: '&7被覆なし錫ケーブル'
+  type:
+  - '&7&o部品'
+UU_CRAFTER:
+  description:
+  - '&7&5UUマター&7クラフトを自動化します。'
+  - '&7UUマターを供給すると、手動でのクラフトなしに'
+  - '&7設定した資源を生産します。'
+  name: '&7UUクラフター'
+  stats:
+  - '&8⇨ &e⚡ &750,000 J バッファー'
+  - '&8⇨ &e⚡ &750,000 J/t'
+  type:
+  - '&7&o機械'
+  usage:
+  - '&e右クリック&7でスイッチを操作して起動/停止'
+UU_MATTER:
+  description:
+  - '&7アイテムや資源の作成に使用可能'
+  name: '&5UUマター'
+  type:
+  - '&7&o資源'
