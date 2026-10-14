@@ -68,6 +68,7 @@ public class LiteXpansion extends JavaPlugin implements SlimefunAddon {
 
         // Contribute this addon's per-language item translations (languages/<lang>/items.yml).
         Slimefun.getItemTranslationService().registerTranslations(this);
+        Slimefun.getLocalization().registerResearchTranslations(this);
         Slimefun.getAddonMessageService().registerTranslations(this);
 
         // Register this addon's own in-game wiki page (core does not auto-generate addon wikis).
