@@ -131,8 +131,3 @@ recipes:
     - 'x  '
     - 'x  '
     - 'x  '
-
-  STICKY_RESIN:
-    - 'x x'
-    - '   '
-    - 'x x'
