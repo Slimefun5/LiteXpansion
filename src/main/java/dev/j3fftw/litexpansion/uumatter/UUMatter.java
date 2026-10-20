@@ -2,12 +2,13 @@ package dev.j3fftw.litexpansion.uumatter;
 
 import dev.j3fftw.litexpansion.Items;
 import dev.j3fftw.litexpansion.LiteXpansion;
+import dev.j3fftw.litexpansion.compat.MaterialCompat;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.config.Config;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import io.github.thebusybiscuit.slimefun5.utils.NumberUtils;
-import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
 import javax.annotation.Nonnull;
@@ -20,6 +21,7 @@ import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.logging.Level;
 
 /**
@@ -80,9 +82,10 @@ public final class UUMatter {
     private ItemStack getOutputItem(String id, int amount) {
         ItemStack output;
 
-        final Material mat = Material.getMaterial(id);
-        if (mat != null) {
-            output = new ItemStack(mat, amount);
+        final Optional<XMaterial> material = XMaterial.matchXMaterial(id).filter(XMaterial::isSupported);
+        if (material.isPresent()) {
+            output = MaterialCompat.stack(material.get());
+            output.setAmount(amount);
         } else {
             SlimefunItem item = SlimefunItem.getById(id);
             if (item == null) {
