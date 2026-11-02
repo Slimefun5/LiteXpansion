@@ -4,21 +4,21 @@ ADVANCEDLX_SOLAR_HELMET:
   - '&7Auf dem Kopf getragen erzeugt er passiv Energie'
   - '&7bei Tageslicht und lädt deine andere Ausrüstung.'
   - '&7Höhere Stufen erzeugen und speichern weit mehr.'
-  name: '&7Super fortschrittlicher Solarhelm'
+  name: 'Super fortschrittlicher Solarhelm'
   stats:
   - '&8⇨ &e⚡ &750 J/t Erzeugung'
   type:
   - '&7&oRüstung'
 ADVANCED_ALLOY:
-  name: '&7Fortschrittliche Legierung'
+  name: 'Fortschrittliche Legierung'
   type:
   - '&7&oKomponente'
 ADVANCED_CIRCUIT:
-  name: '&7Fortschrittlicher Schaltkreis'
+  name: 'Fortschrittlicher Schaltkreis'
   type:
   - '&7&oKomponente'
 ADVANCED_MACHINE_BLOCK:
-  name: '&7Fortschrittlicher Maschinenblock'
+  name: 'Fortschrittlicher Maschinenblock'
   type:
   - '&7&oKomponente'
 ADVANCED_SOLAR_HELMET:
@@ -26,7 +26,7 @@ ADVANCED_SOLAR_HELMET:
   - '&eEin Solarhelm.'
   - '&7Auf dem Kopf getragen erzeugt er passiv Energie'
   - '&7bei Tageslicht und lädt deine andere Ausrüstung.'
-  name: '&7Fortschrittlicher Solarhelm'
+  name: 'Fortschrittlicher Solarhelm'
   stats:
   - '&8⇨ &e⚡ &75 J/t Erzeugung'
   type:
@@ -36,7 +36,7 @@ ADVANCED_SOLAR_PANEL:
   - '&7Ein Solarpanel, das &9auch nachts funktioniert&7,'
   - '&7wenn auch mit geringerer Rate.'
   - '&7Enthält einen eigenen internen Energiepuffer.'
-  name: '&7&lFortschrittliches Solarpanel'
+  name: 'Fortschrittliches Solarpanel'
   stats:
   - '&8⇨ &e⚡ &7320,000 J Puffer'
   - '&8⇨ &e⚡ &780 J/t (Tag)'
@@ -44,7 +44,7 @@ ADVANCED_SOLAR_PANEL:
   type:
   - '&7&oGenerator'
 ANCIENT_DEBRIS_DUST:
-  name: '&7Alter-Trümmer-Staub'
+  name: 'Alter-Trümmer-Staub'
   type:
   - '&7&oRohstoff'
 CARBONADO_SOLAR_HELMET:
@@ -52,19 +52,19 @@ CARBONADO_SOLAR_HELMET:
   - '&eEin Solarhelm.'
   - '&7Auf dem Kopf getragen erzeugt er passiv Energie'
   - '&7bei Tageslicht und lädt deine andere Ausrüstung.'
-  name: '&7Carbonado-Solarhelm'
+  name: 'Carbonado-Solarhelm'
   stats:
   - '&8⇨ &e⚡ &710 J/t Erzeugung'
   type:
   - '&7&oRüstung'
 CARBON_PLATE:
-  name: '&7Kohleplatte'
+  name: 'Kohleplatte'
   type:
   - '&7&oKomponente'
 CARGO_CONFIGURATOR:
   description:
   - '&7Kopiert und fügt Cargo-Knoten-Konfigurationen ein.'
-  name: '&7Fracht-Konfigurator'
+  name: 'Fracht-Konfigurator'
   type:
   - '&7&oWerkzeug'
   usage:
@@ -72,35 +72,35 @@ CARGO_CONFIGURATOR:
   - '&7> &eLinksklick &7- Knotenkonfiguration anwenden'
   - '&7> &eShift+Rechtsklick &7- Knotenkonfigurator leeren'
 COAL_DUST:
-  name: '&7Kohlestaub'
+  name: 'Kohlestaub'
   type:
   - '&7&oRohstoff'
 CONVER:
   description:
   - '&7Tauscht Energie zwischen LiteXpansion und anderen'
   - '&7Energiesystemen, damit deine Netze zusammenarbeiten.'
-  name: '&7Konverter'
+  name: 'Konverter'
   stats:
   - '&8⇨ &e⚡ &73,845 J Puffer'
   - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMaschine'
 COPPER_CABLE:
-  name: '&7Kupferkabel'
+  name: 'Kupferkabel'
   type:
   - '&7&oKomponente'
 COPPER_ITEM_CASING:
-  name: '&7Kupfer-Gehäuse'
+  name: 'Kupfer-Gehäuse'
   type:
   - '&7&oKomponente'
 COPPER_PLATE:
-  name: '&7Kupferplatte'
+  name: 'Kupferplatte'
   type:
   - '&7&oKomponente'
 DIAMOND_DRILL:
   description:
   - '&7Zerstört Obsidian, Stein und Steinvarianten sofort'
-  name: '&bDiamantbohrer'
+  name: 'Diamantbohrer'
   stats:
   - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
@@ -108,27 +108,27 @@ DIAMOND_DRILL:
   usage:
   - '&7Rechtsklick bricht Blöcke langsamer'
 DIAMOND_DUST:
-  name: '&7Diamantstaub'
+  name: 'Diamantstaub'
   type:
   - '&7&oRohstoff'
 DIAMOND_PLATE:
-  name: '&7Diamantplatte'
+  name: 'Diamantplatte'
   type:
   - '&7&oKomponente'
 ELECTRIC_CHESTPLATE:
   description:
   - '&7Hebt allen Schaden am Spieler auf.'
-  name: '&9Elektrischer Brustpanzer'
+  name: 'Elektrischer Brustpanzer'
   stats:
   - '&c&o&8⇨ &e⚡ &770 / 8192 J'
   type:
   - '&7&oRüstung'
 ELECTRONIC_CIRCUIT:
-  name: '&7Elektronischer Schaltkreis'
+  name: 'Elektronischer Schaltkreis'
   type:
   - '&7&oKomponente'
 EMERALD_DUST:
-  name: '&7Smaragdstaub'
+  name: 'Smaragdstaub'
   type:
   - '&7&oRohstoff'
 ENERGIZED_SOLAR_HELMET:
@@ -136,7 +136,7 @@ ENERGIZED_SOLAR_HELMET:
   - '&eEin Solarhelm.'
   - '&7Auf dem Kopf getragen erzeugt er passiv Energie'
   - '&7bei Tageslicht und lädt deine andere Ausrüstung.'
-  name: '&7Energetisierter Solarhelm'
+  name: 'Energetisierter Solarhelm'
   stats:
   - '&8⇨ &e⚡ &720 J/t Erzeugung'
   type:
@@ -145,7 +145,7 @@ FOOD_SYNTHESIZER:
   description:
   - '&fHält dich mit künstlicher Nahrung satt.'
   - '&fGibt es in allen Geschmacksrichtungen!'
-  name: '&dNahrungs-Synthesizer'
+  name: 'Nahrungs-Synthesizer'
   stats:
   - '&c&o&8⇨ &e⚡ &770 / 100 J'
   type:
@@ -155,7 +155,7 @@ GENERATOR:
   - '&7Verbrennt Treibstoff, um Energie zu erzeugen.'
   - '&7Deine erste verlässliche Energiequelle und die Basis'
   - '&7zum Laden von RE-Batterien und Betreiben von Maschinen.'
-  name: '&7Generator'
+  name: 'Generator'
   stats:
   - '&8⇨ &e⚡ &74,000 J Puffer'
   - '&8⇨ &e⚡ &710 J/t Ausgang'
@@ -165,7 +165,7 @@ GLASS_CUTTER:
   description:
   - '&bEin elektrisches Glaswerkzeug.'
   - '&7Läuft mit seinem internen Energiepuffer.'
-  name: '&bGlasschneider'
+  name: 'Glasschneider'
   stats:
   - '&c&o&8⇨ &e⚡ &770 / 300 J'
   type:
@@ -174,15 +174,15 @@ GLASS_CUTTER:
   - '&eLinksklick&7 schneidet Glas schnell'
   - '&eRechtsklick&7 schneidet Glas langsam'
 GOLD_CABLE:
-  name: '&7Goldkabel'
+  name: 'Goldkabel'
   type:
   - '&7&oKomponente'
 GOLD_ITEM_CASING:
-  name: '&7Gold-Gehäuse'
+  name: 'Gold-Gehäuse'
   type:
   - '&7&oKomponente'
 GOLD_PLATE:
-  name: '&7Goldplatte'
+  name: 'Goldplatte'
   type:
   - '&7&oKomponente'
 HYBRID_SOLAR_HELMET:
@@ -191,7 +191,7 @@ HYBRID_SOLAR_HELMET:
   - '&7Auf dem Kopf getragen erzeugt er passiv Energie'
   - '&7bei Tageslicht und lädt deine andere Ausrüstung.'
   - '&7Höhere Stufen erzeugen und speichern weit mehr.'
-  name: '&7Hybrid-Solarhelm'
+  name: 'Hybrid-Solarhelm'
   stats:
   - '&8⇨ &e⚡ &7100 J/t Erzeugung'
   type:
@@ -201,7 +201,7 @@ HYBRID_SOLAR_PANEL:
   - '&bEin dimensionsbewusstes Solarpanel.'
   - '&7Erhöhte Ausbeute tagsüber im Nether und nachts'
   - '&7im End, zusätzlich zur normalen Tag/Nacht-Erzeugung.'
-  name: '&b&lHybrid-Solarpanel'
+  name: 'Hybrid-Solarpanel'
   stats:
   - '&8⇨ &e⚡ &71,000,000 J Puffer'
   - '&8⇨ &e⚡ &7640 J/t (Tag + Nether)'
@@ -209,29 +209,29 @@ HYBRID_SOLAR_PANEL:
   type:
   - '&7&oGenerator'
 IRIDIUM:
-  name: '&fIridium'
+  name: 'Iridium'
   type:
   - '&7&oRohstoff'
 IRIDIUM_PLATE:
   description:
   - '&7Zur Herstellung von Iridiumrüstung'
-  name: '&fIridiumplatte'
+  name: 'Iridiumplatte'
   type:
   - '&7&oKomponente'
 IRON_ITEM_CASING:
-  name: '&7Eisen-Gehäuse'
+  name: 'Eisen-Gehäuse'
   type:
   - '&7&oKomponente'
 IRON_PLATE:
-  name: '&7Eisenplatte'
+  name: 'Eisenplatte'
   type:
   - '&7&oKomponente'
 LAPIS_DUST:
-  name: '&7Lapisstaub'
+  name: 'Lapisstaub'
   type:
   - '&7&oRohstoff'
 LAPOTRON_CRYSTAL:
-  name: '&7Lapotron-Kristall'
+  name: 'Lapotron-Kristall'
   type:
   - '&7&oKomponente'
 MACERATOR:
@@ -239,21 +239,21 @@ MACERATOR:
   - '&7Zermahlt Erze und Metalle zu &7Staub&7 und verdoppelt'
   - '&7deinen Ertrag, wenn der Staub wieder eingeschmolzen wird.'
   - '&7Der erste Schritt effizienter Erzverarbeitung.'
-  name: '&7Zerkleinerer'
+  name: 'Zerkleinerer'
   stats:
   - '&8⇨ &e⚡ &73,845 J Puffer'
   - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMaschine'
 MACHINE_BLOCK:
-  name: '&7Maschinenblock'
+  name: 'Maschinenblock'
   type:
   - '&7&oKomponente'
 MAG_THOR:
   description:
   - '&7&oEine extrem widerstandsfähige Legierung, die nur'
   - '&7&oin den fortschrittlichsten Maschinen verwendet wird'
-  name: '&b&lMag-Thor'
+  name: 'Mag-Thor'
   type:
   - '&7&oRohstoff'
 MANUAL_MILL:
@@ -261,7 +261,7 @@ MANUAL_MILL:
   - '&7Eine handbetriebene Multiblock-Mühle.'
   - '&7Zermahlt Materialien ohne Energie und bietet eine'
   - '&7frühe Alternative zum elektrischen Zerkleinerer.'
-  name: '&7Handmühle'
+  name: 'Handmühle'
   type:
   - '&7&oMultiblock'
   usage:
@@ -272,7 +272,7 @@ MASS_FABRICATOR_MACHINE:
   - '&5UU-Materie&7, das universelle Baumaterial.'
   - '&7Schrott hinzuzufügen senkt die Energiekosten drastisch.'
   - '&8Eine hungrige Endgame-Maschine.'
-  name: '&5Massenfabrikator'
+  name: 'Massenfabrikator'
   stats:
   - '&8⇨ &e⚡ &749,998 J Puffer'
   - '&8⇨ &e⚡ &716,666 J/t'
@@ -283,7 +283,7 @@ METAL_FORGE:
   - '&7Eine Multiblock-Metallpresse.'
   - '&7Formt Barren zu &fPlatten &7und &fGehäusen &7-'
   - '&7den Bauteilen hinter Kabeln, Maschinen und Rüstungen.'
-  name: '&7Metallschmiede'
+  name: 'Metallschmiede'
   type:
   - '&7&oMultiblock'
   usage:
@@ -291,7 +291,7 @@ METAL_FORGE:
 MINING_DRILL:
   description:
   - '&7Zerstört Stein und Steinvarianten sofort'
-  name: '&7Bohrhammer'
+  name: 'Bohrhammer'
   stats:
   - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
@@ -299,7 +299,7 @@ MINING_DRILL:
   usage:
   - '&7Rechtsklick bricht Blöcke langsamer'
 MIXED_METAL_INGOT:
-  name: '&7Gemischter Metallbarren'
+  name: 'Gemischter Metallbarren'
   type:
   - '&7&oRohstoff'
 MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
@@ -307,7 +307,7 @@ MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
   - '&7Die MFE.'
   - '&7Ein Energiekondensator der mittleren Stufe mit'
   - '&7großem Puffer für dein Maschinennetzwerk.'
-  name: '&7MFE'
+  name: 'MFE'
   stats:
   - '&8⇨ &e⚡ &74,000,000 J Puffer'
   - '&8⇨ &e⚡ &712 J/t Übertragung'
@@ -318,7 +318,7 @@ MULTI_FUNCTIONAL_STORAGE_UNIT:
   - '&7Die MFSU.'
   - '&7Ein Kondensator hoher Stufe mit riesigem Energiepuffer'
   - '&7zum Antrieb anspruchsvoller Endgame-Maschinen.'
-  name: '&7MFSU'
+  name: 'MFSU'
   stats:
   - '&8⇨ &e⚡ &740,000,000 J Puffer'
   - '&8⇨ &e⚡ &752 J/t Übertragung'
@@ -328,7 +328,7 @@ NANO_BLADE:
   description:
   - '&fEin fortgeschrittenes Stück Technik, das'
   - '&forganisches Gewebe mühelos durchtrennt.'
-  name: '&2Nanoklinge &c(Aus)'
+  name: 'Nanoklinge (Aus)'
   stats:
   - '&c&o&8⇨ &e⚡ &770 / 4000 J'
   type:
@@ -336,27 +336,27 @@ NANO_BLADE:
   usage:
   - '&eRechtsklick&7 zum Umschalten'
 POWER_UNIT:
-  name: '&7Energieeinheit'
+  name: 'Energieeinheit'
   type:
   - '&7&oKomponente'
 QUARTZ_DUST:
-  name: '&7Quarzstaub'
+  name: 'Quarzstaub'
   type:
   - '&7&oRohstoff'
 RAW_CARBON_FIBRE:
-  name: '&7Rohe Kohlefaser'
+  name: 'Rohe Kohlefaser'
   type:
   - '&7&oRohstoff'
 RAW_CARBON_MESH:
-  name: '&7Rohes Kohlegewebe'
+  name: 'Rohes Kohlegewebe'
   type:
   - '&7&oRohstoff'
 REDSTONE_DUST:
-  name: '&7Redstone-Staub'
+  name: 'Redstone-Staub'
   type:
   - '&7&oRohstoff'
 REFINED_IRON:
-  name: '&7Raffiniertes Eisen'
+  name: 'Raffiniertes Eisen'
   type:
   - '&7&oRohstoff'
 REFINED_SMELTERY:
@@ -364,29 +364,29 @@ REFINED_SMELTERY:
   - '&7Eine Multiblock-Schmelzerei.'
   - '&7Schmilzt Stäube und verbindet Metalle zu Legierungen'
   - '&7wie &7Gemischte Metallbarren &7und &7Veredeltes Eisen&7.'
-  name: '&7Raffinierte Schmelze'
+  name: 'Raffinierte Schmelze'
   type:
   - '&7&oMultiblock'
   usage:
   - '&eRechtsklick&7 auf den Werfer zum Verwenden'
 REINFORCED_DOOR:
-  name: '&7Verstärkte Tür'
+  name: 'Verstärkte Tür'
   type:
   - '&7&oKomponente'
 REINFORCED_GLASS:
-  name: '&7Verstärktes Glas'
+  name: 'Verstärktes Glas'
   type:
   - '&7&oKomponente'
 REINFORCED_STONE:
-  name: '&7Verstärkter Stein'
+  name: 'Verstärkter Stein'
   type:
   - '&7&oKomponente'
 RE_BATTERY:
-  name: '&7RE-Batterie'
+  name: 'RE-Batterie'
   type:
   - '&7&oKomponente'
 RUBBER:
-  name: '&7Gummi'
+  name: 'Gummi'
   type:
   - '&7&oRohstoff'
 RUBBER_SYNTHESIZER:
@@ -394,7 +394,7 @@ RUBBER_SYNTHESIZER:
   - '&6Wandelt einen Eimer Öl in &7Gummi&7 um.'
   - '&7Gummi isoliert blanke Kabel und wird häufig in'
   - '&7Schaltkreisen und Maschinenrezepten verwendet.'
-  name: '&6Gummi-Synthesizer'
+  name: 'Gummi-Synthesizer'
   stats:
   - '&8⇨ &e⚡ &73,845 J Puffer'
   - '&8⇨ &e⚡ &7769 J/t'
@@ -403,7 +403,7 @@ RUBBER_SYNTHESIZER:
 SCRAP:
   description:
   - '&7Kann zur Herstellung von &5UU-Materie verwendet werden'
-  name: '&8Schrott'
+  name: 'Schrott'
   type:
   - '&7&oRohstoff'
 SCRAP_MACHINE:
@@ -412,7 +412,7 @@ SCRAP_MACHINE:
   - '&7Nimmt fast jeden Gegenstand auf und spuckt mit'
   - '&7etwas Glück &8Schrott &7aus - den Rohstoff für UU-Materie.'
   - '&7Läuft mit Energie; der Rest wird vernichtet.'
-  name: '&8Recycler'
+  name: 'Recycler'
   stats:
   - '&8⇨ &e⚡ &7600 J Puffer'
   - '&8⇨ &e⚡ &7200 J/t'
@@ -423,7 +423,7 @@ THORIUM:
   - '&8Ein radioaktives Element.'
   - '&7Wird zu &7Mag-Thor &7veredelt und in fortgeschrittener'
   - '&7Panzerung und Maschinerie verwendet.'
-  name: '&8Thorium'
+  name: 'Thorium'
   stats:
   - '&a☢&7 Strahlungslevel: &6HOCH'
   type:
@@ -431,30 +431,30 @@ THORIUM:
   usage:
   - '&8⇨ &4Schutzanzug erforderlich!'
 THORIUM_DUST:
-  name: '&8Thoriumstaub'
+  name: 'Thoriumstaub'
   type:
   - '&7&oRohstoff'
 THORIUM_PLATE:
-  name: '&7Thoriumplatte'
+  name: 'Thoriumplatte'
   type:
   - '&7&oKomponente'
 TIN_CABLE:
-  name: '&7Zinnkabel'
+  name: 'Zinnkabel'
   type:
   - '&7&oKomponente'
 TIN_ITEM_CASING:
-  name: '&7Zinn-Gehäuse'
+  name: 'Zinn-Gehäuse'
   type:
   - '&7&oKomponente'
 TIN_PLATE:
-  name: '&7Zinnplatte'
+  name: 'Zinnplatte'
   type:
   - '&7&oKomponente'
 TREETAP:
   description:
   - '&7Zum Ernten von &7Gummi &7aus Gummiquellen'
   - '&7von Hand, ohne elektrischen Synthesizer.'
-  name: '&7Zapfhahn'
+  name: 'Zapfhahn'
   type:
   - '&7&oWerkzeug'
 ULTIMATE_SOLAR_HELMET:
@@ -463,7 +463,7 @@ ULTIMATE_SOLAR_HELMET:
   - '&7Auf dem Kopf getragen erzeugt er passiv Energie'
   - '&7bei Tageslicht und lädt deine andere Ausrüstung.'
   - '&7Höhere Stufen erzeugen und speichern weit mehr.'
-  name: '&7Ultimativer Solarhelm'
+  name: 'Ultimativer Solarhelm'
   stats:
   - '&8⇨ &e⚡ &7250 J/t Erzeugung'
   type:
@@ -473,7 +473,7 @@ ULTIMATE_SOLAR_PANEL:
   - '&5Das stärkste Solarpanel von LiteXpansion.'
   - '&7Erzeugt Tag und Nacht große Mengen Energie'
   - '&7mit einem beachtlichen eingebauten Puffer.'
-  name: '&5&lUltimatives Solarpanel'
+  name: 'Ultimatives Solarpanel'
   stats:
   - '&8⇨ &e⚡ &710,000,000 J Puffer'
   - '&8⇨ &e⚡ &75,120 J/t (Tag)'
@@ -481,15 +481,15 @@ ULTIMATE_SOLAR_PANEL:
   type:
   - '&7&oGenerator'
 UNINSULATED_COPPER_CABLE:
-  name: '&7Unisoliertes Kupferkabel'
+  name: 'Unisoliertes Kupferkabel'
   type:
   - '&7&oKomponente'
 UNINSULATED_GOLD_CABLE:
-  name: '&7Unisoliertes Goldkabel'
+  name: 'Unisoliertes Goldkabel'
   type:
   - '&7&oKomponente'
 UNINSULATED_TIN_CABLE:
-  name: '&7Unisoliertes Zinnkabel'
+  name: 'Unisoliertes Zinnkabel'
   type:
   - '&7&oKomponente'
 UU_CRAFTER:
@@ -497,7 +497,7 @@ UU_CRAFTER:
   - '&7Automatisiert die Herstellung von &5UU-Materie&7.'
   - '&7Liefere UU-Materie und er erzeugt die eingestellte'
   - '&7Ressource ohne manuelles Herstellen im Raster.'
-  name: '&7UU-Hersteller'
+  name: 'UU-Hersteller'
   stats:
   - '&8⇨ &e⚡ &750,000 J Puffer'
   - '&8⇨ &e⚡ &750,000 J/t'
@@ -508,6 +508,6 @@ UU_CRAFTER:
 UU_MATTER:
   description:
   - '&7Kann Gegenstände oder Ressourcen erzeugen'
-  name: '&5UU-Matter'
+  name: 'UU-Matter'
   type:
   - '&7&oRohstoff'

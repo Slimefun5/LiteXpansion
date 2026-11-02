@@ -1,7 +1,7 @@
 # English item translations for LiteXpansion. Keyed by Slimefun item id.
 # Unified block-lore format: name / type / description / stats / usage.
 ELECTRIC_CHESTPLATE:
-  name: "&9Electric Chestplate"
+  name: 'Electric Chestplate'
   type:
     - "&7&oArmor"
   description:
@@ -10,7 +10,7 @@ ELECTRIC_CHESTPLATE:
     - "&c&o&8⇨ &e⚡ &770 / 8192 J"
 
 NANO_BLADE:
-  name: "&2Nano Blade &c(Off)"
+  name: 'Nano Blade (Off)'
   type:
     - "&7&oWeapon"
   description:
@@ -22,7 +22,7 @@ NANO_BLADE:
     - "&eRight Click&7 to toggle"
 
 GLASS_CUTTER:
-  name: "&bGlass Cutter"
+  name: 'Glass Cutter'
   type:
     - "&7&oTool"
   description:
@@ -35,7 +35,7 @@ GLASS_CUTTER:
     - "&eRight Click&7 to cut glass slowly"
 
 MINING_DRILL:
-  name: "&7Mining Drill"
+  name: 'Mining Drill'
   type:
     - "&7&oTool"
   description:
@@ -46,7 +46,7 @@ MINING_DRILL:
     - "&7Right click to break block slower"
 
 DIAMOND_DRILL:
-  name: "&bDiamond Drill"
+  name: 'Diamond Drill'
   type:
     - "&7&oTool"
   description:
@@ -57,7 +57,7 @@ DIAMOND_DRILL:
     - "&7Right click to break block slower"
 
 TREETAP:
-  name: "&7Treetap"
+  name: 'Treetap'
   type:
     - "&7&oTool"
   description:
@@ -65,7 +65,7 @@ TREETAP:
     - "&7by hand, without an electric synthesizer."
 
 CARGO_CONFIGURATOR:
-  name: "&7Cargo Configurator"
+  name: 'Cargo Configurator'
   type:
     - "&7&oTool"
   description:
@@ -76,37 +76,37 @@ CARGO_CONFIGURATOR:
     - "&7> &eShift+Right Click &7- Clear node configurator"
 
 TIN_PLATE:
-  name: "&7Tin Plate"
+  name: 'Tin Plate'
   type:
     - "&7&oComponent"
 
 TIN_ITEM_CASING:
-  name: "&7Tin Item Casing"
+  name: 'Tin Item Casing'
   type:
     - "&7&oComponent"
 
 UNINSULATED_TIN_CABLE:
-  name: "&7Uninsulated Tin Cable"
+  name: 'Uninsulated Tin Cable'
   type:
     - "&7&oComponent"
 
 TIN_CABLE:
-  name: "&7Tin Cable"
+  name: 'Tin Cable'
   type:
     - "&7&oComponent"
 
 COPPER_PLATE:
-  name: "&7Copper Plate"
+  name: 'Copper Plate'
   type:
     - "&7&oComponent"
 
 COPPER_ITEM_CASING:
-  name: "&7Copper Item Casing"
+  name: 'Copper Item Casing'
   type:
     - "&7&oComponent"
 
 MAG_THOR:
-  name: "&b&lMag-Thor"
+  name: 'Mag-Thor'
   type:
     - "&7&oResource"
   description:
@@ -114,7 +114,7 @@ MAG_THOR:
     - "&7&oonly in the most advanced machines"
 
 THORIUM:
-  name: "&8Thorium"
+  name: 'Thorium'
   type:
     - "&7&oResource"
   description:
@@ -127,128 +127,128 @@ THORIUM:
     - "&8⇨ &4Hazmat Suit required!"
 
 SCRAP:
-  name: "&8Scrap"
+  name: 'Scrap'
   type:
     - "&7&oResource"
   description:
     - "&7Can be used to create &5UU-Matter"
 
 UU_MATTER:
-  name: "&5UU-Matter"
+  name: 'UU-Matter'
   type:
     - "&7&oResource"
   description:
     - "&7Can be used to create items or resources"
 
 IRIDIUM:
-  name: "&fIridium"
+  name: 'Iridium'
   type:
     - "&7&oResource"
 
 IRIDIUM_PLATE:
-  name: "&fIridium Plate"
+  name: 'Iridium Plate'
   type:
     - "&7&oComponent"
   description:
     - "&7Used to create Iridium Armor"
 
 THORIUM_DUST:
-  name: "&8Thorium Dust"
+  name: 'Thorium Dust'
   type:
     - "&7&oResource"
 
 REFINED_IRON:
-  name: "&7Refined Iron"
+  name: 'Refined Iron'
   type:
     - "&7&oResource"
 
 MACHINE_BLOCK:
-  name: "&7Machine Block"
+  name: 'Machine Block'
   type:
     - "&7&oComponent"
 
 UNINSULATED_COPPER_CABLE:
-  name: "&7Uninsulated Copper Cable"
+  name: 'Uninsulated Copper Cable'
   type:
     - "&7&oComponent"
 
 COPPER_CABLE:
-  name: "&7Copper Cable"
+  name: 'Copper Cable'
   type:
     - "&7&oComponent"
 
 RUBBER:
-  name: "&7Rubber"
+  name: 'Rubber'
   type:
     - "&7&oResource"
 
 ELECTRONIC_CIRCUIT:
-  name: "&7Electronic Circuit"
+  name: 'Electronic Circuit'
   type:
     - "&7&oComponent"
 
 ADVANCED_CIRCUIT:
-  name: "&7Advanced Circuit"
+  name: 'Advanced Circuit'
   type:
     - "&7&oComponent"
 
 COAL_DUST:
-  name: "&7Coal Dust"
+  name: 'Coal Dust'
   type:
     - "&7&oResource"
 
 RAW_CARBON_FIBRE:
-  name: "&7Raw Carbon Fibre"
+  name: 'Raw Carbon Fibre'
   type:
     - "&7&oResource"
 
 RAW_CARBON_MESH:
-  name: "&7Raw Carbon Mesh"
+  name: 'Raw Carbon Mesh'
   type:
     - "&7&oResource"
 
 CARBON_PLATE:
-  name: "&7Carbon Plate"
+  name: 'Carbon Plate'
   type:
     - "&7&oComponent"
 
 ADVANCED_ALLOY:
-  name: "&7Advanced Alloy"
+  name: 'Advanced Alloy'
   type:
     - "&7&oComponent"
 
 ADVANCED_MACHINE_BLOCK:
-  name: "&7Advanced Machine Block"
+  name: 'Advanced Machine Block'
   type:
     - "&7&oComponent"
 
 LAPOTRON_CRYSTAL:
-  name: "&7Lapotron Crystal"
+  name: 'Lapotron Crystal'
   type:
     - "&7&oComponent"
 
 REINFORCED_STONE:
-  name: "&7Reinforced Stone"
+  name: 'Reinforced Stone'
   type:
     - "&7&oComponent"
 
 REINFORCED_DOOR:
-  name: "&7Reinforced Door"
+  name: 'Reinforced Door'
   type:
     - "&7&oComponent"
 
 REINFORCED_GLASS:
-  name: "&7Reinforced Glass"
+  name: 'Reinforced Glass'
   type:
     - "&7&oComponent"
 
 MIXED_METAL_INGOT:
-  name: "&7Mixed Metal Ingot"
+  name: 'Mixed Metal Ingot'
   type:
     - "&7&oResource"
 
 SCRAP_MACHINE:
-  name: "&8Recycler"
+  name: 'Recycler'
   type:
     - "&7&oMachine"
   description:
@@ -261,7 +261,7 @@ SCRAP_MACHINE:
     - "&8⇨ &e⚡ &7200 J/t"
 
 MASS_FABRICATOR_MACHINE:
-  name: "&5Mass Fabricator"
+  name: 'Mass Fabricator'
   type:
     - "&7&oMachine"
   description:
@@ -274,7 +274,7 @@ MASS_FABRICATOR_MACHINE:
     - "&8⇨ &e⚡ &716,666 J/t"
 
 RUBBER_SYNTHESIZER:
-  name: "&6Rubber Synthesizer"
+  name: 'Rubber Synthesizer'
   type:
     - "&7&oMachine"
   description:
@@ -286,7 +286,7 @@ RUBBER_SYNTHESIZER:
     - "&8⇨ &e⚡ &7769 J/t"
 
 MACERATOR:
-  name: "&7Macerator"
+  name: 'Macerator'
   type:
     - "&7&oMachine"
   description:
@@ -298,7 +298,7 @@ MACERATOR:
     - "&8⇨ &e⚡ &7769 J/t"
 
 ADVANCED_SOLAR_PANEL:
-  name: "&7&lAdvanced Solar Panel"
+  name: 'Advanced Solar Panel'
   type:
     - "&7&oGenerator"
   description:
@@ -311,7 +311,7 @@ ADVANCED_SOLAR_PANEL:
     - "&8⇨ &e⚡ &710 J/t (Night)"
 
 HYBRID_SOLAR_PANEL:
-  name: "&b&lHybrid Solar Panel"
+  name: 'Hybrid Solar Panel'
   type:
     - "&7&oGenerator"
   description:
@@ -324,7 +324,7 @@ HYBRID_SOLAR_PANEL:
     - "&8⇨ &e⚡ &780 J/t (Night + End)"
 
 ULTIMATE_SOLAR_PANEL:
-  name: "&5&lUltimate Solar Panel"
+  name: 'Ultimate Solar Panel'
   type:
     - "&7&oGenerator"
   description:
@@ -337,7 +337,7 @@ ULTIMATE_SOLAR_PANEL:
     - "&8⇨ &e⚡ &7640 J/t (Night)"
 
 MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
-  name: "&7MFE"
+  name: 'MFE'
   type:
     - "&7&oMachine"
   description:
@@ -349,7 +349,7 @@ MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
     - "&8⇨ &e⚡ &712 J/t Transfer"
 
 MULTI_FUNCTIONAL_STORAGE_UNIT:
-  name: "&7MFSU"
+  name: 'MFSU'
   type:
     - "&7&oMachine"
   description:
@@ -361,27 +361,27 @@ MULTI_FUNCTIONAL_STORAGE_UNIT:
     - "&8⇨ &e⚡ &752 J/t Transfer"
 
 GOLD_PLATE:
-  name: "&7Gold Plate"
+  name: 'Gold Plate'
   type:
     - "&7&oComponent"
 
 GOLD_ITEM_CASING:
-  name: "&7Gold Item Casing"
+  name: 'Gold Item Casing'
   type:
     - "&7&oComponent"
 
 UNINSULATED_GOLD_CABLE:
-  name: "&7Uninsulated Gold Cable"
+  name: 'Uninsulated Gold Cable'
   type:
     - "&7&oComponent"
 
 GOLD_CABLE:
-  name: "&7Gold Cable"
+  name: 'Gold Cable'
   type:
     - "&7&oComponent"
 
 REFINED_SMELTERY:
-  name: "&7Refined Smeltery"
+  name: 'Refined Smeltery'
   type:
     - "&7&oMultiblock"
   description:
@@ -392,7 +392,7 @@ REFINED_SMELTERY:
     - "&eRight Click&7 the dispenser to use"
 
 METAL_FORGE:
-  name: "&7Metal Forge"
+  name: 'Metal Forge'
   type:
     - "&7&oMultiblock"
   description:
@@ -403,7 +403,7 @@ METAL_FORGE:
     - "&eRight Click&7 the dispenser to use"
 
 MANUAL_MILL:
-  name: "&7Manual Mill"
+  name: 'Manual Mill'
   type:
     - "&7&oMultiblock"
   description:
@@ -414,7 +414,7 @@ MANUAL_MILL:
     - "&eRight Click&7 the dispenser to use"
 
 GENERATOR:
-  name: "&7Generator"
+  name: 'Generator'
   type:
     - "&7&oGenerator"
   description:
@@ -426,12 +426,12 @@ GENERATOR:
     - "&8⇨ &e⚡ &710 J/t Output"
 
 RE_BATTERY:
-  name: "&7RE Battery"
+  name: 'RE Battery'
   type:
     - "&7&oComponent"
 
 ADVANCED_SOLAR_HELMET:
-  name: "&7Advanced Solar Helmet"
+  name: 'Advanced Solar Helmet'
   type:
     - "&7&oArmor"
   description:
@@ -442,7 +442,7 @@ ADVANCED_SOLAR_HELMET:
     - "&8⇨ &e⚡ &75 J/t Generation"
 
 CARBONADO_SOLAR_HELMET:
-  name: "&7Carbonado Solar Helmet"
+  name: 'Carbonado Solar Helmet'
   type:
     - "&7&oArmor"
   description:
@@ -453,7 +453,7 @@ CARBONADO_SOLAR_HELMET:
     - "&8⇨ &e⚡ &710 J/t Generation"
 
 ENERGIZED_SOLAR_HELMET:
-  name: "&7Energized Solar Helmet"
+  name: 'Energized Solar Helmet'
   type:
     - "&7&oArmor"
   description:
@@ -464,7 +464,7 @@ ENERGIZED_SOLAR_HELMET:
     - "&8⇨ &e⚡ &720 J/t Generation"
 
 ADVANCEDLX_SOLAR_HELMET:
-  name: "&7Super Advanced Solar Helmet"
+  name: 'Super Advanced Solar Helmet'
   type:
     - "&7&oArmor"
   description:
@@ -476,7 +476,7 @@ ADVANCEDLX_SOLAR_HELMET:
     - "&8⇨ &e⚡ &750 J/t Generation"
 
 HYBRID_SOLAR_HELMET:
-  name: "&7Hybrid Solar Helmet"
+  name: 'Hybrid Solar Helmet'
   type:
     - "&7&oArmor"
   description:
@@ -488,7 +488,7 @@ HYBRID_SOLAR_HELMET:
     - "&8⇨ &e⚡ &7100 J/t Generation"
 
 ULTIMATE_SOLAR_HELMET:
-  name: "&7Ultimate Solar Helmet"
+  name: 'Ultimate Solar Helmet'
   type:
     - "&7&oArmor"
   description:
@@ -500,7 +500,7 @@ ULTIMATE_SOLAR_HELMET:
     - "&8⇨ &e⚡ &7250 J/t Generation"
 
 FOOD_SYNTHESIZER:
-  name: "&dFood Synthesizer"
+  name: 'Food Synthesizer'
   type:
     - "&7&oGadget"
   description:
@@ -510,62 +510,62 @@ FOOD_SYNTHESIZER:
     - "&c&o&8⇨ &e⚡ &770 / 100 J"
 
 IRON_PLATE:
-  name: "&7Iron Plate"
+  name: 'Iron Plate'
   type:
     - "&7&oComponent"
 
 DIAMOND_PLATE:
-  name: "&7Diamond Plate"
+  name: 'Diamond Plate'
   type:
     - "&7&oComponent"
 
 THORIUM_PLATE:
-  name: "&7Thorium Plate"
+  name: 'Thorium Plate'
   type:
     - "&7&oComponent"
 
 POWER_UNIT:
-  name: "&7Power Unit"
+  name: 'Power Unit'
   type:
     - "&7&oComponent"
 
 IRON_ITEM_CASING:
-  name: "&7Iron Item Casing"
+  name: 'Iron Item Casing'
   type:
     - "&7&oComponent"
 
 LAPIS_DUST:
-  name: "&7Lapiz Dust"
+  name: 'Lapiz Dust'
   type:
     - "&7&oResource"
 
 REDSTONE_DUST:
-  name: "&7Redstone Dust"
+  name: 'Redstone Dust'
   type:
     - "&7&oResource"
 
 DIAMOND_DUST:
-  name: "&7Diamond Dust"
+  name: 'Diamond Dust'
   type:
     - "&7&oResource"
 
 EMERALD_DUST:
-  name: "&7Emerald Dust"
+  name: 'Emerald Dust'
   type:
     - "&7&oResource"
 
 QUARTZ_DUST:
-  name: "&7Quartz Dust"
+  name: 'Quartz Dust'
   type:
     - "&7&oResource"
 
 ANCIENT_DEBRIS_DUST:
-  name: "&7Ancient Debris Dust"
+  name: 'Ancient Debris Dust'
   type:
     - "&7&oResource"
 
 UU_CRAFTER:
-  name: "&7UU Crafter"
+  name: 'UU Crafter'
   type:
     - "&7&oMachine"
   description:
@@ -579,7 +579,7 @@ UU_CRAFTER:
     - "&eRight Click&7 the switch to start or stop it"
 
 CONVER:
-  name: "&7Converter"
+  name: 'Converter'
   type:
     - "&7&oMachine"
   description:

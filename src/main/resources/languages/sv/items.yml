@@ -4,21 +4,21 @@ ADVANCEDLX_SOLAR_HELMET:
   - '&7Buren på huvudet genererar den passivt energi'
   - '&7i dagsljus och laddar din övriga utrustning.'
   - '&7Högre nivåer producerar och lagrar betydligt mer.'
-  name: '&7Superavancerad solhjälm'
+  name: 'Superavancerad solhjälm'
   stats:
   - '&8⇨ &e⚡ &750 J/t generering'
   type:
   - '&7&oRustning'
 ADVANCED_ALLOY:
-  name: '&7Avancerad legering'
+  name: 'Avancerad legering'
   type:
   - '&7&oKomponent'
 ADVANCED_CIRCUIT:
-  name: '&7Avancerad krets'
+  name: 'Avancerad krets'
   type:
   - '&7&oKomponent'
 ADVANCED_MACHINE_BLOCK:
-  name: '&7Avancerat maskinblock'
+  name: 'Avancerat maskinblock'
   type:
   - '&7&oKomponent'
 ADVANCED_SOLAR_HELMET:
@@ -26,7 +26,7 @@ ADVANCED_SOLAR_HELMET:
   - '&eEn solhjälm.'
   - '&7Buren på huvudet genererar den passivt energi'
   - '&7i dagsljus och laddar din övriga utrustning.'
-  name: '&7Avancerad solhjälm'
+  name: 'Avancerad solhjälm'
   stats:
   - '&8⇨ &e⚡ &75 J/t generering'
   type:
@@ -36,7 +36,7 @@ ADVANCED_SOLAR_PANEL:
   - '&7En solpanel som &9även fungerar på natten&7,'
   - '&7fast i lägre takt.'
   - '&7Har en egen intern energibuffert.'
-  name: '&7&lAvancerad solpanel'
+  name: 'Avancerad solpanel'
   stats:
   - '&8⇨ &e⚡ &7320,000 J buffert'
   - '&8⇨ &e⚡ &780 J/t (Dag)'
@@ -44,7 +44,7 @@ ADVANCED_SOLAR_PANEL:
   type:
   - '&7&oGenerator'
 ANCIENT_DEBRIS_DUST:
-  name: '&7Uråldrigt skrotdamm'
+  name: 'Uråldrigt skrotdamm'
   type:
   - '&7&oRåmaterial'
 CARBONADO_SOLAR_HELMET:
@@ -52,19 +52,19 @@ CARBONADO_SOLAR_HELMET:
   - '&eEn solhjälm.'
   - '&7Buren på huvudet genererar den passivt energi'
   - '&7i dagsljus och laddar din övriga utrustning.'
-  name: '&7Carbonado-solhjälm'
+  name: 'Carbonado-solhjälm'
   stats:
   - '&8⇨ &e⚡ &710 J/t generering'
   type:
   - '&7&oRustning'
 CARBON_PLATE:
-  name: '&7Kolplatta'
+  name: 'Kolplatta'
   type:
   - '&7&oKomponent'
 CARGO_CONFIGURATOR:
   description:
   - '&7Kopierar och klistrar in lastnodskonfigurationer.'
-  name: '&7Lastkonfigurator'
+  name: 'Lastkonfigurator'
   type:
   - '&7&oVerktyg'
   usage:
@@ -72,35 +72,35 @@ CARGO_CONFIGURATOR:
   - '&7> &eVänsterklicka &7- Tillämpa nodkonfiguration'
   - '&7> &eShift + högerklick &7- Rensa nodkonfiguratorn'
 COAL_DUST:
-  name: '&7Koldamm'
+  name: 'Koldamm'
   type:
   - '&7&oRåmaterial'
 CONVER:
   description:
   - '&7Växlar energi mellan LiteXpansion och andra kraft-'
   - '&7system så att dina nät kan samverka.'
-  name: '&7Omvandlare'
+  name: 'Omvandlare'
   stats:
   - '&8⇨ &e⚡ &73,845 J buffert'
   - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMaskin'
 COPPER_CABLE:
-  name: '&7Kopparkabel'
+  name: 'Kopparkabel'
   type:
   - '&7&oKomponent'
 COPPER_ITEM_CASING:
-  name: '&7Kopparhölje'
+  name: 'Kopparhölje'
   type:
   - '&7&oKomponent'
 COPPER_PLATE:
-  name: '&7Kopparplatta'
+  name: 'Kopparplatta'
   type:
   - '&7&oKomponent'
 DIAMOND_DRILL:
   description:
   - '&7Bryter omedelbart obsidian, sten och stenvarianter'
-  name: '&bDiamantborr'
+  name: 'Diamantborr'
   stats:
   - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
@@ -108,27 +108,27 @@ DIAMOND_DRILL:
   usage:
   - '&7Högerklicka för att bryta block långsammare'
 DIAMOND_DUST:
-  name: '&7Diamantdamm'
+  name: 'Diamantdamm'
   type:
   - '&7&oRåmaterial'
 DIAMOND_PLATE:
-  name: '&7Diamantplatta'
+  name: 'Diamantplatta'
   type:
   - '&7&oKomponent'
 ELECTRIC_CHESTPLATE:
   description:
   - '&7Upphäver all skada som spelaren tar.'
-  name: '&9Elektrisk bröstplåt'
+  name: 'Elektrisk bröstplåt'
   stats:
   - '&c&o&8⇨ &e⚡ &770 / 8192 J'
   type:
   - '&7&oRustning'
 ELECTRONIC_CIRCUIT:
-  name: '&7Elektronisk krets'
+  name: 'Elektronisk krets'
   type:
   - '&7&oKomponent'
 EMERALD_DUST:
-  name: '&7Smaragddamm'
+  name: 'Smaragddamm'
   type:
   - '&7&oRåmaterial'
 ENERGIZED_SOLAR_HELMET:
@@ -136,7 +136,7 @@ ENERGIZED_SOLAR_HELMET:
   - '&eEn solhjälm.'
   - '&7Buren på huvudet genererar den passivt energi'
   - '&7i dagsljus och laddar din övriga utrustning.'
-  name: '&7Energiladdad solhjälm'
+  name: 'Energiladdad solhjälm'
   stats:
   - '&8⇨ &e⚡ &720 J/t generering'
   type:
@@ -145,7 +145,7 @@ FOOD_SYNTHESIZER:
   description:
   - '&fHåller dig mätt med konstgjord mat.'
   - '&fFinns i alla smakerna!'
-  name: '&dMatsyntetiserare'
+  name: 'Matsyntetiserare'
   stats:
   - '&c&o&8⇨ &e⚡ &770 / 100 J'
   type:
@@ -155,7 +155,7 @@ GENERATOR:
   - '&7Bränner bränsle för att producera energi.'
   - '&7Din första pålitliga kraftkälla och grunden'
   - '&7för att ladda RE-batterier och driva maskiner.'
-  name: '&7Generator'
+  name: 'Generator'
   stats:
   - '&8⇨ &e⚡ &74,000 J buffert'
   - '&8⇨ &e⚡ &710 J/t utgång'
@@ -165,7 +165,7 @@ GLASS_CUTTER:
   description:
   - '&bEtt elektriskt glasverktyg.'
   - '&7Drivs av sin interna energibuffert.'
-  name: '&bGlasskärare'
+  name: 'Glasskärare'
   stats:
   - '&c&o&8⇨ &e⚡ &770 / 300 J'
   type:
@@ -174,15 +174,15 @@ GLASS_CUTTER:
   - '&eVänsterklicka&7 för att skära glas snabbt'
   - '&eHögerklicka&7 för att skära glas långsamt'
 GOLD_CABLE:
-  name: '&7Guldkabel'
+  name: 'Guldkabel'
   type:
   - '&7&oKomponent'
 GOLD_ITEM_CASING:
-  name: '&7Guldhölje'
+  name: 'Guldhölje'
   type:
   - '&7&oKomponent'
 GOLD_PLATE:
-  name: '&7Guldplatta'
+  name: 'Guldplatta'
   type:
   - '&7&oKomponent'
 HYBRID_SOLAR_HELMET:
@@ -191,7 +191,7 @@ HYBRID_SOLAR_HELMET:
   - '&7Buren på huvudet genererar den passivt energi'
   - '&7i dagsljus och laddar din övriga utrustning.'
   - '&7Högre nivåer producerar och lagrar betydligt mer.'
-  name: '&7Hybridsolhjälm'
+  name: 'Hybridsolhjälm'
   stats:
   - '&8⇨ &e⚡ &7100 J/t generering'
   type:
@@ -201,7 +201,7 @@ HYBRID_SOLAR_PANEL:
   - '&bEn dimensionsmedveten solpanel.'
   - '&7Ökad produktion i Nether på dagen och i The End'
   - '&7på natten, utöver vanlig dag- och nattgenerering.'
-  name: '&b&lHybridsolpanel'
+  name: 'Hybridsolpanel'
   stats:
   - '&8⇨ &e⚡ &71,000,000 J buffert'
   - '&8⇨ &e⚡ &7640 J/t (Dag + Nether)'
@@ -209,29 +209,29 @@ HYBRID_SOLAR_PANEL:
   type:
   - '&7&oGenerator'
 IRIDIUM:
-  name: '&fIridium'
+  name: 'Iridium'
   type:
   - '&7&oRåmaterial'
 IRIDIUM_PLATE:
   description:
   - '&7Används för att skapa iridiumrustning'
-  name: '&fIridiumplatta'
+  name: 'Iridiumplatta'
   type:
   - '&7&oKomponent'
 IRON_ITEM_CASING:
-  name: '&7Järnhölje'
+  name: 'Järnhölje'
   type:
   - '&7&oKomponent'
 IRON_PLATE:
-  name: '&7Järnplatta'
+  name: 'Järnplatta'
   type:
   - '&7&oKomponent'
 LAPIS_DUST:
-  name: '&7Lapisdamm'
+  name: 'Lapisdamm'
   type:
   - '&7&oRåmaterial'
 LAPOTRON_CRYSTAL:
-  name: '&7Lapotronkristall'
+  name: 'Lapotronkristall'
   type:
   - '&7&oKomponent'
 MACERATOR:
@@ -239,21 +239,21 @@ MACERATOR:
   - '&7Maler malmer och metaller till &7damm&7, vilket dubblar'
   - '&7ditt utbyte när dammet smälts ner igen.'
   - '&7Första steget i effektiv malmbearbetning.'
-  name: '&7Krossare'
+  name: 'Krossare'
   stats:
   - '&8⇨ &e⚡ &73,845 J buffert'
   - '&8⇨ &e⚡ &7769 J/t'
   type:
   - '&7&oMaskin'
 MACHINE_BLOCK:
-  name: '&7Maskinblock'
+  name: 'Maskinblock'
   type:
   - '&7&oKomponent'
 MAG_THOR:
   description:
   - '&7&oEn extremt hållbar legering som används'
   - '&7&oenbart i de mest avancerade maskinerna'
-  name: '&b&lMag-Thor'
+  name: 'Mag-Thor'
   type:
   - '&7&oRåmaterial'
 MANUAL_MILL:
@@ -261,7 +261,7 @@ MANUAL_MILL:
   - '&7En vevdriven multiblockkvarn.'
   - '&7Maler material helt utan kraft och ger dig ett'
   - '&7tidigt alternativ till den elektriska krossaren.'
-  name: '&7Handdriven kvarn'
+  name: 'Handdriven kvarn'
   type:
   - '&7&oMultiblock'
   usage:
@@ -272,7 +272,7 @@ MASS_FABRICATOR_MACHINE:
   - '&5UU-Materia&7, det universella byggmaterialet.'
   - '&7Att tillsätta skrot sänker energikostnaden dramatiskt.'
   - '&8En energihungrig slutspelsmaskin.'
-  name: '&5Massfabrikator'
+  name: 'Massfabrikator'
   stats:
   - '&8⇨ &e⚡ &749,998 J buffert'
   - '&8⇨ &e⚡ &716,666 J/t'
@@ -283,7 +283,7 @@ METAL_FORGE:
   - '&7En multiblockmetallpress.'
   - '&7Formar tackor till &fplattor &7och &fhöljen &7-'
   - '&7komponenterna bakom kablar, maskiner och rustning.'
-  name: '&7Metallsmedja'
+  name: 'Metallsmedja'
   type:
   - '&7&oMultiblock'
   usage:
@@ -291,7 +291,7 @@ METAL_FORGE:
 MINING_DRILL:
   description:
   - '&7Bryter omedelbart sten och stenvarianter'
-  name: '&7Gruvborr'
+  name: 'Gruvborr'
   stats:
   - '&c&o&8⇨ &e⚡ &770 / 1000 J'
   type:
@@ -299,7 +299,7 @@ MINING_DRILL:
   usage:
   - '&7Högerklicka för att bryta block långsammare'
 MIXED_METAL_INGOT:
-  name: '&7Blandmetalltacka'
+  name: 'Blandmetalltacka'
   type:
   - '&7&oRåmaterial'
 MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
@@ -307,7 +307,7 @@ MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
   - '&7Själva MFE.'
   - '&7En energikondensator på mellannivå som lagrar en stor'
   - '&7buffert för ditt maskinnätverk.'
-  name: '&7MFE'
+  name: 'MFE'
   stats:
   - '&8⇨ &e⚡ &74,000,000 J buffert'
   - '&8⇨ &e⚡ &712 J/t överföring'
@@ -318,7 +318,7 @@ MULTI_FUNCTIONAL_STORAGE_UNIT:
   - '&7Själva MFSU.'
   - '&7En kondensator på hög nivå med en enorm energibuffert'
   - '&7för att driva krävande slutspelsmaskiner.'
-  name: '&7MFSU'
+  name: 'MFSU'
   stats:
   - '&8⇨ &e⚡ &740,000,000 J buffert'
   - '&8⇨ &e⚡ &752 J/t överföring'
@@ -328,7 +328,7 @@ NANO_BLADE:
   description:
   - '&fEn avancerad teknik som kan'
   - '&fskära genom organisk vävnad med lätthet.'
-  name: '&2Nanoklinga &c(Av)'
+  name: 'Nanoklinga (Av)'
   stats:
   - '&c&o&8⇨ &e⚡ &770 / 4000 J'
   type:
@@ -336,27 +336,27 @@ NANO_BLADE:
   usage:
   - '&eHögerklicka&7 för att växla'
 POWER_UNIT:
-  name: '&7Kraftenhet'
+  name: 'Kraftenhet'
   type:
   - '&7&oKomponent'
 QUARTZ_DUST:
-  name: '&7Kvartsdamm'
+  name: 'Kvartsdamm'
   type:
   - '&7&oRåmaterial'
 RAW_CARBON_FIBRE:
-  name: '&7Rå kolfiber'
+  name: 'Rå kolfiber'
   type:
   - '&7&oRåmaterial'
 RAW_CARBON_MESH:
-  name: '&7Rått kolnät'
+  name: 'Rått kolnät'
   type:
   - '&7&oRåmaterial'
 REDSTONE_DUST:
-  name: '&7Rödstensdamm'
+  name: 'Rödstensdamm'
   type:
   - '&7&oRåmaterial'
 REFINED_IRON:
-  name: '&7Förädlat järn'
+  name: 'Förädlat järn'
   type:
   - '&7&oRåmaterial'
 REFINED_SMELTERY:
@@ -364,29 +364,29 @@ REFINED_SMELTERY:
   - '&7Ett multiblocksmältverk.'
   - '&7Smälter damm och förenar metaller till legeringar'
   - '&7som &7blandmetalltackor &7och &7förädlat järn&7.'
-  name: '&7Förädlat smältverk'
+  name: 'Förädlat smältverk'
   type:
   - '&7&oMultiblock'
   usage:
   - '&eHögerklicka&7 på dispensern för att använda'
 REINFORCED_DOOR:
-  name: '&7Förstärkt dörr'
+  name: 'Förstärkt dörr'
   type:
   - '&7&oKomponent'
 REINFORCED_GLASS:
-  name: '&7Förstärkt glas'
+  name: 'Förstärkt glas'
   type:
   - '&7&oKomponent'
 REINFORCED_STONE:
-  name: '&7Förstärkt sten'
+  name: 'Förstärkt sten'
   type:
   - '&7&oKomponent'
 RE_BATTERY:
-  name: '&7RE-batteri'
+  name: 'RE-batteri'
   type:
   - '&7&oKomponent'
 RUBBER:
-  name: '&7Gummi'
+  name: 'Gummi'
   type:
   - '&7&oRåmaterial'
 RUBBER_SYNTHESIZER:
@@ -394,7 +394,7 @@ RUBBER_SYNTHESIZER:
   - '&6Omvandlar en hink olja till &7gummi&7.'
   - '&7Gummi isolerar oskyddade kablar och används flitigt'
   - '&7i kretsar och maskinrecept.'
-  name: '&6Gummisyntetiserare'
+  name: 'Gummisyntetiserare'
   stats:
   - '&8⇨ &e⚡ &73,845 J buffert'
   - '&8⇨ &e⚡ &7769 J/t'
@@ -403,7 +403,7 @@ RUBBER_SYNTHESIZER:
 SCRAP:
   description:
   - '&7Kan användas för att skapa &5UU-Materia'
-  name: '&8Skrot'
+  name: 'Skrot'
   type:
   - '&7&oRåmaterial'
 SCRAP_MACHINE:
@@ -412,7 +412,7 @@ SCRAP_MACHINE:
   - '&7Matas med nästan vilket föremål som helst och har en chans att'
   - '&7spotta ut &8skrot &7- råvaran till UU-Materia.'
   - '&7Drivs av energi; resten förstörs.'
-  name: '&8Återvinnare'
+  name: 'Återvinnare'
   stats:
   - '&8⇨ &e⚡ &7600 J buffert'
   - '&8⇨ &e⚡ &7200 J/t'
@@ -423,7 +423,7 @@ THORIUM:
   - '&8Ett radioaktivt grundämne.'
   - '&7Förädlas till &7Mag-Thor &7och används i avancerad'
   - '&7plätering och maskineri.'
-  name: '&8Torium'
+  name: 'Torium'
   stats:
   - '&a☢&7 Strålningsnivå: &6HÖG'
   type:
@@ -431,30 +431,30 @@ THORIUM:
   usage:
   - '&8⇨ &4Hazmat-Dräkt krävs!'
 THORIUM_DUST:
-  name: '&8Toriumdamm'
+  name: 'Toriumdamm'
   type:
   - '&7&oRåmaterial'
 THORIUM_PLATE:
-  name: '&7Toriumplatta'
+  name: 'Toriumplatta'
   type:
   - '&7&oKomponent'
 TIN_CABLE:
-  name: '&7Tennkabel'
+  name: 'Tennkabel'
   type:
   - '&7&oKomponent'
 TIN_ITEM_CASING:
-  name: '&7Tennhölje'
+  name: 'Tennhölje'
   type:
   - '&7&oKomponent'
 TIN_PLATE:
-  name: '&7Tennplatta'
+  name: 'Tennplatta'
   type:
   - '&7&oKomponent'
 TREETAP:
   description:
   - '&7Används för att skörda &7gummi &7från gummikällor'
   - '&7för hand, utan en elektrisk syntetiserare.'
-  name: '&7Trädtapp'
+  name: 'Trädtapp'
   type:
   - '&7&oVerktyg'
 ULTIMATE_SOLAR_HELMET:
@@ -463,7 +463,7 @@ ULTIMATE_SOLAR_HELMET:
   - '&7Buren på huvudet genererar den passivt energi'
   - '&7i dagsljus och laddar din övriga utrustning.'
   - '&7Högre nivåer producerar och lagrar betydligt mer.'
-  name: '&7Ultimat solhjälm'
+  name: 'Ultimat solhjälm'
   stats:
   - '&8⇨ &e⚡ &7250 J/t generering'
   type:
@@ -473,7 +473,7 @@ ULTIMATE_SOLAR_PANEL:
   - '&5Den starkaste solpanelen från LiteXpansion.'
   - '&7Genererar stora mängder energi dag som natt'
   - '&7med en rejäl inbyggd buffert.'
-  name: '&5&lUltimat solpanel'
+  name: 'Ultimat solpanel'
   stats:
   - '&8⇨ &e⚡ &710,000,000 J buffert'
   - '&8⇨ &e⚡ &75,120 J/t (Dag)'
@@ -481,15 +481,15 @@ ULTIMATE_SOLAR_PANEL:
   type:
   - '&7&oGenerator'
 UNINSULATED_COPPER_CABLE:
-  name: '&7Oisolerad kopparkabel'
+  name: 'Oisolerad kopparkabel'
   type:
   - '&7&oKomponent'
 UNINSULATED_GOLD_CABLE:
-  name: '&7Oisolerad guldkabel'
+  name: 'Oisolerad guldkabel'
   type:
   - '&7&oKomponent'
 UNINSULATED_TIN_CABLE:
-  name: '&7Oisolerad tennkabel'
+  name: 'Oisolerad tennkabel'
   type:
   - '&7&oKomponent'
 UU_CRAFTER:
@@ -497,7 +497,7 @@ UU_CRAFTER:
   - '&7Automatiserar tillverkning av &5UU-Materia&7.'
   - '&7Mata in UU-Materia så producerar den den inställda'
   - '&7resursen utan manuell tillverkning i rutnätet.'
-  name: '&7UU-tillverkare'
+  name: 'UU-tillverkare'
   stats:
   - '&8⇨ &e⚡ &750,000 J buffert'
   - '&8⇨ &e⚡ &750,000 J/t'
@@ -508,6 +508,6 @@ UU_CRAFTER:
 UU_MATTER:
   description:
   - '&7Kan användas för att skapa föremål eller resurser'
-  name: '&5UU-Materia'
+  name: 'UU-Materia'
   type:
   - '&7&oRåmaterial'
