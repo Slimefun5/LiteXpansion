@@ -459,7 +459,7 @@ public class LiteXpansion extends JavaPlugin implements SlimefunAddon {
             .register();
 
         new Research(new NamespacedKey("litexpansion", "casing"),
-            696985, "S 340", 20)
+            696985, "Item Casings", 20)
             .addItems(Items.TIN_ITEM_CASING.item(), Items.COPPER_ITEM_CASING.item())
             .register();
 
